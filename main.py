@@ -4,21 +4,27 @@ from src.classifier import LayoutClassifier
 from src.legal_parser import LegalParser
 from src.utils import load_config
 import os
+import csv
 
 def process_label(df_labeled, label_name, prefix_reg, numbering_reg, output_folder, file_base_name):
-    print(f"[*] Memproses file untuk label: {label_name}...")
+    print(f"[*] Memproses label: {label_name}")
     
     parser = LegalParser(df_labeled, label_name)
+    # Langkah 2: Membuat data refined (CSV per Label)
     df_refined = parser.refine_data(prefix_reg, numbering_reg)
-    df_grouped = parser.group_and_format(df_refined)
     
-    # Paksa semua ke string untuk JSON quoting
+    # Simpan CSV Terpisah per Label (Sesuai kesimpulan poin 2 Anda)
+    csv_label_path = f"{output_folder}/{label_name}_{file_base_name}.csv"
+    df_refined.to_csv(csv_label_path, index=False, quoting=csv.QUOTE_ALL)
+    
+    # Langkah 3: Pengelompokan (Grouping) untuk JSON
+    df_grouped = parser.group_and_format(df_refined)
     df_grouped = df_grouped.astype(str)
     
     # Simpan JSON
     json_path = f"{output_folder}/{label_name}_{file_base_name}.json"
     df_grouped.to_json(json_path, orient='records', indent=4, force_ascii=False)
-    print(f"[+] JSON Berhasil: {json_path}")
+    print(f"[+] File CSV & JSON untuk {label_name} berhasil dibuat.")
 
 def run_pipeline():
     cfg = load_config()
