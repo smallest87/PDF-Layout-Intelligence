@@ -1,0 +1,12 @@
+# Konfigurasi Proyek PLI
+settings:
+  input_file: "2025-Peraturan-Badan-Pusat-Statistik-No_7_Klasifikasi_Baku_Lapangan_Usaha_Indonesia_2025.pdf"
+  
+  # Opsi: "all", "1,2,5", atau "1-10"
+  page_range: "5-10" 
+
+  # Parameter deteksi layout
+  thresholds:
+    center_limit: 0.01
+    left_ratio_min: 0.45
+    left_ratio_max: 0.55
