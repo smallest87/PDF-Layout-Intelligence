@@ -13,16 +13,18 @@ class LayoutClassifier:
             with open(config_path, 'r', encoding='utf-8') as f:
                 config_data = yaml.safe_load(f)
                 self.list_pemicu_judul = config_data.get('pemicu_judul', [])
-                self.list_pemicu_pembentuk = config_data.get('pemicu_pembentuk_ppu', []) # Load keyword dinamis
+                self.list_pemicu_pembentuk = config_data.get('pemicu_pembentuk_ppu', [])
         else:
             self.list_pemicu_judul = ["PERATURAN", "UNDANG-UNDANG"]
             self.list_pemicu_pembentuk = ["BUPATI", "WALIKOTA", "GUBERNUR"]
 
     def apply_sistematika(self):
-        """Identifikasi sistematika dan unsur PEMBENTUK PPU secara dinamis."""
+        """Identifikasi unsur KONSIDERANS menggunakan metode Start-to-Stop di dalam PEMBUKAAN."""
         sistematika_list = []
         unsur_list = []
+        
         current_state = "BODY_TEXT"
+        is_konsiderans_active = False # Saklar untuk blok KONSIDERANS
         
         for index, row in self.df.iterrows():
             text = str(row['text']).strip()
@@ -44,17 +46,26 @@ class LayoutClassifier:
                 current_state = "PEMBUKAAN"
             elif re.search(r"^BAB\s+[IVXLCDM]+", text, re.IGNORECASE) or re.search(r"^Pasal\s+\d+", text, re.IGNORECASE):
                 current_state = "BATANG TUBUH"
+                is_konsiderans_active = False # Pastikan saklar mati jika masuk Batang Tubuh
             elif "AGAR SETIAP ORANG MENGETAHUINYA" in text_upper:
                 current_state = "PENUTUP"
+                is_konsiderans_active = False
 
-            # 3. Identifikasi Unsur di dalam PEMBUKAAN
+            # 3. Logika Identifikasi Unsur di dalam PEMBUKAAN
             final_unsur = ""
             if current_state == "PEMBUKAAN":
-                # Unsur 1: FRASA RELIGIUS
-                if "DENGAN RAHMAT TUHAN YANG MAHA ESA" in text_upper:
-                    final_unsur = "FRASA RELIGIUS"
+                # Deteksi Titik Awal & Stop KONSIDERANS
+                if "MENIMBANG :" in text_upper:
+                    is_konsiderans_active = True
                 
-                # Unsur 2: PEMBENTUK PPU (Berdasarkan keyword YAML + Spasial)
+                if "MENGINGAT :" in text_upper:
+                    is_konsiderans_active = False # Titik Stop
+
+                # Penentuan Label Unsur Berdasarkan State Aktif
+                if is_konsiderans_active:
+                    final_unsur = "KONSIDERANS"
+                elif "DENGAN RAHMAT TUHAN YANG MAHA ESA" in text_upper:
+                    final_unsur = "FRASA RELIGIUS"
                 else:
                     is_pembentuk = any(text_upper.startswith(k) for k in self.list_pemicu_pembentuk)
                     if is_pembentuk and row['is_all_caps'] and row['center_score'] < self.thresh['center_limit']:
