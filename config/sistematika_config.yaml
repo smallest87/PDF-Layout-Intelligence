@@ -1,7 +1,13 @@
-# Daftar kata kunci pemicu awal sistematika JUDUL
+# Daftar pemicu awal JUDUL berdasarkan UU 12/2011 dan Tata Naskah Dinas
 pemicu_judul:
-  - "PERATURAN"
+  - "PRESIDEN"
+  - "GUBERNUR"
+  - "BUPATI"
+  - "WALIKOTA"
+  - "MENTERI"
+  - "KEPALA"
   - "UNDANG-UNDANG"
+  - "PERATURAN"
   - "KEPUTUSAN"
   - "INSTRUKSI"
   - "QANUN"
