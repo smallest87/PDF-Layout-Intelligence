@@ -1,77 +1,88 @@
 import os
 import csv
+import pandas as pd
 from src.extractor import PDFExtractor
 from src.processor import FeatureProcessor
 from src.classifier import LayoutClassifier
 from src.legal_parser import LegalParser
 from src.utils import load_config
 
-def process_label(df_labeled, label_name, prefix_reg, numbering_reg, output_folder, file_base_name):
-    """Fungsi untuk memproses setiap label secara terisolasi"""
-    print(f"[*] Memproses kategori: {label_name}")
+def save_to_json(df, output_path):
+    """
+    Menyimpan DataFrame ke format JSON dengan urutan key yang kaku:
+    label -> numbering -> text.
+    """
+    if df.empty:
+        return
     
-    parser = LegalParser(df_labeled, label_name)
+    # Memastikan urutan kolom dan tipe data string agar terapit tanda petik
+    df_json = df[['label', 'numbering', 'text']].astype(str)
     
-    # 1. Refined CSV (Poin 2 Anda: File CSV baru berdasar pengelompokan label)
-    df_refined = parser.refine_data(prefix_reg, numbering_reg)
-    csv_path = f"{output_folder}/{label_name}_{file_base_name}.csv"
-    df_refined.to_csv(csv_path, index=False, quoting=csv.QUOTE_ALL)
-    
-    # 2. Grouped JSON (Poin 3 Anda: Pengelompokan sub-label/numbering yang sama)
-    df_grouped = parser.group_and_format(df_refined)
-    df_grouped = df_grouped.astype(str) # Pastikan semua string agar JSON konsisten
-    json_path = f"{output_folder}/{label_name}_{file_base_name}.json"
-    df_grouped.to_json(json_path, orient='records', indent=4, force_ascii=False)
+    df_json.to_json(
+        output_path, 
+        orient='records', 
+        indent=4, 
+        force_ascii=False
+    )
 
 def run_pipeline():
+    # 1. Inisialisasi Konfigurasi dan Folder
     cfg = load_config()
     s = cfg['settings']
     t = s['thresholds']
+    
     input_path = f"data/raw/{s['input_file']}"
     output_folder = "data/processed"
     os.makedirs(output_folder, exist_ok=True)
     file_base = s['input_file'].replace('.pdf', '')
 
-    # --- LANGKAH 1: SCRAPING & LABELING UTAMA ---
+    print(f"[*] Memulai Pipeline: {s['input_file']}")
+
+    # 2. Tahap Scraping & Feature Engineering (Master Data)
+    # Mengekstrak baris teks beserta 16 kolom metadata koordinat
+    print("[1/4] Mengekstrak fitur spasial dari PDF...")
     extractor = PDFExtractor(input_path, s['page_range'])
-    df_features = FeatureProcessor(extractor.extract_raw_data()).process_features()
-    df_labeled = LayoutClassifier(df_features, t).apply_labels()
+    raw_data = extractor.extract_raw_data()
+    df_features = FeatureProcessor(raw_data).process_features()
     
-    # SIMPAN MASTER CSV (Ini file yang Anda cari)
+    # 3. Tahap Labeling Awal
+    # Memberikan label awal berdasarkan state machine di classifier.py
+    classifier = LayoutClassifier(df_features, t)
+    df_labeled = classifier.apply_labels()
+    
+    # Simpan LABELED_ALL (Source of Truth untuk debugging)
     master_path = f"{output_folder}/LABELED_ALL_{file_base}.csv"
     df_labeled.to_csv(master_path, index=False, quoting=csv.QUOTE_ALL)
-    print(f"[+] Master Labeled CSV tersimpan di: {master_path}")
+    print(f"[+] Master CSV Berhasil: {master_path}")
 
-    # --- LANGKAH 2 & 3: PROSES PER LABEL (CSV & JSON) ---
-    # KONSIDERAN
-    process_label(
-        df_labeled, 
-        "KONSIDERAN", 
-        prefix_reg=r"^Menimbang\s*:\s*", 
-        numbering_reg=r"^([a-z])\.\s+(.*)", 
-        output_folder=output_folder,  # Tambahkan nama argumen
-        file_base_name=file_base      # Tambahkan nama argumen
-    )
+    # 4. Inisialisasi Parser untuk Refinement Otonom
+    parser = LegalParser(df_labeled)
 
-    # DASAR HUKUM
-    process_label(
-        df_labeled, 
-        "DASAR_HUKUM", 
-        prefix_reg=r"^Mengingat\s*:\s*", 
-        numbering_reg=r"^(\d+)\.\s+(.*)", 
-        output_folder=output_folder,  # Tambahkan nama argumen
-        file_base_name=file_base      # Tambahkan nama argumen
-    )
+    # --- PROSES KONSIDERAN ---
+    print("[2/4] Menjalankan Refinement Otonom: KONSIDERAN...")
+    df_kon = parser.process_konsideran_autonomous()
+    if not df_kon.empty:
+        # Simpan CSV KONSIDERAN
+        df_kon.to_csv(f"{output_folder}/KONSIDERAN_{file_base}.csv", index=False, quoting=csv.QUOTE_ALL)
+        # Simpan JSON KONSIDERAN
+        save_to_json(df_kon, f"{output_folder}/KONSIDERAN_{file_base}.json")
+        print(f"[+] Output KONSIDERAN Selesai.")
+    else:
+        print("[!] KONSIDERAN tidak ditemukan atau gagal diekstrak.")
 
-    # PASAL
-    process_label(
-        df_labeled, 
-        "PASAL", 
-        prefix_reg=r"^Pasal\s+", 
-        numbering_reg=r"^(\d+)\s*(.*)", 
-        output_folder=output_folder,  # Tambahkan nama argumen
-        file_base_name=file_base      # Tambahkan nama argumen
-    )
+    # --- PROSES DASAR HUKUM ---
+    print("[3/4] Menjalankan Refinement Otonom: DASAR HUKUM...")
+    df_dh = parser.process_dasar_hukum_autonomous()
+    if not df_dh.empty:
+        # Simpan CSV DASAR HUKUM
+        df_dh.to_csv(f"{output_folder}/DASAR_HUKUM_{file_base}.csv", index=False, quoting=csv.QUOTE_ALL)
+        # Simpan JSON DASAR HUKUM
+        save_to_json(df_dh, f"{output_folder}/DASAR_HUKUM_{file_base}.json")
+        print(f"[+] Output DASAR HUKUM Selesai.")
+    else:
+        print("[!] DASAR HUKUM tidak ditemukan atau gagal diekstrak.")
+
+    print("[4/4] Pipeline Selesai.")
 
 if __name__ == "__main__":
     run_pipeline()

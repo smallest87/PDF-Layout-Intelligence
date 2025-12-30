@@ -10,3 +10,15 @@ settings:
     center_limit: 0.01
     left_ratio_min: 0.45
     left_ratio_max: 0.55
+
+# Tambahkan bagian ini
+refinement_rules:
+  - label: "KONSIDERAN"
+    prefix: "^Menimbang\\s*:\\s*"
+    numbering: "^([a-z])\\.\\s+(.*)"
+  - label: "DASAR_HUKUM"
+    prefix: "^Mengingat\\s*:\\s*"
+    numbering: "^(\\d+)\\.\\s+(.*)"
+  - label: "PASAL"
+    prefix: "^Pasal\\s+"
+    numbering: "^(\\d+)\\s*(.*)"
