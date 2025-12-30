@@ -1,4 +1,4 @@
-# Daftar pemicu awal JUDUL berdasarkan UU 12/2011 dan Tata Naskah Dinas
+# Daftar pemicu awal JUDUL
 pemicu_judul:
   - "PRESIDEN"
   - "GUBERNUR"
@@ -9,5 +9,12 @@ pemicu_judul:
   - "UNDANG-UNDANG"
   - "PERATURAN"
   - "KEPUTUSAN"
-  - "INSTRUKSI"
-  - "QANUN"
+
+# Daftar pemicu Jabatan Pembentuk PPU
+pemicu_pembentuk_ppu:
+  - "BUPATI"
+  - "WALIKOTA"
+  - "GUBERNUR"
+  - "PRESIDEN"
+  - "MENTERI"
+  - "KEPALA"
