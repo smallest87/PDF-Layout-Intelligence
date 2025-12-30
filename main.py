@@ -51,7 +51,7 @@ def run_pipeline():
     
     # Ekstraksi Fitur
     extractor = PDFExtractor(os.path.join("data/raw", selected_file), s['page_range'])
-    df_labeled = LayoutClassifier(FeatureProcessor(extractor.extract_raw_data()).process_features(), t).apply_labels()
+    df_labeled = LayoutClassifier(FeatureProcessor(extractor.extract_raw_data()).process_features(), t).apply_sistematika()
     
     # 0. MASTER
     df_labeled.to_csv(os.path.join(target_dir, "0. MASTER.csv"), index=False, quoting=csv.QUOTE_ALL)
