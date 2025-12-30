@@ -1,6 +1,4 @@
-import os
-import csv
-import pandas as pd
+import os, csv, pandas as pd
 from src.extractor import PDFExtractor
 from src.processor import FeatureProcessor
 from src.classifier import LayoutClassifier
@@ -13,33 +11,40 @@ def save_to_json(df, output_path):
 
 def run_pipeline():
     cfg = load_config(); s = cfg['settings']; t = s['thresholds']
-    file_base = s['input_file'].replace('.pdf', '')
-    output_folder = "data/processed"; os.makedirs(output_folder, exist_ok=True)
+    file_raw_name = s['input_file'].replace('.pdf', '')
+    target_dir = os.path.join("data/processed", file_raw_name)
+    os.makedirs(target_dir, exist_ok=True)
 
     print(f"[*] Pipeline START: {s['input_file']}")
     extractor = PDFExtractor(f"data/raw/{s['input_file']}", s['page_range'])
     df_labeled = LayoutClassifier(FeatureProcessor(extractor.extract_raw_data()).process_features(), t).apply_labels()
-    df_labeled.to_csv(f"{output_folder}/LABELED_ALL_{file_base}.csv", index=False, quoting=csv.QUOTE_ALL)
+    
+    # TAHAP 0. MASTER
+    df_labeled.to_csv(os.path.join(target_dir, "0. MASTER.csv"), index=False, quoting=csv.QUOTE_ALL)
 
     parser = LegalParser(df_labeled)
-    # Urutan proses otonom (ASSD)
+    
+    # Daftar tugas sesuai urutan 1-7 dengan penomoran pada nama file
     tasks = [
-        ("JUDUL", parser.process_judul_autonomous),
-        ("KONSIDERAN", parser.process_konsideran_autonomous),
-        ("DASAR_HUKUM", parser.process_dasar_hukum_autonomous),
-        ("DIKTUM", parser.process_diktum_autonomous),
-        ("PASAL", parser.process_pasal_autonomous),
-        ("PENUTUP", parser.process_penutup_autonomous)
+        ("1. JUDUL", parser.process_judul_autonomous),
+        ("2. PEMBUKAAN", parser.process_pembukaan_religius_autonomous),
+        ("3. PEMBUKAAN (KONSIDERAN)", parser.process_konsideran_autonomous),
+        ("4. PEMBUKAAN (DASAR HUKUM)", parser.process_dasar_hukum_autonomous),
+        ("5. PEMBUKAAN (DIKTUM)", parser.process_diktum_autonomous),
+        ("6. BATANG TUBUH", parser.process_batang_tubuh_autonomous),
+        ("7. PENUTUP", parser.process_penutup_autonomous)
     ]
 
     for name, func in tasks:
-        print(f"[*] Memproses {name}...")
+        print(f"[*] Mengekstrak bagian: {name}")
         df = func()
         if not df.empty:
-            df.to_csv(f"{output_folder}/{name}_{file_base}.csv", index=False, quoting=csv.QUOTE_ALL)
-            save_to_json(df, f"{output_folder}/{name}_{file_base}.json")
+            csv_path = os.path.join(target_dir, f"{name}.csv")
+            json_path = os.path.join(target_dir, f"{name}.json")
+            df.to_csv(csv_path, index=False, quoting=csv.QUOTE_ALL)
+            save_to_json(df, json_path)
 
-    print("[*] Pipeline FINISHED. Seluruh bagian dokumen hukum telah diekstrak.")
+    print(f"[*] Pipeline FINISHED. Seluruh file (0-7) tersimpan di: {target_dir}")
 
 if __name__ == "__main__":
     run_pipeline()
