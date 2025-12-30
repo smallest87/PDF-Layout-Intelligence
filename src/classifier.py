@@ -19,12 +19,13 @@ class LayoutClassifier:
             self.list_pemicu_pembentuk = ["BUPATI", "WALIKOTA", "GUBERNUR"]
 
     def apply_sistematika(self):
-        """Identifikasi unsur KONSIDERANS menggunakan metode Start-to-Stop di dalam PEMBUKAAN."""
+        """Identifikasi unsur DASAR HUKUM menggunakan metode Start-to-Stop di dalam PEMBUKAAN."""
         sistematika_list = []
         unsur_list = []
         
         current_state = "BODY_TEXT"
-        is_konsiderans_active = False # Saklar untuk blok KONSIDERANS
+        is_konsiderans_active = False 
+        is_dasar_hukum_active = False # Saklar untuk blok DASAR HUKUM
         
         for index, row in self.df.iterrows():
             text = str(row['text']).strip()
@@ -46,24 +47,31 @@ class LayoutClassifier:
                 current_state = "PEMBUKAAN"
             elif re.search(r"^BAB\s+[IVXLCDM]+", text, re.IGNORECASE) or re.search(r"^Pasal\s+\d+", text, re.IGNORECASE):
                 current_state = "BATANG TUBUH"
-                is_konsiderans_active = False # Pastikan saklar mati jika masuk Batang Tubuh
+                is_konsiderans_active = False; is_dasar_hukum_active = False
             elif "AGAR SETIAP ORANG MENGETAHUINYA" in text_upper:
                 current_state = "PENUTUP"
-                is_konsiderans_active = False
+                is_konsiderans_active = False; is_dasar_hukum_active = False
 
             # 3. Logika Identifikasi Unsur di dalam PEMBUKAAN
             final_unsur = ""
             if current_state == "PEMBUKAAN":
-                # Deteksi Titik Awal & Stop KONSIDERANS
+                # Toggles Unsur
                 if "MENIMBANG :" in text_upper:
                     is_konsiderans_active = True
+                    is_dasar_hukum_active = False
                 
                 if "MENGINGAT :" in text_upper:
-                    is_konsiderans_active = False # Titik Stop
+                    is_konsiderans_active = False
+                    is_dasar_hukum_active = True # Titik Start DASAR HUKUM
+                
+                if "DENGAN PERSETUJUAN BERSAMA" in text_upper:
+                    is_dasar_hukum_active = False # Titik Stop DASAR HUKUM
 
-                # Penentuan Label Unsur Berdasarkan State Aktif
+                # Penentuan Label Unsur
                 if is_konsiderans_active:
                     final_unsur = "KONSIDERANS"
+                elif is_dasar_hukum_active:
+                    final_unsur = "DASAR HUKUM" # Labeling blok Mengingat
                 elif "DENGAN RAHMAT TUHAN YANG MAHA ESA" in text_upper:
                     final_unsur = "FRASA RELIGIUS"
                 else:
