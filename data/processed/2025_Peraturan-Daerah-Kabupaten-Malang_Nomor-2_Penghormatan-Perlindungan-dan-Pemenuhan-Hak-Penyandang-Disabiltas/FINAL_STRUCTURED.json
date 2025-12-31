@@ -2,11 +2,8 @@
     "A_JUDUL": {
         "text": "BUPATI MALANG PROVINSI JAWA TIMUR PERATURAN DAERAH KABUPATEN MALANG NOMOR 2 TAHUN 2025 TENTANG PENGHORMATAN, PELINDUNGAN, DAN PEMENUHAN HAK PENYANDANG DISABILITAS",
         "metadata": {
-            "kategori": "PERATURAN PERUNDANG-UNDANGAN DAERAH",
-            "jenis": "PERATURAN DAERAH",
             "nomor": "2",
-            "tahun": "2025",
-            "tentang": "PENGHORMATAN, PELINDUNGAN, DAN PEMENUHAN HAK PENYANDANG DISABILITAS"
+            "tahun": "2025"
         }
     },
     "B_PEMBUKAAN": {
@@ -72,18 +69,18 @@
             "judul": "BAB I KETENTUAN UMUM",
             "kategori": "Ketentuan Umum",
             "sections": [],
-            "articles": [
+            "pasal": [
                 {
-                    "nomor": "PASAL 1",
-                    "isi": "Pasal 1 Dalam Peraturan Daerah ini yang dimaksud dengan: 1. Daerah adalah Kabupaten Malang. 2. Pemerintah Daerah adalah Pemerintah Kabupaten Malang. 4 3. Bupati adalah Bupati Malang. 4. Perangkat Daerah adalah unsur pembantu Bupati dan Dewan Perwakilan Rakyat Daerah dalam penyelenggaraan Urusan Pemerintahan yang menjadi kewenangan Daerah. 5. Dinas adalah Dinas Sosial. 6. Kepala Dinas adalah Kepala Dinas Sosial. 7. Penyandang Disabilitas adalah setiap orang yang mengalami keterbatasan fisik, intelektual, mental, dan/atau sensorik dalam jangka waktu lama yang dalam berinteraksi dengan lingkungan dapat mengalami hambatan dan kesulitan untuk berpartisipasi secara penuh dan efektif dengan warga negara lainnya berdasarkan kesamaan hak. 8. Kesamaan Kesempatan adalah keadaan yang memberikan peluang dan/atau menyediakan akses kepada Penyandang Disabilitas untuk menyalurkan potensi dalam segala aspek penyelenggaraan negara dan masyarakat. 9. Diskriminasi adalah setiap pembedaan, pengecualian pembatasan, pelecehan, atau pengucilan atas dasar Disabilitas yang bermaksud atau berdampak pada pembatasan atau peniadaan pengakuan, penikmatan, atau pelaksanaan hak Penyandang Disabilitas. 10. Penghormatan adalah sikap menghargai atau menerima keberadaan Penyandang Disabilitas dengan segala hak yang melekat tanpa berkurang. 11. Pelindungan adalah upaya yang dilakukan secara sadar untuk melindungi, mengayomi, dan memperkuat hak Penyandang Disabilitas. 12. Pemenuhan adalah upaya yang dilakukan untuk memenuhi, melaksanakan, dan mewujudkan hak Penyandang Disabilitas. 13. Pemberdayaan adalah upaya untuk menguatkan keberadaan Penyandang Disabilitas dalam bentuk penumbuhan iklim dan pengembangan potensi sehingga mampu tumbuh dan berkembang menjadi individu atau kelompok Penyandang Disabilitas yang tangguh dan mandiri. 5 14. Aksesibilitas adalah kemudahan yang disediakan untuk Penyandang Disabilitas guna mewujudkan Kesamaan Kesempatan. 15. Akomodasi yang Layak adalah modifikasi dan penyesuaian yang tepat dan diperlukan untuk menjamin penikmatan atau pelaksanaan semua hak asasi manusia dan kebebasan fundamental untuk Penyandang Disabilitas berdasarkan kesetaraan. 16. Alat Bantu adalah benda yang berfungsi membantu kemandirian Penyandang Disabilitas dalam melakukan kegiatan sehari-hari. 17. Alat Bantu Kesehatan adalah benda yang berfungsi mengoptimalkan fungsi anggota tubuh Penyandang Disabilitas berdasarkan rekomendasi dari tenaga medis. 18. Konsesi adalah segala bentuk potongan biaya yang diberikan oleh Pemerintah, Pemerintah Daerah, dan/atau setiap orang kepada Penyandang Disabilitas berdasarkan kebijakan Pemerintah dan Pemerintah Daerah. 19. Pelayanan Publik adalah kegiatan atau rangkaian kegiatan dalam rangka Pemenuhan kebutuhan pelayanan sesuai dengan ketentuan peraturan perundang-undangan bagi setiap warga negara dan penduduk atas barang, jasa, dan/atau pelayanan administratif yang disediakan oleh penyelenggara Pelayanan Publik. 20. Unit Layanan Disabilitas adalah bagian dari satu institusi atau lembaga yang berfungsi sebagai penyedia layanan dan fasilitas untuk Penyandang Disabilitas. 21. Pemberi Kerja adalah orang perseorangan, pengusaha, badan hukum, atau badan lainnya yang mempekerjakan tenaga kerja dengan membayar upah atau imbalan dalam bentuk lain. 22. Perencanaan adalah suatu proses untuk menentukan tindakan masa depan yang tepat, melalui urutan pilihan, dengan memperhitungkan sumber daya yang tersedia. 6 23. Penyelenggaraan adalah pelaksanaan terhadap Penghormatan, Pelindungan, dan Pemenuhan hak penyandang Disabilitas berdasarkan pada rencana induk Penyandang Disabilitas, dan rencana aksi daerah penyandang Disabilitas. 24. Rencana Aksi Daerah Penyandang Disabilitas adalah dokumen perencanaan dan penganggaran pembangunan terkait Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas yang merupakan penjabaran rencana induk Penyandang Disabilitas di tingkat Daerah. 25. Evaluasi adalah rangkaian kegiatan membandingkan antara target capaian rencana induk Penyandang Disabilitas dan Rencana Aksi Daeerah Penyandang Disabilitas Daerah dengan dokumen perencanaan dan penganggaran, serta pelaksanaan terhadap Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas tingkat pusat dan tingkat daerah."
+                    "nomor": "1",
+                    "isi": "Dalam Peraturan Daerah ini yang dimaksud dengan: 1. Daerah adalah Kabupaten Malang. 2. Pemerintah Daerah adalah Pemerintah Kabupaten Malang. 4 3. Bupati adalah Bupati Malang. 4. Perangkat Daerah adalah unsur pembantu Bupati dan Dewan Perwakilan Rakyat Daerah dalam penyelenggaraan Urusan Pemerintahan yang menjadi kewenangan Daerah. 5. Dinas adalah Dinas Sosial. 6. Kepala Dinas adalah Kepala Dinas Sosial. 7. Penyandang Disabilitas adalah setiap orang yang mengalami keterbatasan fisik, intelektual, mental, dan/atau sensorik dalam jangka waktu lama yang dalam berinteraksi dengan lingkungan dapat mengalami hambatan dan kesulitan untuk berpartisipasi secara penuh dan efektif dengan warga negara lainnya berdasarkan kesamaan hak. 8. Kesamaan Kesempatan adalah keadaan yang memberikan peluang dan/atau menyediakan akses kepada Penyandang Disabilitas untuk menyalurkan potensi dalam segala aspek penyelenggaraan negara dan masyarakat. 9. Diskriminasi adalah setiap pembedaan, pengecualian pembatasan, pelecehan, atau pengucilan atas dasar Disabilitas yang bermaksud atau berdampak pada pembatasan atau peniadaan pengakuan, penikmatan, atau pelaksanaan hak Penyandang Disabilitas. 10. Penghormatan adalah sikap menghargai atau menerima keberadaan Penyandang Disabilitas dengan segala hak yang melekat tanpa berkurang. 11. Pelindungan adalah upaya yang dilakukan secara sadar untuk melindungi, mengayomi, dan memperkuat hak Penyandang Disabilitas. 12. Pemenuhan adalah upaya yang dilakukan untuk memenuhi, melaksanakan, dan mewujudkan hak Penyandang Disabilitas. 13. Pemberdayaan adalah upaya untuk menguatkan keberadaan Penyandang Disabilitas dalam bentuk penumbuhan iklim dan pengembangan potensi sehingga mampu tumbuh dan berkembang menjadi individu atau kelompok Penyandang Disabilitas yang tangguh dan mandiri. 5 14. Aksesibilitas adalah kemudahan yang disediakan untuk Penyandang Disabilitas guna mewujudkan Kesamaan Kesempatan. 15. Akomodasi yang Layak adalah modifikasi dan penyesuaian yang tepat dan diperlukan untuk menjamin penikmatan atau pelaksanaan semua hak asasi manusia dan kebebasan fundamental untuk Penyandang Disabilitas berdasarkan kesetaraan. 16. Alat Bantu adalah benda yang berfungsi membantu kemandirian Penyandang Disabilitas dalam melakukan kegiatan sehari-hari. 17. Alat Bantu Kesehatan adalah benda yang berfungsi mengoptimalkan fungsi anggota tubuh Penyandang Disabilitas berdasarkan rekomendasi dari tenaga medis. 18. Konsesi adalah segala bentuk potongan biaya yang diberikan oleh Pemerintah, Pemerintah Daerah, dan/atau setiap orang kepada Penyandang Disabilitas berdasarkan kebijakan Pemerintah dan Pemerintah Daerah. 19. Pelayanan Publik adalah kegiatan atau rangkaian kegiatan dalam rangka Pemenuhan kebutuhan pelayanan sesuai dengan ketentuan peraturan perundang-undangan bagi setiap warga negara dan penduduk atas barang, jasa, dan/atau pelayanan administratif yang disediakan oleh penyelenggara Pelayanan Publik. 20. Unit Layanan Disabilitas adalah bagian dari satu institusi atau lembaga yang berfungsi sebagai penyedia layanan dan fasilitas untuk Penyandang Disabilitas. 21. Pemberi Kerja adalah orang perseorangan, pengusaha, badan hukum, atau badan lainnya yang mempekerjakan tenaga kerja dengan membayar upah atau imbalan dalam bentuk lain. 22. Perencanaan adalah suatu proses untuk menentukan tindakan masa depan yang tepat, melalui urutan pilihan, dengan memperhitungkan sumber daya yang tersedia. 6 23. Penyelenggaraan adalah pelaksanaan terhadap Penghormatan, Pelindungan, dan Pemenuhan hak penyandang Disabilitas berdasarkan pada rencana induk Penyandang Disabilitas, dan rencana aksi daerah penyandang Disabilitas. 24. Rencana Aksi Daerah Penyandang Disabilitas adalah dokumen perencanaan dan penganggaran pembangunan terkait Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas yang merupakan penjabaran rencana induk Penyandang Disabilitas di tingkat Daerah. 25. Evaluasi adalah rangkaian kegiatan membandingkan antara target capaian rencana induk Penyandang Disabilitas dan Rencana Aksi Daeerah Penyandang Disabilitas Daerah dengan dokumen perencanaan dan penganggaran, serta pelaksanaan terhadap Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas tingkat pusat dan tingkat daerah."
                 },
                 {
-                    "nomor": "PASAL 2",
-                    "isi": "Pasal 2 Pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas berasaskan: a. Penghormatan terhadap martabat; b. otonomi individu; c. tanpa Diskriminasi; d. partisipasi penuh; e. keragaman manusia dan kemanusiaan; f. Kesamaan Kesempatan; g. kesetaraan; h. Aksesibilitas; i. kapasitas yang terus berkembang dan identitas anak; j. inklusif; dan k. perlakuan khusus dan Pelindungan lebih."
+                    "nomor": "2",
+                    "isi": "Pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas berasaskan: a. Penghormatan terhadap martabat; b. otonomi individu; c. tanpa Diskriminasi; d. partisipasi penuh; e. keragaman manusia dan kemanusiaan; f. Kesamaan Kesempatan; g. kesetaraan; h. Aksesibilitas; i. kapasitas yang terus berkembang dan identitas anak; j. inklusif; dan k. perlakuan khusus dan Pelindungan lebih."
                 },
                 {
-                    "nomor": "PASAL 3",
-                    "isi": "Pasal 3 Pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas bertujuan untuk: a. mewujudkan Penghormatan, pemajuan, Pelindungan, dan Pemenuhan hak serta kebebasan dasar Penyandang Disabilitas secara penuh dan setara; b. menjamin upaya Penghormatan, pemajuan, Pelindungan, dan Pemenuhan hak sebagai martabat yang melekat pada diri Penyandang Disabilitas; 7 c. mewujudkan taraf kehidupan Penyandang Disabilitas yang lebih berkualitas, adil, sejahtera lahir dan batin, mandiri, serta bermartabat; d. melindungi Penyandang Disabilitas dari penelantaran dan eksploitasi, pelecehan dan segala tindakan diskriminatif, serta pelanggaran hak asasi manusia; dan e. memastikan pelaksanaan upaya Penghormatan, pemajuan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas untuk mengembangkan diri serta mendayagunakan seluruh kemampuan sesuai bakat dan minat yang dimilikinya untuk menikmati, berperan serta berkontribusi secara optimal, aman, leluasa, dan bermartabat dalam segala aspek kehidupan berbangsa, bernegara, dan bermasyarakat."
+                    "nomor": "3",
+                    "isi": "Pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas bertujuan untuk: a. mewujudkan Penghormatan, pemajuan, Pelindungan, dan Pemenuhan hak serta kebebasan dasar Penyandang Disabilitas secara penuh dan setara; b. menjamin upaya Penghormatan, pemajuan, Pelindungan, dan Pemenuhan hak sebagai martabat yang melekat pada diri Penyandang Disabilitas; 7 c. mewujudkan taraf kehidupan Penyandang Disabilitas yang lebih berkualitas, adil, sejahtera lahir dan batin, mandiri, serta bermartabat; d. melindungi Penyandang Disabilitas dari penelantaran dan eksploitasi, pelecehan dan segala tindakan diskriminatif, serta pelanggaran hak asasi manusia; dan e. memastikan pelaksanaan upaya Penghormatan, pemajuan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas untuk mengembangkan diri serta mendayagunakan seluruh kemampuan sesuai bakat dan minat yang dimilikinya untuk menikmati, berperan serta berkontribusi secara optimal, aman, leluasa, dan bermartabat dalam segala aspek kehidupan berbangsa, bernegara, dan bermasyarakat."
                 }
             ]
         },
@@ -92,10 +89,10 @@
             "judul": "BAB II RUANG LINGKUP",
             "kategori": "Materi Pokok",
             "sections": [],
-            "articles": [
+            "pasal": [
                 {
-                    "nomor": "PASAL 4",
-                    "isi": "Pasal 4 Ruang lingkup Peraturan Daerah ini meliputi: a. ragam Penyandang Disabilitas; b. hak Penyandang Disabilitas; c. pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas; d. koordinasi; e. pendanaan; dan f. penghargaan."
+                    "nomor": "4",
+                    "isi": "Ruang lingkup Peraturan Daerah ini meliputi: a. ragam Penyandang Disabilitas; b. hak Penyandang Disabilitas; c. pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas; d. koordinasi; e. pendanaan; dan f. penghargaan."
                 }
             ]
         },
@@ -104,10 +101,19 @@
             "judul": "BAB III RAGAM PENYANDANG DISABILITAS",
             "kategori": "Materi Pokok",
             "sections": [],
-            "articles": [
+            "pasal": [
                 {
-                    "nomor": "PASAL 5",
-                    "isi": "Pasal 5 (1) Ragam Penyandang Disabilitas meliputi: a. Penyandang Disabilitas fisik; b. Penyandang Disabilitas intelektual; c. Penyandang Disabilitas mental; dan/atau d. Penyandang Disabilitas sensorik. (2) Ragam Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dapat dialami secara tunggal, ganda, atau multi dalam jangka waktu lama yang ditetapkan oleh tenaga medis sesuai dengan ketentuan peraturan perundang-undangan. 8"
+                    "nomor": "5",
+                    "isi": [
+                        {
+                            "ayat": "1",
+                            "teks": "Ragam Penyandang Disabilitas meliputi: a. Penyandang Disabilitas fisik; b. Penyandang Disabilitas intelektual; c. Penyandang Disabilitas mental; dan/atau d. Penyandang Disabilitas sensorik."
+                        },
+                        {
+                            "ayat": "2",
+                            "teks": "Ragam Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dapat dialami secara tunggal, ganda, atau multi dalam jangka waktu lama yang ditetapkan oleh tenaga medis sesuai dengan ketentuan peraturan perundang-undangan. 8"
+                        }
+                    ]
                 }
             ]
         },
@@ -120,10 +126,23 @@
                     "bagian": "BAGIAN KESATU",
                     "judul": "Bagian Kesatu Umum",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 6",
-                            "isi": "Pasal 6 (1) Penyandang Disabilitas memiliki hak: a. hidup; b. bebas dari stigma; c. privasi; d. keadilan dan Pelindungan hukum; e. pendidikan; f. pekerjaan, kewirausahaan, dan koperasi; g. kesehatan; h. politik; i. keagamaan; j. keolahragaan; k. kebudayaan dan pariwisata; l. kesejahteraan sosial; m. Aksesibilitas; n. Pelayanan Publik; o. Pelindungan dari bencana; p. habilitasi dan rehabilitasi; q. Konsesi; r. pendataan; s. hidup secara mandiri dan dilibatkan dalam masyarakat; t. berekspresi, berkomunikasi, dan memperoleh informasi; u. berpindah tempat dan kewarganegaraan; dan v. bebas dari tindakan Diskriminasi, penelantaran, penyiksaan, dan eksploitasi. (2) Selain hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (1), perempuan dengan Disabilitas memiliki hak: a. atas kesehatan reproduksi; b. menerima atau menolak penggunaan alat kontrasepsi; c. mendapatkan Pelindungan lebih dari perlakuan Diskriminasi berlapis; dan d. untuk mendapatkan Pelindungan lebih dari tindak kekerasan, termasuk kekerasan dan eksploitasi seksual. 9 (3) Selain hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (1), anak Penyandang Disabilitas memiliki hak: a. mendapatkan Pelindungan khusus dari Diskriminasi, penelantaran, pelecehan, eksploitasi, serta kekerasan dan kejahatan seksual; b. mendapatkan perawatan dan pengasuhan keluarga atau keluarga pengganti untuk tumbuh kembang secara optimal; c. dilindungi kepentingannya dalam pengambilan keputusan; d. perlakuan anak secara manusiawi sesuai dengan martabat dan hak anak; e. Pemenuhan kebutuhan khusus; f. perlakuan yang sama dengan anak lain untuk mencapai integrasi sosial dan pengembangan individu; dan g. mendapatkan pendampingan sosial."
+                            "nomor": "6",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Penyandang Disabilitas memiliki hak: a. hidup; b. bebas dari stigma; c. privasi; d. keadilan dan Pelindungan hukum; e. pendidikan; f. pekerjaan, kewirausahaan, dan koperasi; g. kesehatan; h. politik; i. keagamaan; j. keolahragaan; k. kebudayaan dan pariwisata; l. kesejahteraan sosial; m. Aksesibilitas; n. Pelayanan Publik; o. Pelindungan dari bencana; p. habilitasi dan rehabilitasi; q. Konsesi; r. pendataan; s. hidup secara mandiri dan dilibatkan dalam masyarakat; t. berekspresi, berkomunikasi, dan memperoleh informasi; u. berpindah tempat dan kewarganegaraan; dan v. bebas dari tindakan Diskriminasi, penelantaran, penyiksaan, dan eksploitasi."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Selain hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (1), perempuan dengan Disabilitas memiliki hak: a. atas kesehatan reproduksi; b. menerima atau menolak penggunaan alat kontrasepsi; c. mendapatkan Pelindungan lebih dari perlakuan Diskriminasi berlapis; dan d. untuk mendapatkan Pelindungan lebih dari tindak kekerasan, termasuk kekerasan dan eksploitasi seksual. 9"
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Selain hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (1), anak Penyandang Disabilitas memiliki hak: a. mendapatkan Pelindungan khusus dari Diskriminasi, penelantaran, pelecehan, eksploitasi, serta kekerasan dan kejahatan seksual; b. mendapatkan perawatan dan pengasuhan keluarga atau keluarga pengganti untuk tumbuh kembang secara optimal; c. dilindungi kepentingannya dalam pengambilan keputusan; d. perlakuan anak secara manusiawi sesuai dengan martabat dan hak anak; e. Pemenuhan kebutuhan khusus; f. perlakuan yang sama dengan anak lain untuk mencapai integrasi sosial dan pengembangan individu; dan g. mendapatkan pendampingan sosial."
+                                }
+                            ]
                         }
                     ]
                 },
@@ -131,10 +150,10 @@
                     "bagian": "BAGIAN KEDUA",
                     "judul": "Bagian Kedua Hak Hidup",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 7",
-                            "isi": "Pasal 7 Hak hidup untuk Penyandang Disabilitas meliputi hak: a. atas Penghormatan integritas; b. tidak dirampas nyawanya; c. mendapatkan perawatan dan pengasuhan yang menjamin kelangsungan hidupnya; d. bebas dari penelantaran, pemasungan, pengurungan, dan pengucilan; e. bebas dari ancaman dan berbagai bentuk eksploitasi; dan f. bebas dari penyiksaan, perlakuan dan penghukuman lain yang kejam, tidak manusiawi, dan merendahkan martabat manusia."
+                            "nomor": "7",
+                            "isi": "Hak hidup untuk Penyandang Disabilitas meliputi hak: a. atas Penghormatan integritas; b. tidak dirampas nyawanya; c. mendapatkan perawatan dan pengasuhan yang menjamin kelangsungan hidupnya; d. bebas dari penelantaran, pemasungan, pengurungan, dan pengucilan; e. bebas dari ancaman dan berbagai bentuk eksploitasi; dan f. bebas dari penyiksaan, perlakuan dan penghukuman lain yang kejam, tidak manusiawi, dan merendahkan martabat manusia."
                         }
                     ]
                 },
@@ -142,10 +161,10 @@
                     "bagian": "BAGIAN KETIGA",
                     "judul": "Bagian Ketiga Hak Bebas dari Stigma",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 8",
-                            "isi": "Pasal 8 Hak bebas dari stigma untuk Penyandang Disabilitas meliputi hak bebas dari pelecehan, penghinaan, dan pelabelan negatif terkait kondisi disabilitasnya. 10"
+                            "nomor": "8",
+                            "isi": "Hak bebas dari stigma untuk Penyandang Disabilitas meliputi hak bebas dari pelecehan, penghinaan, dan pelabelan negatif terkait kondisi disabilitasnya. 10"
                         }
                     ]
                 },
@@ -153,10 +172,10 @@
                     "bagian": "BAGIAN KEEMPAT",
                     "judul": "Bagian Keempat Hak Privasi",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 9",
-                            "isi": "Pasal 9 Hak privasi untuk Penyandang Disabilitas meliputi hak: a. diakui sebagai manusia pribadi yang dapat menuntut dan memperoleh perlakuan serta Pelindungan yang sama sesuai dengan martabat manusia di depan umum; b. membentuk sebuah keluarga dan melanjutkan keturunan melalui perkawinan yang sah; c. Penghormatan rumah dan keluarga; d. mendapat Pelindungan terhadap kehidupan pribadi dan keluarga; dan e. dilindungi kerahasiaan atas data pribadi, surat-menyurat, dan bentuk komunikasi pribadi lainnya, termasuk data dan informasi kesehatan."
+                            "nomor": "9",
+                            "isi": "Hak privasi untuk Penyandang Disabilitas meliputi hak: a. diakui sebagai manusia pribadi yang dapat menuntut dan memperoleh perlakuan serta Pelindungan yang sama sesuai dengan martabat manusia di depan umum; b. membentuk sebuah keluarga dan melanjutkan keturunan melalui perkawinan yang sah; c. Penghormatan rumah dan keluarga; d. mendapat Pelindungan terhadap kehidupan pribadi dan keluarga; dan e. dilindungi kerahasiaan atas data pribadi, surat-menyurat, dan bentuk komunikasi pribadi lainnya, termasuk data dan informasi kesehatan."
                         }
                     ]
                 },
@@ -164,10 +183,10 @@
                     "bagian": "BAGIAN KELIMA",
                     "judul": "Bagian Kelima Hak Keadilan dan Pelindungan Hukum",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 10",
-                            "isi": "Pasal 10 Hak keadilan dan pelindungan hukum untuk Penyandang Disabilitas meliputi hak: a. atas perlakuan yang sama di hadapan hukum; b. diakui sebagai subjek hukum; c. memiliki dan mewarisi harta bergerak atau tidak bergerak; d. mengendalikan masalah keuangan atau menunjuk orang untuk mewakili kepentingannya dalam urusan keuangan; e. memperoleh akses terhadap pelayanan jasa perbankan dan nonperbankan; f. memperoleh penyediaan Aksesibilitas dalam pelayanan peradilan; g. atas Pelindungan dari segala tekanan, kekerasan, penganiayaan, Diskriminasi, dan/atau perampasan atau pengambilalihan hak milik; h. memilih dan menunjuk orang untuk mewakili kepentingannya dalam hal keperdataan di dalam dan di luar pengadilan; dan i. dilindungi hak kekayaan intelektualnya. 11"
+                            "nomor": "10",
+                            "isi": "Hak keadilan dan pelindungan hukum untuk Penyandang Disabilitas meliputi hak: a. atas perlakuan yang sama di hadapan hukum; b. diakui sebagai subjek hukum; c. memiliki dan mewarisi harta bergerak atau tidak bergerak; d. mengendalikan masalah keuangan atau menunjuk orang untuk mewakili kepentingannya dalam urusan keuangan; e. memperoleh akses terhadap pelayanan jasa perbankan dan nonperbankan; f. memperoleh penyediaan Aksesibilitas dalam pelayanan peradilan; g. atas Pelindungan dari segala tekanan, kekerasan, penganiayaan, Diskriminasi, dan/atau perampasan atau pengambilalihan hak milik; h. memilih dan menunjuk orang untuk mewakili kepentingannya dalam hal keperdataan di dalam dan di luar pengadilan; dan i. dilindungi hak kekayaan intelektualnya. 11"
                         }
                     ]
                 },
@@ -175,10 +194,10 @@
                     "bagian": "BAGIAN KEENAM",
                     "judul": "Bagian Keenam Hak Pendidikan",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 11",
-                            "isi": "Pasal 11 Hak pendidikan untuk Penyandang Disabilitas meliputi hak: a. mendapatkan pendidikan yang bermutu pada satuan pendidikan di semua jenis, jalur, dan jenjang pendidikan secara inklusif dan khusus; b. mempunyai Kesamaan Kesempatan untuk menjadi pendidik atau tenaga kependidikan pada satuan pendidikan di semua jenis, jalur, dan jenjang pendidikan; c. mempunyai Kesamaan Kesempatan sebagai penyelenggara pendidikan yang bermutu pada satuan pendidikan di semua jenis, jalur, dan jenjang pendidikan; dan d. mendapatkan Akomodasi yang Layak sebagai peserta didik."
+                            "nomor": "11",
+                            "isi": "Hak pendidikan untuk Penyandang Disabilitas meliputi hak: a. mendapatkan pendidikan yang bermutu pada satuan pendidikan di semua jenis, jalur, dan jenjang pendidikan secara inklusif dan khusus; b. mempunyai Kesamaan Kesempatan untuk menjadi pendidik atau tenaga kependidikan pada satuan pendidikan di semua jenis, jalur, dan jenjang pendidikan; c. mempunyai Kesamaan Kesempatan sebagai penyelenggara pendidikan yang bermutu pada satuan pendidikan di semua jenis, jalur, dan jenjang pendidikan; dan d. mendapatkan Akomodasi yang Layak sebagai peserta didik."
                         }
                     ]
                 },
@@ -186,10 +205,10 @@
                     "bagian": "BAGIAN KETUJUH",
                     "judul": "Bagian Ketujuh Hak Pekerjaan, Kewirausahaan, dan Koperasi",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 12",
-                            "isi": "Pasal 12 Hak pekerjaan, kewirausahaan, dan koperasi untuk Penyandang Disabilitas meliputi hak: a. memperoleh pekerjaan yang diselenggarakan oleh pemerintah, Pemerintah Daerah, atau swasta tanpa Diskriminasi; b. memperoleh upah yang sama dengan tenaga kerja yang bukan Penyandang Disabilitas dalam jenis pekerjaan dan tanggung jawab yang sama; c. memperoleh Akomodasi yang Layak dalam pekerjaan; d. tidak diberhentikan karena alasan disabilitas; e. mendapatkan program kembali bekerja; f. penempatan kerja yang adil, proporsional, dan bermartabat; g. memperoleh kesempatan dalam mengembangkan jenjang karier serta segala hak normatif yang melekat di dalamnya; dan h. memajukan usaha, memiliki pekerjaan sendiri, wiraswasta, pengembangan koperasi, dan memulai usaha sendiri. 12"
+                            "nomor": "12",
+                            "isi": "Hak pekerjaan, kewirausahaan, dan koperasi untuk Penyandang Disabilitas meliputi hak: a. memperoleh pekerjaan yang diselenggarakan oleh pemerintah, Pemerintah Daerah, atau swasta tanpa Diskriminasi; b. memperoleh upah yang sama dengan tenaga kerja yang bukan Penyandang Disabilitas dalam jenis pekerjaan dan tanggung jawab yang sama; c. memperoleh Akomodasi yang Layak dalam pekerjaan; d. tidak diberhentikan karena alasan disabilitas; e. mendapatkan program kembali bekerja; f. penempatan kerja yang adil, proporsional, dan bermartabat; g. memperoleh kesempatan dalam mengembangkan jenjang karier serta segala hak normatif yang melekat di dalamnya; dan h. memajukan usaha, memiliki pekerjaan sendiri, wiraswasta, pengembangan koperasi, dan memulai usaha sendiri. 12"
                         }
                     ]
                 },
@@ -197,10 +216,10 @@
                     "bagian": "BAGIAN KEDELAPAN",
                     "judul": "Bagian Kedelapan Hak Kesehatan",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 13",
-                            "isi": "Pasal 13 Hak kesehatan untuk Penyandang Disabilitas meliputi hak: a. memperoleh informasi dan komunikasi yang mudah diakses dalam pelayanan kesehatan; b. memperoleh kesamaan dan kesempatan akses atas sumber daya di bidang kesehatan; c. memperoleh kesamaan dan kesempatan pelayanan kesehatan yang aman, bermutu, dan terjangkau; d. memperoleh kesamaan dan kesempatan secara mandiri dan bertanggung jawab menentukan sendiri pelayanan kesehatan yang diperlukan bagi dirinya; e. memperoleh Alat Bantu Kesehatan berdasarkan kebutuhannya; f. memperoleh obat yang bermutu dengan efek samping yang rendah; g. memperoleh Pelindungan dari upaya percobaan medis; dan h. memperoleh Pelindungan dalam penelitian dan pengembangan kesehatan yang mengikutsertakan manusia sebagai subjek."
+                            "nomor": "13",
+                            "isi": "Hak kesehatan untuk Penyandang Disabilitas meliputi hak: a. memperoleh informasi dan komunikasi yang mudah diakses dalam pelayanan kesehatan; b. memperoleh kesamaan dan kesempatan akses atas sumber daya di bidang kesehatan; c. memperoleh kesamaan dan kesempatan pelayanan kesehatan yang aman, bermutu, dan terjangkau; d. memperoleh kesamaan dan kesempatan secara mandiri dan bertanggung jawab menentukan sendiri pelayanan kesehatan yang diperlukan bagi dirinya; e. memperoleh Alat Bantu Kesehatan berdasarkan kebutuhannya; f. memperoleh obat yang bermutu dengan efek samping yang rendah; g. memperoleh Pelindungan dari upaya percobaan medis; dan h. memperoleh Pelindungan dalam penelitian dan pengembangan kesehatan yang mengikutsertakan manusia sebagai subjek."
                         }
                     ]
                 },
@@ -208,10 +227,10 @@
                     "bagian": "BAGIAN KESEMBILAN",
                     "judul": "Bagian Kesembilan Hak Politik",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 14",
-                            "isi": "Pasal 14 Hak politik untuk Penyandang Disabilitas meliputi hak: a. memilih dan dipilih dalam jabatan publik; b. menyalurkan aspirasi politik baik tertulis maupun lisan; c. memilih partai politik dan/atau individu yang menjadi peserta dalam pemilihan umum; d. membentuk, menjadi anggota, dan/atau pengurus organisasi masyarakat dan/atau partai politik; e. membentuk dan bergabung dalam organisasi Penyandang Disabilitas dan untuk mewakili Penyandang Disabilitas pada tingkat lokal, nasional, dan internasional; f. berperan serta secara aktif dalam sistem pemilihan umum pada semua tahap dan/atau bagian penyelenggaraannya; g. memperoleh Aksesibilitas pada sarana dan prasarana penyelenggaraan pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa; dan h. memperoleh pendidikan politik. 13"
+                            "nomor": "14",
+                            "isi": "Hak politik untuk Penyandang Disabilitas meliputi hak: a. memilih dan dipilih dalam jabatan publik; b. menyalurkan aspirasi politik baik tertulis maupun lisan; c. memilih partai politik dan/atau individu yang menjadi peserta dalam pemilihan umum; d. membentuk, menjadi anggota, dan/atau pengurus organisasi masyarakat dan/atau partai politik; e. membentuk dan bergabung dalam organisasi Penyandang Disabilitas dan untuk mewakili Penyandang Disabilitas pada tingkat lokal, nasional, dan internasional; f. berperan serta secara aktif dalam sistem pemilihan umum pada semua tahap dan/atau bagian penyelenggaraannya; g. memperoleh Aksesibilitas pada sarana dan prasarana penyelenggaraan pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa; dan h. memperoleh pendidikan politik. 13"
                         }
                     ]
                 },
@@ -219,10 +238,10 @@
                     "bagian": "BAGIAN KESEPULUH",
                     "judul": "Bagian Kesepuluh Hak Keagamaan",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 15",
-                            "isi": "Pasal 15 Hak keagamaan untuk Penyandang Disabilitas meliputi hak: a. memeluk agama dan kepercayaan masing-masing dan beribadat menurut agama dan kepercayaannya; b. memperoleh kemudahan akses dalam memanfaatkan tempat peribadatan; c. mendapatkan kitab suci dan lektur keagamaan lainnya yang mudah diakses berdasarkan kebutuhannya; d. mendapatkan pelayanan sesuai dengan kebutuhan pada saat menjalankan ibadat menurut agama dan kepercayaannya; dan e. berperan aktif dalam organisasi keagamaan."
+                            "nomor": "15",
+                            "isi": "Hak keagamaan untuk Penyandang Disabilitas meliputi hak: a. memeluk agama dan kepercayaan masing-masing dan beribadat menurut agama dan kepercayaannya; b. memperoleh kemudahan akses dalam memanfaatkan tempat peribadatan; c. mendapatkan kitab suci dan lektur keagamaan lainnya yang mudah diakses berdasarkan kebutuhannya; d. mendapatkan pelayanan sesuai dengan kebutuhan pada saat menjalankan ibadat menurut agama dan kepercayaannya; dan e. berperan aktif dalam organisasi keagamaan."
                         }
                     ]
                 },
@@ -230,59 +249,59 @@
                     "bagian": "BAGIAN KESEBELAS",
                     "judul": "Bagian Kesebelas Hak Keolahragaan",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 16",
-                            "isi": "Pasal 16 Hak keolahragaan untuk Penyandang Disabilitas meliputi hak: a. melakukan kegiatan keolahragaan; b. mendapatkan penghargaan yang sama dalam kegiatan keolahragaan; c. memperoleh pelayanan dalam kegiatan keolahragaan; d. memperoleh sarana dan prasarana keolahragaan yang mudah diakses; e. memilih dan mengikuti jenis atau cabang olahraga; f. memperoleh pengarahan, dukungan, bimbingan, pembinaan, dan pengembangan dalam keolahragaan; g. menjadi pelaku keolahragaan; h. mengembangkan industri keolahragaan; dan i. meningkatkan prestasi dan mengikuti kejuaraan di semua tingkatan. 14 Bagian Kedua Belas Hak Kebudayaan dan Pariwisata"
+                            "nomor": "16",
+                            "isi": "Hak keolahragaan untuk Penyandang Disabilitas meliputi hak: a. melakukan kegiatan keolahragaan; b. mendapatkan penghargaan yang sama dalam kegiatan keolahragaan; c. memperoleh pelayanan dalam kegiatan keolahragaan; d. memperoleh sarana dan prasarana keolahragaan yang mudah diakses; e. memilih dan mengikuti jenis atau cabang olahraga; f. memperoleh pengarahan, dukungan, bimbingan, pembinaan, dan pengembangan dalam keolahragaan; g. menjadi pelaku keolahragaan; h. mengembangkan industri keolahragaan; dan i. meningkatkan prestasi dan mengikuti kejuaraan di semua tingkatan. 14 Bagian Kedua Belas Hak Kebudayaan dan Pariwisata"
                         },
                         {
-                            "nomor": "PASAL 17",
-                            "isi": "Pasal 17 Hak kebudayaan dan pariwisata untuk Penyandang Disabilitas meliputi hak: a. memperoleh kesamaan dan kesempatan untuk berpartisipasi secara aktif dalam kegiatan seni dan budaya; b. memperoleh Kesamaan Kesempatan untuk melakukan kegiatan wisata, melakukan usaha pariwisata, menjadi pekerja pariwisata, dan/atau berperan dalam proses pembangunan pariwisata; dan c. mendapatkan kemudahan untuk mengakses, perlakuan, dan Akomodasi yang Layak sesuai dengan kebutuhannya sebagai wisatawan. Bagian Ketiga Belas Hak Kesejahteraan Sosial"
+                            "nomor": "17",
+                            "isi": "Hak kebudayaan dan pariwisata untuk Penyandang Disabilitas meliputi hak: a. memperoleh kesamaan dan kesempatan untuk berpartisipasi secara aktif dalam kegiatan seni dan budaya; b. memperoleh Kesamaan Kesempatan untuk melakukan kegiatan wisata, melakukan usaha pariwisata, menjadi pekerja pariwisata, dan/atau berperan dalam proses pembangunan pariwisata; dan c. mendapatkan kemudahan untuk mengakses, perlakuan, dan Akomodasi yang Layak sesuai dengan kebutuhannya sebagai wisatawan. Bagian Ketiga Belas Hak Kesejahteraan Sosial"
                         },
                         {
-                            "nomor": "PASAL 18",
-                            "isi": "Pasal 18 Hak kesejahteraan sosial untuk Penyandang Disabilitas meliputi hak: a. rehabilitasi sosial; b. jaminan sosial; c. pemberdayaan sosial; dan d. pelindungan sosial. Bagian Keempat Belas Hak Aksesibilitas"
+                            "nomor": "18",
+                            "isi": "Hak kesejahteraan sosial untuk Penyandang Disabilitas meliputi hak: a. rehabilitasi sosial; b. jaminan sosial; c. pemberdayaan sosial; dan d. pelindungan sosial. Bagian Keempat Belas Hak Aksesibilitas"
                         },
                         {
-                            "nomor": "PASAL 19",
-                            "isi": "Pasal 19 Hak Aksesibilitas untuk Penyandang Disabilitas meliputi hak: a. mendapatkan Aksesibilitas untuk memanfaatkan fasilitas publik; dan b. mendapatkan Akomodasi yang Layak sebagai bentuk Aksesibilitas bagi individu. 15 Bagian Kelima Belas Hak Pelayanan Publik"
+                            "nomor": "19",
+                            "isi": "Hak Aksesibilitas untuk Penyandang Disabilitas meliputi hak: a. mendapatkan Aksesibilitas untuk memanfaatkan fasilitas publik; dan b. mendapatkan Akomodasi yang Layak sebagai bentuk Aksesibilitas bagi individu. 15 Bagian Kelima Belas Hak Pelayanan Publik"
                         },
                         {
-                            "nomor": "PASAL 20",
-                            "isi": "Pasal 20 Hak Pelayanan Publik untuk Penyandang Disabilitas meliputi: a. memperoleh Akomodasi yang Layak dalam Pelayanan Publik secara optimal, wajar, bermartabat tanpa Diskriminasi; dan b. pendampingan, penerjemahan, dan penyediaan fasilitas yang mudah diakses di tempat layanan publik tanpa tambahan biaya. Bagian Keenam Belas Hak Pelindungan dari Bencana"
+                            "nomor": "20",
+                            "isi": "Hak Pelayanan Publik untuk Penyandang Disabilitas meliputi: a. memperoleh Akomodasi yang Layak dalam Pelayanan Publik secara optimal, wajar, bermartabat tanpa Diskriminasi; dan b. pendampingan, penerjemahan, dan penyediaan fasilitas yang mudah diakses di tempat layanan publik tanpa tambahan biaya. Bagian Keenam Belas Hak Pelindungan dari Bencana"
                         },
                         {
-                            "nomor": "PASAL 21",
-                            "isi": "Pasal 21 Hak Pelindungan dari bencana untuk Penyandang Disabilitas meliputi hak: a. mendapatkan informasi yang mudah diakses akan adanya bencana; b. mendapatkan pengetahuan tentang pengurangan risiko bencana; c. mendapatkan prioritas dalam proses penyelamatan dan evakuasi dalam keadaan bencana; d. mendapatkan fasilitas dan sarana penyelamatan dan evakuasi yang mudah diakses; dan e. mendapatkan prioritas, fasilitas, dan sarana yang mudah diakses di lokasi pengungsian. Bagian Ketujuh Belas Hak Habilitasi dan Rehabilitasi"
+                            "nomor": "21",
+                            "isi": "Hak Pelindungan dari bencana untuk Penyandang Disabilitas meliputi hak: a. mendapatkan informasi yang mudah diakses akan adanya bencana; b. mendapatkan pengetahuan tentang pengurangan risiko bencana; c. mendapatkan prioritas dalam proses penyelamatan dan evakuasi dalam keadaan bencana; d. mendapatkan fasilitas dan sarana penyelamatan dan evakuasi yang mudah diakses; dan e. mendapatkan prioritas, fasilitas, dan sarana yang mudah diakses di lokasi pengungsian. Bagian Ketujuh Belas Hak Habilitasi dan Rehabilitasi"
                         },
                         {
-                            "nomor": "PASAL 22",
-                            "isi": "Pasal 22 Hak habilitasi dan rehabilitasi untuk Penyandang Disabilitas meliputi hak: a. mendapatkan habilitasi dan rehabilitasi sejak dini dan secara inklusif sesuai dengan kebutuhan; b. bebas memilih bentuk rehabilitasi yang akan diikuti; dan c. mendapatkan habilitasi dan rehabilitasi yang tidak merendahkan martabat manusia. 16 Bagian Kedelapan Belas Hak Pendataan"
+                            "nomor": "22",
+                            "isi": "Hak habilitasi dan rehabilitasi untuk Penyandang Disabilitas meliputi hak: a. mendapatkan habilitasi dan rehabilitasi sejak dini dan secara inklusif sesuai dengan kebutuhan; b. bebas memilih bentuk rehabilitasi yang akan diikuti; dan c. mendapatkan habilitasi dan rehabilitasi yang tidak merendahkan martabat manusia. 16 Bagian Kedelapan Belas Hak Pendataan"
                         },
                         {
-                            "nomor": "PASAL 23",
-                            "isi": "Pasal 23 Hak pendataan untuk Penyandang Disabilitas meliputi hak: a. didata sebagai penduduk dengan disabilitas dalam kegiatan pendaftaran penduduk dan pencatatan sipil; b. mendapatkan dokumen kependudukan; dan c. mendapatkan kartu Penyandang Disabilitas. Bagian Kesembilan Belas Hak Hidup Secara Mandiri dan dilibatkan dalam Masyarakat"
+                            "nomor": "23",
+                            "isi": "Hak pendataan untuk Penyandang Disabilitas meliputi hak: a. didata sebagai penduduk dengan disabilitas dalam kegiatan pendaftaran penduduk dan pencatatan sipil; b. mendapatkan dokumen kependudukan; dan c. mendapatkan kartu Penyandang Disabilitas. Bagian Kesembilan Belas Hak Hidup Secara Mandiri dan dilibatkan dalam Masyarakat"
                         },
                         {
-                            "nomor": "PASAL 24",
-                            "isi": "Pasal 24 Hak hidup secara mandiri dan dilibatkan dalam masyarakat untuk Penyandang Disabilitas meliputi hak: a. mobilitas pribadi dengan penyediaan Alat Bantu dan kemudahan untuk mendapatkan akses; b. mendapatkan kesempatan untuk hidup mandiri di tengah masyarakat; c. mendapatkan pelatihan dan pendampingan untuk hidup secara mandiri; d. menentukan sendiri atau memperoleh bantuan dari pemerintah dan Pemerintah Daerah untuk menetapkan tempat tinggal dan/atau pengasuhan keluarga atau keluarga pengganti; e. mendapatkan akses ke berbagai pelayanan, baik yang diberikan di dalam rumah, di tempat permukiman, maupun dalam masyarakat; dan f. mendapatkan akomodasi yang wajar untuk berperan serta dalam kehidupan bermasyarakat. Bagian Kedua Puluh Hak Berekspresi, Berkomunikasi, dan Memperoleh Informasi"
+                            "nomor": "24",
+                            "isi": "Hak hidup secara mandiri dan dilibatkan dalam masyarakat untuk Penyandang Disabilitas meliputi hak: a. mobilitas pribadi dengan penyediaan Alat Bantu dan kemudahan untuk mendapatkan akses; b. mendapatkan kesempatan untuk hidup mandiri di tengah masyarakat; c. mendapatkan pelatihan dan pendampingan untuk hidup secara mandiri; d. menentukan sendiri atau memperoleh bantuan dari pemerintah dan Pemerintah Daerah untuk menetapkan tempat tinggal dan/atau pengasuhan keluarga atau keluarga pengganti; e. mendapatkan akses ke berbagai pelayanan, baik yang diberikan di dalam rumah, di tempat permukiman, maupun dalam masyarakat; dan f. mendapatkan akomodasi yang wajar untuk berperan serta dalam kehidupan bermasyarakat. Bagian Kedua Puluh Hak Berekspresi, Berkomunikasi, dan Memperoleh Informasi"
                         },
                         {
-                            "nomor": "PASAL 25",
-                            "isi": "Pasal 25 Hak berekspresi, berkomunikasi, dan memperoleh informasi untuk Penyandang Disabilitas meliputi hak: a. memiliki kebebasan berekspresi dan berpendapat; b. mendapatkan informasi dan berkomunikasi melalui media yang mudah diakses; dan c. menggunakan dan memperoleh fasilitas informasi dan komunikasi berupa bahasa isyarat, braille, dan komunikasi augmentatif dalam interaksi resmi. 17 Bagian Kedua Puluh Satu Hak Kewarganegaraan"
+                            "nomor": "25",
+                            "isi": "Hak berekspresi, berkomunikasi, dan memperoleh informasi untuk Penyandang Disabilitas meliputi hak: a. memiliki kebebasan berekspresi dan berpendapat; b. mendapatkan informasi dan berkomunikasi melalui media yang mudah diakses; dan c. menggunakan dan memperoleh fasilitas informasi dan komunikasi berupa bahasa isyarat, braille, dan komunikasi augmentatif dalam interaksi resmi. 17 Bagian Kedua Puluh Satu Hak Kewarganegaraan"
                         },
                         {
-                            "nomor": "PASAL 26",
-                            "isi": "Pasal 26 Hak kewarganegaraan untuk Penyandang Disabilitas meliputi hak: a. berpindah, mempertahankan, atau memperoleh kewarganegaraan sesuai dengan ketentuan peraturan perundang-undangan; b. memperoleh, memiliki, dan menggunakan dokumen kewarganegaraan sesuai dengan ketentuan peraturan perundang-undangan; dan c. keluar atau masuk wilayah Indonesia sesuai dengan ketentuan peraturan perundang-undangan. Bagian Kedua Puluh Dua Hak Bebas dari Diskriminasi, Penelantaran, Penyiksaan, dan Eksploitasi"
+                            "nomor": "26",
+                            "isi": "Hak kewarganegaraan untuk Penyandang Disabilitas meliputi hak: a. berpindah, mempertahankan, atau memperoleh kewarganegaraan sesuai dengan ketentuan peraturan perundang-undangan; b. memperoleh, memiliki, dan menggunakan dokumen kewarganegaraan sesuai dengan ketentuan peraturan perundang-undangan; dan c. keluar atau masuk wilayah Indonesia sesuai dengan ketentuan peraturan perundang-undangan. Bagian Kedua Puluh Dua Hak Bebas dari Diskriminasi, Penelantaran, Penyiksaan, dan Eksploitasi"
                         },
                         {
-                            "nomor": "PASAL 27",
-                            "isi": "Pasal 27 Hak bebas dari Diskriminasi, penelantaran, penyiksaan, dan eksploitasi untuk Penyandang Disabilitas meliputi hak: a. bersosialisasi dan berinteraksi dalam kehidupan berkeluarga, bermasyarakat, dan bernegara tanpa rasa takut; dan b. mendapatkan Pelindungan dari segala bentuk kekerasan fisik, psikis, ekonomi, dan seksual."
+                            "nomor": "27",
+                            "isi": "Hak bebas dari Diskriminasi, penelantaran, penyiksaan, dan eksploitasi untuk Penyandang Disabilitas meliputi hak: a. bersosialisasi dan berinteraksi dalam kehidupan berkeluarga, bermasyarakat, dan bernegara tanpa rasa takut; dan b. mendapatkan Pelindungan dari segala bentuk kekerasan fisik, psikis, ekonomi, dan seksual."
                         }
                     ]
                 }
             ],
-            "articles": []
+            "pasal": []
         },
         {
             "bab": "BAB V",
@@ -293,10 +312,23 @@
                     "bagian": "BAGIAN KESATU",
                     "judul": "Bagian Kesatu Umum",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 28",
-                            "isi": "Pasal 28 (1) Pemerintah Daerah wajib melakukan perencanaan, penyelenggaraan, dan evaluasi tentang pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas yang bertujuan untuk menyinergikan, mengharmonisasikan, dan mengefektifkan pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas. 18 (2) Dalam hal efektivitas pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (1), Pemerintah Daerah wajib merumuskannya dalam rencana induk. (3) Pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas dilaksanakan sesuai dengan kemampuan keuangan Daerah."
+                            "nomor": "28",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib melakukan perencanaan, penyelenggaraan, dan evaluasi tentang pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas yang bertujuan untuk menyinergikan, mengharmonisasikan, dan mengefektifkan pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas. 18"
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Dalam hal efektivitas pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (1), Pemerintah Daerah wajib merumuskannya dalam rencana induk."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas dilaksanakan sesuai dengan kemampuan keuangan Daerah."
+                                }
+                            ]
                         }
                     ]
                 },
@@ -304,10 +336,31 @@
                     "bagian": "BAGIAN KEDUA",
                     "judul": "Bagian Kedua Perencanaan",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 29",
-                            "isi": "Pasal 29 (1) Perencanaan Penghormatan, Pelindungan dan Pemenuhan hak Penyandang Disabilitas sebagaimana dimaksud dalam Pasal 28 ayat (1), dirumuskan dalam Rencana Aksi Daerah Penyandang Disabilitas setiap periode 5 (lima) tahun. (2) Perencanaan terhadap Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas untuk periode 1 (satu) tahun, disusun dalam program dan kegiatan Perangkat Daerah dan Pemerintah Daerah terkait pelindungan dan pemenuhan hak Penyandang Disabilitas dalam dokumen perencanaan dan penganggaran pembangunan tingkat Daerah. (3) Penyusunan Rencana Aksi Daerah Penyandang Disabilitas sebagaimana dimaksud ayat (2) mengacu pada : a. Rencana Aksi Penyandang Disabilitas Nasional; b. Rencana Aksi Penyandang Disabilitas Provinsi; c. Rencana Pembangunan Jangka Panjang Daerah; dan d. Rencana Pembangunan Jangka Menengah Daerah. (4) Pemerintah Daerah menjamin pelibatan Penyandang Disabilitas dalam proses perencanaan yang inklusif melalui: a. Forum Tematik Disabilitas dalam proses perencanaan; dan b. sosialisasi Pemerintah Daerah tentang inklusifitas penyandang Disabilitas dalam perencanaan. (5) Ketentuan lebih lanjut mengenai Rencana Aksi Daerah Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Bupati. 19"
+                            "nomor": "29",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Perencanaan Penghormatan, Pelindungan dan Pemenuhan hak Penyandang Disabilitas sebagaimana dimaksud dalam Pasal 28 ayat (1), dirumuskan dalam Rencana Aksi Daerah Penyandang Disabilitas setiap periode 5 (lima) tahun."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Perencanaan terhadap Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas untuk periode 1 (satu) tahun, disusun dalam program dan kegiatan Perangkat Daerah dan Pemerintah Daerah terkait pelindungan dan pemenuhan hak Penyandang Disabilitas dalam dokumen perencanaan dan penganggaran pembangunan tingkat Daerah."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Penyusunan Rencana Aksi Daerah Penyandang Disabilitas sebagaimana dimaksud ayat (2) mengacu pada : a. Rencana Aksi Penyandang Disabilitas Nasional; b. Rencana Aksi Penyandang Disabilitas Provinsi; c. Rencana Pembangunan Jangka Panjang Daerah; dan d. Rencana Pembangunan Jangka Menengah Daerah."
+                                },
+                                {
+                                    "ayat": "4",
+                                    "teks": "Pemerintah Daerah menjamin pelibatan Penyandang Disabilitas dalam proses perencanaan yang inklusif melalui: a. Forum Tematik Disabilitas dalam proses perencanaan; dan b. sosialisasi Pemerintah Daerah tentang inklusifitas penyandang Disabilitas dalam perencanaan."
+                                },
+                                {
+                                    "ayat": "5",
+                                    "teks": "Ketentuan lebih lanjut mengenai Rencana Aksi Daerah Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Bupati. 19"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -315,70 +368,179 @@
                     "bagian": "BAGIAN KETIGA",
                     "judul": "Bagian ketiga Pelindungan Hukum Bagian Ketiga Pendidikan",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 30",
-                            "isi": "Pasal 30 Pemerintah Daerah wajib menjamin dan melindungi hak Penyandang Disabilitas sebagai subjek hukum untuk melakukan tindakan hukum yang sama dengan lainnya."
+                            "nomor": "30",
+                            "isi": "Pemerintah Daerah wajib menjamin dan melindungi hak Penyandang Disabilitas sebagai subjek hukum untuk melakukan tindakan hukum yang sama dengan lainnya."
                         },
                         {
-                            "nomor": "PASAL 31",
-                            "isi": "Pasal 31 Pemerintah Daerah wajib menyediakan bantuan hukum kepada Penyandang Disabilitas dalam setiap pemeriksaan pada setiap lembaga penegak hukum dalam hal keperdataan dan/atau pidana sesuai dengan ketentuan peraturan perundang-undangan."
+                            "nomor": "31",
+                            "isi": "Pemerintah Daerah wajib menyediakan bantuan hukum kepada Penyandang Disabilitas dalam setiap pemeriksaan pada setiap lembaga penegak hukum dalam hal keperdataan dan/atau pidana sesuai dengan ketentuan peraturan perundang-undangan."
                         },
                         {
-                            "nomor": "PASAL 32",
-                            "isi": "Pasal 32 (1) Penegak hukum sebelum memeriksa Penyandang Disabilitas wajib meminta pertimbangan atau saran dari: a. dokter atau tenaga kesehatan lainnya mengenai kondisi kesehatan; b. psikolog atau psikiater mengenai kondisi kejiwaan; dan/atau c. pekerja sosial mengenai kondisi psikososial. (2) Dalam hal pertimbangan atau saran sebagaimana dimaksud pada ayat (1) tidak memungkinkan dilakukan pemeriksaan, maka dilakukan penundaan hingga waktu tertentu."
+                            "nomor": "32",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Penegak hukum sebelum memeriksa Penyandang Disabilitas wajib meminta pertimbangan atau saran dari: a. dokter atau tenaga kesehatan lainnya mengenai kondisi kesehatan; b. psikolog atau psikiater mengenai kondisi kejiwaan; dan/atau c. pekerja sosial mengenai kondisi psikososial."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Dalam hal pertimbangan atau saran sebagaimana dimaksud pada ayat (1) tidak memungkinkan dilakukan pemeriksaan, maka dilakukan penundaan hingga waktu tertentu."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 33",
-                            "isi": "Pasal 33 Penegak hukum dalam melakukan pemeriksaan terhadap anak Penyandang Disabilitas wajib mengizinkan kepada orang tua atau keluarga anak dan pendamping atau penerjemah untuk mendampingi anak Penyandang Disabilitas. 20"
+                            "nomor": "33",
+                            "isi": "Penegak hukum dalam melakukan pemeriksaan terhadap anak Penyandang Disabilitas wajib mengizinkan kepada orang tua atau keluarga anak dan pendamping atau penerjemah untuk mendampingi anak Penyandang Disabilitas. 20"
                         },
                         {
-                            "nomor": "PASAL 34",
-                            "isi": "Pasal 34 Penyandang Disabilitas dapat dinyatakan tidak cakap berdasarkan penetapan pengadilan negeri."
+                            "nomor": "34",
+                            "isi": "Penyandang Disabilitas dapat dinyatakan tidak cakap berdasarkan penetapan pengadilan negeri."
                         },
                         {
-                            "nomor": "PASAL 35",
-                            "isi": "Pasal 35 (1) Penetapan pengadilan negeri sebagaimana dimaksud dalam Pasal 34 diajukan melalui permohonan kepada pengadilan negeri tempat tinggal Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan. (2) Permohonan penetapan sebagaimana dimaksud pada ayat (1) didasarkan pada alasan yang jelas dan wajib menghadirkan atau melampirkan bukti dari dokter, psikolog, dan/atau psikiater. (3) Keluarga Penyandang Disabilitas berhak menunjuk seseorang untuk mewakili kepentingannya pada saat Penyandang Disabilitas ditetapkan tidak cakap oleh pengadilan negeri. (4) Dalam hal seseorang sebagaimana dimaksud pada ayat (3) ditunjuk mewakili kepentingan Penyandang Disabilitas melakukan tindakan yang berdampak kepada bertambah, berkurang, atau hilangnya hak kepemilikan Penyandang Disabilitas wajib mendapat penetapan dari pengadilan negeri."
+                            "nomor": "35",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Penetapan pengadilan negeri sebagaimana dimaksud dalam Pasal 34 diajukan melalui permohonan kepada pengadilan negeri tempat tinggal Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Permohonan penetapan sebagaimana dimaksud pada ayat (1) didasarkan pada alasan yang jelas dan wajib menghadirkan atau melampirkan bukti dari dokter, psikolog, dan/atau psikiater."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Keluarga Penyandang Disabilitas berhak menunjuk seseorang untuk mewakili kepentingannya pada saat Penyandang Disabilitas ditetapkan tidak cakap oleh pengadilan negeri."
+                                },
+                                {
+                                    "ayat": "4",
+                                    "teks": "Dalam hal seseorang sebagaimana dimaksud pada ayat (3) ditunjuk mewakili kepentingan Penyandang Disabilitas melakukan tindakan yang berdampak kepada bertambah, berkurang, atau hilangnya hak kepemilikan Penyandang Disabilitas wajib mendapat penetapan dari pengadilan negeri."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 36",
-                            "isi": "Pasal 36 (1) Penetapan pengadilan negeri sebagaimana dimaksud dalam Pasal 34 dapat dibatalkan. (2) Pembatalan penetapan pengadilan negeri sebagaimana dimaksud pada ayat (1) diajukan ke pengadilan negeri tempat tinggal Penyandang Disabilitas. (3) Pembatalan sebagaimana dimaksud pada ayat (1) diajukan oleh Penyandang Disabilitas atau keluarganya dengan menghadirkan atau melampirkan bukti dari dokter, psikolog, dan/atau psikiater bahwa yang bersangkutan dinilai mampu dan cakap untuk mengambil keputusan. 21"
+                            "nomor": "36",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Penetapan pengadilan negeri sebagaimana dimaksud dalam Pasal 34 dapat dibatalkan."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Pembatalan penetapan pengadilan negeri sebagaimana dimaksud pada ayat (1) diajukan ke pengadilan negeri tempat tinggal Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Pembatalan sebagaimana dimaksud pada ayat (1) diajukan oleh Penyandang Disabilitas atau keluarganya dengan menghadirkan atau melampirkan bukti dari dokter, psikolog, dan/atau psikiater bahwa yang bersangkutan dinilai mampu dan cakap untuk mengambil keputusan. 21"
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 37",
-                            "isi": "Pasal 37 Proses peradilan pidana bagi Penyandang Disabilitas dilaksanakan sesuai dengan ketentuan hukum acara pidana."
+                            "nomor": "37",
+                            "isi": "Proses peradilan pidana bagi Penyandang Disabilitas dilaksanakan sesuai dengan ketentuan hukum acara pidana."
                         },
                         {
-                            "nomor": "PASAL 38",
-                            "isi": "Pasal 38 Lembaga penegak hukum wajib menyediakan Akomodasi yang Layak bagi Penyandang Disabilitas dalam proses peradilan."
+                            "nomor": "38",
+                            "isi": "Lembaga penegak hukum wajib menyediakan Akomodasi yang Layak bagi Penyandang Disabilitas dalam proses peradilan."
                         },
                         {
-                            "nomor": "PASAL 39",
-                            "isi": "Pasal 39 (1) Rumah tahanan negara dan lembaga permasyarakatan wajib menyediakan Unit Layanan Disabilitas. (2) Unit Layanan Disabilitas sebagaimana dimaksud pada ayat (1) berfungsi: a. menyediakan pelayanan masa adaptasi bagi tahanan Penyandang Disabilitas selama 6 (enam) bulan; b. menyediakan kebutuhan khusus, termasuk obat-obatan yang melekat pada Penyandang Disabilitas dalam masa tahanan dan pembinaan; dan c. menyediakan layanan rehabilitasi untuk Penyandang Disabilitas mental."
+                            "nomor": "39",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Rumah tahanan negara dan lembaga permasyarakatan wajib menyediakan Unit Layanan Disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Unit Layanan Disabilitas sebagaimana dimaksud pada ayat (1) berfungsi: a. menyediakan pelayanan masa adaptasi bagi tahanan Penyandang Disabilitas selama 6 (enam) bulan; b. menyediakan kebutuhan khusus, termasuk obat-obatan yang melekat pada Penyandang Disabilitas dalam masa tahanan dan pembinaan; dan c. menyediakan layanan rehabilitasi untuk Penyandang Disabilitas mental."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 40",
-                            "isi": "Pasal 40 Pembantaran terhadap Penyandang Disabilitas mental wajib ditempatkan dalam layanan rumah sakit jiwa atau pusat rehabilitasi."
+                            "nomor": "40",
+                            "isi": "Pembantaran terhadap Penyandang Disabilitas mental wajib ditempatkan dalam layanan rumah sakit jiwa atau pusat rehabilitasi."
                         },
                         {
-                            "nomor": "PASAL 41",
-                            "isi": "Pasal 41 (1) Pemerintah Daerah wajib melakukan sosialisasi perlindungan hukum kepada masyarakat dan aparatur sipil negara tentang Pelindungan Penyandang Disabilitas. (2) Sosialisasi sebagaimana dimaksud pada ayat (1) meliputi: a. pencegahan; b. pengenalan tindak pidana; dan c. laporan dan pengaduan kasus eksploitasi, kekerasan, dan pelecehan. 22"
+                            "nomor": "41",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib melakukan sosialisasi perlindungan hukum kepada masyarakat dan aparatur sipil negara tentang Pelindungan Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Sosialisasi sebagaimana dimaksud pada ayat (1) meliputi: a. pencegahan; b. pengenalan tindak pidana; dan c. laporan dan pengaduan kasus eksploitasi, kekerasan, dan pelecehan. 22"
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 42",
-                            "isi": "Pasal 42 (1) Pemerintah Daerah wajib menyelenggarakan dan/atau memfasilitasi pendidikan untuk Penyandang Disabilitas di setiap jalur, jenis, dan jenjang pendidikan sesuai dengan kewenangannya. (2) Penyelenggaraan dan/atau fasilitasi pendidikan untuk Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dilaksanakan dalam sistem pendidikan nasional melalui pendidikan inklusif dan pendidikan khusus. (3) Dalam rangka mewujudkan ketentuan sebagaimana dimaksud pada ayat (1), Pemerintah Daerah berkewajiban: a. mengikutsertakan anak Penyandang Disabilitas dalam program wajib belajar 9 (sembilan) tahun; b. mengutamakan anak Penyandang Disabilitas bersekolah di lokasi yang dekat tempat tinggalnya; c. menyediakan beasiswa untuk peserta didik Penyandang Disabilitas berprestasi yang orang tuanya tidak mampu membiayai pendidikannya; dan d. menyediakan biaya pendidikan untuk anak dari Penyandang Disabilitas yang tidak mampu membiayai pendidikannya. (4) Pemerintah Daerah memfasilitasi Penyandang Disabilitas yang tidak berpendidikan formal untuk mendapatkan ijazah pendidikan dasar dan menengah melalui program kesetaraan."
+                            "nomor": "42",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib menyelenggarakan dan/atau memfasilitasi pendidikan untuk Penyandang Disabilitas di setiap jalur, jenis, dan jenjang pendidikan sesuai dengan kewenangannya."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Penyelenggaraan dan/atau fasilitasi pendidikan untuk Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dilaksanakan dalam sistem pendidikan nasional melalui pendidikan inklusif dan pendidikan khusus."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Dalam rangka mewujudkan ketentuan sebagaimana dimaksud pada ayat (1), Pemerintah Daerah berkewajiban: a. mengikutsertakan anak Penyandang Disabilitas dalam program wajib belajar 9 (sembilan) tahun; b. mengutamakan anak Penyandang Disabilitas bersekolah di lokasi yang dekat tempat tinggalnya; c. menyediakan beasiswa untuk peserta didik Penyandang Disabilitas berprestasi yang orang tuanya tidak mampu membiayai pendidikannya; dan d. menyediakan biaya pendidikan untuk anak dari Penyandang Disabilitas yang tidak mampu membiayai pendidikannya."
+                                },
+                                {
+                                    "ayat": "4",
+                                    "teks": "Pemerintah Daerah memfasilitasi Penyandang Disabilitas yang tidak berpendidikan formal untuk mendapatkan ijazah pendidikan dasar dan menengah melalui program kesetaraan."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 43",
-                            "isi": "Pasal 43 (1) Pemerintah Daerah dalam menyelenggarakan dan/atau memfasilitasi pendidikan inklusif dan pendidikan khusus sebagaimana dimaksud dalam Pasal 42 ayat (2) wajib memfasilitasi Penyandang Disabilitas untuk mempelajari keterampilan dasar yang dibutuhkan untuk kemandirian dan partisipasi penuh dalam menempuh pendidikan dan pengembangan sosial. 23 (2) Keterampilan dasar sebagaimana dimaksud pada ayat (1) meliputi: a. keterampilan menulis dan membaca huruf braille untuk Penyandang Disabilitas netra; b. keterampilan orientasi dan mobilitas; c. keterampilan sistem dukungan dan bimbingan sesama Penyandang Disabilitas; d. keterampilan komunikasi dalam bentuk, sarana, dan format yang bersifat augmentatif dan alternatif; dan e. keterampilan bahasa isyarat dan pemajuan identitas linguistik dari komunitas Penyandang Disabilitas tuna rungu."
+                            "nomor": "43",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah dalam menyelenggarakan dan/atau memfasilitasi pendidikan inklusif dan pendidikan khusus sebagaimana dimaksud dalam Pasal 42 ayat"
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "wajib memfasilitasi Penyandang Disabilitas untuk mempelajari keterampilan dasar yang dibutuhkan untuk kemandirian dan partisipasi penuh dalam menempuh pendidikan dan pengembangan sosial. 23 (2) Keterampilan dasar sebagaimana dimaksud pada ayat (1) meliputi: a. keterampilan menulis dan membaca huruf braille untuk Penyandang Disabilitas netra; b. keterampilan orientasi dan mobilitas; c. keterampilan sistem dukungan dan bimbingan sesama Penyandang Disabilitas; d. keterampilan komunikasi dalam bentuk, sarana, dan format yang bersifat augmentatif dan alternatif; dan e. keterampilan bahasa isyarat dan pemajuan identitas linguistik dari komunitas Penyandang Disabilitas tuna rungu."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 44",
-                            "isi": "Pasal 44 (1) Pemerintah Daerah wajib memfasilitasi pembentukan Unit Layanan Disabilitas untuk mendukung penyelenggaraan pendidikan inklusif tingkat dasar. (2) Unit Layanan Disabilitas sebagaimana dimaksud pada ayat (1) berfungsi: a. meningkatkan kompetensi pendidik dan tenaga kependidikan di sekolah reguler dalam menangani peserta didik Penyandang Disabilitas; b. menyediakan pendampingan kepada peserta didik Penyandang Disabilitas untuk mendukung kelancaran proses pembelajaran; c. mengembangkan program kompensatorik; d. menyediakan media pembelajaran dan Alat Bantu yang diperlukan peserta didik Penyandang Disabilitas; e. melakukan deteksi dini dan intervensi dini bagi peserta didik dan calon peserta didik Penyandang Disabilitas; f. menyediakan data dan informasi tentang disabilitas; g. menyediakan layanan konsultasi; dan h. mengembangkan kerja sama dengan pihak atau lembaga lain dalam upaya meningkatkan kualitas pendidikan peserta didik Penyandang Disabilitas. (3) Penyediaan dan peningkatan kompetensi pendidik dan tenaga kependidikan dalam menangani peserta didik Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) huruf a dilakukan melalui program dan kegiatan tertentu. 24"
+                            "nomor": "44",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib memfasilitasi pembentukan Unit Layanan Disabilitas untuk mendukung penyelenggaraan pendidikan inklusif tingkat dasar."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Unit Layanan Disabilitas sebagaimana dimaksud pada ayat (1) berfungsi: a. meningkatkan kompetensi pendidik dan tenaga kependidikan di sekolah reguler dalam menangani peserta didik Penyandang Disabilitas; b. menyediakan pendampingan kepada peserta didik Penyandang Disabilitas untuk mendukung kelancaran proses pembelajaran; c. mengembangkan program kompensatorik; d. menyediakan media pembelajaran dan Alat Bantu yang diperlukan peserta didik Penyandang Disabilitas; e. melakukan deteksi dini dan intervensi dini bagi peserta didik dan calon peserta didik Penyandang Disabilitas; f. menyediakan data dan informasi tentang disabilitas; g. menyediakan layanan konsultasi; dan h. mengembangkan kerja sama dengan pihak atau lembaga lain dalam upaya meningkatkan kualitas pendidikan peserta didik Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Penyediaan dan peningkatan kompetensi pendidik dan tenaga kependidikan dalam menangani peserta didik Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) huruf a dilakukan melalui program dan kegiatan tertentu. 24"
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 45",
-                            "isi": "Pasal 45 (1) Pemerintah Daerah wajib memfasilitasi lembaga penyelenggara pendidikan dalam menyediakan Akomodasi yang Layak. (2) Penyelenggara pendidikan yang tidak menyediakan Akomodasi yang Layak untuk peserta didik Penyandang Disabilitas dikenai sanksi administratif berupa: a. teguran tertulis; b. penghentian kegiatan pendidikan; c. pembekuan izin penyelenggaraan pendidikan; dan d. pencabutan izin penyelenggaraan pendidikan. (3) Ketentuan lebih lanjut mengenai penyediaan Akomodasi yang Layak untuk peserta didik Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dan mekanisme pemberian sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Bupati."
+                            "nomor": "45",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib memfasilitasi lembaga penyelenggara pendidikan dalam menyediakan Akomodasi yang Layak."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Penyelenggara pendidikan yang tidak menyediakan Akomodasi yang Layak untuk peserta didik Penyandang Disabilitas dikenai sanksi administratif berupa: a. teguran tertulis; b. penghentian kegiatan pendidikan; c. pembekuan izin penyelenggaraan pendidikan; dan d. pencabutan izin penyelenggaraan pendidikan."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Ketentuan lebih lanjut mengenai penyediaan Akomodasi yang Layak untuk peserta didik Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dan mekanisme pemberian sanksi administratif sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Bupati."
+                                }
+                            ]
                         }
                     ]
                 },
@@ -386,70 +548,131 @@
                     "bagian": "BAGIAN KEEMPAT",
                     "judul": "Bagian Keempat Pekerjaan, Kewirausahaan, dan Koperasi",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 46",
-                            "isi": "Pasal 46 Pemerintah Daerah wajib menjamin proses rekrutmen, penerimaan, pelatihan kerja, penempatan kerja, keberlanjutan kerja, dan pengembangan karier yang adil dan tanpa Diskriminasi kepada Penyandang Disabilitas."
+                            "nomor": "46",
+                            "isi": "Pemerintah Daerah wajib menjamin proses rekrutmen, penerimaan, pelatihan kerja, penempatan kerja, keberlanjutan kerja, dan pengembangan karier yang adil dan tanpa Diskriminasi kepada Penyandang Disabilitas."
                         },
                         {
-                            "nomor": "PASAL 47",
-                            "isi": "Pasal 47 (1) Pemerintah Daerah wajib memberikan kesempatan kepada Penyandang Disabilitas untuk mengikuti pelatihan keterampilan kerja di lembaga pelatihan kerja Pemerintah Daerah dan/atau swasta. (2) Lembaga pelatihan kerja sebagaimana dimaksud pada ayat (1) harus bersifat inklusif dan mudah diakses. 25"
+                            "nomor": "47",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib memberikan kesempatan kepada Penyandang Disabilitas untuk mengikuti pelatihan keterampilan kerja di lembaga pelatihan kerja Pemerintah Daerah dan/atau swasta."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Lembaga pelatihan kerja sebagaimana dimaksud pada ayat (1) harus bersifat inklusif dan mudah diakses. 25"
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 48",
-                            "isi": "Pasal 48 Pemberi Kerja dalam proses rekrutmen tenaga kerja Penyandang Disabilitas dapat: a. melakukan ujian penempatan untuk mengetahui minat, bakat, dan kemampuan; b. menyediakan asistensi dalam proses pengisian formulir aplikasi dan proses lainnya yang diperlukan; c. menyediakan alat dan bentuk tes yang sesuai dengan kondisi disabilitas; dan d. memberikan keleluasaan dalam waktu pengerjaan tes sesuai dengan kondisi Penyandang Disabilitas."
+                            "nomor": "48",
+                            "isi": "Pemberi Kerja dalam proses rekrutmen tenaga kerja Penyandang Disabilitas dapat: a. melakukan ujian penempatan untuk mengetahui minat, bakat, dan kemampuan; b. menyediakan asistensi dalam proses pengisian formulir aplikasi dan proses lainnya yang diperlukan; c. menyediakan alat dan bentuk tes yang sesuai dengan kondisi disabilitas; dan d. memberikan keleluasaan dalam waktu pengerjaan tes sesuai dengan kondisi Penyandang Disabilitas."
                         },
                         {
-                            "nomor": "PASAL 49",
-                            "isi": "Pasal 49 Pemberi Kerja dalam penempatan tenaga kerja Penyandang Disabilitas dapat: a. memberikan kesempatan untuk masa orientasi atau adaptasi di awal masa kerja untuk menentukan apa yang diperlukan, termasuk penyelenggaraan pelatihan atau magang; b. menyediakan tempat bekerja yang fleksibel dengan menyesuaikan kepada ragam disabilitas tanpa mengurangi target tugas kerja; c. menyediakan waktu istirahat; d. menyediakan jadwal kerja yang fleksibel dengan tetap memenuhi alokasi waktu kerja; e. memberikan asistensi dalam pelaksanaan pekerjaan dengan memperhatikan kebutuhan khusus Penyandang Disabilitas; dan f. memberikan izin atau cuti khusus untuk pengobatan."
+                            "nomor": "49",
+                            "isi": "Pemberi Kerja dalam penempatan tenaga kerja Penyandang Disabilitas dapat: a. memberikan kesempatan untuk masa orientasi atau adaptasi di awal masa kerja untuk menentukan apa yang diperlukan, termasuk penyelenggaraan pelatihan atau magang; b. menyediakan tempat bekerja yang fleksibel dengan menyesuaikan kepada ragam disabilitas tanpa mengurangi target tugas kerja; c. menyediakan waktu istirahat; d. menyediakan jadwal kerja yang fleksibel dengan tetap memenuhi alokasi waktu kerja; e. memberikan asistensi dalam pelaksanaan pekerjaan dengan memperhatikan kebutuhan khusus Penyandang Disabilitas; dan f. memberikan izin atau cuti khusus untuk pengobatan."
                         },
                         {
-                            "nomor": "PASAL 50",
-                            "isi": "Pasal 50 Pemberi Kerja wajib memberi upah kepada tenaga kerja Penyandang Disabilitas yang sama dengan tenaga kerja yang bukan Penyandang Disabilitas dengan jenis pekerjaan dan tanggung jawab yang sama. 26"
+                            "nomor": "50",
+                            "isi": "Pemberi Kerja wajib memberi upah kepada tenaga kerja Penyandang Disabilitas yang sama dengan tenaga kerja yang bukan Penyandang Disabilitas dengan jenis pekerjaan dan tanggung jawab yang sama. 26"
                         },
                         {
-                            "nomor": "PASAL 51",
-                            "isi": "Pasal 51 (1) Pemberi Kerja wajib menyediakan Akomodasi yang Layak dan fasilitas yang mudah diakses oleh tenaga kerja Penyandang Disabilitas. (2) Pemberi Kerja wajib membuka mekanisme pengaduan atas tidak terpenuhinya hak Penyandang Disabilitas. (3) Pemerintah Daerah wajib menyosialisasikan penyediaan Akomodasi yang layak dan fasilitas yang mudah diakses oleh tenaga kerja Penyandang Disabilitas. (4) Pemberi Kerja yang tidak melaksanakan ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa: a. teguran tertulis; b. penghentian kegiatan operasional; c. pembekuan izin usaha; dan d. pencabutan izin usaha."
+                            "nomor": "51",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemberi Kerja wajib menyediakan Akomodasi yang Layak dan fasilitas yang mudah diakses oleh tenaga kerja Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Pemberi Kerja wajib membuka mekanisme pengaduan atas tidak terpenuhinya hak Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Pemerintah Daerah wajib menyosialisasikan penyediaan Akomodasi yang layak dan fasilitas yang mudah diakses oleh tenaga kerja Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "4",
+                                    "teks": "Pemberi Kerja yang tidak melaksanakan ketentuan sebagaimana dimaksud pada ayat (1) dikenai sanksi administratif berupa: a. teguran tertulis; b. penghentian kegiatan operasional; c. pembekuan izin usaha; dan d. pencabutan izin usaha."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 52",
-                            "isi": "Pasal 52 Pemberi Kerja wajib menjamin agar Penyandang Disabilitas dapat melaksanakan hak berserikat dan berkumpul dalam lingkungan pekerjaan."
+                            "nomor": "52",
+                            "isi": "Pemberi Kerja wajib menjamin agar Penyandang Disabilitas dapat melaksanakan hak berserikat dan berkumpul dalam lingkungan pekerjaan."
                         },
                         {
-                            "nomor": "PASAL 53",
-                            "isi": "Pasal 53 Pemerintah Daerah wajib menjamin akses yang setara bagi Penyandang Disabilitas terhadap manfaat dan program dalam sistem jaminan sosial nasional di bidang ketenagakerjaan."
+                            "nomor": "53",
+                            "isi": "Pemerintah Daerah wajib menjamin akses yang setara bagi Penyandang Disabilitas terhadap manfaat dan program dalam sistem jaminan sosial nasional di bidang ketenagakerjaan."
                         },
                         {
-                            "nomor": "PASAL 54",
-                            "isi": "Pasal 54 (1) Pemerintah Daerah dan Badan Usaha Milik Daerah wajib mempekerjakan paling sedikit 2% (dua persen) Penyandang Disabilitas dari jumlah pegawai atau pekerja. (2) Perusahaan swasta wajib mempekerjakan paling sedikit 1% (satu persen) Penyandang Disabilitas dari jumlah pegawai atau pekerja. 27"
+                            "nomor": "54",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah dan Badan Usaha Milik Daerah wajib mempekerjakan paling sedikit 2% (dua persen) Penyandang Disabilitas dari jumlah pegawai atau pekerja."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Perusahaan swasta wajib mempekerjakan paling sedikit 1% (satu persen) Penyandang Disabilitas dari jumlah pegawai atau pekerja. 27"
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 55",
-                            "isi": "Pasal 55 (1) Pemerintah Daerah dapat memberikan insentif kepada perusahaan swasta yang mempekerjakan Penyandang Disabilitas. (2) Ketentuan mengenai bentuk dan tata cara pemberian insentif sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bupati."
+                            "nomor": "55",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah dapat memberikan insentif kepada perusahaan swasta yang mempekerjakan Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Ketentuan mengenai bentuk dan tata cara pemberian insentif sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bupati."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 56",
-                            "isi": "Pasal 56 (1) Pemerintah Daerah wajib memiliki Unit Layanan Disabilitas pada perangkat daerah yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan. (2) Tugas Unit Layanan Disabilitas sebagaimana dimaksud pada ayat (1) meliputi: a. merencanakan Penghormatan, Pelindungan, dan Pemenuhan hak atas pekerjaan Penyandang Disabilitas; b. memberikan informasi kepada Pemerintah Daerah dan perusahaan swasta mengenai proses rekrutmen, penerimaan, pelatihan kerja, penempatan kerja, keberlanjutan kerja, dan pengembangan karier yang adil dan tanpa Diskriminasi kepada Penyandang Disabilitas; c. menyediakan pendampingan kepada tenaga kerja Penyandang Disabilitas; d. menyediakan pendampingan kepada Pemberi Kerja yang menerima tenaga kerja Penyandang Disabilitas; dan e. mengoordinasikan Unit Layanan Disabilitas, Pemberi Kerja, dan tenaga kerja dalam Pemenuhan dan penyediaan Alat Bantu kerja untuk Penyandang Disabilitas. (3) Anggaran pembentukan Unit Layanan Disabilitas berasal dari Anggaran Pendapatan dan Belanja Daerah. (4) Ketentuan lebih lanjut mengenai Unit Layanan Disabilitas diatur dengan Peraturan Bupati."
+                            "nomor": "56",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib memiliki Unit Layanan Disabilitas pada perangkat daerah yang menyelenggarakan urusan pemerintahan di bidang ketenagakerjaan."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Tugas Unit Layanan Disabilitas sebagaimana dimaksud pada ayat (1) meliputi: a. merencanakan Penghormatan, Pelindungan, dan Pemenuhan hak atas pekerjaan Penyandang Disabilitas; b. memberikan informasi kepada Pemerintah Daerah dan perusahaan swasta mengenai proses rekrutmen, penerimaan, pelatihan kerja, penempatan kerja, keberlanjutan kerja, dan pengembangan karier yang adil dan tanpa Diskriminasi kepada Penyandang Disabilitas; c. menyediakan pendampingan kepada tenaga kerja Penyandang Disabilitas; d. menyediakan pendampingan kepada Pemberi Kerja yang menerima tenaga kerja Penyandang Disabilitas; dan e. mengoordinasikan Unit Layanan Disabilitas, Pemberi Kerja, dan tenaga kerja dalam Pemenuhan dan penyediaan Alat Bantu kerja untuk Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Anggaran pembentukan Unit Layanan Disabilitas berasal dari Anggaran Pendapatan dan Belanja Daerah."
+                                },
+                                {
+                                    "ayat": "4",
+                                    "teks": "Ketentuan lebih lanjut mengenai Unit Layanan Disabilitas diatur dengan Peraturan Bupati."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 57",
-                            "isi": "Pasal 57 Pemerintah Daerah wajib memberikan jaminan, Pelindungan, dan pendampingan kepada Penyandang Disabilitas untuk berwirausaha dan mendirikan badan usaha sesuai dengan ketentuan peraturan perundang-undangan. 28"
+                            "nomor": "57",
+                            "isi": "Pemerintah Daerah wajib memberikan jaminan, Pelindungan, dan pendampingan kepada Penyandang Disabilitas untuk berwirausaha dan mendirikan badan usaha sesuai dengan ketentuan peraturan perundang-undangan. 28"
                         },
                         {
-                            "nomor": "PASAL 58",
-                            "isi": "Pasal 58 Pemerintah Daerah dapat memberikan bantuan dan akses permodalan untuk usaha mandiri, badan usaha, dan/atau koperasi yang diselenggarakan oleh Penyandang Disabilitas."
+                            "nomor": "58",
+                            "isi": "Pemerintah Daerah dapat memberikan bantuan dan akses permodalan untuk usaha mandiri, badan usaha, dan/atau koperasi yang diselenggarakan oleh Penyandang Disabilitas."
                         },
                         {
-                            "nomor": "PASAL 59",
-                            "isi": "Pasal 59 Pemerintah Daerah wajib memperluas peluang dalam pengadaan barang dan jasa kepada unit usaha mandiri yang diselenggarakan oleh Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan."
+                            "nomor": "59",
+                            "isi": "Pemerintah Daerah wajib memperluas peluang dalam pengadaan barang dan jasa kepada unit usaha mandiri yang diselenggarakan oleh Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan."
                         },
                         {
-                            "nomor": "PASAL 60",
-                            "isi": "Pasal 60 Pemerintah Daerah wajib memfasilitasi pemasaran produk yang dihasilkan oleh unit usaha mandiri yang diselenggarakan oleh Penyandang Disabilitas."
+                            "nomor": "60",
+                            "isi": "Pemerintah Daerah wajib memfasilitasi pemasaran produk yang dihasilkan oleh unit usaha mandiri yang diselenggarakan oleh Penyandang Disabilitas."
                         },
                         {
-                            "nomor": "PASAL 61",
-                            "isi": "Pasal 61 Pemerintah Daerah wajib memberikan pelatihan kewirausahaan kepada Penyandang Disabilitas yang menjalankan unit usaha mandiri."
+                            "nomor": "61",
+                            "isi": "Pemerintah Daerah wajib memberikan pelatihan kewirausahaan kepada Penyandang Disabilitas yang menjalankan unit usaha mandiri."
                         }
                     ]
                 },
@@ -457,62 +680,141 @@
                     "bagian": "BAGIAN KELIMA",
                     "judul": "Bagian Kelima Kesehatan",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 62",
-                            "isi": "Pasal 62 (1) Pemerintah Daerah dan swasta wajib memastikan fasilitas pelayanan kesehatan menerima pasien Penyandang Disabilitas. (2) Pemerintah Daerah dan swasta wajib menyediakan fasilitas pelayanan kesehatan kepada Penyandang Disabilitas tanpa Diskriminasi sesuai dengan standar dan ketentuan peraturan perundang-undangan. 29"
+                            "nomor": "62",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah dan swasta wajib memastikan fasilitas pelayanan kesehatan menerima pasien Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Pemerintah Daerah dan swasta wajib menyediakan fasilitas pelayanan kesehatan kepada Penyandang Disabilitas tanpa Diskriminasi sesuai dengan standar dan ketentuan peraturan perundang-undangan. 29"
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 63",
-                            "isi": "Pasal 63 (1) Pemerintah Daerah dan swasta wajib memberikan pelayanan kesehatan untuk Penyandang Disabilitas tanpa Diskriminasi sesuai dengan standar dan ketentuan peraturan perundang-undangan. (2) Pelayanan kesehatan bagi Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) harus diberikan oleh tenaga kesehatan yang memiliki kompetensi dan kewenangan untuk melakukan pelayanan terhadap Penyandang Disabilitas. (3) Pemerintah Daerah menjamin pelayanan kesehatan bagi Penyandang Disabilitas dalam program jaminan kesehatan nasional sesuai dengan ketentuan peraturan perundang-undangan."
+                            "nomor": "63",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah dan swasta wajib memberikan pelayanan kesehatan untuk Penyandang Disabilitas tanpa Diskriminasi sesuai dengan standar dan ketentuan peraturan perundang-undangan."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Pelayanan kesehatan bagi Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) harus diberikan oleh tenaga kesehatan yang memiliki kompetensi dan kewenangan untuk melakukan pelayanan terhadap Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Pemerintah Daerah menjamin pelayanan kesehatan bagi Penyandang Disabilitas dalam program jaminan kesehatan nasional sesuai dengan ketentuan peraturan perundang-undangan."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 64",
-                            "isi": "Pasal 64 (1) Pemerintah Daerah wajib menyediakan tenaga kesehatan yang memiliki kompetensi dan kewenangan dalam pelayanan kesehatan bagi Penyandang Disabilitas dari fasilitas kesehatan tingkat pertama sampai ke tingkat lanjut. (2) Dalam hal tenaga kesehatan yang memiliki kompetensi dan kewenangan dalam pelayanan kesehatan bagi Penyandang Disabilitas belum tersedia, tenaga kesehatan yang ada di fasilitas pelayanan kesehatan tingkat pertama wajib merujuk kepada tenaga kesehatan yang memiliki kompetensi dan kewenangan dalam pelayanan kesehatan bagi Penyandang Disabilitas pada fasilitas pelayanan kesehatan lain. (3) Perujukan Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) dapat dilakukan secara vertikal dan horizontal. (4) Rujukan sebagaimana dimaksud pada ayat (3) dapat dilakukan dalam bentuk pengiriman pasien dan spesimen, dan melalui telemedisin. (5) Ketentuan mengenai mekanisme rujukan dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                            "nomor": "64",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib menyediakan tenaga kesehatan yang memiliki kompetensi dan kewenangan dalam pelayanan kesehatan bagi Penyandang Disabilitas dari fasilitas kesehatan tingkat pertama sampai ke tingkat lanjut."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Dalam hal tenaga kesehatan yang memiliki kompetensi dan kewenangan dalam pelayanan kesehatan bagi Penyandang Disabilitas belum tersedia, tenaga kesehatan yang ada di fasilitas pelayanan kesehatan tingkat pertama wajib merujuk kepada tenaga kesehatan yang memiliki kompetensi dan kewenangan dalam pelayanan kesehatan bagi Penyandang Disabilitas pada fasilitas pelayanan kesehatan lain."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Perujukan Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) dapat dilakukan secara vertikal dan horizontal."
+                                },
+                                {
+                                    "ayat": "4",
+                                    "teks": "Rujukan sebagaimana dimaksud pada ayat (3) dapat dilakukan dalam bentuk pengiriman pasien dan spesimen, dan melalui telemedisin."
+                                },
+                                {
+                                    "ayat": "5",
+                                    "teks": "Ketentuan mengenai mekanisme rujukan dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 65",
-                            "isi": "Pasal 65 Pemerintah Daerah wajib menjamin ketersediaan perbekalan kesehatan bagi Penyandang Disabilitas. 30"
+                            "nomor": "65",
+                            "isi": "Pemerintah Daerah wajib menjamin ketersediaan perbekalan kesehatan bagi Penyandang Disabilitas. 30"
                         },
                         {
-                            "nomor": "PASAL 66",
-                            "isi": "Pasal 66 (1) Pemerintah Daerah wajib menjamin ketersediaan pelayanan kesehatan yang dibutuhkan oleh Penyandang Disabilitas sesuai dengan kebutuhan dan ragam Disabilitasnya. (2) Ketersediaan pelayanan kesehatan yang dibutuhkan oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dirancang untuk meminimalkan hambatan dan mencegah terjadinya disabilitas lebih lanjut sesuai dengan ketentuan peraturan perundang-undangan."
+                            "nomor": "66",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib menjamin ketersediaan pelayanan kesehatan yang dibutuhkan oleh Penyandang Disabilitas sesuai dengan kebutuhan dan ragam Disabilitasnya."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Ketersediaan pelayanan kesehatan yang dibutuhkan oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dirancang untuk meminimalkan hambatan dan mencegah terjadinya disabilitas lebih lanjut sesuai dengan ketentuan peraturan perundang-undangan."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 67",
-                            "isi": "Pasal 67 Pemerintah Daerah wajib menjamin ketersediaan pelayanan rehabilitasi medis sesuai dengan kebutuhan dan ragam disabilitasnya."
+                            "nomor": "67",
+                            "isi": "Pemerintah Daerah wajib menjamin ketersediaan pelayanan rehabilitasi medis sesuai dengan kebutuhan dan ragam disabilitasnya."
                         },
                         {
-                            "nomor": "PASAL 68",
-                            "isi": "Pasal 68 Pemerintah Daerah wajib menjamin ketersediaan alat nonkesehatan yang dibutuhkan oleh Penyandang Disabilitas di fasilitas pelayanan kesehatan."
+                            "nomor": "68",
+                            "isi": "Pemerintah Daerah wajib menjamin ketersediaan alat nonkesehatan yang dibutuhkan oleh Penyandang Disabilitas di fasilitas pelayanan kesehatan."
                         },
                         {
-                            "nomor": "PASAL 69",
-                            "isi": "Pasal 69 Pemerintah Daerah wajib menyelenggarakan pelatihan tenaga kesehatan di Daerah agar mampu memberikan pelayanan kesehatan bagi Penyandang Disabilitas."
+                            "nomor": "69",
+                            "isi": "Pemerintah Daerah wajib menyelenggarakan pelatihan tenaga kesehatan di Daerah agar mampu memberikan pelayanan kesehatan bagi Penyandang Disabilitas."
                         },
                         {
-                            "nomor": "PASAL 70",
-                            "isi": "Pasal 70 Tenaga kesehatan dalam melakukan tindakan medis wajib mendapatkan persetujuan dari Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan."
+                            "nomor": "70",
+                            "isi": "Tenaga kesehatan dalam melakukan tindakan medis wajib mendapatkan persetujuan dari Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan."
                         },
                         {
-                            "nomor": "PASAL 71",
-                            "isi": "Pasal 71 Rumah Sakit yang menyediakan pelayanan psikiatri wajib memberikan pelayanan kepada Penyandang Disabilitas sesuai dengan standar. 31"
+                            "nomor": "71",
+                            "isi": "Rumah Sakit yang menyediakan pelayanan psikiatri wajib memberikan pelayanan kepada Penyandang Disabilitas sesuai dengan standar. 31"
                         },
                         {
-                            "nomor": "PASAL 72",
-                            "isi": "Pasal 72 (1) Fasilitas perawatan untuk pasien Penyandang Disabilitas mental harus dilaksanakan sesuai dengan prinsip keselamatan dan kepuasan pasien. (2) Prinsip keselamatan dan kepuasan pasien sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                            "nomor": "72",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Fasilitas perawatan untuk pasien Penyandang Disabilitas mental harus dilaksanakan sesuai dengan prinsip keselamatan dan kepuasan pasien."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Prinsip keselamatan dan kepuasan pasien sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 73",
-                            "isi": "Pasal 73 Segala tindakan medik kepada pasien Penyandang Disabilitas mental dilaksanakan sesuai dengan standar."
+                            "nomor": "73",
+                            "isi": "Segala tindakan medik kepada pasien Penyandang Disabilitas mental dilaksanakan sesuai dengan standar."
                         },
                         {
-                            "nomor": "PASAL 74",
-                            "isi": "Pasal 74 (1) Penyelenggara pelayanan kesehatan wajib menyediakan pelayanan informasi tentang disabilitas. (2) Layanan informasi sebagaimana dimaksud pada ayat (1) termasuk memberikan informasi mengenai rujukan rehabilitasi lanjutan yang tersedia bagi Penyandang Disabilitas."
+                            "nomor": "74",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Penyelenggara pelayanan kesehatan wajib menyediakan pelayanan informasi tentang disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Layanan informasi sebagaimana dimaksud pada ayat (1) termasuk memberikan informasi mengenai rujukan rehabilitasi lanjutan yang tersedia bagi Penyandang Disabilitas."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 75",
-                            "isi": "Pasal 75 (1) Pemerintah Daerah wajib menjamin akses bagi Penyandang Disabilitas terhadap pelayanan air bersih. (2) Pemerintah Daerah wajib menjamin akses terhadap fasilitas sanitasi yang layak."
+                            "nomor": "75",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib menjamin akses bagi Penyandang Disabilitas terhadap pelayanan air bersih."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Pemerintah Daerah wajib menjamin akses terhadap fasilitas sanitasi yang layak."
+                                }
+                            ]
                         }
                     ]
                 },
@@ -520,18 +822,27 @@
                     "bagian": "BAGIAN KEENAM",
                     "judul": "Bagian Keenam Politik",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 76",
-                            "isi": "Pasal 76 (1) Pemerintah Daerah wajib menjamin agar Penyandang Disabilitas dapat berpartisipasi secara efektif dan penuh dalam kehidupan politik dan publik secara langsung atau melalui perwakilan. (2) Pemerintah Daerah wajib menjamin hak dan kesempatan bagi Penyandang Disabilitas untuk memilih dan dipilih. 32"
+                            "nomor": "76",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib menjamin agar Penyandang Disabilitas dapat berpartisipasi secara efektif dan penuh dalam kehidupan politik dan publik secara langsung atau melalui perwakilan."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Pemerintah Daerah wajib menjamin hak dan kesempatan bagi Penyandang Disabilitas untuk memilih dan dipilih. 32"
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 77",
-                            "isi": "Pasal 77 Penyandang Disabilitas berhak untuk menduduki jabatan publik."
+                            "nomor": "77",
+                            "isi": "Penyandang Disabilitas berhak untuk menduduki jabatan publik."
                         },
                         {
-                            "nomor": "PASAL 78",
-                            "isi": "Pasal 78 Pemerintah Daerah wajib menjamin hak politik Penyandang Disabilitas dengan memperhatikan keragaman Disabilitas dalam pemilihan umum, pemilihan gubernur, Bupati/walikota, dan pemilihan kepala desa, termasuk: a. berpartisipasi langsung untuk ikut dalam kegiatan dalam pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa; b. mendapatkan hak untuk didata sebagai pemilih dalam pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa; c. memastikan bahwa prosedur, fasilitas, dan Alat Bantu pemilihan bersifat layak, dapat diakses, serta mudah dipahami dan digunakan; d. melindungi hak Penyandang Disabilitas untuk memilih secara rahasia tanpa intimidasi; e. melindungi hak Penyandang Disabilitas untuk mencalonkan diri dalam pemilihan, untuk memegang jabatan, dan melaksanakan seluruh fungsi publik dalam semua tingkat pemerintahan; f. menjamin Penyandang Disabilitas agar dapat memanfaatkan penggunaan teknologi baru untuk membantu pelaksanaan tugas; g. menjamin kebebasan Penyandang Disabilitas untuk memilih pendamping sesuai dengan pilihannya sendiri; h. mendapatkan informasi, sosialisasi, dan simulasi dalam setiap tahapan dalam pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa; dan i. menjamin terpenuhinya hak untuk terlibat sebagai penyelenggara dalam pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa. 33"
+                            "nomor": "78",
+                            "isi": "Pemerintah Daerah wajib menjamin hak politik Penyandang Disabilitas dengan memperhatikan keragaman Disabilitas dalam pemilihan umum, pemilihan gubernur, Bupati/walikota, dan pemilihan kepala desa, termasuk: a. berpartisipasi langsung untuk ikut dalam kegiatan dalam pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa; b. mendapatkan hak untuk didata sebagai pemilih dalam pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa; c. memastikan bahwa prosedur, fasilitas, dan Alat Bantu pemilihan bersifat layak, dapat diakses, serta mudah dipahami dan digunakan; d. melindungi hak Penyandang Disabilitas untuk memilih secara rahasia tanpa intimidasi; e. melindungi hak Penyandang Disabilitas untuk mencalonkan diri dalam pemilihan, untuk memegang jabatan, dan melaksanakan seluruh fungsi publik dalam semua tingkat pemerintahan; f. menjamin Penyandang Disabilitas agar dapat memanfaatkan penggunaan teknologi baru untuk membantu pelaksanaan tugas; g. menjamin kebebasan Penyandang Disabilitas untuk memilih pendamping sesuai dengan pilihannya sendiri; h. mendapatkan informasi, sosialisasi, dan simulasi dalam setiap tahapan dalam pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa; dan i. menjamin terpenuhinya hak untuk terlibat sebagai penyelenggara dalam pemilihan umum, pemilihan gubernur, Bupati, dan pemilihan kepala desa. 33"
                         }
                     ]
                 },
@@ -539,14 +850,14 @@
                     "bagian": "BAGIAN KETUJUH",
                     "judul": "Bagian Ketujuh Keagamaan",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 79",
-                            "isi": "Pasal 79 Dalam rangka Penghormatan, Pelindungan, dan Pemenuhan hak keagamaan Penyandang Disabilitas, Pemerintah Daerah berkewajiban: a. melindungi Penyandang Disabilitas dari tekanan dan Diskriminasi oleh pihak mana pun untuk memeluk agama dan kepercayaan masing-masing dan beribadat menurut agama dan kepercayaannya; b. melakukan bimbingan dan penyuluhan agama terhadap Penyandang Disabilitas; c. mendorong dan/atau membantu pengelola rumah ibadah untuk menyediakan sarana dan prasarana yang mudah diakses oleh Penyandang Disabilitas; dan d. menyediakan kitab suci dan lektur keagamaan lain yang mudah diakses berdasarkan kebutuhan Penyandang Disabilitas."
+                            "nomor": "79",
+                            "isi": "Dalam rangka Penghormatan, Pelindungan, dan Pemenuhan hak keagamaan Penyandang Disabilitas, Pemerintah Daerah berkewajiban: a. melindungi Penyandang Disabilitas dari tekanan dan Diskriminasi oleh pihak mana pun untuk memeluk agama dan kepercayaan masing-masing dan beribadat menurut agama dan kepercayaannya; b. melakukan bimbingan dan penyuluhan agama terhadap Penyandang Disabilitas; c. mendorong dan/atau membantu pengelola rumah ibadah untuk menyediakan sarana dan prasarana yang mudah diakses oleh Penyandang Disabilitas; dan d. menyediakan kitab suci dan lektur keagamaan lain yang mudah diakses berdasarkan kebutuhan Penyandang Disabilitas."
                         },
                         {
-                            "nomor": "PASAL 80",
-                            "isi": "Pasal 80 Pemerintah Daerah mengupayakan ketersediaan penerjemah bahasa isyarat dalam kegiatan peribadatan."
+                            "nomor": "80",
+                            "isi": "Pemerintah Daerah mengupayakan ketersediaan penerjemah bahasa isyarat dalam kegiatan peribadatan."
                         }
                     ]
                 },
@@ -554,14 +865,23 @@
                     "bagian": "BAGIAN KEDELAPAN",
                     "judul": "Bagian Kedelapan Keolahragaan",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 81",
-                            "isi": "Pasal 81 (1) Pemerintah Daerah wajib mengembangkan sistem keolahragaan untuk Penyandang Disabilitas yang meliputi: a. keolahragaan pendidikan; b. keolahragaan rekreasi; dan c. keolahragaan prestasi. (2) Pengembangan sistem keolahragaan untuk Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan jenis olahraga khusus untuk Penyandang Disabilitas yang sesuai dengan kondisi dan ragam disabilitasnya. 34"
+                            "nomor": "81",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib mengembangkan sistem keolahragaan untuk Penyandang Disabilitas yang meliputi: a. keolahragaan pendidikan; b. keolahragaan rekreasi; dan c. keolahragaan prestasi."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Pengembangan sistem keolahragaan untuk Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dilakukan berdasarkan jenis olahraga khusus untuk Penyandang Disabilitas yang sesuai dengan kondisi dan ragam disabilitasnya. 34"
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 82",
-                            "isi": "Pasal 82 Pemerintah Daerah wajib membina dan mengembangkan olahraga untuk Penyandang Disabilitas yang dilaksanakan dan diarahkan untuk meningkatkan kesehatan, rasa percaya diri, dan prestasi olahraga."
+                            "nomor": "82",
+                            "isi": "Pemerintah Daerah wajib membina dan mengembangkan olahraga untuk Penyandang Disabilitas yang dilaksanakan dan diarahkan untuk meningkatkan kesehatan, rasa percaya diri, dan prestasi olahraga."
                         }
                     ]
                 },
@@ -569,26 +889,62 @@
                     "bagian": "BAGIAN KESEMBILAN",
                     "judul": "Bagian Kesembilan Kebudayaan dan Pariwisata",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 83",
-                            "isi": "Pasal 83 (1) Pemerintah Daerah wajib menjamin Aksesibilitas bagi Penyandang Disabilitas untuk mendapatkan layanan kebudayaan dan pariwisata. (2) Layanan pariwisata yang mudah diakses bagi Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) meliputi: a. tersedianya informasi pariwisata dalam bentuk audio, visual, dan taktil; dan b. tersedianya pemandu wisata yang memiliki kemampuan untuk mendeskripsikan objek wisata bagi wisatawan Penyandang Disabilitas netra, memandu wisatawan Penyandang Disabilitas rungu dengan bahasa isyarat, dan memiliki keterampilan memberikan bantuan mobilitas."
+                            "nomor": "83",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib menjamin Aksesibilitas bagi Penyandang Disabilitas untuk mendapatkan layanan kebudayaan dan pariwisata."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Layanan pariwisata yang mudah diakses bagi Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) meliputi: a. tersedianya informasi pariwisata dalam bentuk audio, visual, dan taktil; dan b. tersedianya pemandu wisata yang memiliki kemampuan untuk mendeskripsikan objek wisata bagi wisatawan Penyandang Disabilitas netra, memandu wisatawan Penyandang Disabilitas rungu dengan bahasa isyarat, dan memiliki keterampilan memberikan bantuan mobilitas."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 84",
-                            "isi": "Pasal 84 (1) Pemerintah Daerah dapat memberikan insentif kepada perusahaan pariwisata yang menyelenggarakan jasa perjalanan wisata yang mudah diakses oleh Penyandang Disabilitas. (2) Ketentuan lebih lanjut mengenai bentuk dan tata cara pemberian insentif sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bupati."
+                            "nomor": "84",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah dapat memberikan insentif kepada perusahaan pariwisata yang menyelenggarakan jasa perjalanan wisata yang mudah diakses oleh Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Ketentuan lebih lanjut mengenai bentuk dan tata cara pemberian insentif sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bupati."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 85",
-                            "isi": "Pasal 85 (1) Pemerintah Daerah wajib mengembangkan potensi dan kemampuan seni budaya Penyandang Disabilitas. 35 (2) Pengembangan potensi dan kemampuan seni budaya sebagaimana dimaksud pada ayat (1) meliputi: a. memfasilitasi dan menyertakan Penyandang Disabilitas dalam kegiatan seni budaya; b. mengembangkan kegiatan seni budaya khusus Penyandang Disabilitas; dan c. memberikan penghargaan kepada seniman Penyandang Disabilitas atas karya seni terbaik."
+                            "nomor": "85",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib mengembangkan potensi dan kemampuan seni budaya Penyandang Disabilitas. 35"
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Pengembangan potensi dan kemampuan seni budaya sebagaimana dimaksud pada ayat (1) meliputi: a. memfasilitasi dan menyertakan Penyandang Disabilitas dalam kegiatan seni budaya; b. mengembangkan kegiatan seni budaya khusus Penyandang Disabilitas; dan c. memberikan penghargaan kepada seniman Penyandang Disabilitas atas karya seni terbaik."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 86",
-                            "isi": "Pasal 86 Penyandang Disabilitas berhak untuk mendapatkan pengakuan dan dukungan atas identitas budaya dan linguistik."
+                            "nomor": "86",
+                            "isi": "Penyandang Disabilitas berhak untuk mendapatkan pengakuan dan dukungan atas identitas budaya dan linguistik."
                         },
                         {
-                            "nomor": "PASAL 87",
-                            "isi": "Pasal 87 (1) Pemerintah Daerah wajib melindungi hak kekayaan intelektual Penyandang Disabilitas. (2) Pemerintah Daerah wajib melindungi dan memajukan budaya masyarakat yang menjunjung tinggi nilai kesetaraan hak Penyandang Disabilitas."
+                            "nomor": "87",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib melindungi hak kekayaan intelektual Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Pemerintah Daerah wajib melindungi dan memajukan budaya masyarakat yang menjunjung tinggi nilai kesetaraan hak Penyandang Disabilitas."
+                                }
+                            ]
                         }
                     ]
                 },
@@ -596,38 +952,83 @@
                     "bagian": "BAGIAN KESEPULUH",
                     "judul": "Bagian Kesepuluh Kesejahteraan Sosial",
                     "paragraphs": [],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 88",
-                            "isi": "Pasal 88 (1) Pemerintah Daerah wajib melakukan penyelenggaraan kesejahteraan sosial untuk Penyandang Disabilitas. (2) Penyelenggaraan kesejahteraan sosial sebagaimana dimaksud pada ayat (1) meliputi: a. rehabilitasi sosial; b. jaminan sosial; c. pemberdayaan sosial; dan d. pelindungan sosial."
+                            "nomor": "88",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib melakukan penyelenggaraan kesejahteraan sosial untuk Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Penyelenggaraan kesejahteraan sosial sebagaimana dimaksud pada ayat (1) meliputi: a. rehabilitasi sosial; b. jaminan sosial; c. pemberdayaan sosial; dan d. pelindungan sosial."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 89",
-                            "isi": "Pasal 89 Pemerintah Daerah wajib menjamin akses bagi Penyandang Disabilitas untuk mendapatkan rehabilitasi sosial, jaminan sosial, pemberdayaan sosial, dan pelindungan sosial. 36"
+                            "nomor": "89",
+                            "isi": "Pemerintah Daerah wajib menjamin akses bagi Penyandang Disabilitas untuk mendapatkan rehabilitasi sosial, jaminan sosial, pemberdayaan sosial, dan pelindungan sosial. 36"
                         },
                         {
-                            "nomor": "PASAL 90",
-                            "isi": "Pasal 90 (1) Rehabilitasi sosial sebagaimana dimaksud dalam Pasal 88 ayat (2) huruf a diberikan oleh Pemerintah Daerah dalam bentuk: a. motivasi dan diagnosis psikososial; b. perawatan dan pengasuhan; c. pelatihan vokasional dan pembinaan kewirausahaan; d. bimbingan mental spiritual; e. bimbingan fisik; f. bimbingan sosial dan konseling psikososial; g. pelayanan Aksesibilitas; h. bantuan dan asistensi sosial; i. bimbingan resosialisasi; j. bimbingan lanjut; dan/atau k. rujukan. (2) Rehabilitasi sosial sebagaimana dimaksud pada ayat (1) dilaksanakan secara persuasif, motivatif, dan koersif oleh keluarga, masyarakat, dan institusi sosial."
+                            "nomor": "90",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Rehabilitasi sosial sebagaimana dimaksud dalam Pasal 88 ayat"
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "huruf a diberikan oleh Pemerintah Daerah dalam bentuk: a. motivasi dan diagnosis psikososial; b. perawatan dan pengasuhan; c. pelatihan vokasional dan pembinaan kewirausahaan; d. bimbingan mental spiritual; e. bimbingan fisik; f. bimbingan sosial dan konseling psikososial; g. pelayanan Aksesibilitas; h. bantuan dan asistensi sosial; i. bimbingan resosialisasi; j. bimbingan lanjut; dan/atau k. rujukan. (2) Rehabilitasi sosial sebagaimana dimaksud pada ayat (1) dilaksanakan secara persuasif, motivatif, dan koersif oleh keluarga, masyarakat, dan institusi sosial."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 91",
-                            "isi": "Pasal 91 (1) Jaminan sosial sebagaimana dimaksud dalam Pasal 88 ayat (2) huruf b diberikan oleh Pemerintah Daerah untuk Penyandang Disabilitas miskin atau yang tidak memiliki penghasilan. (2) Jaminan sosial sebagaimana dimaksud pada ayat (1) diberikan dalam bentuk asuransi kesejahteraan sosial, bantuan langsung berkelanjutan, dan bantuan khusus. (3) Bantuan khusus sebagaimana dimaksud pada ayat (2) mencakup pelatihan, konseling, perawatan sementara, atau bantuan lain yang berkaitan."
+                            "nomor": "91",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Jaminan sosial sebagaimana dimaksud dalam Pasal 88 ayat"
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "huruf b diberikan oleh Pemerintah Daerah untuk Penyandang Disabilitas miskin atau yang tidak memiliki penghasilan. (2) Jaminan sosial sebagaimana dimaksud pada ayat (1) diberikan dalam bentuk asuransi kesejahteraan sosial, bantuan langsung berkelanjutan, dan bantuan khusus."
+                                },
+                                {
+                                    "ayat": "3",
+                                    "teks": "Bantuan khusus sebagaimana dimaksud pada ayat (2) mencakup pelatihan, konseling, perawatan sementara, atau bantuan lain yang berkaitan."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 92",
-                            "isi": "Pasal 92 (1) Pemberdayaan sosial sebagaimana dimaksud dalam"
+                            "nomor": "92",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemberdayaan sosial sebagaimana dimaksud dalam"
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 88",
-                            "isi": "Pasal 88 ayat (2) huruf c dilakukan oleh Pemerintah Daerah melalui: a. peningkatan kemauan dan kemampuan; b. penggalian potensi dan sumber daya; c. penggalian nilai dasar; d. pemberian akses; dan/atau e. pemberian bantuan usaha. 37 (2) Pemberdayaan sosial sebagaimana dimaksud pada ayat (1) diberikan dalam bentuk: a. diagnosis dan pemberian motivasi; b. pelatihan dan pendampingan; c. pemberian stimulan; d. peningkatan akses pemasaran hasil usaha; e. penguatan kelembagaan dan kemitraan; dan f. bimbingan lanjut."
+                            "nomor": "88",
+                            "isi": [
+                                {
+                                    "ayat": "header",
+                                    "teks": "ayat (2) huruf c dilakukan oleh Pemerintah Daerah melalui: a. peningkatan kemauan dan kemampuan; b. penggalian potensi dan sumber daya; c. penggalian nilai dasar; d. pemberian akses; dan/atau e. pemberian bantuan usaha. 37 (2) Pemberdayaan sosial sebagaimana dimaksud pada ayat"
+                                },
+                                {
+                                    "ayat": "1",
+                                    "teks": "diberikan dalam bentuk: a. diagnosis dan pemberian motivasi; b. pelatihan dan pendampingan; c. pemberian stimulan; d. peningkatan akses pemasaran hasil usaha; e. penguatan kelembagaan dan kemitraan; dan f. bimbingan lanjut."
+                                }
+                            ]
                         },
                         {
-                            "nomor": "PASAL 93",
-                            "isi": "Pasal 93 Pelindungan sosial sebagaimana dimaksud dalam Pasal 88 ayat (2) huruf d dilakukan oleh Pemerintah Daerah melalui: a. bantuan sosial; b. advokasi sosial; dan/atau c. bantuan hukum."
+                            "nomor": "93",
+                            "isi": "Pelindungan sosial sebagaimana dimaksud dalam Pasal 88 ayat (2) huruf d dilakukan oleh Pemerintah Daerah melalui: a. bantuan sosial; b. advokasi sosial; dan/atau c. bantuan hukum."
                         },
                         {
-                            "nomor": "PASAL 94",
-                            "isi": "Pasal 94 Ketentuan lebih lanjut mengenai rehabilitasi sosial, jaminan sosial, pemberdayaan sosial, dan Pelindungan sosial dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                            "nomor": "94",
+                            "isi": "Ketentuan lebih lanjut mengenai rehabilitasi sosial, jaminan sosial, pemberdayaan sosial, dan Pelindungan sosial dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
                         }
                     ]
                 },
@@ -638,183 +1039,448 @@
                         {
                             "paragraf": "PARAGRAF 1",
                             "judul": "Paragraf 1 Bangunan Gedung",
-                            "articles": [
+                            "pasal": [
                                 {
-                                    "nomor": "PASAL 96",
-                                    "isi": "Pasal 96 (1) Bangunan Gedung yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud dalam"
+                                    "nomor": "96",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Bangunan Gedung yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud dalam"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 95",
-                                    "isi": "Pasal 95 ayat (2) huruf a memiliki fungsi: a. hunian; b. keagamaan; c. usaha; d. sosial dan budaya; e. olahraga; dan f. khusus. (2) Bangunan gedung yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) harus dilengkapi dengan fasilitas dan Aksesibilitas dengan mempertimbangkan kebutuhan, fungsi, luas, dan ketinggian bangunan gedung sesuai dengan ketentuan peraturan perundang-undangan. (3) Pemilik dan/atau pengelola bangunan gedung yang tidak menyediakan fasilitas yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) dikenai sanksi administratif berupa: a. peringatan tertulis; b. pembatasan kegiatan pembangunan; c. penghentian sementara atau tetap pada pekerjaan pelaksanaan pembangunan; d. penghentian sementara atau tetap pada pemanfaatan bangunan gedung; e. pembekuan izin mendirikan bangunan gedung; f. pencabutan izin mendirikan bangunan gedung; g. pembekuan sertifikat laik fungsi bangunan gedung; h. pencabutan sertifikat laik fungsi bangunan gedung; atau i. perintah pembongkaran bangunan gedung. (4) Pemberian sanksi administratif sebagaimana dimaksud pada ayat (3) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. 39"
+                                    "nomor": "95",
+                                    "isi": [
+                                        {
+                                            "ayat": "header",
+                                            "teks": "ayat (2) huruf a memiliki fungsi: a. hunian; b. keagamaan; c. usaha; d. sosial dan budaya; e. olahraga; dan f. khusus. (2) Bangunan gedung yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat"
+                                        },
+                                        {
+                                            "ayat": "1",
+                                            "teks": "harus dilengkapi dengan fasilitas dan Aksesibilitas dengan mempertimbangkan kebutuhan, fungsi, luas, dan ketinggian bangunan gedung sesuai dengan ketentuan peraturan perundang-undangan. (3) Pemilik dan/atau pengelola bangunan gedung yang tidak menyediakan fasilitas yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat"
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "dikenai sanksi administratif berupa: a. peringatan tertulis; b. pembatasan kegiatan pembangunan; c. penghentian sementara atau tetap pada pekerjaan pelaksanaan pembangunan; d. penghentian sementara atau tetap pada pemanfaatan bangunan gedung; e. pembekuan izin mendirikan bangunan gedung; f. pencabutan izin mendirikan bangunan gedung; g. pembekuan sertifikat laik fungsi bangunan gedung; h. pencabutan sertifikat laik fungsi bangunan gedung; atau i. perintah pembongkaran bangunan gedung. (4) Pemberian sanksi administratif sebagaimana dimaksud pada ayat"
+                                        },
+                                        {
+                                            "ayat": "3",
+                                            "teks": "dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. 39"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 97",
-                                    "isi": "Pasal 97 (1) Pemerintah Daerah wajib mencantumkan ketersediaan fasilitas yang mudah diakses oleh Penyandang Disabilitas sebagai salah satu syarat dalam permohonan izin mendirikan bangunan. (2) Pemerintah Daerah wajib melakukan audit terhadap ketersediaan fasilitas Aksesibilitas bagi Penyandang Disabilitas pada setiap bangunan gedung. (3) Pemeriksaan kelaikan fungsi terhadap ketersediaan fasilitas dan Aksesibilitas untuk Penyandang Disabilitas merupakan syarat dalam penerbitan dan perpanjangan sertifikat laik fungsi bangunan gedung. (4) Syarat dan mekanisme penerbitan sertifikat laik fungsi serta audit fasilitas Aksesibilitas bagi Penyandang Disabilitas sebagaimana dimaksud pada ayat (3) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. (5) Dalam hal bangunan gedung sudah memenuhi syarat audit sebagaimana dimaksud pada ayat (3), Pemerintah Daerah wajib menerbitkan sertifikat laik fungsi. (6) Pemerintah wajib menyusun mekanisme audit fasilitas Aksesibilitas bagi Penyandang Disabilitas. (7) Pemeriksaan kelaikan fungsi fasilitas dan Aksesibilitas bagi Penyandang Disabilitas dilaksanakan oleh penyedia jasa pengawasan atau manajemen konstruksi bersertifikat. (8) Pemeriksaan sebagaimana dimaksud pada ayat (6) dilaksanakan dengan mengikutsertakan organisasi Penyandang Disabilitas dan/atau Penyandang Disabilitas yang memiliki keahlian di bidang bangunan gedung."
+                                    "nomor": "97",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib mencantumkan ketersediaan fasilitas yang mudah diakses oleh Penyandang Disabilitas sebagai salah satu syarat dalam permohonan izin mendirikan bangunan."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Pemerintah Daerah wajib melakukan audit terhadap ketersediaan fasilitas Aksesibilitas bagi Penyandang Disabilitas pada setiap bangunan gedung."
+                                        },
+                                        {
+                                            "ayat": "3",
+                                            "teks": "Pemeriksaan kelaikan fungsi terhadap ketersediaan fasilitas dan Aksesibilitas untuk Penyandang Disabilitas merupakan syarat dalam penerbitan dan perpanjangan sertifikat laik fungsi bangunan gedung."
+                                        },
+                                        {
+                                            "ayat": "4",
+                                            "teks": "Syarat dan mekanisme penerbitan sertifikat laik fungsi serta audit fasilitas Aksesibilitas bagi Penyandang Disabilitas sebagaimana dimaksud pada ayat (3) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                                        },
+                                        {
+                                            "ayat": "5",
+                                            "teks": "Dalam hal bangunan gedung sudah memenuhi syarat audit sebagaimana dimaksud pada ayat (3), Pemerintah Daerah wajib menerbitkan sertifikat laik fungsi."
+                                        },
+                                        {
+                                            "ayat": "6",
+                                            "teks": "Pemerintah wajib menyusun mekanisme audit fasilitas Aksesibilitas bagi Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "7",
+                                            "teks": "Pemeriksaan kelaikan fungsi fasilitas dan Aksesibilitas bagi Penyandang Disabilitas dilaksanakan oleh penyedia jasa pengawasan atau manajemen konstruksi bersertifikat."
+                                        },
+                                        {
+                                            "ayat": "8",
+                                            "teks": "Pemeriksaan sebagaimana dimaksud pada ayat (6) dilaksanakan dengan mengikutsertakan organisasi Penyandang Disabilitas dan/atau Penyandang Disabilitas yang memiliki keahlian di bidang bangunan gedung."
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 98",
-                                    "isi": "Pasal 98 Pemerintah Daerah dapat memfasilitasi penyediaan fasilitas yang mudah diakses pada bangunan rumah tinggal tunggal yang dihuni oleh Penyandang Disabilitas."
+                                    "nomor": "98",
+                                    "isi": "Pemerintah Daerah dapat memfasilitasi penyediaan fasilitas yang mudah diakses pada bangunan rumah tinggal tunggal yang dihuni oleh Penyandang Disabilitas."
                                 }
                             ]
                         },
                         {
                             "paragraf": "PARAGRAF 2",
                             "judul": "Paragraf 2 Jalan",
-                            "articles": [
+                            "pasal": [
                                 {
-                                    "nomor": "PASAL 99",
-                                    "isi": "Pasal 99 (1) Pemerintah Daerah wajib menyediakan fasilitas untuk pejalan kaki yang mudah diakses oleh Penyandang Disabilitas. (2) Fasilitas untuk pejalan kaki yang mudah diakses sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. 40"
+                                    "nomor": "99",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib menyediakan fasilitas untuk pejalan kaki yang mudah diakses oleh Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Fasilitas untuk pejalan kaki yang mudah diakses sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan. 40"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 100",
-                                    "isi": "Pasal 100 (1) Pemerintah Daerah wajib menyediakan tempat penyeberangan pejalan kaki yang mudah diakses oleh Penyandang Disabilitas. (2) Persyaratan mengenai tempat penyeberangan pejalan kaki yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                                    "nomor": "100",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib menyediakan tempat penyeberangan pejalan kaki yang mudah diakses oleh Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Persyaratan mengenai tempat penyeberangan pejalan kaki yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan peraturan perundang-undangan."
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
                             "paragraf": "PARAGRAF 3",
                             "judul": "Paragraf 3 Pertamanan dan Pemakaman",
-                            "articles": [
+                            "pasal": [
                                 {
-                                    "nomor": "PASAL 101",
-                                    "isi": "Pasal 101 (1) Pemerintah Daerah menyediakan fasilitas umum lingkungan pertamanan dan permakaman umum yang mudah diakses oleh Penyandang Disabilitas. (2) Pertamanan dan permakaman yang mudah diakses sebagaimana dimaksud pada ayat (1) dilengkapi dengan fasilitas dan Aksesibilitas bagi Penyandang Disabilitas."
+                                    "nomor": "101",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah menyediakan fasilitas umum lingkungan pertamanan dan permakaman umum yang mudah diakses oleh Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Pertamanan dan permakaman yang mudah diakses sebagaimana dimaksud pada ayat (1) dilengkapi dengan fasilitas dan Aksesibilitas bagi Penyandang Disabilitas."
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
                             "paragraf": "PARAGRAF 4",
                             "judul": "Paragraf 4 Permukiman",
-                            "articles": [
+                            "pasal": [
                                 {
-                                    "nomor": "PASAL 102",
-                                    "isi": "Pasal 102 (1) Pemerintah Daerah memfasilitasi permukiman yang mudah diakses oleh Penyandang Disabilitas. (2) Pemerintah Daerah wajib mengawasi dan memastikan seluruh permukiman yang dibangun oleh pengembang memiliki Aksesibilitas bagi Penyandang Disabilitas. (3) Pengembang sebagaimana dimaksud pada ayat (2) termasuk pihak swasta dan badan usaha milik negara atau badan usaha milik daerah. (4) Ketentuan lebih lanjut mengenai permukiman yang mudah diakses oleh Penyandang Disabilitas diatur dengan Peraturan Bupati. 41 Bagian Kedua Belas Pelayanan Publik"
+                                    "nomor": "102",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah memfasilitasi permukiman yang mudah diakses oleh Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Pemerintah Daerah wajib mengawasi dan memastikan seluruh permukiman yang dibangun oleh pengembang memiliki Aksesibilitas bagi Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "3",
+                                            "teks": "Pengembang sebagaimana dimaksud pada ayat (2) termasuk pihak swasta dan badan usaha milik negara atau badan usaha milik daerah."
+                                        },
+                                        {
+                                            "ayat": "4",
+                                            "teks": "Ketentuan lebih lanjut mengenai permukiman yang mudah diakses oleh Penyandang Disabilitas diatur dengan Peraturan Bupati. 41 Bagian Kedua Belas Pelayanan Publik"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 103",
-                                    "isi": "Pasal 103 (1) Pemerintah Daerah wajib menyediakan Pelayanan Publik yang mudah diakses oleh Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan. (2) Pelayanan Publik sebagaimana dimaksud pada ayat (1) termasuk pelayanan jasa transportasi publik. (3) Pelayanan Publik yang mudah diakses sebagaimana dimaksud pada ayat (1) diselenggarakan oleh institusi penyelenggara negara, korporasi, lembaga independen yang dibentuk berdasarkan undang-undang untuk kegiatan Pelayanan Publik, dan badan hukum lain yang dibentuk untuk Pelayanan Publik. (4) Pendanaan Pelayanan Publik bagi Penyandang Disabilitas bersumber dari: a. Anggaran dan Pendapatan Belanja Daerah; dan/atau b. Anggaran korporasi atau badan hukum yang menyelenggarakan Pelayanan Publik."
+                                    "nomor": "103",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib menyediakan Pelayanan Publik yang mudah diakses oleh Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Pelayanan Publik sebagaimana dimaksud pada ayat (1) termasuk pelayanan jasa transportasi publik."
+                                        },
+                                        {
+                                            "ayat": "3",
+                                            "teks": "Pelayanan Publik yang mudah diakses sebagaimana dimaksud pada ayat (1) diselenggarakan oleh institusi penyelenggara negara, korporasi, lembaga independen yang dibentuk berdasarkan undang-undang untuk kegiatan Pelayanan Publik, dan badan hukum lain yang dibentuk untuk Pelayanan Publik."
+                                        },
+                                        {
+                                            "ayat": "4",
+                                            "teks": "Pendanaan Pelayanan Publik bagi Penyandang Disabilitas bersumber dari: a. Anggaran dan Pendapatan Belanja Daerah; dan/atau b. Anggaran korporasi atau badan hukum yang menyelenggarakan Pelayanan Publik."
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 104",
-                                    "isi": "Pasal 104 (1) Pemerintah Daerah wajib menyebarluaskan dan menyosialisasikan Pelayanan Publik yang mudah diakses sebagaimana dimaksud dalam Pasal 103 kepada Penyandang Disabilitas dan masyarakat. (2) Penyelenggara Pelayanan Publik wajib menyediakan panduan Pelayanan Publik yang mudah diakses oleh Penyandang Disabilitas."
+                                    "nomor": "104",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib menyebarluaskan dan menyosialisasikan Pelayanan Publik yang mudah diakses sebagaimana dimaksud dalam Pasal 103 kepada Penyandang Disabilitas dan masyarakat."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Penyelenggara Pelayanan Publik wajib menyediakan panduan Pelayanan Publik yang mudah diakses oleh Penyandang Disabilitas."
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 105",
-                                    "isi": "Pasal 105 Ketentuan lebih lanjut mengenai Pelayanan Publik yang mudah diakses oleh Penyandang Disabilitas diatur dengan Peraturan Bupati. 42 Bagian Ketiga Belas Pelindungan dari Bencana"
+                                    "nomor": "105",
+                                    "isi": "Ketentuan lebih lanjut mengenai Pelayanan Publik yang mudah diakses oleh Penyandang Disabilitas diatur dengan Peraturan Bupati. 42 Bagian Ketiga Belas Pelindungan dari Bencana"
                                 },
                                 {
-                                    "nomor": "PASAL 106",
-                                    "isi": "Pasal 106 (1) Pemerintah Daerah wajib mengambil langkah yang diperlukan untuk menjamin penanganan Penyandang Disabilitas pada tahap prabencana, saat tanggap darurat, dan pascabencana. (2) Penanganan Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) harus memperhatikan Akomodasi yang Layak dan Aksesibilitas untuk Penyandang Disabilitas. (3) Penyandang Disabilitas dapat berpartisipasi dalam penanggulangan bencana. (4) Ketentuan lebih lanjut mengenai penanganan Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dan ayat (2) serta partisipasi Penyandang Disabilitas sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Bupati. Bagian Keempat Belas Habilitasi dan Rehabilitasi"
+                                    "nomor": "106",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib mengambil langkah yang diperlukan untuk menjamin penanganan Penyandang Disabilitas pada tahap prabencana, saat tanggap darurat, dan pascabencana."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Penanganan Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) harus memperhatikan Akomodasi yang Layak dan Aksesibilitas untuk Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "3",
+                                            "teks": "Penyandang Disabilitas dapat berpartisipasi dalam penanggulangan bencana."
+                                        },
+                                        {
+                                            "ayat": "4",
+                                            "teks": "Ketentuan lebih lanjut mengenai penanganan Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dan ayat (2) serta partisipasi Penyandang Disabilitas sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Bupati. Bagian Keempat Belas Habilitasi dan Rehabilitasi"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 107",
-                                    "isi": "Pasal 107 (1) Pemerintah Daerah wajib menyediakan atau memfasilitasi layanan habilitasi dan rehabilitasi untuk Penyandang Disabilitas. (2) Habilitasi dan rehabilitasi untuk Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) bertujuan: a. mencapai, mempertahankan, dan mengembangkan kemandirian, kemampuan fisik, mental, sosial, dan keterampilan Penyandang Disabilitas secara maksimal; dan b. memberi kesempatan untuk berpartisipasi dan berinklusi di seluruh aspek kehidupan. 43"
+                                    "nomor": "107",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib menyediakan atau memfasilitasi layanan habilitasi dan rehabilitasi untuk Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Habilitasi dan rehabilitasi untuk Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) bertujuan: a. mencapai, mempertahankan, dan mengembangkan kemandirian, kemampuan fisik, mental, sosial, dan keterampilan Penyandang Disabilitas secara maksimal; dan b. memberi kesempatan untuk berpartisipasi dan berinklusi di seluruh aspek kehidupan. 43"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 108",
-                                    "isi": "Pasal 108 Habilitasi dan rehabilitasi untuk Penyandang Disabilitas berfungsi sebagai: a. sarana pendidikan dan pelatihan keterampilan hidup; b. sarana antara dalam mengatasi kondisi disabilitasnya; dan c. sarana untuk mempersiapkan Penyandang Disabilitas agar dapat hidup mandiri dalam masyarakat."
+                                    "nomor": "108",
+                                    "isi": "Habilitasi dan rehabilitasi untuk Penyandang Disabilitas berfungsi sebagai: a. sarana pendidikan dan pelatihan keterampilan hidup; b. sarana antara dalam mengatasi kondisi disabilitasnya; dan c. sarana untuk mempersiapkan Penyandang Disabilitas agar dapat hidup mandiri dalam masyarakat."
                                 },
                                 {
-                                    "nomor": "PASAL 109",
-                                    "isi": "Pasal 109 Penanganan habilitasi dan rehabilitasi Penyandang Disabilitas dilakukan dalam bentuk: a. layanan habilitasi dan rehabilitasi dalam keluarga dan masyarakat; dan b. layanan habilitasi dan rehabilitasi dalam lembaga."
+                                    "nomor": "109",
+                                    "isi": "Penanganan habilitasi dan rehabilitasi Penyandang Disabilitas dilakukan dalam bentuk: a. layanan habilitasi dan rehabilitasi dalam keluarga dan masyarakat; dan b. layanan habilitasi dan rehabilitasi dalam lembaga."
                                 },
                                 {
-                                    "nomor": "PASAL 110",
-                                    "isi": "Pasal 110 Ketentuan lebih lanjut mengenai layanan habilitasi dan rehabilitasi diatur dengan Peraturan Bupati. Bagian Kelima Belas Konsesi"
+                                    "nomor": "110",
+                                    "isi": "Ketentuan lebih lanjut mengenai layanan habilitasi dan rehabilitasi diatur dengan Peraturan Bupati. Bagian Kelima Belas Konsesi"
                                 },
                                 {
-                                    "nomor": "PASAL 111",
-                                    "isi": "Pasal 111 Pemerintah Daerah berkewajiban memberikan Konsesi untuk Penyandang Disabilitas."
+                                    "nomor": "111",
+                                    "isi": "Pemerintah Daerah berkewajiban memberikan Konsesi untuk Penyandang Disabilitas."
                                 },
                                 {
-                                    "nomor": "PASAL 112",
-                                    "isi": "Pasal 112 Pemerintah Daerah mengupayakan pihak swasta untuk memberikan Konsesi untuk Penyandang Disabilitas."
+                                    "nomor": "112",
+                                    "isi": "Pemerintah Daerah mengupayakan pihak swasta untuk memberikan Konsesi untuk Penyandang Disabilitas."
                                 },
                                 {
-                                    "nomor": "PASAL 113",
-                                    "isi": "Pasal 113 Pemerintah Daerah dapat memberikan insentif bagi perusahaan swasta yang memberikan Konsesi untuk Penyandang Disabilitas."
+                                    "nomor": "113",
+                                    "isi": "Pemerintah Daerah dapat memberikan insentif bagi perusahaan swasta yang memberikan Konsesi untuk Penyandang Disabilitas."
                                 },
                                 {
-                                    "nomor": "PASAL 114",
-                                    "isi": "Pasal 114 Ketentuan lebih lanjut mengenai konsesi dan tata cara pemberian insentif sebagaimana dimaksud dalam Pasal 113 diatur lebih lanjut dengan Peraturan Bupati. 44 Bagian Keenam Belas Pendataan"
+                                    "nomor": "114",
+                                    "isi": "Ketentuan lebih lanjut mengenai konsesi dan tata cara pemberian insentif sebagaimana dimaksud dalam Pasal 113 diatur lebih lanjut dengan Peraturan Bupati. 44 Bagian Keenam Belas Pendataan"
                                 },
                                 {
-                                    "nomor": "PASAL 115",
-                                    "isi": "Pasal 115 (1) Penyelenggaraan pendataan terhadap Penyandang Disabilitas dilakukan berdasarkan ketentuan peraturan perundang-undangan. (2) Pendataan terhadap Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dilakukan untuk memperoleh data akurat tentang karakteristik pokok dan rinci Penyandang Disabilitas. (3) Data akurat tentang Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) digunakan untuk: a. mengidentifikasi dan mengatasi hambatan yang dihadapi oleh Penyandang Disabilitas dalam mendapatkan hak Penyandang Disabilitas; dan b. membantu perumusan dan implementasi kebijakan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas."
+                                    "nomor": "115",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Penyelenggaraan pendataan terhadap Penyandang Disabilitas dilakukan berdasarkan ketentuan peraturan perundang-undangan."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Pendataan terhadap Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dilakukan untuk memperoleh data akurat tentang karakteristik pokok dan rinci Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "3",
+                                            "teks": "Data akurat tentang Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) digunakan untuk: a. mengidentifikasi dan mengatasi hambatan yang dihadapi oleh Penyandang Disabilitas dalam mendapatkan hak Penyandang Disabilitas; dan b. membantu perumusan dan implementasi kebijakan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas."
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 116",
-                                    "isi": "Pasal 116 (1) Bupati melakukan verifikasi dan validasi terhadap hasil pendataan Penyandang Disabilitas sebagaimana dimaksud dalam Pasal 116 ayat (1). (2) Verifikasi dan validasi sebagaimana dimaksud pada ayat (1) dilakukan secara berkala paling sedikit 2 (dua) tahun sekali."
+                                    "nomor": "116",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Bupati melakukan verifikasi dan validasi terhadap hasil pendataan Penyandang Disabilitas sebagaimana dimaksud dalam Pasal 116 ayat (1)."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Verifikasi dan validasi sebagaimana dimaksud pada ayat (1) dilakukan secara berkala paling sedikit 2 (dua) tahun sekali."
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 117",
-                                    "isi": "Pasal 117 (1) Penyandang Disabilitas yang belum terdata dalam pendataan sebagaimana dimaksud dalam Pasal 116 dapat secara aktif mendaftarkan diri kepada kepala desa/lurah. (2) kepala desa/lurah wajib menyampaikan pendaftaran atau perubahan data sebagaimana dimaksud pada ayat (2) kepada Bupati melalui camat. (3) Bupati menyampaikan pendaftaran atau perubahan data sebagaimana dimaksud pada ayat (2) kepada gubernur sesuai ketentuan peraturan perundang-undangan. (4) Dalam hal diperlukan, Bupati dapat melakukan verifikasi dan validasi terhadap pendaftaran atau perubahan data sebagaimana dimaksud pada ayat (3). 45"
+                                    "nomor": "117",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Penyandang Disabilitas yang belum terdata dalam pendataan sebagaimana dimaksud dalam Pasal 116 dapat secara aktif mendaftarkan diri kepada kepala desa/lurah."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "kepala desa/lurah wajib menyampaikan pendaftaran atau perubahan data sebagaimana dimaksud pada ayat (2) kepada Bupati melalui camat."
+                                        },
+                                        {
+                                            "ayat": "3",
+                                            "teks": "Bupati menyampaikan pendaftaran atau perubahan data sebagaimana dimaksud pada ayat (2) kepada gubernur sesuai ketentuan peraturan perundang-undangan."
+                                        },
+                                        {
+                                            "ayat": "4",
+                                            "teks": "Dalam hal diperlukan, Bupati dapat melakukan verifikasi dan validasi terhadap pendaftaran atau perubahan data sebagaimana dimaksud pada ayat (3). 45"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 118",
-                                    "isi": "Pasal 118 (1) Data yang telah diverifikasi dan divalidasi wajib berbasis teknologi informasi dan dijadikan sebagai data nasional Penyandang Disabilitas. (2) Pemerintah Daerah menggunakan data nasional Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dalam rangka Pemenuhan hak Penyandang Disabilitas dan dapat diakses oleh masyarakat sesuai dengan ketentuan peraturan perundang-undangan. (3) Pemerintah Daerah yang menggunakan data nasional Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) menyampaikan hasil pelaksanaannya kepada Menteri Sosial melalui Gubernur Jawa Timur secara berjenjang. Bagian Ketujuh Belas Komunikasi dan Informasi"
+                                    "nomor": "118",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Data yang telah diverifikasi dan divalidasi wajib berbasis teknologi informasi dan dijadikan sebagai data nasional Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Pemerintah Daerah menggunakan data nasional Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dalam rangka Pemenuhan hak Penyandang Disabilitas dan dapat diakses oleh masyarakat sesuai dengan ketentuan peraturan perundang-undangan."
+                                        },
+                                        {
+                                            "ayat": "3",
+                                            "teks": "Pemerintah Daerah yang menggunakan data nasional Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) menyampaikan hasil pelaksanaannya kepada Menteri Sosial melalui Gubernur Jawa Timur secara berjenjang. Bagian Ketujuh Belas Komunikasi dan Informasi"
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
                             "paragraf": "PARAGRAF 1",
                             "judul": "Paragraf 1 Komunikasi",
-                            "articles": [
+                            "pasal": [
                                 {
-                                    "nomor": "PASAL 119",
-                                    "isi": "Pasal 119 (1) Pemerintah Daerah wajib mengakui, menerima, dan memfasilitasi komunikasi Penyandang Disabilitas dengan menggunakan cara tertentu. (2) Komunikasi dengan menggunakan cara tertentu sebagaimana dimaksud pada ayat (1) dilakukan dengan cara, alat, dan bentuk lainnya yang dapat dijangkau sesuai dengan pilihan Penyandang Disabilitas dalam berinteraksi."
+                                    "nomor": "119",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib mengakui, menerima, dan memfasilitasi komunikasi Penyandang Disabilitas dengan menggunakan cara tertentu."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Komunikasi dengan menggunakan cara tertentu sebagaimana dimaksud pada ayat (1) dilakukan dengan cara, alat, dan bentuk lainnya yang dapat dijangkau sesuai dengan pilihan Penyandang Disabilitas dalam berinteraksi."
+                                        }
+                                    ]
                                 }
                             ]
                         },
                         {
                             "paragraf": "PARAGRAF 2",
                             "judul": "Paragraf 2 Informasi",
-                            "articles": [
+                            "pasal": [
                                 {
-                                    "nomor": "PASAL 120",
-                                    "isi": "Pasal 120 (1) Pemerintah Daerah wajib menjamin akses atas informasi untuk Penyandang Disabilitas. (2) Akses atas informasi untuk Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dalam bentuk audio dan visual. 46"
+                                    "nomor": "120",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib menjamin akses atas informasi untuk Penyandang Disabilitas."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Akses atas informasi untuk Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) dalam bentuk audio dan visual. 46"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 121",
-                                    "isi": "Pasal 121 (1) Pemerintah Daerah wajib menyediakan informasi dalam bentuk yang dapat dijangkau dan dipahami sesuai dengan keragaman disabilitas dan kondisi tempat tinggalnya. (2) Informasi sebagaimana dimaksud pada ayat (1) didapatkan secara tepat waktu dan tanpa biaya tambahan. Bagian Kedelapan Belas Perempuan dan Anak"
+                                    "nomor": "121",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah wajib menyediakan informasi dalam bentuk yang dapat dijangkau dan dipahami sesuai dengan keragaman disabilitas dan kondisi tempat tinggalnya."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Informasi sebagaimana dimaksud pada ayat (1) didapatkan secara tepat waktu dan tanpa biaya tambahan. Bagian Kedelapan Belas Perempuan dan Anak"
+                                        }
+                                    ]
                                 },
                                 {
-                                    "nomor": "PASAL 122",
-                                    "isi": "Pasal 122 Pemerintah Daerah wajib menyediakan unit layanan informasi dan tindak cepat untuk perempuan dan anak Penyandang Disabilitas yang menjadi korban kekerasan."
+                                    "nomor": "122",
+                                    "isi": "Pemerintah Daerah wajib menyediakan unit layanan informasi dan tindak cepat untuk perempuan dan anak Penyandang Disabilitas yang menjadi korban kekerasan."
                                 },
                                 {
-                                    "nomor": "PASAL 123",
-                                    "isi": "Pasal 123 Pemerintah Daerah wajib memberikan Pelindungan khusus terhadap perempuan dan anak Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan."
+                                    "nomor": "123",
+                                    "isi": "Pemerintah Daerah wajib memberikan Pelindungan khusus terhadap perempuan dan anak Penyandang Disabilitas sesuai dengan ketentuan peraturan perundang-undangan."
                                 },
                                 {
-                                    "nomor": "PASAL 124",
-                                    "isi": "Pasal 124 Pemerintah Daerah wajib menyediakan rumah aman yang mudah diakses untuk perempuan dan anak Penyandang Disabilitas yang menjadi korban kekerasan. Bagian Kesembilan Belas Pelindungan dari Tindakan Diskriminasi, Penelantaran, Penyiksaan, dan Eksploitasi"
+                                    "nomor": "124",
+                                    "isi": "Pemerintah Daerah wajib menyediakan rumah aman yang mudah diakses untuk perempuan dan anak Penyandang Disabilitas yang menjadi korban kekerasan. Bagian Kesembilan Belas Pelindungan dari Tindakan Diskriminasi, Penelantaran, Penyiksaan, dan Eksploitasi"
                                 },
                                 {
-                                    "nomor": "PASAL 125",
-                                    "isi": "Pasal 125 (1) Pemerintah Daerah memfasilitasi Penyandang Disabilitas untuk bersosialisasi dan berinteraksi dalam kehidupan berkeluarga, bermasyarakat, dan bernegara tanpa rasa takut. (2) Pemerintah Daerah wajib menjamin Penyandang Disabilitas bebas dari segala bentuk kekerasan fisik, psikis, ekonomi, dan seksual. 47"
+                                    "nomor": "125",
+                                    "isi": [
+                                        {
+                                            "ayat": "1",
+                                            "teks": "Pemerintah Daerah memfasilitasi Penyandang Disabilitas untuk bersosialisasi dan berinteraksi dalam kehidupan berkeluarga, bermasyarakat, dan bernegara tanpa rasa takut."
+                                        },
+                                        {
+                                            "ayat": "2",
+                                            "teks": "Pemerintah Daerah wajib menjamin Penyandang Disabilitas bebas dari segala bentuk kekerasan fisik, psikis, ekonomi, dan seksual. 47"
+                                        }
+                                    ]
                                 }
                             ]
                         }
                     ],
-                    "articles": [
+                    "pasal": [
                         {
-                            "nomor": "PASAL 95",
-                            "isi": "Pasal 95 (1) Pemerintah Daerah wajib menjamin infrastruktur yang mudah diakses oleh Penyandang Disabilitas. (2) Infrastruktur yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) meliputi: a. bangunan gedung; b. jalan; c. permukiman; dan d. pertamanan dan permakaman. 38"
+                            "nomor": "95",
+                            "isi": [
+                                {
+                                    "ayat": "1",
+                                    "teks": "Pemerintah Daerah wajib menjamin infrastruktur yang mudah diakses oleh Penyandang Disabilitas."
+                                },
+                                {
+                                    "ayat": "2",
+                                    "teks": "Infrastruktur yang mudah diakses oleh Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) meliputi: a. bangunan gedung; b. jalan; c. permukiman; dan d. pertamanan dan permakaman. 38"
+                                }
+                            ]
                         }
                     ]
                 }
             ],
-            "articles": []
+            "pasal": []
         },
         {
             "bab": "BAB VI",
             "judul": "BAB VI KOORDINASI",
             "kategori": "Materi Pokok",
             "sections": [],
-            "articles": [
+            "pasal": [
                 {
-                    "nomor": "PASAL 126",
-                    "isi": "Pasal 126 (1) Pemerintah Daerah membentuk mekanisme koordinasi di tingkat Daerah dalam rangka melaksanakan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas sesuai dengan kewenangannya. (2) Koordinasi di tingkat Daerah dilakukan oleh Kepala Dinas dengan Perangkat Daerah dan instansi pemerintah/ lembaga pemerintah non kementerian yang terkait sesuai dengan ketentuan yang berlaku. (3) Koordinasi sebagaimana dimaksud pada ayat (2) bertujuan untuk menyelenggarakan dan menyinkronkan kebijakan, program, dan anggaran pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas. (4) Dalam koordinasi sebagaimana dimaksud pada ayat (3), Kepala Dinas melaksanakan tugas: a. melakukan sinkronisasi program dan kebijakan dalam rangka pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas; b. menjamin pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas berjalan dengan efektif; c. mewujudkan anggaran pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas; dan d. menyinkronkan penggunaan anggaran pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas agar berjalan dengan efisien."
+                    "nomor": "126",
+                    "isi": [
+                        {
+                            "ayat": "1",
+                            "teks": "Pemerintah Daerah membentuk mekanisme koordinasi di tingkat Daerah dalam rangka melaksanakan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas sesuai dengan kewenangannya."
+                        },
+                        {
+                            "ayat": "2",
+                            "teks": "Koordinasi di tingkat Daerah dilakukan oleh Kepala Dinas dengan Perangkat Daerah dan instansi pemerintah/ lembaga pemerintah non kementerian yang terkait sesuai dengan ketentuan yang berlaku."
+                        },
+                        {
+                            "ayat": "3",
+                            "teks": "Koordinasi sebagaimana dimaksud pada ayat (2) bertujuan untuk menyelenggarakan dan menyinkronkan kebijakan, program, dan anggaran pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas."
+                        },
+                        {
+                            "ayat": "4",
+                            "teks": "Dalam koordinasi sebagaimana dimaksud pada ayat (3), Kepala Dinas melaksanakan tugas: a. melakukan sinkronisasi program dan kebijakan dalam rangka pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas; b. menjamin pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas berjalan dengan efektif; c. mewujudkan anggaran pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas; dan d. menyinkronkan penggunaan anggaran pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas agar berjalan dengan efisien."
+                        }
+                    ]
                 }
             ]
         },
@@ -823,10 +1489,23 @@
             "judul": "BAB VII PENDANAAN",
             "kategori": "Materi Pokok",
             "sections": [],
-            "articles": [
+            "pasal": [
                 {
-                    "nomor": "PASAL 127",
-                    "isi": "Pasal 127 (1) Pemerintah Daerah wajib menyediakan anggaran bagi pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas. 48 (2) Pendanaan pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) bersumber dari: a. Anggaran Pendapatan dan Belanja Daerah; dan b. sumber lain yang sah dan tidak mengikat sesuai dengan ketentuan peraturan perundang-undangan. (3) Pendanaan pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) huruf a dilaksanakan sesuai dengan kemampuan keuangan Daerah."
+                    "nomor": "127",
+                    "isi": [
+                        {
+                            "ayat": "1",
+                            "teks": "Pemerintah Daerah wajib menyediakan anggaran bagi pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas. 48"
+                        },
+                        {
+                            "ayat": "2",
+                            "teks": "Pendanaan pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (1) bersumber dari: a. Anggaran Pendapatan dan Belanja Daerah; dan b. sumber lain yang sah dan tidak mengikat sesuai dengan ketentuan peraturan perundang-undangan."
+                        },
+                        {
+                            "ayat": "3",
+                            "teks": "Pendanaan pelaksanaan Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas sebagaimana dimaksud pada ayat (2) huruf a dilaksanakan sesuai dengan kemampuan keuangan Daerah."
+                        }
+                    ]
                 }
             ]
         },
@@ -835,22 +1514,31 @@
             "judul": "BAB VIII PENGHARGAAN",
             "kategori": "Materi Pokok",
             "sections": [],
-            "articles": [
+            "pasal": [
                 {
-                    "nomor": "PASAL 128",
-                    "isi": "Pasal 128 (1) Pemerintah Daerah dapat memberikan penghargaan kepada: a. orang perseorangan yang berjasa dalam Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas; b. badan hukum dan lembaga negara yang mempekerjakan Penyandang Disabilitas; dan c. penyedia fasilitas publik yang memenuhi hak Penyandang Disabilitas. (2) Ketentuan lebih lanjut mengenai syarat dan tata cara pemberian penghargaan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bupati."
+                    "nomor": "128",
+                    "isi": [
+                        {
+                            "ayat": "1",
+                            "teks": "Pemerintah Daerah dapat memberikan penghargaan kepada: a. orang perseorangan yang berjasa dalam Penghormatan, Pelindungan, dan Pemenuhan hak Penyandang Disabilitas; b. badan hukum dan lembaga negara yang mempekerjakan Penyandang Disabilitas; dan c. penyedia fasilitas publik yang memenuhi hak Penyandang Disabilitas."
+                        },
+                        {
+                            "ayat": "2",
+                            "teks": "Ketentuan lebih lanjut mengenai syarat dan tata cara pemberian penghargaan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bupati."
+                        }
+                    ]
                 }
             ]
         },
         {
             "bab": "BAB IX",
             "judul": "BAB IX KETENTUAN PERALIHAN",
-            "kategori": "Ketentuan Peralihan",
+            "kategori": "Materi Pokok",
             "sections": [],
-            "articles": [
+            "pasal": [
                 {
-                    "nomor": "PASAL 129",
-                    "isi": "Pasal 129 Sarana dan prasarana umum yang belum menyediakan fasilitas dan Aksesibilitas bagi Penyandang Disabilitas sebelum berlakunya Peraturan Daerah ini, dalam waktu 5 (lima) tahun sejak diundangkannya Peraturan Daerah ini, wajib menyediakan fasilitas dan Aksesibilitas bagi Penyandang Disabilitas. 49"
+                    "nomor": "129",
+                    "isi": "Sarana dan prasarana umum yang belum menyediakan fasilitas dan Aksesibilitas bagi Penyandang Disabilitas sebelum berlakunya Peraturan Daerah ini, dalam waktu 5 (lima) tahun sejak diundangkannya Peraturan Daerah ini, wajib menyediakan fasilitas dan Aksesibilitas bagi Penyandang Disabilitas. 49"
                 }
             ]
         },
@@ -859,14 +1547,14 @@
             "judul": "BAB X KETENTUAN PENUTUP",
             "kategori": "Ketentuan Penutup",
             "sections": [],
-            "articles": [
+            "pasal": [
                 {
-                    "nomor": "PASAL 130",
-                    "isi": "Pasal 130 Perangkat Daerah yang melaksanakan urusan pemerintahan di bidang sosial untuk membentuk peraturan pelaksanaan dari Peraturan Daerah ini harus ditetapkan paling lama 6 (enam) bulan terhitung sejak Peraturan Daerah ini diundangkan."
+                    "nomor": "130",
+                    "isi": "Perangkat Daerah yang melaksanakan urusan pemerintahan di bidang sosial untuk membentuk peraturan pelaksanaan dari Peraturan Daerah ini harus ditetapkan paling lama 6 (enam) bulan terhitung sejak Peraturan Daerah ini diundangkan."
                 },
                 {
-                    "nomor": "PASAL 131",
-                    "isi": "Pasal 131 Peraturan Daerah ini mulai berlaku pada tanggal diundangkan."
+                    "nomor": "131",
+                    "isi": "Peraturan Daerah ini mulai berlaku pada tanggal diundangkan."
                 }
             ]
         }
