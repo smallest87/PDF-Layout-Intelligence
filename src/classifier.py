@@ -8,7 +8,6 @@ class LayoutClassifier:
         self.df = df
         self.thresh = thresholds
         
-        # Memuat konfigurasi dari YAML
         if os.path.exists(config_path):
             with open(config_path, 'r', encoding='utf-8') as f:
                 config_data = yaml.safe_load(f)
@@ -19,25 +18,26 @@ class LayoutClassifier:
             self.list_pemicu_pembentuk = ["BUPATI", "WALIKOTA", "GUBERNUR"]
 
     def apply_sistematika(self):
-        """Identifikasi unsur DASAR HUKUM menggunakan metode Start-to-Stop di dalam PEMBUKAAN."""
+        """Identifikasi unsur DIKTUM menggunakan batas state sistematika."""
         sistematika_list = []
         unsur_list = []
         
         current_state = "BODY_TEXT"
         is_konsiderans_active = False 
-        is_dasar_hukum_active = False # Saklar untuk blok DASAR HUKUM
+        is_dasar_hukum_active = False
+        is_diktum_active = False # Saklar untuk blok DIKTUM
         
         for index, row in self.df.iterrows():
             text = str(row['text']).strip()
             text_upper = text.upper()
             
-            # 1. Prioritas Navigasi (Halaman & Catchword)
+            # 1. Prioritas Navigasi
             if re.match(r"^-\s*\d+\s*-$", text):
                 sistematika_list.append("HALAMAN"); unsur_list.append(""); continue
             if re.search(r"\.\s*\.\s*\.$", text):
                 sistematika_list.append("CATCHWORD"); unsur_list.append(""); continue
 
-            # 2. Identifikasi Sistematika Utama
+            # 2. Identifikasi Sistematika Utama (Anchor)
             is_match_judul = any(text_upper.startswith(p) for p in self.list_pemicu_judul)
             if current_state in ["BODY_TEXT", "JUDUL"]:
                 if is_match_judul and row['center_score'] < self.thresh['center_limit'] and row['is_all_caps']:
@@ -47,31 +47,33 @@ class LayoutClassifier:
                 current_state = "PEMBUKAAN"
             elif re.search(r"^BAB\s+[IVXLCDM]+", text, re.IGNORECASE) or re.search(r"^Pasal\s+\d+", text, re.IGNORECASE):
                 current_state = "BATANG TUBUH"
-                is_konsiderans_active = False; is_dasar_hukum_active = False
+                # Otomatis matikan semua unsur PEMBUKAAN saat pindah sistematika
+                is_konsiderans_active = False; is_dasar_hukum_active = False; is_diktum_active = False
             elif "AGAR SETIAP ORANG MENGETAHUINYA" in text_upper:
                 current_state = "PENUTUP"
-                is_konsiderans_active = False; is_dasar_hukum_active = False
+                is_konsiderans_active = False; is_dasar_hukum_active = False; is_diktum_active = False
 
             # 3. Logika Identifikasi Unsur di dalam PEMBUKAAN
             final_unsur = ""
             if current_state == "PEMBUKAAN":
                 # Toggles Unsur
                 if "MENIMBANG :" in text_upper:
-                    is_konsiderans_active = True
-                    is_dasar_hukum_active = False
+                    is_konsiderans_active = True; is_dasar_hukum_active = False; is_diktum_active = False
                 
-                if "MENGINGAT :" in text_upper:
-                    is_konsiderans_active = False
-                    is_dasar_hukum_active = True # Titik Start DASAR HUKUM
+                elif "MENGINGAT :" in text_upper:
+                    is_konsiderans_active = False; is_dasar_hukum_active = True; is_diktum_active = False
                 
-                if "DENGAN PERSETUJUAN BERSAMA" in text_upper:
-                    is_dasar_hukum_active = False # Titik Stop DASAR HUKUM
+                elif "DENGAN PERSETUJUAN BERSAMA" in text_upper:
+                    is_konsiderans_active = False; is_dasar_hukum_active = False
+                    is_diktum_active = True # Titik Start DIKTUM
 
                 # Penentuan Label Unsur
-                if is_konsiderans_active:
-                    final_unsur = "KONSIDERANS"
+                if is_diktum_active:
+                    final_unsur = "DIKTUM"
                 elif is_dasar_hukum_active:
-                    final_unsur = "DASAR HUKUM" # Labeling blok Mengingat
+                    final_unsur = "DASAR HUKUM"
+                elif is_konsiderans_active:
+                    final_unsur = "KONSIDERANS"
                 elif "DENGAN RAHMAT TUHAN YANG MAHA ESA" in text_upper:
                     final_unsur = "FRASA RELIGIUS"
                 else:
