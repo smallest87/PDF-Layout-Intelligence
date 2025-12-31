@@ -5,6 +5,7 @@ import os
 
 class MasterAggregator:
     def __init__(self, master_df, config_meta="config/meta_mapping.yaml"):
+        # Menggunakan df_master yang sudah dilabeli oleh LayoutClassifier
         self.df = master_df
         if os.path.exists(config_meta):
             with open(config_meta, 'r', encoding='utf-8') as f:
@@ -17,12 +18,66 @@ class MasterAggregator:
             self.ALL_SAMPLES.extend(v)
 
     def _clean_text(self, text_list):
-        """Pembersihan teks standar."""
+        """Pembersihan spasi dan penggabungan teks dari list."""
         text = " ".join([str(t).strip() for t in text_list if str(t).strip()])
         return re.sub(r'\s+', ' ', text).strip()
 
+    def _extract_metadata(self, text):
+        """Ekstraksi metadata dari teks JUDUL menggunakan regex."""
+        detected_jenis = "TIDAK_TERDETEKSI"
+        detected_kategori = "TIDAK_TERDETEKSI"
+        
+        # Matching Jenis & Kategori
+        sorted_samples = sorted(self.ALL_SAMPLES, key=len, reverse=True)
+        for s in sorted_samples:
+            if s.lower() in text.lower():
+                detected_jenis = s
+                for k, v in self.META_MAPPING.items():
+                    if s in v: detected_kategori = k; break
+                break
+
+        # Regex untuk Nomor, Tahun, dan Perihal
+        no_match = re.search(r"NOMOR\s+([\d\w/.\-]+)", text, re.IGNORECASE)
+        thn_match = re.search(r"TAHUN\s+(\d{4})", text, re.IGNORECASE)
+        tentang_match = re.search(r"TENTANG\s+(.*)", text, re.IGNORECASE)
+
+        return {
+            "kategori": detected_kategori,
+            "jenis": detected_jenis,
+            "nomor": no_match.group(1) if no_match else "NONE",
+            "tahun": thn_match.group(1) if thn_match else "NONE",
+            "tentang": tentang_match.group(1).strip() if tentang_match else "NONE"
+        }
+
+    def _parse_points(self, df_unsur, pattern, prefix_to_strip=None):
+        """Mengurai teks poin menjadi array of objects (nomor & isi)."""
+        points = []
+        current_point = None
+        
+        for _, row in df_unsur.iterrows():
+            text = str(row['text']).strip()
+            
+            # Hapus prefix pemicu di baris awal (misal: 'Menimbang :')
+            if prefix_to_strip:
+                text = re.sub(rf"^{prefix_to_strip}\s*:\s*", "", text, flags=re.IGNORECASE)
+            
+            # Cek pola poin (a. atau 1.)
+            match = re.match(pattern, text)
+            if match:
+                if current_point: points.append(current_point)
+                current_point = {"nomor": match.group(1), "isi": match.group(2)}
+            else:
+                if current_point: current_point["isi"] += " " + text
+        
+        if current_point: points.append(current_point)
+        
+        # Pembersihan teks akhir untuk tiap poin
+        for p in points:
+            p['isi'] = re.sub(r'\s+', ' ', p['isi']).strip()
+        return points
+
     def run_all(self):
-        """Menghasilkan struktur JSON A, B, C, D yang sudah nested."""
+        """Orkestrator untuk menghasilkan struktur A, B, C, D."""
         return {
             "A_JUDUL": self.process_judul(),
             "B_PEMBUKAAN": self.process_pembukaan(),
@@ -31,37 +86,46 @@ class MasterAggregator:
         }
 
     def process_judul(self):
+        """A. JUDUL: Konsolidasi baris sistematika JUDUL."""
         df_j = self.df[self.df['sistematika'] == "JUDUL"]
         full_text = self._clean_text(df_j['text'])
-        # Ekstraksi metadata sederhana (Nomor/Tahun)
-        no = re.search(r"NOMOR\s+([\d\w/.\-]+)", full_text, re.IGNORECASE)
-        th = re.search(r"TAHUN\s+(\d{4})", full_text, re.IGNORECASE)
         return {
             "text": full_text,
-            "metadata": {"nomor": no.group(1) if no else "NONE", "tahun": th.group(1) if th else "NONE"}
+            "metadata": self._extract_metadata(full_text)
         }
 
     def process_pembukaan(self):
+        """B. PEMBUKAAN: Mengurai 5 unsur termasuk Konsiderans & Dasar Hukum nested."""
         df_p = self.df[self.df['sistematika'] == "PEMBUKAAN"]
-        mapping = {"FRASA RELIGIUS": "frasa_religius", "PEMBENTUK PPU": "jabatan_pembentuk", 
-                   "KONSIDERANS": "konsiderans", "DASAR HUKUM": "dasar_hukum", "DIKTUM": "diktum"}
-        return {val: self._clean_text(df_p[df_p['unsur'] == key]['text']) for key, val in mapping.items()}
+        
+        # Poin-poin Konsiderans (a. b. c.)
+        kon_nested = self._parse_points(df_p[df_p['unsur'] == "KONSIDERANS"], 
+                                       r"^([a-z])\.\s+(.*)", prefix_to_strip="Menimbang")
+        
+        # Poin-poin Dasar Hukum (1. 2. 3.)
+        dh_nested = self._parse_points(df_p[df_p['unsur'] == "DASAR HUKUM"], 
+                                      r"^(\d+)\.\s+(.*)", prefix_to_strip="Mengingat")
+        
+        return {
+            "frasa_religius": self._clean_text(df_p[df_p['unsur'] == "FRASA RELIGIUS"]['text']),
+            "jabatan_pembentuk": self._clean_text(df_p[df_p['unsur'] == "PEMBENTUK PPU"]['text']),
+            "konsiderans": kon_nested,
+            "dasar_hukum": dh_nested,
+            "diktum": self._clean_text(df_p[df_p['unsur'] == "DIKTUM"]['text'])
+        }
 
     def process_batang_tubuh(self):
-        """C. BATANG TUBUH: Implementasi Struktur Nested (BAB > BAGIAN > PARAGRAF > PASAL)."""
+        """C. BATANG TUBUH: Struktur Hierarki Nested (BAB > BAGIAN > PARAGRAF > PASAL)."""
         df_bt = self.df[self.df['sistematika'] == "BATANG TUBUH"]
         chapters = []
         
-        curr_bab = None
-        curr_bagian = None
-        curr_paragraf = None
-        curr_pasal = None
+        curr_bab, curr_bagian, curr_paragraf, curr_pasal = None, None, None, None
 
         for _, row in df_bt.iterrows():
             u = str(row['unsur'])
             t = str(row['text'])
             
-            # 1. Level: BAB
+            # Hierarki 1: BAB
             if u.startswith("BAB"):
                 if not curr_bab or curr_bab['bab'] != u:
                     curr_bab = {"bab": u, "judul": t, "kategori": "Materi Pokok", "sections": [], "articles": []}
@@ -69,7 +133,7 @@ class MasterAggregator:
                     curr_bagian, curr_paragraf, curr_pasal = None, None, None
                 else: curr_bab['judul'] += " " + t
             
-            # 2. Level: BAGIAN (Child of BAB)
+            # Hierarki 2: BAGIAN
             elif u.startswith("BAGIAN"):
                 if not curr_bagian or curr_bagian['bagian'] != u:
                     curr_bagian = {"bagian": u, "judul": t, "paragraphs": [], "articles": []}
@@ -77,7 +141,7 @@ class MasterAggregator:
                     curr_paragraf, curr_pasal = None, None
                 else: curr_bagian['judul'] += " " + t
 
-            # 3. Level: PARAGRAF (Child of BAGIAN)
+            # Hierarki 3: PARAGRAF
             elif u.startswith("PARAGRAF"):
                 if not curr_paragraf or curr_paragraf['paragraf'] != u:
                     curr_paragraf = {"paragraf": u, "judul": t, "articles": []}
@@ -85,16 +149,17 @@ class MasterAggregator:
                     curr_pasal = None
                 else: curr_paragraf['judul'] += " " + t
 
-            # 4. Level: PASAL (Bisa di bawah Paragraf, Bagian, atau langsung BAB)
+            # Hierarki 4: PASAL
             elif u.startswith("PASAL"):
                 if not curr_pasal or curr_pasal['nomor'] != u:
                     curr_pasal = {"nomor": u, "isi": t}
+                    # Masukkan ke level terdalam yang tersedia
                     if curr_paragraf: curr_paragraf['articles'].append(curr_pasal)
                     elif curr_bagian: curr_bagian['articles'].append(curr_pasal)
                     elif curr_bab: curr_bab['articles'].append(curr_pasal)
                 else: curr_pasal['isi'] += " " + t
 
-        # Final Cleaning & Bab Categorization
+        # Pembersihan Teks & Penentuan Kategori BAB
         for c in chapters:
             c['judul'] = self._clean_text([c['judul']])
             if "KETENTUAN UMUM" in c['judul'].upper(): c['kategori'] = "Ketentuan Umum"
@@ -105,5 +170,6 @@ class MasterAggregator:
         return chapters
 
     def process_penutup(self):
+        """D. PENUTUP: Gabungan teks penutup."""
         df_pen = self.df[self.df['sistematika'] == "PENUTUP"]
         return {"text": self._clean_text(df_pen['text'])}
