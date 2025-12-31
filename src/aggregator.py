@@ -5,6 +5,7 @@ import os
 
 class MasterAggregator:
     def __init__(self, master_df, config_meta="config/meta_mapping.yaml"):
+        # Sumber data tunggal dari MASTER.csv
         self.df = master_df
         if os.path.exists(config_meta):
             with open(config_meta, 'r', encoding='utf-8') as f:
@@ -49,7 +50,6 @@ class MasterAggregator:
         """Mengurai ayat ke dalam struktur: {teks_pembuka, ayat: []}."""
         matches = list(re.finditer(r"\((\d+)\)", text))
         
-        # Jika tidak ada pola ayat (1), proses sebagai rincian atau teks biasa
         if not any(int(m.group(1)) == 1 for m in matches):
             return self._parse_rincian(text)
 
@@ -60,21 +60,16 @@ class MasterAggregator:
         for match in matches:
             ayat_num = int(match.group(1))
             if ayat_num == expected_ayat:
-                # Ambil teks sebelum ayat ini
                 segment = text[last_pos:match.start()].strip()
-                
                 if expected_ayat == 1:
-                    # Teks sebelum ayat (1) adalah header/pembuka pasal
                     header_text = segment
                 else:
-                    # Teks sebelum ayat (N) adalah isi dari ayat (N-1)
                     if ayat_results:
                         ayat_results[-1]["teks"] = self._parse_rincian(segment)
                 
                 ayat_results.append({"ayat": str(ayat_num), "teks": ""})
                 last_pos, expected_ayat = match.end(), expected_ayat + 1
 
-        # Tambahkan sisa teks setelah ayat terakhir
         if last_pos < len(text) and ayat_results:
             ayat_results[-1]["teks"] = self._parse_rincian(text[last_pos:].strip())
 
@@ -105,7 +100,6 @@ class MasterAggregator:
         df_p = self.df[self.df['sistematika'] == "PEMBUKAAN"]
         kon_raw = self._clean_text(df_p[df_p['unsur'] == "KONSIDERANS"]['text'])
         dh_raw = self._clean_text(df_p[df_p['unsur'] == "DASAR HUKUM"]['text'])
-        
         kon_data = self._parse_rincian(kon_raw)
         dh_data = self._parse_rincian(dh_raw)
         
@@ -118,7 +112,7 @@ class MasterAggregator:
         }
 
     def process_batang_tubuh(self):
-        """C. BATANG TUBUH: Struktur Nested Bersih."""
+        """C. BATANG TUBUH: Struktur Hierarki dengan judul bersih."""
         df_bt = self.df[self.df['sistematika'] == "BATANG TUBUH"]
         chapters = []
         curr_bab, curr_bagian, curr_paragraf, curr_pasal = None, None, None, None
@@ -152,30 +146,40 @@ class MasterAggregator:
                     elif curr_bab: curr_bab['pasal'].append(curr_pasal)
                 else: curr_pasal['isi'] += " " + t
 
+        
+
         for c in chapters:
+            # Membersihkan judul BAB
             c['judul'] = self._clean_text([c['judul']])
+            c['judul'] = re.sub(rf"^{c['bab']}\s*", "", c['judul'], flags=re.IGNORECASE).strip()
+
             def clean_list(p_list):
                 for p in p_list:
                     raw_text = self._clean_text([p['isi']])
-                    # Pembersihan agresif: Hapus 'Pasal X' di awal teks
                     cleaned_text = re.sub(rf"^\s*Pasal\s+{p['nomor']}\s*", "", raw_text, flags=re.IGNORECASE).strip()
-                    
-                    # Parsing menjadi ayat atau rincian
                     parsed_content = self._parse_ayat(cleaned_text)
-                    
-                    # Jika hasilnya ayat, pastikan header yang isinya hanya "Pasal" dibuang
                     if isinstance(parsed_content, dict) and "ayat" in parsed_content:
                         if parsed_content["teks_pembuka"].lower() == "pasal":
                             parsed_content["teks_pembuka"] = ""
-                    
                     p['isi'] = parsed_content
                     if 'nomor_raw' in p: del p['nomor_raw']
             
             clean_list(c['pasal'])
             for s in c['sections']:
-                s['judul'] = self._clean_text([s['judul']]); clean_list(s['pasal'])
+                # Membersihkan judul BAGIAN
+                s['judul'] = self._clean_text([s['judul']])
+                s['judul'] = re.sub(rf"^{s['bagian']}\s*", "", s['judul'], flags=re.IGNORECASE).strip()
+                clean_list(s['pasal'])
                 for pg in s['paragraphs']:
-                    pg['judul'] = self._clean_text([pg['judul']]); clean_list(pg['pasal'])
+                    # Membersihkan judul PARAGRAF
+                    pg['judul'] = self._clean_text([pg['judul']])
+                    pg['judul'] = re.sub(rf"^{pg['paragraf']}\s*", "", pg['judul'], flags=re.IGNORECASE).strip()
+                    clean_list(pg['pasal'])
+            
+            # Kategorisasi BAB berdasarkan judul yang sudah bersih
+            if "KETENTUAN UMUM" in c['judul'].upper(): c['kategori'] = "Ketentuan Umum"
+            elif "KETENTUAN PENUTUP" in c['judul'].upper(): c['kategori'] = "Ketentuan Penutup"
+            
         return chapters
 
     def process_penutup(self):

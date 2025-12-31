@@ -66,8 +66,8 @@
     "C_BATANG_TUBUH": [
         {
             "bab": "BAB I",
-            "judul": "BAB I KETENTUAN UMUM",
-            "kategori": "Materi Pokok",
+            "judul": "KETENTUAN UMUM",
+            "kategori": "Ketentuan Umum",
             "sections": [],
             "pasal": [
                 {
@@ -262,7 +262,7 @@
         },
         {
             "bab": "BAB II",
-            "judul": "BAB II RUANG LINGKUP",
+            "judul": "RUANG LINGKUP",
             "kategori": "Materi Pokok",
             "sections": [],
             "pasal": [
@@ -302,7 +302,7 @@
         },
         {
             "bab": "BAB III",
-            "judul": "BAB III RAGAM PENYANDANG DISABILITAS",
+            "judul": "RAGAM PENYANDANG DISABILITAS",
             "kategori": "Materi Pokok",
             "sections": [],
             "pasal": [
@@ -346,12 +346,12 @@
         },
         {
             "bab": "BAB IV",
-            "judul": "BAB IV HAK PENYANDANG DISABILITAS",
+            "judul": "HAK PENYANDANG DISABILITAS",
             "kategori": "Materi Pokok",
             "sections": [
                 {
                     "bagian": "BAGIAN KESATU",
-                    "judul": "Bagian Kesatu Umum",
+                    "judul": "Umum",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -522,7 +522,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEDUA",
-                    "judul": "Bagian Kedua Hak Hidup",
+                    "judul": "Hak Hidup",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -561,7 +561,7 @@
                 },
                 {
                     "bagian": "BAGIAN KETIGA",
-                    "judul": "Bagian Ketiga Hak Bebas dari Stigma",
+                    "judul": "Hak Bebas dari Stigma",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -572,7 +572,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEEMPAT",
-                    "judul": "Bagian Keempat Hak Privasi",
+                    "judul": "Hak Privasi",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -607,7 +607,7 @@
                 },
                 {
                     "bagian": "BAGIAN KELIMA",
-                    "judul": "Bagian Kelima Hak Keadilan dan Pelindungan Hukum",
+                    "judul": "Hak Keadilan dan Pelindungan Hukum",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -658,7 +658,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEENAM",
-                    "judul": "Bagian Keenam Hak Pendidikan",
+                    "judul": "Hak Pendidikan",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -689,7 +689,7 @@
                 },
                 {
                     "bagian": "BAGIAN KETUJUH",
-                    "judul": "Bagian Ketujuh Hak Pekerjaan, Kewirausahaan, dan Koperasi",
+                    "judul": "Hak Pekerjaan, Kewirausahaan, dan Koperasi",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -736,7 +736,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEDELAPAN",
-                    "judul": "Bagian Kedelapan Hak Kesehatan",
+                    "judul": "Hak Kesehatan",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -783,7 +783,7 @@
                 },
                 {
                     "bagian": "BAGIAN KESEMBILAN",
-                    "judul": "Bagian Kesembilan Hak Politik",
+                    "judul": "Hak Politik",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -830,7 +830,7 @@
                 },
                 {
                     "bagian": "BAGIAN KESEPULUH",
-                    "judul": "Bagian Kesepuluh Hak Keagamaan",
+                    "judul": "Hak Keagamaan",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -865,7 +865,7 @@
                 },
                 {
                     "bagian": "BAGIAN KESEBELAS",
-                    "judul": "Bagian Kesebelas Hak Keolahragaan",
+                    "judul": "Hak Keolahragaan",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -1151,12 +1151,12 @@
         },
         {
             "bab": "BAB V",
-            "judul": "bab V PELAKSANAAN PENGHORMATAN, PELINDUNGAN, DAN PEMENUHAN HAK PENYANDANG DISABILITAS",
+            "judul": "PELAKSANAAN PENGHORMATAN, PELINDUNGAN, DAN PEMENUHAN HAK PENYANDANG DISABILITAS",
             "kategori": "Materi Pokok",
             "sections": [
                 {
                     "bagian": "BAGIAN KESATU",
-                    "judul": "Bagian Kesatu Umum",
+                    "judul": "Umum",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -1183,7 +1183,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEDUA",
-                    "judul": "Bagian Kedua Perencanaan",
+                    "judul": "Perencanaan",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -1250,7 +1250,7 @@
                 },
                 {
                     "bagian": "BAGIAN KETIGA",
-                    "judul": "Bagian ketiga Pelindungan Hukum Bagian Ketiga Pendidikan",
+                    "judul": "Pelindungan Hukum Bagian Ketiga Pendidikan",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -1605,7 +1605,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEEMPAT",
-                    "judul": "Bagian Keempat Pekerjaan, Kewirausahaan, dan Koperasi",
+                    "judul": "Pekerjaan, Kewirausahaan, dan Koperasi",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -1844,7 +1844,7 @@
                 },
                 {
                     "bagian": "BAGIAN KELIMA",
-                    "judul": "Bagian Kelima Kesehatan",
+                    "judul": "Kesehatan",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -2007,7 +2007,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEENAM",
-                    "judul": "Bagian Keenam Politik",
+                    "judul": "Politik",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -2078,7 +2078,7 @@
                 },
                 {
                     "bagian": "BAGIAN KETUJUH",
-                    "judul": "Bagian Ketujuh Keagamaan",
+                    "judul": "Keagamaan",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -2113,7 +2113,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEDELAPAN",
-                    "judul": "Bagian Kedelapan Keolahragaan",
+                    "judul": "Keolahragaan",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -2156,7 +2156,7 @@
                 },
                 {
                     "bagian": "BAGIAN KESEMBILAN",
-                    "judul": "Bagian Kesembilan Kebudayaan dan Pariwisata",
+                    "judul": "Kebudayaan dan Pariwisata",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -2259,7 +2259,7 @@
                 },
                 {
                     "bagian": "BAGIAN KESEPULUH",
-                    "judul": "Bagian Kesepuluh Kesejahteraan Sosial",
+                    "judul": "Kesejahteraan Sosial",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -2466,7 +2466,7 @@
                 },
                 {
                     "bagian": "BAGIAN KESEBELAS",
-                    "judul": "Bagian Kesebelas Infrastruktur",
+                    "judul": "Infrastruktur",
                     "paragraphs": [
                         {
                             "paragraf": "PARAGRAF 1",
@@ -3069,7 +3069,7 @@
         },
         {
             "bab": "BAB VI",
-            "judul": "BAB VI KOORDINASI",
+            "judul": "KOORDINASI",
             "kategori": "Materi Pokok",
             "sections": [],
             "pasal": [
@@ -3121,7 +3121,7 @@
         },
         {
             "bab": "BAB VII",
-            "judul": "BAB VII PENDANAAN",
+            "judul": "PENDANAAN",
             "kategori": "Materi Pokok",
             "sections": [],
             "pasal": [
@@ -3161,7 +3161,7 @@
         },
         {
             "bab": "BAB VIII",
-            "judul": "BAB VIII PENGHARGAAN",
+            "judul": "PENGHARGAAN",
             "kategori": "Materi Pokok",
             "sections": [],
             "pasal": [
@@ -3201,7 +3201,7 @@
         },
         {
             "bab": "BAB IX",
-            "judul": "BAB IX KETENTUAN PERALIHAN",
+            "judul": "KETENTUAN PERALIHAN",
             "kategori": "Materi Pokok",
             "sections": [],
             "pasal": [
@@ -3213,8 +3213,8 @@
         },
         {
             "bab": "BAB X",
-            "judul": "BAB X KETENTUAN PENUTUP",
-            "kategori": "Materi Pokok",
+            "judul": "KETENTUAN PENUTUP",
+            "kategori": "Ketentuan Penutup",
             "sections": [],
             "pasal": [
                 {
