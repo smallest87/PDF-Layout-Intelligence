@@ -3,7 +3,10 @@ settings:
   input_file: "2025-Peraturan-Badan-Pusat-Statistik-No_7_Klasifikasi_Baku_Lapangan_Usaha_Indonesia_2025.pdf"
   
   # Opsi: "all", "1,2,5", atau "1-10"
-  page_range: "1-49" 
+  page_range: "1-51" 
+
+  # Tambahkan pengaturan ini (true = otomatis buat JSON, false = hanya buat CSV)
+  auto_generate_json: false
 
   # Parameter deteksi layout
   thresholds:
