@@ -15,25 +15,19 @@ class LayoutClassifier:
                 self.list_pemicu_judul = config_data.get('pemicu_judul', [])
                 self.list_pemicu_pembentuk = config_data.get('pemicu_pembentuk_ppu', [])
         else:
-            # Fallback jika file config tidak ditemukan
             self.list_pemicu_judul = ["PERATURAN", "UNDANG-UNDANG", "BUPATI", "GUBERNUR"]
             self.list_pemicu_pembentuk = ["BUPATI", "WALIKOTA", "GUBERNUR", "PRESIDEN", "MENTERI"]
 
     def apply_sistematika(self):
-        """Proses klasifikasi sistematika dengan deteksi Stop Signal (Penjelasan/Lampiran)."""
+        """Proses klasifikasi dengan Stop Signal berbasis All Caps dan Strict Matching."""
         sistematika_list = []
         unsur_list = []
-        indices_to_keep = [] # Menyimpan indeks baris sebelum sinyal stop ditemukan
+        indices_to_keep = [] 
         
-        # State Sistematika
         current_state = "BODY_TEXT"
-        
-        # State Internal Unsur (Toggles)
         is_konsiderans_active = False 
         is_dasar_hukum_active = False
         is_diktum_active = False
-        
-        # State Persistent untuk Batang Tubuh
         active_bt_unsur = "" 
         pending_unsur_title = None 
         
@@ -42,13 +36,16 @@ class LayoutClassifier:
             text_upper = text.upper()
             
             # ---------------------------------------------------------
-            # 0. STOP SIGNALS (Penjelasan atau Lampiran)
+            # 0. STOP SIGNALS (REVISI: ABAIKAN CENTER SCORE)
             # ---------------------------------------------------------
-            # Berhenti jika ditemukan "PENJELASAN", "PENJELASAN ATAS", 
-            # atau "LAMPIRAN" (diikuti angka Romawi)
-            if re.match(r"^PENJELASAN(\s+ATAS)?", text_upper) or \
-               re.match(r"^LAMPIRAN(\s+[IVXLCDM]+)?", text_upper):
-                break # Segera hentikan pemindaian baris selanjutnya
+            # Syarat 1: Teks harus cocok secara utuh (tidak ada kata lain di baris tersebut)
+            # Syarat 2: Baris harus All Caps (membedakan judul dengan isi norma)
+            is_stop_pattern = re.match(r"^PENJELASAN(\s+ATAS)?$", text_upper) or \
+                              re.match(r"^LAMPIRAN(\s+[IVXLCDM]+)?$", text_upper)
+            
+            if is_stop_pattern and row['is_all_caps']:
+                # Jika ditemukan judul PENJELASAN atau LAMPIRAN dalam All Caps, stop scan
+                break 
             
             indices_to_keep.append(index)
 
@@ -68,23 +65,18 @@ class LayoutClassifier:
             # ---------------------------------------------------------
             # 2. IDENTIFIKASI TRANSISI SISTEMATIKA (Anchor)
             # ---------------------------------------------------------
-            
-            # A. JUDUL
             is_match_judul = any(text_upper.startswith(p) for p in self.list_pemicu_judul)
             if current_state in ["BODY_TEXT", "JUDUL"]:
                 if is_match_judul and row['center_score'] < self.thresh['center_limit'] and row['is_all_caps']:
                     current_state = "JUDUL"
             
-            # B. PEMBUKAAN
             if "DENGAN RAHMAT TUHAN YANG MAHA ESA" in text_upper:
                 current_state = "PEMBUKAAN"
             
-            # C. BATANG TUBUH (Persistent Start)
             elif re.search(r"^BAB\s+[IVXLCDM]+", text, re.IGNORECASE) or re.search(r"^Pasal\s+\d+", text, re.IGNORECASE):
                 current_state = "BATANG TUBUH"
                 is_konsiderans_active = False; is_dasar_hukum_active = False; is_diktum_active = False
             
-            # D. PENUTUP
             elif "AGAR SETIAP ORANG MENGETAHUINYA" in text_upper:
                 current_state = "PENUTUP"
                 is_konsiderans_active = False; is_dasar_hukum_active = False; is_diktum_active = False
@@ -115,33 +107,22 @@ class LayoutClassifier:
             elif current_state == "BATANG TUBUH":
                 match_bab = re.match(r"^(BAB\s+[IVXLCDM]+)$", text_upper)
                 if match_bab:
-                    active_bt_unsur = match_bab.group(1)
-                    pending_unsur_title = active_bt_unsur
-                    final_unsur = active_bt_unsur
+                    active_bt_unsur = match_bab.group(1); pending_unsur_title = active_bt_unsur; final_unsur = active_bt_unsur
                 elif re.match(r"^BAGIAN\s+KE[A-Z]+$", text_upper):
-                    active_bt_unsur = text_upper
-                    pending_unsur_title = active_bt_unsur
-                    final_unsur = active_bt_unsur
+                    active_bt_unsur = text_upper; pending_unsur_title = active_bt_unsur; final_unsur = active_bt_unsur
                 elif re.match(r"^PARAGRAF\s+\d+$", text_upper):
-                    active_bt_unsur = text_upper
-                    pending_unsur_title = active_bt_unsur
-                    final_unsur = active_bt_unsur
+                    active_bt_unsur = text_upper; pending_unsur_title = active_bt_unsur; final_unsur = active_bt_unsur
                 elif re.match(r"^PASAL\s+\d+", text_upper):
                     match_pasal = re.search(r"(PASAL\s+\d+)", text_upper)
-                    active_bt_unsur = match_pasal.group(1)
-                    pending_unsur_title = None 
-                    final_unsur = active_bt_unsur
+                    active_bt_unsur = match_pasal.group(1); pending_unsur_title = None; final_unsur = active_bt_unsur
                 else:
                     if pending_unsur_title and row['center_score'] < self.thresh['center_limit']:
-                        final_unsur = pending_unsur_title
-                        pending_unsur_title = None 
-                    else:
-                        final_unsur = active_bt_unsur
+                        final_unsur = pending_unsur_title; pending_unsur_title = None 
+                    else: final_unsur = active_bt_unsur
 
             sistematika_list.append(current_state)
             unsur_list.append(final_unsur)
 
-        # Hanya kembalikan baris yang diproses sebelum Stop Signal
         final_df = self.df.loc[indices_to_keep].copy()
         final_df['sistematika'] = sistematika_list
         final_df['unsur'] = unsur_list
