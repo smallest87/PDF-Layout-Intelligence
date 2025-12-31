@@ -1,31 +1,36 @@
-import os, csv, json, pandas as pd
+import os
+import csv
+import json
+import pandas as pd
 from src.extractor import PDFExtractor
 from src.processor import FeatureProcessor
 from src.classifier import LayoutClassifier
-from src.legal_parser import LegalParser
+from src.aggregator import MasterAggregator
 from src.utils import load_config
 
-def save_to_json(df, output_path):
-    if df.empty: return
-    data = df.to_dict(orient='records')
+def save_final_json(data, output_path):
+    """Menyimpan hasil akhir agregasi ke format JSON terstruktur."""
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
 def select_raw_file():
     """Menampilkan daftar PDF di data/raw/ dan meminta input user."""
     raw_dir = "data/raw"
+    if not os.path.exists(raw_dir):
+        os.makedirs(raw_dir)
+        
     files = [f for f in os.listdir(raw_dir) if f.endswith('.pdf')]
     
     if not files:
-        print("[!] Folder data/raw/ kosong.")
+        print("[!] Folder data/raw/ kosong. Silakan masukkan file PDF terlebih dahulu.")
         return None
 
-    print("\n" + "="*40)
-    print(" DAFTAR FILE RAW (PDF)")
-    print("="*40)
+    print("\n" + "="*45)
+    print("      DAFTAR FILE PERATURAN (PDF)      ")
+    print("="*45)
     for idx, f in enumerate(files):
         print(f" {idx + 1}. {f}")
-    print("="*40)
+    print("="*45)
 
     while True:
         try:
@@ -37,11 +42,16 @@ def select_raw_file():
             print("[!] Harap masukkan angka yang valid.")
 
 def run_pipeline():
-    cfg = load_config(); s = cfg['settings']; t = s['thresholds']
+    """Menjalankan alur Extract -> Classify (MASTER) -> Aggregate (JSON)."""
+    # 1. Load Konfigurasi & Thresholds
+    cfg = load_config()
+    s = cfg['settings']
+    t = s['thresholds']
     
-    # INTERACTIVE FILE SELECTION
+    # 2. Seleksi File Interaktif
     selected_file = select_raw_file()
-    if not selected_file: return
+    if not selected_file:
+        return
 
     file_raw_name = selected_file.replace('.pdf', '')
     target_dir = os.path.join("data/processed", file_raw_name)
@@ -49,35 +59,49 @@ def run_pipeline():
 
     print(f"\n[*] Memulai Pipeline untuk: {selected_file}")
     
-    # Ekstraksi Fitur
+    # ---------------------------------------------------------
+    # TAHAP 1: EKSTRAKSI & KLASIFIKASI (PEMBUATAN MASTER)
+    # ---------------------------------------------------------
+    print("[*] Tahap 1: Mengekstraksi fitur dan melabeli baris...")
+    
+    # Ekstraksi teks mentah dari PDF
     extractor = PDFExtractor(os.path.join("data/raw", selected_file), s['page_range'])
-    df_labeled = LayoutClassifier(FeatureProcessor(extractor.extract_raw_data()).process_features(), t).apply_sistematika()
+    raw_data = extractor.extract_raw_data()
     
-    # 0. MASTER
-    df_labeled.to_csv(os.path.join(target_dir, "0. MASTER.csv"), index=False, quoting=csv.QUOTE_ALL)
-
-    # Inisialisasi Parser
-    parser = LegalParser(df_labeled, config_path="config/meta_mapping.yaml")
+    # Pemrosesan fitur (koordinat, kapitalisasi, dll)
+    processed_features = FeatureProcessor(raw_data).process_features()
     
-    # Daftar 1-7
-    tasks = [
-        ("1. JUDUL", parser.process_judul_autonomous),
-        ("2. PEMBUKAAN", parser.process_pembukaan_religius_autonomous),
-        ("3. PEMBUKAAN (KONSIDERAN)", parser.process_konsideran_autonomous),
-        ("4. PEMBUKAAN (DASAR HUKUM)", parser.process_dasar_hukum_autonomous),
-        ("5. PEMBUKAAN (DIKTUM)", parser.process_diktum_autonomous),
-        ("6. BATANG TUBUH", parser.process_batang_tubuh_autonomous),
-        ("7. PENUTUP", parser.process_penutup_autonomous)
-    ]
+    # Klasifikasi sistematika dan unsur ke dalam DataFrame
+    # Hasilnya adalah df_master yang memiliki kolom 'sistematika' dan 'unsur'
+    df_master = LayoutClassifier(processed_features, t).apply_sistematika()
+    
+    # Simpan sebagai 0. MASTER.csv
+    master_path = os.path.join(target_dir, "0. MASTER.csv")
+    df_master.to_csv(master_path, index=False, quoting=csv.QUOTE_ALL)
+    print(f"[OK] File Master berhasil dibuat: {master_path}")
 
-    for name, func in tasks:
-        print(f"[*] Mengekstrak bagian: {name}")
-        df = func()
-        if not df.empty:
-            df.to_csv(os.path.join(target_dir, f"{name}.csv"), index=False, quoting=csv.QUOTE_ALL)
-            save_to_json(df, os.path.join(target_dir, f"{name}.json"))
+    # ---------------------------------------------------------
+    # TAHAP 2: AGGREGASI (PEMBENTUKAN STRUKTUR FINAL)
+    # ---------------------------------------------------------
+    print("[*] Tahap 2: Mengagregasi baris menjadi struktur UU 12/2011...")
+    
+    # Inisialisasi Aggregator dengan df_master
+    aggregator = MasterAggregator(df_master, config_meta="config/meta_mapping.yaml")
+    
+    # Menjalankan seluruh proses agregasi (A, B, C, D)
+    final_structured_data = aggregator.run_all()
+    
+    # Simpan hasil akhir ke FINAL_STRUCTURED.json
+    final_json_path = os.path.join(target_dir, "FINAL_STRUCTURED.json")
+    save_final_json(final_structured_data, final_json_path)
 
-    print(f"\n[DONE] Seluruh file (0-7) tersimpan di: {target_dir}")
+    print(f"\n" + "="*45)
+    print(" PROCESS COMPLETED SUCCESSFULLY ")
+    print("="*45)
+    print(f" Folder Hasil : {target_dir}")
+    print(f" Master CSV  : 0. MASTER.csv")
+    print(f" Final JSON  : FINAL_STRUCTURED.json")
+    print("="*45)
 
 if __name__ == "__main__":
     run_pipeline()
