@@ -17,29 +17,24 @@ class MasterAggregator:
             self.ALL_SAMPLES.extend(v)
 
     def _clean_text(self, text_list):
-        """Pembersihan agresif untuk nomor halaman dan spasi liar."""
+        """Pembersihan teks dan penghapusan nomor halaman."""
         text = " ".join([str(t).strip() for t in text_list if str(t).strip()])
-        # Hapus angka halaman yang berdiri sendiri (digit terisolasi)
+        # Hapus angka halaman tunggal yang terjepit spasi
         text = re.sub(r'(?<=\s)\d+(?=\s)', '', text)
         return re.sub(r'\s+', ' ', text).strip()
 
     def _parse_rincian(self, text):
-        """Mengurai rincian dengan validasi batas kata untuk mencegah false positive."""
-        # Batasan: Poin harus diawali spasi atau awal baris agar tidak memotong kata (seperti Malang.)
+        """Mengurai rincian (1. atau a.) di dalam teks."""
         pattern = r"(?:^|\s)(\d+\.|[a-z]\.)\s+"
-        
         if not re.search(pattern, text):
             return text
 
-        # Gunakan split dengan memastikan poin bukan bagian dari kata
         parts = re.split(pattern, text)
-        
         res = {
             "teks_pembuka": parts[0].strip(),
             "rincian": []
         }
 
-        # Iterasi: parts[i] adalah nomor poin, parts[i+1] adalah isinya
         for i in range(1, len(parts), 2):
             no_rincian = parts[i].strip().replace(".", "")
             isi_rincian = parts[i+1].strip() if i+1 < len(parts) else ""
@@ -51,35 +46,42 @@ class MasterAggregator:
         return res
 
     def _parse_ayat(self, text):
-        """Parsing ayat dengan Sequential Validation."""
+        """Mengurai ayat ke dalam struktur: {teks_pembuka, ayat: []}."""
         matches = list(re.finditer(r"\((\d+)\)", text))
         
-        # Jika tidak ada urutan ayat (1) yang valid, proses sebagai rincian biasa
+        # Jika tidak ada pola ayat (1), proses sebagai rincian atau teks biasa
         if not any(int(m.group(1)) == 1 for m in matches):
             return self._parse_rincian(text)
 
-        ayat_list = []
+        ayat_results = []
         last_pos, expected_ayat = 0, 1
-        
+        header_text = ""
+
         for match in matches:
             ayat_num = int(match.group(1))
             if ayat_num == expected_ayat:
-                segment_text = text[last_pos:match.start()].strip()
-                if segment_text:
-                    if not ayat_list:
-                        ayat_list.append({"ayat": "header", "teks": segment_text})
-                    else:
-                        ayat_list[-1]["teks"] = self._parse_rincian(segment_text)
+                # Ambil teks sebelum ayat ini
+                segment = text[last_pos:match.start()].strip()
                 
-                ayat_list.append({"ayat": str(ayat_num), "teks": ""})
+                if expected_ayat == 1:
+                    # Teks sebelum ayat (1) adalah header/pembuka pasal
+                    header_text = segment
+                else:
+                    # Teks sebelum ayat (N) adalah isi dari ayat (N-1)
+                    if ayat_results:
+                        ayat_results[-1]["teks"] = self._parse_rincian(segment)
+                
+                ayat_results.append({"ayat": str(ayat_num), "teks": ""})
                 last_pos, expected_ayat = match.end(), expected_ayat + 1
 
-        if last_pos < len(text):
-            final_segment = text[last_pos:].strip()
-            if final_segment and ayat_list:
-                ayat_list[-1]["teks"] = self._parse_rincian(final_segment)
+        # Tambahkan sisa teks setelah ayat terakhir
+        if last_pos < len(text) and ayat_results:
+            ayat_results[-1]["teks"] = self._parse_rincian(text[last_pos:].strip())
 
-        return ayat_list
+        return {
+            "teks_pembuka": header_text,
+            "ayat": ayat_results
+        }
 
     def run_all(self):
         return {
@@ -104,7 +106,6 @@ class MasterAggregator:
         kon_raw = self._clean_text(df_p[df_p['unsur'] == "KONSIDERANS"]['text'])
         dh_raw = self._clean_text(df_p[df_p['unsur'] == "DASAR HUKUM"]['text'])
         
-        # Penguraian poin untuk konsiderans dan dasar hukum
         kon_data = self._parse_rincian(kon_raw)
         dh_data = self._parse_rincian(dh_raw)
         
@@ -117,6 +118,7 @@ class MasterAggregator:
         }
 
     def process_batang_tubuh(self):
+        """C. BATANG TUBUH: Struktur Nested Bersih."""
         df_bt = self.df[self.df['sistematika'] == "BATANG TUBUH"]
         chapters = []
         curr_bab, curr_bagian, curr_paragraf, curr_pasal = None, None, None, None
@@ -154,10 +156,19 @@ class MasterAggregator:
             c['judul'] = self._clean_text([c['judul']])
             def clean_list(p_list):
                 for p in p_list:
-                    p['isi'] = self._clean_text([p['isi']])
-                    # Pembersihan ketat "Pasal X" di awal baris
-                    p['isi'] = re.sub(rf"^\s*Pasal\s+{p['nomor']}\s*", "", p['isi'], flags=re.IGNORECASE).strip()
-                    p['isi'] = self._parse_ayat(p['isi'])
+                    raw_text = self._clean_text([p['isi']])
+                    # Pembersihan agresif: Hapus 'Pasal X' di awal teks
+                    cleaned_text = re.sub(rf"^\s*Pasal\s+{p['nomor']}\s*", "", raw_text, flags=re.IGNORECASE).strip()
+                    
+                    # Parsing menjadi ayat atau rincian
+                    parsed_content = self._parse_ayat(cleaned_text)
+                    
+                    # Jika hasilnya ayat, pastikan header yang isinya hanya "Pasal" dibuang
+                    if isinstance(parsed_content, dict) and "ayat" in parsed_content:
+                        if parsed_content["teks_pembuka"].lower() == "pasal":
+                            parsed_content["teks_pembuka"] = ""
+                    
+                    p['isi'] = parsed_content
                     if 'nomor_raw' in p: del p['nomor_raw']
             
             clean_list(c['pasal'])
