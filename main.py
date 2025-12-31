@@ -13,95 +13,97 @@ def save_final_json(data, output_path):
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=4, ensure_ascii=False)
 
-def select_raw_file():
-    """Menampilkan daftar PDF di data/raw/ dan meminta input user."""
-    raw_dir = "data/raw"
-    if not os.path.exists(raw_dir):
-        os.makedirs(raw_dir)
-        
-    files = [f for f in os.listdir(raw_dir) if f.endswith('.pdf')]
+def list_files(directory, extension):
+    """Mendaftar file berdasarkan ekstensi tertentu."""
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    return [f for f in os.listdir(directory) if f.endswith(extension)]
+
+def list_processed_folders():
+    """Mendaftar folder di data/processed yang memiliki 0. MASTER.csv."""
+    base_dir = "data/processed"
+    if not os.path.exists(base_dir):
+        return []
     
-    if not files:
-        print("[!] Folder data/raw/ kosong. Silakan masukkan file PDF terlebih dahulu.")
+    valid_folders = []
+    for d in os.listdir(base_dir):
+        if os.path.isfile(os.path.join(base_dir, d, "0. MASTER.csv")):
+            valid_folders.append(d)
+    return valid_folders
+
+def select_from_list(items, title):
+    """Helper untuk memilih item dari list secara interaktif."""
+    if not items:
+        print(f"[!] Tidak ada data tersedia untuk {title}.")
         return None
 
-    print("\n" + "="*45)
-    print("      DAFTAR FILE PERATURAN (PDF)      ")
-    print("="*45)
-    for idx, f in enumerate(files):
-        print(f" {idx + 1}. {f}")
+    print(f"\n{'='*45}\n  DAFTAR {title.upper()}\n{'='*45}")
+    for idx, item in enumerate(items):
+        print(f" {idx + 1}. {item}")
     print("="*45)
 
     while True:
         try:
-            choice = int(input(f"Pilih nomor file (1-{len(files)}): "))
-            if 1 <= choice <= len(files):
-                return files[choice - 1]
-            print(f"[!] Masukkan angka antara 1 sampai {len(files)}.")
+            choice = int(input(f"Pilih nomor (1-{len(items)}): "))
+            if 1 <= choice <= len(items):
+                return items[choice - 1]
         except ValueError:
-            print("[!] Harap masukkan angka yang valid.")
+            pass
+        print(f"[!] Masukkan angka valid 1-{len(items)}.")
 
 def run_pipeline():
-    """Menjalankan alur Extract -> Classify (MASTER) -> Aggregate (JSON)."""
-    # 1. Load Konfigurasi & Thresholds
     cfg = load_config()
-    s = cfg['settings']
-    t = s['thresholds']
+    s, t = cfg['settings'], cfg['settings']['thresholds']
+
+    print("\n" + "="*45)
+    print("      LEGAL DOC PARSER SYSTEM      ")
+    print("="*45)
+    print(" 1. Proses File Raw (PDF -> Master -> JSON)")
+    print(" 2. Re-proses Master CSV (Master -> JSON)")
+    print("="*45)
     
-    # 2. Seleksi File Interaktif
-    selected_file = select_raw_file()
-    if not selected_file:
+    mode = input("Pilih mode (1/2): ").strip()
+
+    if mode == "1":
+        # JALUR 1: PDF -> MASTER -> JSON
+        selected_file = select_from_list(list_files("data/raw", ".pdf"), "File Raw (PDF)")
+        if not selected_file: return
+
+        file_name = selected_file.replace('.pdf', '')
+        target_dir = os.path.join("data/processed", file_name)
+        os.makedirs(target_dir, exist_ok=True)
+
+        print(f"[*] Mengekstraksi PDF: {selected_file}")
+        extractor = PDFExtractor(os.path.join("data/raw", selected_file), s['page_range'])
+        df_master = LayoutClassifier(FeatureProcessor(extractor.extract_raw_data()).process_features(), t).apply_sistematika()
+        
+        master_path = os.path.join(target_dir, "0. MASTER.csv")
+        df_master.to_csv(master_path, index=False, quoting=csv.QUOTE_ALL)
+        print(f"[OK] Master CSV dibuat: {master_path}")
+
+    elif mode == "2":
+        # JALUR 2: MASTER (EXISTING) -> JSON
+        selected_folder = select_from_list(list_processed_folders(), "Folder Master CSV")
+        if not selected_folder: return
+
+        target_dir = os.path.join("data/processed", selected_folder)
+        master_path = os.path.join(target_dir, "0. MASTER.csv")
+        
+        print(f"[*] Membaca Master CSV dari: {selected_folder}")
+        df_master = pd.read_csv(master_path)
+    
+    else:
+        print("[!] Pilihan tidak valid.")
         return
 
-    file_raw_name = selected_file.replace('.pdf', '')
-    target_dir = os.path.join("data/processed", file_raw_name)
-    os.makedirs(target_dir, exist_ok=True)
-
-    print(f"\n[*] Memulai Pipeline untuk: {selected_file}")
-    
-    # ---------------------------------------------------------
-    # TAHAP 1: EKSTRAKSI & KLASIFIKASI (PEMBUATAN MASTER)
-    # ---------------------------------------------------------
-    print("[*] Tahap 1: Mengekstraksi fitur dan melabeli baris...")
-    
-    # Ekstraksi teks mentah dari PDF
-    extractor = PDFExtractor(os.path.join("data/raw", selected_file), s['page_range'])
-    raw_data = extractor.extract_raw_data()
-    
-    # Pemrosesan fitur (koordinat, kapitalisasi, dll)
-    processed_features = FeatureProcessor(raw_data).process_features()
-    
-    # Klasifikasi sistematika dan unsur ke dalam DataFrame
-    # Hasilnya adalah df_master yang memiliki kolom 'sistematika' dan 'unsur'
-    df_master = LayoutClassifier(processed_features, t).apply_sistematika()
-    
-    # Simpan sebagai 0. MASTER.csv
-    master_path = os.path.join(target_dir, "0. MASTER.csv")
-    df_master.to_csv(master_path, index=False, quoting=csv.QUOTE_ALL)
-    print(f"[OK] File Master berhasil dibuat: {master_path}")
-
-    # ---------------------------------------------------------
-    # TAHAP 2: AGGREGASI (PEMBENTUKAN STRUKTUR FINAL)
-    # ---------------------------------------------------------
-    print("[*] Tahap 2: Mengagregasi baris menjadi struktur UU 12/2011...")
-    
-    # Inisialisasi Aggregator dengan df_master
+    # TAHAP AGREGASI AKHIR (Berlaku untuk kedua mode)
+    print("[*] Mengonversi ke Struktur JSON...")
     aggregator = MasterAggregator(df_master, config_meta="config/meta_mapping.yaml")
+    final_data = aggregator.run_all()
     
-    # Menjalankan seluruh proses agregasi (A, B, C, D)
-    final_structured_data = aggregator.run_all()
-    
-    # Simpan hasil akhir ke FINAL_STRUCTURED.json
     final_json_path = os.path.join(target_dir, "FINAL_STRUCTURED.json")
-    save_final_json(final_structured_data, final_json_path)
-
-    print(f"\n" + "="*45)
-    print(" PROCESS COMPLETED SUCCESSFULLY ")
-    print("="*45)
-    print(f" Folder Hasil : {target_dir}")
-    print(f" Master CSV  : 0. MASTER.csv")
-    print(f" Final JSON  : FINAL_STRUCTURED.json")
-    print("="*45)
+    save_final_json(final_data, final_json_path)
+    print(f"[DONE] File JSON tersimpan di: {final_json_path}")
 
 if __name__ == "__main__":
     run_pipeline()
