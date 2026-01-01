@@ -220,3 +220,26 @@
 2026-01-01 18:20:13,563 - INFO - Sistem Logging Berhasil Diaktifkan.
 2026-01-01 18:20:13,563 - INFO - === Sesi Aplikasi Dimulai ===
 2026-01-01 18:20:17,592 - INFO - HTML Berhasil dibuat: data/processed\2011_Undang-Undang_Nomor-12_Pembentukan-Peraturan-Perundang-undangan\READABLE_VIEW.html
+2026-01-01 18:42:39,597 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 18:42:39,599 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 18:43:01,048 - INFO - Proses interaktif dimulai: 2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang.pdf
+2026-01-01 18:43:09,054 - INFO - Selesai: SUCCESS (Hanya CSV)
+2026-01-01 18:43:12,600 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 18:43:12,601 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 18:43:27,355 - INFO - JSON diperbarui untuk: 2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang
+2026-01-01 18:43:32,122 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 18:43:32,123 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 18:43:37,205 - INFO - HTML Berhasil dibuat: data/processed\2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang\READABLE_VIEW.html
+2026-01-01 18:51:15,619 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 18:51:15,620 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 18:51:20,495 - INFO - HTML Berhasil dibuat: data/processed\2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang\READABLE_VIEW.html
+2026-01-01 18:57:10,437 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 18:57:10,468 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 18:57:15,214 - INFO - Proses interaktif dimulai: 2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang.pdf
+2026-01-01 18:57:21,886 - INFO - Selesai: SUCCESS (Hanya CSV)
+2026-01-01 18:57:24,992 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 18:57:24,993 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 18:57:29,029 - INFO - JSON diperbarui untuk: 2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang
+2026-01-01 18:57:32,054 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 18:57:32,055 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 18:57:35,368 - INFO - HTML Berhasil dibuat: data/processed\2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang\READABLE_VIEW.html

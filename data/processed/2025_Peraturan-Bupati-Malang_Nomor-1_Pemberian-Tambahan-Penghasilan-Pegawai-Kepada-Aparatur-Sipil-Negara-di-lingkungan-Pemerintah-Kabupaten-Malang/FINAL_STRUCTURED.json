@@ -1,12 +1,22 @@
 {
     "A_JUDUL": {
-        "teks": "BUPATI MALANG PROVINSI JAWA TIMUR PERATURAN BUPATI MALANG NOMOR 1 TAHUN 2025 TENTANG PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG",
+        "teks": [
+            "BUPATI MALANG",
+            "PROVINSI JAWA TIMUR",
+            "PERATURAN BUPATI MALANG",
+            "NOMOR 1 TAHUN 2025",
+            "TENTANG",
+            "PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI",
+            "KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN",
+            "PEMERINTAH KABUPATEN MALANG"
+        ],
         "metadata": {
-            "kategori": "PERATURAN PERUNDANG-UNDANGAN DAERAH",
-            "jenis": "PERATURAN BUPATI",
+            "jabatan": "BUPATI MALANG",
+            "wilayah": "PROVINSI JAWA TIMUR",
+            "jenis": "PERATURAN BUPATI MALANG",
             "nomor": "1",
             "tahun": "2025",
-            "tentang": "PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG"
+            "materi": "PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG"
         }
     },
     "B_PEMBUKAAN": {
@@ -23,7 +33,7 @@
             },
             {
                 "nomor": "c",
-                "teks": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, maka perlu membentuk Peraturan Bupati tentang Pemberian Tambahan Penghasilan Pegawai kepada Aparatur Sipil Negara di Lingkungan Pemerintah Kabupaten Malang; 2"
+                "teks": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a dan huruf b, maka perlu membentuk Peraturan Bupati tentang Pemberian Tambahan Penghasilan Pegawai kepada Aparatur Sipil Negara di Lingkungan Pemerintah Kabupaten Malang;"
             }
         ],
         "dasar_hukum": [
@@ -49,7 +59,7 @@
             },
             {
                 "nomor": "6",
-                "teks": "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 82, Tambahan Lembaran Negara Republik Indonesia Nomor 5234), sebagaimana telah diubah beberapa kali, terakhir dengan Undang-Undang Nomor 13 Tahun 2022 tentang Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2022 Nomor 143, Tambahan Lembaran Negara Republik Indonesia Nomor 6801); 3"
+                "teks": "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 82, Tambahan Lembaran Negara Republik Indonesia Nomor 5234), sebagaimana telah diubah beberapa kali, terakhir dengan Undang-Undang Nomor 13 Tahun 2022 tentang Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2022 Nomor 143, Tambahan Lembaran Negara Republik Indonesia Nomor 6801);"
             },
             {
                 "nomor": "7",
@@ -77,7 +87,7 @@
             },
             {
                 "nomor": "13",
-                "teks": "Peraturan Pemerintah Nomor 94 Tahun 2021 tentang Disiplin Pegawai Negeri Sipil (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 202, Tambahan Lembaran Negara Republik Indonesia Nomor 6718); 4"
+                "teks": "Peraturan Pemerintah Nomor 94 Tahun 2021 tentang Disiplin Pegawai Negeri Sipil (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 202, Tambahan Lembaran Negara Republik Indonesia Nomor 6718);"
             },
             {
                 "nomor": "14",
@@ -109,7 +119,7 @@
             },
             {
                 "nomor": "21",
-                "teks": "Peraturan Menteri Dalam Negeri Nomor 77 Tahun 2020 tentang Pedoman Teknis Pengelolaan Keuangan Daerah (Berita Negara Republik Indonesia Tahun 2020 Nomor 1781); 5"
+                "teks": "Peraturan Menteri Dalam Negeri Nomor 77 Tahun 2020 tentang Pedoman Teknis Pengelolaan Keuangan Daerah (Berita Negara Republik Indonesia Tahun 2020 Nomor 1781);"
             },
             {
                 "nomor": "22",
@@ -137,14 +147,18 @@
             },
             {
                 "nomor": "28",
-                "teks": "Peraturan Bupati Malang Nomor 126 Tahun 2019 tentang Kelas Jabatan di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2019 Nomor 107 Seri D); 6"
+                "teks": "Peraturan Bupati Malang Nomor 126 Tahun 2019 tentang Kelas Jabatan di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2019 Nomor 107 Seri D);"
             },
             {
                 "nomor": "29",
-                "teks": "Peraturan Bupati Malang Nomor 99 Tahun 2023 tentang Laporan Harta Kekayaan Aparatur Negara di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2023 Nomor 99 Seri D); MEMUTUSKAN: Menetapkan : PERATURAN BUPATI TENTANG PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG."
+                "teks": "Peraturan Bupati Malang Nomor 99 Tahun 2023 tentang Laporan Harta Kekayaan Aparatur Negara di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2023 Nomor 99 Seri D);"
             }
         ],
-        "diktum": ""
+        "diktum": [
+            "MEMUTUSKAN:",
+            "Menetapkan :",
+            "PERATURAN BUPATI TENTANG PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG."
+        ]
     },
     "C_BATANG_TUBUH": [
         {
@@ -192,7 +206,7 @@
                             },
                             {
                                 "nomor": "9",
-                                "definisi": "Pegawai Pemerintah dengan Perjanjian Kerja selanjutnya disingkat PPPK adalah Pegawai Pemerintah dengan Perjanjian Kerja Pemerintah Kabupaten Malang. 7"
+                                "definisi": "Pegawai Pemerintah dengan Perjanjian Kerja selanjutnya disingkat PPPK adalah Pegawai Pemerintah dengan Perjanjian Kerja Pemerintah Kabupaten Malang."
                             },
                             {
                                 "nomor": "10",
@@ -228,7 +242,7 @@
                             },
                             {
                                 "nomor": "18",
-                                "definisi": "Laporan Harta Kekayaan Penyelenggara Negara yang selanjutnya disingkat LHKPN adalah laporan dalam dokumen, termasuk namun ridak terbatas pada dokumen elektronik tentang urian dan rincian informasi mengenai harta kekayaan, data probadi, penerima, pengeluaran, dan data lainnya atas Harta Kekayaan Penyelenggara. 8"
+                                "definisi": "Laporan Harta Kekayaan Penyelenggara Negara yang selanjutnya disingkat LHKPN adalah laporan dalam dokumen, termasuk namun ridak terbatas pada dokumen elektronik tentang urian dan rincian informasi mengenai harta kekayaan, data probadi, penerima, pengeluaran, dan data lainnya atas Harta Kekayaan Penyelenggara."
                             },
                             {
                                 "nomor": "19",
@@ -272,7 +286,15 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Dalam melaksanakan tugasnya, ASN diberikan TPP setiap bulan yang besarannya disesuaikan dengan kemampuan keuangan Daerah berdasarkan peraturan perundang-undangan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dalam melaksanakan tugasnya, ASN diberikan TPP setiap bulan yang besarannya disesuaikan dengan kemampuan keuangan Daerah berdasarkan peraturan perundang-undangan."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
@@ -289,7 +311,7 @@
                                         },
                                         {
                                             "nomor": "c",
-                                            "teks": "diberhentikan dari jabatan organiknya dengan diberikan uang tunggu dan belum diberhentikan sebagai PNS; 9"
+                                            "teks": "diberhentikan dari jabatan organiknya dengan diberikan uang tunggu dan belum diberhentikan sebagai PNS;"
                                         },
                                         {
                                             "nomor": "d",
@@ -328,7 +350,15 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "TPP sebagaimana dimaksud dalam Pasal 2 ayat (1) dihitung melalui Basic TPP."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "TPP sebagaimana dimaksud dalam Pasal 2 ayat (1) dihitung melalui Basic TPP."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
@@ -405,7 +435,7 @@
                                         },
                                         {
                                             "nomor": "b",
-                                            "teks": "disiplin kerja. 10"
+                                            "teks": "disiplin kerja."
                                         }
                                     ]
                                 }
@@ -447,23 +477,39 @@
                 },
                 {
                     "nomor": "6",
-                    "teks": "Kelas jabatan sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf a ditetapkan berdasarkan analisis dan evaluasi jabatan sesuai dengan peraturan perundang-undangan."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Kelas jabatan sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf a ditetapkan berdasarkan analisis dan evaluasi jabatan sesuai dengan peraturan perundang-undangan."
+                            }
+                        ]
+                    }
                 },
                 {
                     "nomor": "7",
-                    "teks": "Indeks kapasitas fiskal Daerah sebagaimana dimaksud dalam"
-                },
-                {
-                    "nomor": "3",
-                    "teks": "ayat (2) huruf b ditetapkan melalui pendapatan Daerah dikurangi pendapatan yang penggunaannya sudah ditentukan dan belanja tertentu."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Indeks kapasitas fiskal Daerah sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf b ditetapkan melalui pendapatan Daerah dikurangi pendapatan yang penggunaannya sudah ditentukan dan belanja tertentu."
+                            }
+                        ]
+                    }
                 },
                 {
                     "nomor": "8",
-                    "teks": "Indeks kemahalan konstruksi sebagaimana dimaksud dalam"
-                },
-                {
-                    "nomor": "3",
-                    "teks": "ayat (2) huruf c digunakan sebagai proksi untuk mengukur tingkat kesulitan geografis."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Indeks kemahalan konstruksi sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf c digunakan sebagai proksi untuk mengukur tingkat kesulitan geografis."
+                            }
+                        ]
+                    }
                 },
                 {
                     "nomor": "9",
@@ -472,12 +518,20 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Indeks penyelenggaraan Pemerintah Daerah sebagaimana dimaksud dalam Pasal 3 ayat"
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Indeks penyelenggaraan Pemerintah Daerah sebagaimana dimaksud dalam Pasal 3 ayat (2) huruf d terdiri atas variabel pengungkit dengan bobot 90% (sembilan puluh persen) dan variabel hasil terkait penyelenggaraan Pemerintah Daerah dengan bobot 10% (sepuluh persen)."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
                                 "teks": {
-                                    "teks_pembuka": "huruf d terdiri atas variabel pengungkit dengan bobot 90% (sembilan puluh persen) dan variabel hasil terkait penyelenggaraan Pemerintah Daerah dengan bobot 10% (sepuluh persen). 11 (2) Variabel pengungkit sebagaimana dimaksud pada ayat (1) terdiri atas:",
+                                    "teks_pembuka": "Variabel pengungkit sebagaimana dimaksud pada ayat (1) terdiri atas:",
                                     "rincian": [
                                         {
                                             "nomor": "a",
@@ -528,14 +582,30 @@
                             },
                             {
                                 "ayat": "4",
-                                "teks": "Indeks penyelenggaraan Pemerintah Daerah sebagaimana dimaksud pada ayat (1) dihitung berdasarkan dengan formula variabel pengungkit ditambah variabel hasil."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Indeks penyelenggaraan Pemerintah Daerah sebagaimana dimaksud pada ayat (1) dihitung berdasarkan dengan formula variabel pengungkit ditambah variabel hasil."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
                 },
                 {
                     "nomor": "10",
-                    "teks": "Basic TPP sebagaimana dimaksud dalam Pasal 3 ditetapkan dengan Keputusan Bupati."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Basic TPP sebagaimana dimaksud dalam Pasal 3 ditetapkan dengan Keputusan Bupati."
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -552,23 +622,63 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Pembayaran TPP berdasarkan beban kerja dan prestasi kerja sebagaimana dimaksud dalam Pasal 4 huruf a dan huruf b disesuaikan dengan Basic TPP."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pembayaran TPP berdasarkan beban kerja dan prestasi kerja sebagaimana dimaksud dalam Pasal 4 huruf a dan huruf b disesuaikan dengan Basic TPP."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "TPP berdasarkan beban kerja sebagaimana dimaksud pada ayat (1) diberikan kepada ASN yang dalam melaksanakan tugas melampaui beban kerja normal atau batas waktu normal, minimal 112,5 (seratus dua belas koma lima) jam perbulan atau batas waktu normal minimal 170 (seratus tujuh puluh) jam perbulan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "TPP berdasarkan beban kerja sebagaimana dimaksud pada ayat (1) diberikan kepada ASN yang dalam melaksanakan tugas melampaui beban kerja normal atau batas waktu normal, minimal 112,5 (seratus dua belas koma lima) jam perbulan atau batas waktu normal minimal 170 (seratus tujuh puluh) jam perbulan."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "3",
-                                "teks": "TPP berdasarkan prestasi kerja sebagaimana dimaksud pada ayat (1) diberikan kepada ASN yang memiliki prestasi kerja sesuai bidang keahliannya atau inovasi dan diakui oleh pimpinan diatasnya. 12"
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "TPP berdasarkan prestasi kerja sebagaimana dimaksud pada ayat (1) diberikan kepada ASN yang memiliki prestasi kerja sesuai bidang keahliannya atau inovasi dan diakui oleh pimpinan diatasnya."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "4",
-                                "teks": "Alokasi TPP berdasarkan beban kerja sebagaimana dimaksud pada ayat (1) sesuai kemampuan keuangan Daerah dari besaran Basic TPP."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Alokasi TPP berdasarkan beban kerja sebagaimana dimaksud pada ayat (1) sesuai kemampuan keuangan Daerah dari besaran Basic TPP."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "5",
-                                "teks": "Alokasi TPP berdasarkan prestasi kerja sebagaimana dimaksud pada ayat (1) sesuai kemampuan keuangan Daerah dari besaran Basic TPP."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Alokasi TPP berdasarkan prestasi kerja sebagaimana dimaksud pada ayat (1) sesuai kemampuan keuangan Daerah dari besaran Basic TPP."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -580,19 +690,51 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "TPP berdasarkan tempat bertugas sebagaimana dimaksud dalam Pasal 4 huruf c diberikan kepada ASN yang dalam melaksanakan tugasnya berada di daerah memiliki tingkat kesulitan tinggi dan daerah terpencil."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "TPP berdasarkan tempat bertugas sebagaimana dimaksud dalam Pasal 4 huruf c diberikan kepada ASN yang dalam melaksanakan tugasnya berada di daerah memiliki tingkat kesulitan tinggi dan daerah terpencil."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Tingkat kesulitan tinggi dan daerah terpencil sebagaimana dimaksud pada ayat (1) berdasarkan pada Indeks TPP tempat bertugas, yang didapatkan dari perbandingan indeks kesulitan geografis kantor berada dibagi indeks kesulitan geografis terendah di Daerah."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Tingkat kesulitan tinggi dan daerah terpencil sebagaimana dimaksud pada ayat (1) berdasarkan pada Indeks TPP tempat bertugas, yang didapatkan dari perbandingan indeks kesulitan geografis kantor berada dibagi indeks kesulitan geografis terendah di Daerah."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "3",
-                                "teks": "Indeks Kesulitan sebagaimana dimaksud pada ayat (2) berdasarkan indeks kesulitan geografis kelurahan atau desa terendah di Daerah."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Indeks Kesulitan sebagaimana dimaksud pada ayat (2) berdasarkan indeks kesulitan geografis kelurahan atau desa terendah di Daerah."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "4",
-                                "teks": "Alokasi TPP berdasarkan tempat bertugas sebagaimana dimaksud pada ayat (1) diberikan paling tinggi 50% (lima puluh persen) dari Basic TPP apabila Indeks TPP tempat bertugas di atas 1,5 (satu koma lima)."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Alokasi TPP berdasarkan tempat bertugas sebagaimana dimaksud pada ayat (1) diberikan paling tinggi 50% (lima puluh persen) dari Basic TPP apabila Indeks TPP tempat bertugas di atas 1,5 (satu koma lima)."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -604,7 +746,15 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "TPP berdasarkan kondisi kerja sebagaimana dimaksud dalam Pasal 4 huruf d diberikan kepada ASN yang melaksanakan tugas dan tanggung jawab memiliki risiko tinggi antara lain risiko kesehatan dan keamanan jiwa."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "TPP berdasarkan kondisi kerja sebagaimana dimaksud dalam Pasal 4 huruf d diberikan kepada ASN yang melaksanakan tugas dan tanggung jawab memiliki risiko tinggi antara lain risiko kesehatan dan keamanan jiwa."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
@@ -621,7 +771,7 @@
                                         },
                                         {
                                             "nomor": "c",
-                                            "teks": "pekerjaan yang berisiko dengan keselamatan kerja; 13"
+                                            "teks": "pekerjaan yang berisiko dengan keselamatan kerja;"
                                         },
                                         {
                                             "nomor": "d",
@@ -640,11 +790,27 @@
                             },
                             {
                                 "ayat": "3",
-                                "teks": "Alokasi TPP berdasarkan kondisi kerja sebagaimana dimaksud pada ayat (1) sesuai kemampuan keuangan Daerah dari Basic TPP."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Alokasi TPP berdasarkan kondisi kerja sebagaimana dimaksud pada ayat (1) sesuai kemampuan keuangan Daerah dari Basic TPP."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "4",
-                                "teks": "Dalam hal ASN memenuhi lebih dari 1 (satu) kriteria TPP berdasarkan kondisi kerja sebagaimana dimaksud pada ayat (2) maka hanya diberikan 1 (satu) TPP berdasarkan kondisi kerja."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dalam hal ASN memenuhi lebih dari 1 (satu) kriteria TPP berdasarkan kondisi kerja sebagaimana dimaksud pada ayat (2) maka hanya diberikan 1 (satu) TPP berdasarkan kondisi kerja."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -672,7 +838,15 @@
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Alokasi TPP berdasarkan kelangkaan profesi sebagaimana dimaksud pada ayat (1) sebesar minimal 10% (sepuluh persen) dari Basic TPP."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Alokasi TPP berdasarkan kelangkaan profesi sebagaimana dimaksud pada ayat (1) sebesar minimal 10% (sepuluh persen) dari Basic TPP."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -684,26 +858,54 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "TPP berdasarkan pertimbangan objektif lainnya sebagaimana dimaksud dalam Pasal 4 huruf f dapat diberikan sepanjang diamanatkan dalam ketentuan peraturan perundang-undangan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "TPP berdasarkan pertimbangan objektif lainnya sebagaimana dimaksud dalam Pasal 4 huruf f dapat diberikan sepanjang diamanatkan dalam ketentuan peraturan perundang-undangan."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Alokasi TPP berdasarkan pertimbangan objektif lainnya sebagaimana dimaksud pada ayat (1) sesuai kemampuan keuangan Daerah dan karakteristik Daerah. 14"
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Alokasi TPP berdasarkan pertimbangan objektif lainnya sebagaimana dimaksud pada ayat (1) sesuai kemampuan keuangan Daerah dan karakteristik Daerah."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "3",
-                                "teks": "Ketentuan mengenai TPP berdasarkan pertimbangan objektif lainnya sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bupati tersendiri."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Ketentuan mengenai TPP berdasarkan pertimbangan objektif lainnya sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Bupati tersendiri."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
                 },
                 {
                     "nomor": "16",
-                    "teks": "Besaran alokasi TPP berdasarkan beban kerja, prestasi kerja, tempat bertugas, kondisi kerja dan kelangkaan profesi sebagaimana dimaksud dalam Pasal 11 sampai dengan"
-                },
-                {
-                    "nomor": "14",
-                    "teks": "untuk masing-masing jabatan ditetapkan dengan Keputusan Bupati."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Besaran alokasi TPP berdasarkan beban kerja, prestasi kerja, tempat bertugas, kondisi kerja dan kelangkaan profesi sebagaimana dimaksud dalam Pasal 11 sampai dengan Pasal 14 untuk masing-masing jabatan ditetapkan dengan Keputusan Bupati."
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -724,7 +926,15 @@
                                 "ayat": [
                                     {
                                         "ayat": "1",
-                                        "teks": "Persentase besaran pemotongan TPP komponen produktivitas kerja sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf a sebesar 80% (delapan puluh persen) dari potensi TPP yang diterima."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Persentase besaran pemotongan TPP komponen produktivitas kerja sebagaimana dimaksud dalam Pasal 5 ayat (1) huruf a sebesar 80% (delapan puluh persen) dari potensi TPP yang diterima."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "2",
@@ -760,19 +970,51 @@
                                 "ayat": [
                                     {
                                         "ayat": "1",
-                                        "teks": "Persentase besaran komponen pemenuhan laporan sebagaimana dimaksud dalam Pasal 17 ayat"
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Persentase besaran komponen pemenuhan laporan sebagaimana dimaksud dalam Pasal 17 ayat (2) huruf a angka 1 berupa surat pemberitahuan tahunan pajak penghasilan sebesar 20% (dua puluh persen)."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "2",
-                                        "teks": "huruf a angka 1 berupa surat pemberitahuan tahunan pajak penghasilan sebesar 20% (dua puluh persen). 15 (2) ASN yang tidak melaporkan tepat waktu ketentuan pada ayat (1) sesuai ketentuan peraturan perundang-undangan tidak diberikan TPP komponen pemenuhan laporan sampai yang bersangkutan melaksanakan kewajibannya."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "ASN yang tidak melaporkan tepat waktu ketentuan pada ayat (1) sesuai ketentuan peraturan perundang-undangan tidak diberikan TPP komponen pemenuhan laporan sampai yang bersangkutan melaksanakan kewajibannya."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "3",
-                                        "teks": "Pemenuhan tepat waktu atas surat pemberitahuan tahunan pajak penghasilan sebagaimana dimaksud pada ayat (2), didasarkan pada indikator berupa tanggal pada bukti penyampaian surat pemberitahuan tahunan pajak penghasilan."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Pemenuhan tepat waktu atas surat pemberitahuan tahunan pajak penghasilan sebagaimana dimaksud pada ayat (2), didasarkan pada indikator berupa tanggal pada bukti penyampaian surat pemberitahuan tahunan pajak penghasilan."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "4",
-                                        "teks": "Tanggal sebagaimana dimaksud pada ayat (3) adalah tanggal sebelum jatuh tempo pada tahun berjalan sesuai ketentuan peraturan perundang-undangan dan berlaku secara periodik."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Tanggal sebagaimana dimaksud pada ayat (3) adalah tanggal sebelum jatuh tempo pada tahun berjalan sesuai ketentuan peraturan perundang-undangan dan berlaku secara periodik."
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -784,47 +1026,63 @@
                                 "ayat": [
                                     {
                                         "ayat": "1",
-                                        "teks": "Buku kerja harian elektronik sebagaimana dimaksud dalam"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "nomor": "17",
-                            "teks": {
-                                "teks_pembuka": "ayat (2) huruf a angka 2 dinilai berdasarkan waktu capaian kinerja yang diisikan pada Siapkerja yang telah divalidasi dan disetujui oleh atasan langsung. (2) Waktu capaian kinerja sebagaimana dimaksud pada ayat",
-                                "ayat": [
-                                    {
-                                        "ayat": "1",
-                                        "teks": "yang tidak memenuhi beban kerja normal sebagaimana dimaksud dalam Pasal 11 ayat"
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Buku kerja harian elektronik sebagaimana dimaksud dalam Pasal 17 ayat (2) huruf a angka 2 dinilai berdasarkan waktu capaian kinerja yang diisikan pada Siapkerja yang telah divalidasi dan disetujui oleh atasan langsung."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "2",
-                                        "teks": "dilakukan pemotongan TPP secara proporsional dari komponen buku kerja harian elektronik."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Waktu capaian kinerja sebagaimana dimaksud pada ayat (1) yang tidak memenuhi beban kerja normal sebagaimana dimaksud dalam Pasal 11 ayat (2) dilakukan pemotongan TPP secara proporsional dari komponen buku kerja harian elektronik."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "3",
-                                        "teks": "Beban kerja normal pada bulan Desember ditetapkan minimal 5.100 (lima ribu seratus) menit."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Beban kerja normal pada bulan Desember ditetapkan minimal 5.100 (lima ribu seratus) menit."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "4",
-                                        "teks": "Dalam hal SiapKerja sebagaimana dimaksud pada ayat (1) rusak atau tidak bisa digunakan yang dibuktikan dengan surat keterangan dari Kepala PD atau Unit PD dan diketahui Kepala Badan Kepegawaian dan Pengembangan Sumber Daya Manusia, maka pencatatan buku kerja harian elektronik dilakukan secara manual."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Dalam hal SiapKerja sebagaimana dimaksud pada ayat (1) rusak atau tidak bisa digunakan yang dibuktikan dengan surat keterangan dari Kepala PD atau Unit PD dan diketahui Kepala Badan Kepegawaian dan Pengembangan Sumber Daya Manusia, maka pencatatan buku kerja harian elektronik dilakukan secara manual."
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
                         },
                         {
                             "nomor": "20",
-                            "teks": "Hasil kinerja organisasi sebagaimana dimaksud dalam"
-                        },
-                        {
-                            "nomor": "17",
                             "teks": {
-                                "teks_pembuka": "ayat (2) huruf b ditentukan berdasarkan indikator dengan presentase sebagai berikut:",
+                                "teks_pembuka": "Hasil kinerja organisasi sebagaimana dimaksud dalam Pasal 17 ayat (2) huruf b ditentukan berdasarkan indikator dengan presentase sebagai berikut:",
                                 "rincian": [
                                     {
                                         "nomor": "a",
-                                        "teks": "pemenuhan kewajiban setiap PD atau Unit PD sekaligus selaku Pengguna Anggaran atau Kuasa Pengguna Anggaran dalam pengisian aplikasi e-sakip dari Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi sebesar 10% (sepuluh persen); 16"
+                                        "teks": "pemenuhan kewajiban setiap PD atau Unit PD sekaligus selaku Pengguna Anggaran atau Kuasa Pengguna Anggaran dalam pengisian aplikasi e-sakip dari Kementerian Pendayagunaan Aparatur Negara dan Reformasi Birokrasi sebesar 10% (sepuluh persen);"
                                     },
                                     {
                                         "nomor": "b",
@@ -847,27 +1105,75 @@
                                 "ayat": [
                                     {
                                         "ayat": "1",
-                                        "teks": "Persentase besaran pemotongan TPP komponen kehadiran kerja sebagaimana dimaksud dalam Pasal 5 ayat (3) huruf a sebesar 20% (dua puluh persen) dari potensi TPP yang diterima."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Persentase besaran pemotongan TPP komponen kehadiran kerja sebagaimana dimaksud dalam Pasal 5 ayat (3) huruf a sebesar 20% (dua puluh persen) dari potensi TPP yang diterima."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "2",
-                                        "teks": "Setiap ASN wajib memenuhi kehadiran kerja sebanyak 7,5 (tujuh koma lima) jam perhari atau 37,5 (tiga puluh tujuh koma lima) jam perminggu."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Setiap ASN wajib memenuhi kehadiran kerja sebanyak 7,5 (tujuh koma lima) jam perhari atau 37,5 (tiga puluh tujuh koma lima) jam perminggu."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "3",
-                                        "teks": "Kehadiran kerja sebagaimana dimaksud pada ayat (2) merupakan tanggung jawab atasan langsung yang bersangkutan secara berjenjang."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Kehadiran kerja sebagaimana dimaksud pada ayat (2) merupakan tanggung jawab atasan langsung yang bersangkutan secara berjenjang."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "4",
-                                        "teks": "Hari dan jam kerja sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Bupati tersendiri, kecuali ditentukan lain dalam ketentuan peraturan perundang-undangan."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Hari dan jam kerja sebagaimana dimaksud pada ayat (2) diatur dalam Peraturan Bupati tersendiri, kecuali ditentukan lain dalam ketentuan peraturan perundang-undangan."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "5",
-                                        "teks": "Kehadiran kerja sebagaimana dimaksud pada ayat (2) dibuktikan dengan menggunakan mesin presensi elektronik atau aplikasi absensi dengan teknologi global positioning system dan dilakukan waktu masuk kerja dan waktu pulang kerja."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Kehadiran kerja sebagaimana dimaksud pada ayat (2) dibuktikan dengan menggunakan mesin presensi elektronik atau aplikasi absensi dengan teknologi global positioning system dan dilakukan waktu masuk kerja dan waktu pulang kerja."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "6",
-                                        "teks": "Dalam hal mesin presensi elektronik atau aplikasi absensi dengan teknologi global positioning system sebagaimana dimaksud pada ayat (5) rusak atau tidak bisa digunakan yang dibuktikan dengan surat keterangan dari Kepala PD atau Unit PD dan diketahui Kepala Dinas Komunikasi dan Informatika, maka pencatatan kehadiran kerja menggunakan presensi manual. 17"
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Dalam hal mesin presensi elektronik atau aplikasi absensi dengan teknologi global positioning system sebagaimana dimaksud pada ayat (5) rusak atau tidak bisa digunakan yang dibuktikan dengan surat keterangan dari Kepala PD atau Unit PD dan diketahui Kepala Dinas Komunikasi dan Informatika, maka pencatatan kehadiran kerja menggunakan presensi manual."
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -899,18 +1205,30 @@
                                     },
                                     {
                                         "ayat": "2",
-                                        "teks": "Persentase perhitungan kehadiran kerja sebagaimana dimaksud pada ayat (1) setiap bulan wajib dicetak melalui sistem informasi manajemen kehadiran kerja di setiap PD atau Unit PD, dan dilaporkan kepada Badan Kepegawaian dan Pengembangan Sumber Daya Manusia dalam bentuk softcopy dan hardcopy."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Persentase perhitungan kehadiran kerja sebagaimana dimaksud pada ayat (1) setiap bulan wajib dicetak melalui sistem informasi manajemen kehadiran kerja di setiap PD atau Unit PD, dan dilaporkan kepada Badan Kepegawaian dan Pengembangan Sumber Daya Manusia dalam bentuk softcopy dan hardcopy."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "3",
-                                        "teks": "ASN yang melaksanakan tugas atau bekerja di luar hari dan/atau jam kerja sebagaimana dimaksud dalam"
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "ASN yang melaksanakan tugas atau bekerja di luar hari dan/atau jam kerja sebagaimana dimaksud dalam Pasal 21 ayat (4) dihitung sebagai petugas piket/kerja khusus oleh Kepala PD atau Unit PD atau pejabat yang berwenang dengan ketentuan capaian jam kerja kumulatif tidak kurang dari kewajiban kehadiran kerja sebagaimana dimaksud dalam Pasal 21 ayat (2)."
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
-                        },
-                        {
-                            "nomor": "21",
-                            "teks": "ayat (4) dihitung sebagai petugas piket/kerja khusus oleh Kepala PD atau Unit PD atau pejabat yang berwenang dengan ketentuan capaian jam kerja kumulatif tidak kurang dari kewajiban kehadiran kerja sebagaimana dimaksud dalam Pasal 21 ayat (2)."
                         },
                         {
                             "nomor": "23",
@@ -919,20 +1237,8 @@
                                 "ayat": [
                                     {
                                         "ayat": "1",
-                                        "teks": "Terlambat masuk kerja sebagaimana dimaksud dalam"
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "nomor": "22",
-                            "teks": {
-                                "teks_pembuka": "ayat",
-                                "ayat": [
-                                    {
-                                        "ayat": "1",
                                         "teks": {
-                                            "teks_pembuka": "huruf a, dilakukan pemotongan TPP dengan ketentuan sebagai berikut:",
+                                            "teks_pembuka": "Terlambat masuk kerja sebagaimana dimaksud dalam Pasal 22 ayat (1) huruf a, dilakukan pemotongan TPP dengan ketentuan sebagai berikut:",
                                             "rincian": [
                                                 {
                                                     "nomor": "a",
@@ -948,7 +1254,7 @@
                                                 },
                                                 {
                                                     "nomor": "d",
-                                                    "teks": "dalam rentang waktu 61 (enam puluh satu) menit sampai dengan 120 (seratus dua puluh) menit, dipotong sebesar 1,5% (satu koma lima persen) untuk setiap kali terlambat; 18"
+                                                    "teks": "dalam rentang waktu 61 (enam puluh satu) menit sampai dengan 120 (seratus dua puluh) menit, dipotong sebesar 1,5% (satu koma lima persen) untuk setiap kali terlambat;"
                                                 },
                                                 {
                                                     "nomor": "e",
@@ -999,7 +1305,15 @@
                                     },
                                     {
                                         "ayat": "3",
-                                        "teks": "Apabila terlambat masuk kerja dan/atau pulang lebih awal sebagaimana dimaksud pada ayat (1) dan ayat (2) terakumulasi lebih dari 1800 (seribu delapan ratus) menit pada bulan berkenaan, maka ASN tersebut tidak diberikan TPP dari komponen kehadiran kerja pada bulan berkenaan. 19"
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Apabila terlambat masuk kerja dan/atau pulang lebih awal sebagaimana dimaksud pada ayat (1) dan ayat (2) terakumulasi lebih dari 1800 (seribu delapan ratus) menit pada bulan berkenaan, maka ASN tersebut tidak diberikan TPP dari komponen kehadiran kerja pada bulan berkenaan."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "4",
@@ -1044,14 +1358,22 @@
                                                 },
                                                 {
                                                     "nomor": "j",
-                                                    "teks": "tidak hadir dalam upacara pada hari besar nasional karena alasan tidak sah, dilakukan pemotongan TPP dari komponen kehadiran kerja sebesar 2% (dua persen) setiap pelaksanaan upacara. 20"
+                                                    "teks": "tidak hadir dalam upacara pada hari besar nasional karena alasan tidak sah, dilakukan pemotongan TPP dari komponen kehadiran kerja sebesar 2% (dua persen) setiap pelaksanaan upacara."
                                                 }
                                             ]
                                         }
                                     },
                                     {
                                         "ayat": "5",
-                                        "teks": "ASN yang mengikuti pendidikan dan pelatihan, melaksanakan perjalanan dinas luar daerah atau luar negeri, dan/atau melaksanakan tugas kedinasan lainnya, diberikan TPP."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "ASN yang mengikuti pendidikan dan pelatihan, melaksanakan perjalanan dinas luar daerah atau luar negeri, dan/atau melaksanakan tugas kedinasan lainnya, diberikan TPP."
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -1115,19 +1437,51 @@
                                     },
                                     {
                                         "ayat": "2",
-                                        "teks": "Persentase pemotongan TPP dari hukuman disiplin sebagaimana dimaksud pada ayat (1) dari TPP yang seharusnya diterima."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Persentase pemotongan TPP dari hukuman disiplin sebagaimana dimaksud pada ayat (1) dari TPP yang seharusnya diterima."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "3",
-                                        "teks": "Pemotongan TPP dari hukuman disiplin sebagaimana dimaksud pada ayat (1) berlaku sejak diberlakukannya keputusan hukuman disiplin. 21"
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Pemotongan TPP dari hukuman disiplin sebagaimana dimaksud pada ayat (1) berlaku sejak diberlakukannya keputusan hukuman disiplin."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "4",
-                                        "teks": "Terhadap PNS atau CPNS yang dijatuhi hukuman disiplin tingkat ringan sebagaimana dimaksud pada ayat (1) huruf a berlaku sampai dengan 3 (tiga) bulan sejak ditetapkannya keputusan hukuman disiplin guna memenuhi unsur pembinaan."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Terhadap PNS atau CPNS yang dijatuhi hukuman disiplin tingkat ringan sebagaimana dimaksud pada ayat (1) huruf a berlaku sampai dengan 3 (tiga) bulan sejak ditetapkannya keputusan hukuman disiplin guna memenuhi unsur pembinaan."
+                                                }
+                                            ]
+                                        }
                                     },
                                     {
                                         "ayat": "5",
-                                        "teks": "Hukuman disiplin bagi PPPK mengikuti ketentuan yang berlaku."
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Hukuman disiplin bagi PPPK mengikuti ketentuan yang berlaku."
+                                                }
+                                            ]
+                                        }
                                     }
                                 ]
                             }
@@ -1195,18 +1549,34 @@
                                         },
                                         {
                                             "nomor": "b",
-                                            "teks": "bagi wajib LHKPN yang tidak mendapatkan pemberitahuan perbaikan, menunjukan bukti telah melampaui 60 hari kerja sejak LHKPN disampaikan. 22"
+                                            "teks": "bagi wajib LHKPN yang tidak mendapatkan pemberitahuan perbaikan, menunjukan bukti telah melampaui 60 hari kerja sejak LHKPN disampaikan."
                                         }
                                     ]
                                 }
                             },
                             {
                                 "ayat": "4",
-                                "teks": "Penundaan pembayaran TPP sebagaimana dimaksud pada ayat (1) sampai dengan yang bersangkutan memenuhi kewajiban."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Penundaan pembayaran TPP sebagaimana dimaksud pada ayat (1) sampai dengan yang bersangkutan memenuhi kewajiban."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "5",
-                                "teks": "Pembayaran TPP sebagaimana dimaksud pada ayat (4) dilaksanakan dalam tahun berkenaan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pembayaran TPP sebagaimana dimaksud pada ayat (4) dilaksanakan dalam tahun berkenaan."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1218,19 +1588,51 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "ASN wajib membuat pernyataan pelaporan penerimaan dan/atau penolakan gratifikasi sesuai ketentuan peraturan perundang-undangan mengenai pengendalian gratifikasi."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "ASN wajib membuat pernyataan pelaporan penerimaan dan/atau penolakan gratifikasi sesuai ketentuan peraturan perundang-undangan mengenai pengendalian gratifikasi."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Pernyataan pelaporan sebagaimana dimaksud pada ayat (1) dipenuhi dan disampaikan kepada PD yang menyelenggarakan urusan pemerintahan bidang pengawasan selaku Unit Pengendalian Gratifikasi paling lambat tanggal 1 Juli dan 31 Desember."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pernyataan pelaporan sebagaimana dimaksud pada ayat (1) dipenuhi dan disampaikan kepada PD yang menyelenggarakan urusan pemerintahan bidang pengawasan selaku Unit Pengendalian Gratifikasi paling lambat tanggal 1 Juli dan 31 Desember."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "3",
-                                "teks": "Dalam hal pernyataan pelaporan tidak dipenuhi dan tidak disampaikan sampai batas waktu sebagaimana dimaksud pada ayat (2), maka TPP ditunda pembayarannya."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dalam hal pernyataan pelaporan tidak dipenuhi dan tidak disampaikan sampai batas waktu sebagaimana dimaksud pada ayat (2), maka TPP ditunda pembayarannya."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "4",
-                                "teks": "Unit Pengendalian Gratifikasi menyediakan format pernyataan pelaporan penerimaan dan/atau penolakan gratifikasi sebagaimana dimaksud pada ayat (1)."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Unit Pengendalian Gratifikasi menyediakan format pernyataan pelaporan penerimaan dan/atau penolakan gratifikasi sebagaimana dimaksud pada ayat (1)."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1250,11 +1652,27 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Kepala PD atau Unit PD selaku Pengguna Anggaran atau Kuasa Pengguna Anggaran menetapkan ASN penerima TPP dengan Keputusan Kepala PD atau Unit PD."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Kepala PD atau Unit PD selaku Pengguna Anggaran atau Kuasa Pengguna Anggaran menetapkan ASN penerima TPP dengan Keputusan Kepala PD atau Unit PD."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Penetapan sebagaimana dimaksud pada ayat (1) berdasarkan validasi data dan verifikasi hasil analisis jabatan dari Bagian Organisasi Sekretariat Daerah."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Penetapan sebagaimana dimaksud pada ayat (1) berdasarkan validasi data dan verifikasi hasil analisis jabatan dari Bagian Organisasi Sekretariat Daerah."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1266,11 +1684,27 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Perhitungan pembayaran TPP dilakukan dengan menggunakan SiapKerja. 23"
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Perhitungan pembayaran TPP dilakukan dengan menggunakan SiapKerja."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Dalam hal SiapKerja sebagaimana dimaksud pada ayat (1) rusak atau tidak bisa digunakan yang dibuktikan dengan surat keterangan dari Kepala PD atau Unit PD dan diketahui Kepala Badan Kepegawaian dan Pengembangan Sumber Daya Manusia, maka perhitungan pembayaran TPP dilakukan secara manual."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dalam hal SiapKerja sebagaimana dimaksud pada ayat (1) rusak atau tidak bisa digunakan yang dibuktikan dengan surat keterangan dari Kepala PD atau Unit PD dan diketahui Kepala Badan Kepegawaian dan Pengembangan Sumber Daya Manusia, maka perhitungan pembayaran TPP dilakukan secara manual."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1282,11 +1716,27 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "PNS yang mutasi antar PD atau Unit PD di lingkungan Pemerintah Daerah, TPP dibayarkan sesuai jabatan lama di PD atau Unit PD sebelum mutasi, sedangkan TPP sesuai jabatan baru diberikan pada bulan berikutnya."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "PNS yang mutasi antar PD atau Unit PD di lingkungan Pemerintah Daerah, TPP dibayarkan sesuai jabatan lama di PD atau Unit PD sebelum mutasi, sedangkan TPP sesuai jabatan baru diberikan pada bulan berikutnya."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "PNS yang mutasi antar PD atau Unit PD di lingkungan Pemerintah Daerah yang sebelumnya bukan merupakan PNS penerima TPP, dapat diberikan TPP dengan memperhatikan alokasi anggaran TPP pada PD dimaksud."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "PNS yang mutasi antar PD atau Unit PD di lingkungan Pemerintah Daerah yang sebelumnya bukan merupakan PNS penerima TPP, dapat diberikan TPP dengan memperhatikan alokasi anggaran TPP pada PD dimaksud."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "3",
@@ -1315,18 +1765,34 @@
                                         },
                                         {
                                             "nomor": "b",
-                                            "teks": "PNS dan CPNS sekolah kedinasan yang mendapatkan penempatan pada Kabupaten Malang. 24"
+                                            "teks": "PNS dan CPNS sekolah kedinasan yang mendapatkan penempatan pada Kabupaten Malang."
                                         }
                                     ]
                                 }
                             },
                             {
                                 "ayat": "5",
-                                "teks": "Mutasi PNS dalam Jabatan Pelaksana atau pengangkatan dalam jabatan fungsional dengan kelas jabatan yang lebih tinggi dari kelas jabatan sebelumnya, diberikan TPP sesuai dengan kelas jabatan yang baru pada tahun anggaran berikutnya yang dihitung berdasarkan tanggal melaksanakan tugas sebagaimana tercantum dalam Surat Pernyataan Melaksanakan Tugas."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Mutasi PNS dalam Jabatan Pelaksana atau pengangkatan dalam jabatan fungsional dengan kelas jabatan yang lebih tinggi dari kelas jabatan sebelumnya, diberikan TPP sesuai dengan kelas jabatan yang baru pada tahun anggaran berikutnya yang dihitung berdasarkan tanggal melaksanakan tugas sebagaimana tercantum dalam Surat Pernyataan Melaksanakan Tugas."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "6",
-                                "teks": "Dalam hal TPP belum diberikan sesuai dengan kelas jabatan sebagaimana dalam ayat (5), maka diberikan TPP sesuai dengan kelas jabatan sebelum dilakukan mutasi atau pengangkatan dalam jabatan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dalam hal TPP belum diberikan sesuai dengan kelas jabatan sebagaimana dalam ayat (5), maka diberikan TPP sesuai dengan kelas jabatan sebelum dilakukan mutasi atau pengangkatan dalam jabatan."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1351,7 +1817,7 @@
                                         },
                                         {
                                             "nomor": "c",
-                                            "teks": "pejabat satu tingkat di bawah pejabat definitif yang berhalangan tetap atau berhalangan sementara yang merangkap sebagai pelaksana tugas, pelaksana harian atau penjabat diberikan TPP sebesar 100% (seratus persen) dari besaran TPP sesuai dengan penempatan dalam jabatan yang dirangkap dan tidak diberikan TPP dalam jabatan definitifnya; dan 25"
+                                            "teks": "pejabat satu tingkat di bawah pejabat definitif yang berhalangan tetap atau berhalangan sementara yang merangkap sebagai pelaksana tugas, pelaksana harian atau penjabat diberikan TPP sebesar 100% (seratus persen) dari besaran TPP sesuai dengan penempatan dalam jabatan yang dirangkap dan tidak diberikan TPP dalam jabatan definitifnya; dan"
                                         },
                                         {
                                             "nomor": "d",
@@ -1362,7 +1828,15 @@
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Penunjukan sebagai pelaksana tugas, pelaksana harian atau penjabat sebagaimana dimaksud pada ayat (1) sesuai dengan ketentuan peraturan perundang-undangan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Penunjukan sebagai pelaksana tugas, pelaksana harian atau penjabat sebagaimana dimaksud pada ayat (1) sesuai dengan ketentuan peraturan perundang-undangan."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1382,15 +1856,39 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Pendanaan atas pelaksanaan TPP dibebankan pada Anggaran Pendapatan dan Belanja Daerah."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pendanaan atas pelaksanaan TPP dibebankan pada Anggaran Pendapatan dan Belanja Daerah."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Pendanaan sebagaimana dimaksud pada ayat (1) dibayarkan berdasarkan Dokumen Pelaksanaan Anggaran pada masing-masing PD atau Unit PD."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pendanaan sebagaimana dimaksud pada ayat (1) dibayarkan berdasarkan Dokumen Pelaksanaan Anggaran pada masing-masing PD atau Unit PD."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "3",
-                                "teks": "Pajak penghasilan atas pembayaran TPP dibebankan kepada ASN penerima TPP sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pajak penghasilan atas pembayaran TPP dibebankan kepada ASN penerima TPP sesuai dengan ketentuan peraturan perundang-undangan di bidang perpajakan."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1410,11 +1908,27 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Bupati berwenang melakukan pembinaan dan pengawasan atas pelaksanaan TPP."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Bupati berwenang melakukan pembinaan dan pengawasan atas pelaksanaan TPP."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Dalam melaksanakan pembinaan dan pengawasan sebagaimana dimaksud pada ayat (1), Bupati membentuk Tim Pelaksana TPP yang ditetapkan dengan Keputusan Bupati. 26"
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dalam melaksanakan pembinaan dan pengawasan sebagaimana dimaksud pada ayat (1), Bupati membentuk Tim Pelaksana TPP yang ditetapkan dengan Keputusan Bupati."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "3",
@@ -1454,7 +1968,15 @@
                             },
                             {
                                 "ayat": "4",
-                                "teks": "Tim Pelaksana TPP sebagaimana dimaksud pada ayat (2) melaporkan hasil penilaian kinerja kepada Bupati."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Tim Pelaksana TPP sebagaimana dimaksud pada ayat (2) melaporkan hasil penilaian kinerja kepada Bupati."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1466,11 +1988,27 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Pembinaan dan pengawasan secara struktural dan fungsional dilakukan masing-masing Kepala PD atau Unit PD terhadap pejabat yang menangani kepegawaian dan pejabat yang menangani keuangan di lingkungannya, serta melakukan rekonsiliasi data baik secara periodik maupun sewaktu-waktu."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pembinaan dan pengawasan secara struktural dan fungsional dilakukan masing-masing Kepala PD atau Unit PD terhadap pejabat yang menangani kepegawaian dan pejabat yang menangani keuangan di lingkungannya, serta melakukan rekonsiliasi data baik secara periodik maupun sewaktu-waktu."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Kepala PD atau Unit PD sebagaimana dimaksud pada ayat (1) selaku Pengguna Anggaran atau Kuasa Pengguna Anggaran wajib memastikan pemenuhan syarat administratif dan teknis dengan menerapkan sistem pengendalian internal secara berjenjang dan memadai, mulai dari penghitungan hingga prosedur penetapan, serta bertanggung jawab atas implikasi pembayaran TPP di lingkungannya."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Kepala PD atau Unit PD sebagaimana dimaksud pada ayat (1) selaku Pengguna Anggaran atau Kuasa Pengguna Anggaran wajib memastikan pemenuhan syarat administratif dan teknis dengan menerapkan sistem pengendalian internal secara berjenjang dan memadai, mulai dari penghitungan hingga prosedur penetapan, serta bertanggung jawab atas implikasi pembayaran TPP di lingkungannya."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1490,31 +2028,87 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "PNS fungsional tertentu yang belum dikukuhkan diberikan TPP sebesar 80% (delapan puluh persen) dari TPP yang seharusnya diterima sampai yang bersangkutan dikukuhkan. 27"
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "PNS fungsional tertentu yang belum dikukuhkan diberikan TPP sebesar 80% (delapan puluh persen) dari TPP yang seharusnya diterima sampai yang bersangkutan dikukuhkan."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "CPNS diberikan TPP sebesar 80% (delapan puluh persen) dari TPP yang seharusnya diterima."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "CPNS diberikan TPP sebesar 80% (delapan puluh persen) dari TPP yang seharusnya diterima."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "3",
-                                "teks": "TPP bagi PPPK diberikan berdasarkan besaran alokasi TPP sebagaimana dimaksud dalam Pasal 16 dengan persentase menyesuaikan kemampuan keuangan Daerah."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "TPP bagi PPPK diberikan berdasarkan besaran alokasi TPP sebagaimana dimaksud dalam Pasal 16 dengan persentase menyesuaikan kemampuan keuangan Daerah."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "4",
-                                "teks": "TPP bagi PPPK sebagaimana dimaksud pada ayat (3) diberikan bagi PPPK dengan masa kerja minimal 2 (dua) tahun yang dimulai dari tanggal Surat Keputusan Penganggkatan PPPK."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "TPP bagi PPPK sebagaimana dimaksud pada ayat (3) diberikan bagi PPPK dengan masa kerja minimal 2 (dua) tahun yang dimulai dari tanggal Surat Keputusan Penganggkatan PPPK."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "5",
-                                "teks": "Pembatasan masa kerja bagi PPPK sebagaimana dimaksud pada ayat (4), dikecualikan bagi PPPK yang diangkat sebelum Peraturan Bupati ini diberlakukan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pembatasan masa kerja bagi PPPK sebagaimana dimaksud pada ayat (4), dikecualikan bagi PPPK yang diangkat sebelum Peraturan Bupati ini diberlakukan."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "6",
-                                "teks": "Wajib LHKPN sebagaimana dimaksud dalam Pasal 25 ayat (2) diatur tersendiri dengan Peraturan Bupati atau ketentuan peraturan perundang-undangan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Wajib LHKPN sebagaimana dimaksud dalam Pasal 25 ayat (2) diatur tersendiri dengan Peraturan Bupati atau ketentuan peraturan perundang-undangan."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "7",
-                                "teks": "Dalam hal terjadi perubahan nomenklatur jabatan atau penyesuaian/inpassing jabatan fungsional maka TPP dapat diberikan sepanjang memiliki kelas jabatan setara sesuai ketentuan peraturan perundang-undangan."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dalam hal terjadi perubahan nomenklatur jabatan atau penyesuaian/inpassing jabatan fungsional maka TPP dapat diberikan sepanjang memiliki kelas jabatan setara sesuai ketentuan peraturan perundang-undangan."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1534,11 +2128,27 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Pemberlakuan perhitungan pembayaran TPP menggunakan Siapkerja sebagaimana dimaksud dalam Pasal 28 ayat (1) akan ditetapkan dengan Keputusan Bupati."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pemberlakuan perhitungan pembayaran TPP menggunakan Siapkerja sebagaimana dimaksud dalam Pasal 28 ayat (1) akan ditetapkan dengan Keputusan Bupati."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Dalam hal Keputusan Bupati sebagaimana dimaksud pada ayat (1) belum ditetapkan, maka perhitungan pembayaran TPP dilakukan secara manual."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dalam hal Keputusan Bupati sebagaimana dimaksud pada ayat (1) belum ditetapkan, maka perhitungan pembayaran TPP dilakukan secara manual."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -1546,11 +2156,11 @@
                 {
                     "nomor": "36",
                     "teks": {
-                        "teks_pembuka": "TPP sebagaimana dimaksud dalam Pasal 2 ayat",
-                        "ayat": [
+                        "teks_pembuka": "",
+                        "rincian": [
                             {
-                                "ayat": "1",
-                                "teks": "diberikan terhitung mulai bulan Januari 2025 dan dilaksanakan sesuai ketentuan Peraturan Bupati ini. 28"
+                                "nomor": "",
+                                "teks": "TPP sebagaimana dimaksud dalam Pasal 2 ayat (1) diberikan terhitung mulai bulan Januari 2025 dan dilaksanakan sesuai ketentuan Peraturan Bupati ini."
                             }
                         ]
                     }
@@ -1565,32 +2175,48 @@
             "pasal": [
                 {
                     "nomor": "37",
-                    "teks": "Pada saat Peraturan Bupati ini mulai berlaku, Peraturan Bupati Malang Nomor 8 Tahun 2020 tentang Pemberian Tambahan Penghasilan kepada Pegawai Negeri Sipil di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2020 Nomor 1 Seri A), sebagaimana telah diubah beberapa kali, terakhir dengan Peraturan Bupati Malang Nomor 6 Tahun 2024 tentang Perubahan Keenam atas Peraturan Bupati Malang Nomor 8 Tahun 2020 tentang Pemberian Tambahan Penghasilan kepada Pegawai Negeri Sipil di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2024 Nomor 6 Seri A), dicabut dan dinyatakan tidak berlaku."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Pada saat Peraturan Bupati ini mulai berlaku, Peraturan Bupati Malang Nomor 8 Tahun 2020 tentang Pemberian Tambahan Penghasilan kepada Pegawai Negeri Sipil di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2020 Nomor 1 Seri A), sebagaimana telah diubah beberapa kali, terakhir dengan Peraturan Bupati Malang Nomor 6 Tahun 2024 tentang Perubahan Keenam atas Peraturan Bupati Malang Nomor 8 Tahun 2020 tentang Pemberian Tambahan Penghasilan kepada Pegawai Negeri Sipil di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2024 Nomor 6 Seri A), dicabut dan dinyatakan tidak berlaku."
+                            }
+                        ]
+                    }
                 },
                 {
                     "nomor": "38",
-                    "teks": "Peraturan Bupati ini mulai berlaku pada tanggal diundangkan."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Peraturan Bupati ini mulai berlaku pada tanggal diundangkan."
+                            }
+                        ]
+                    }
                 }
             ]
         }
     ],
     "D_PENUTUP": {
-        "teks": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Bupati ini dengan penempatannya dalam Berita Daerah Kabupaten Malang. Ditetapkan di Kepanjen pada tanggal 14 Februari 2025 BUPATI MALANG, ttd. SANUSI Diundangkan di Kepanjen pada tanggal 14 Februari 2025 Plh. SEKRETARIS DAERAH KABUPATEN MALANG, ttd. NURMAN RAMDANSYAH Berita Daerah Kabupaten Malang Tahun 2025 Nomor 1 Seri A",
+        "perintah_pengundangan": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Bupati ini dengan penempatannya dalam Berita Daerah Kabupaten Malang.",
         "pengesahan": {
             "tempat": "Kepanjen",
             "tanggal": "14 Februari 2025",
             "nama_jabatan": "BUPATI MALANG,",
-            "tanda_tangan": "ttd.",
             "nama_pejabat": "SANUSI"
         },
         "pengundangan": {
             "tempat": "Kepanjen",
             "tanggal": "14 Februari 2025",
             "nama_jabatan": "Plh. SEKRETARIS DAERAH KABUPATEN MALANG,",
-            "tanda_tangan": "ttd.",
             "nama_pejabat": "NURMAN RAMDANSYAH"
         },
-        "nomor_register": "NONE",
-        "publikasi": "Berita Daerah Kabupaten Malang. Ditetapkan di Kepanjen pada tanggal 14 Februari 2025 BUPATI MALANG, ttd. SANUSI Diundangkan di Kepanjen pada tanggal 14 Februari 2025 Plh. SEKRETARIS DAERAH KABUPATEN MALANG, ttd. NURMAN RAMDANSYAH Berita Daerah Kabupaten Malang Tahun 2025 Nomor 1 Seri A"
+        "publikasi": [
+            "Berita Daerah Kabupaten Malang",
+            "Tahun 2025 Nomor 1 Seri A"
+        ]
     }
 }

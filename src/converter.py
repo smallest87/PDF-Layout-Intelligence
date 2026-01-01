@@ -25,16 +25,30 @@ class JSONToHTML:
         return html
 
     def _render_ayat_atau_rincian(self, content):
-        """Me-render konten pasal baik berupa ayat-ayat atau rincian teks."""
+        """Me-render konten pasal. Diperbaiki untuk menampilkan teks_pembuka pada tiap ayat."""
         if isinstance(content, str):
             return f'<p class="isi-pasal">{content}</p>'
             
         html = ""
+        # 1. Menangani Struktur Ayat (1, 2, dst)
         if "ayat" in content and content["ayat"]:
+            # Teks pembuka di tingkat Pasal (jika ada)
             if content.get("teks_pembuka"):
                 html += f'<p class="isi-pasal">{content["teks_pembuka"]}</p>'
+            
             for ay in content["ayat"]:
-                html += f'<div class="ayat-row"><span class="nomor-ayat">({ay["ayat"]})</span> <div class="isi-ayat">{self._render_rincian(ay["teks"]["rincian"])}</div></div>'
+                verse_data = ay["teks"] # Ini adalah dict {"teks_pembuka": ..., "rincian": ...}
+                
+                # Render isi ayat: Teks Pembuka Ayat + Daftar Rincian
+                isi_ayat_html = ""
+                if verse_data.get("teks_pembuka"):
+                    isi_ayat_html += f'<span class="teks-pembuka-ayat">{verse_data["teks_pembuka"]}</span> '
+                
+                isi_ayat_html += self._render_rincian(verse_data["rincian"])
+                
+                html += f'<div class="ayat-row"><span class="nomor-ayat">({ay["ayat"]})</span> <div class="isi-ayat">{isi_ayat_html}</div></div>'
+        
+        # 2. Menangani Struktur Rincian Langsung (Tanpa Ayat)
         elif "rincian" in content:
             if content.get("teks_pembuka"):
                 html += f'<p class="isi-pasal">{content["teks_pembuka"]}</p>'

@@ -71,14 +71,20 @@ class MasterAggregator:
         return res
 
     def _parse_ayat(self, text, is_definisi=False):
-        """Mengurai ayat (1) dan rincian di bawahnya secara hirarkis."""
-        matches = list(re.finditer(r"\((\d+)\)", text))
+        """Versi Diperbarui: Mencegah rujukan ayat (false positive) memutus teks."""
+        # Regex ini hanya menangkap (digit) jika TIDAK didahului kata 'ayat', 'pasal', 'nomor', atau 'huruf'
+        pattern_str = r"(?<!ayat\s)(?<!pasal\s)(?<!nomor\s)(?<!huruf\s)\((\d+)\)"
+        matches = list(re.finditer(pattern_str, text, re.IGNORECASE))
+        
+        # Jika tidak ditemukan ayat (1) yang valid di awal
         if not any(int(m.group(1)) == 1 for m in matches):
             return self._parse_rincian(text, is_definisi)
 
         ayat_results, last_pos, expected_ayat, header_text = [], 0, 1, ""
         for match in matches:
             ayat_num = int(match.group(1))
+            
+            # Hanya proses jika angka ayat urut (1, 2, 3...)
             if ayat_num == expected_ayat:
                 segment = text[last_pos:match.start()].strip()
                 if expected_ayat == 1:
