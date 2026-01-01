@@ -128,6 +128,11 @@ class JSONToHTML:
         sah = pn.get("pengesahan", {})
         und = pn.get("pengundangan", {})
 
+        # Tambahkan Perintah Pengundangan di atas blok TTD
+        perintah = pn.get("perintah_pengundangan", "")
+        if perintah and perintah != "NONE":
+            html += f'<div class="perintah-pengundangan" style="margin-top: 40px; text-align: justify;">{perintah}</div>'
+
         html += '<div class="penutup-container">'
         
         # Pengesahan (Blok Kanan)
