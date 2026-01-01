@@ -97,7 +97,6 @@ class LayoutClassifier:
                         final_unsur = "PEMBENTUK PPU"
 
             elif current_state == "BATANG TUBUH":
-                # ... (Logika Batang Tubuh tetap sama) ...
                 if re.match(r"^(BAB\s+[IVXLCDM]+)$", text_upper) or \
                    re.match(r"^BAGIAN\s+KE[A-Z]+$", text_upper) or \
                    re.match(r"^PARAGRAF\s+\d+$", text_upper):
