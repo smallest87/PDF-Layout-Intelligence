@@ -6,17 +6,15 @@
             "PERATURAN BUPATI MALANG",
             "NOMOR 1 TAHUN 2025",
             "TENTANG",
-            "PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI",
-            "KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN",
-            "PEMERINTAH KABUPATEN MALANG"
+            "PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG"
         ],
         "metadata": {
-            "jabatan": "BUPATI MALANG",
-            "wilayah": "PROVINSI JAWA TIMUR",
+            "pejabat_pembentuk": "BUPATI MALANG",
+            "wilayah_provinsi": "PROVINSI JAWA TIMUR",
             "jenis": "PERATURAN BUPATI MALANG",
             "nomor": "1",
             "tahun": "2025",
-            "materi": "PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG"
+            "tentang": "PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG"
         }
     },
     "B_PEMBUKAAN": {
@@ -163,8 +161,7 @@
     "C_BATANG_TUBUH": [
         {
             "bab": "BAB I",
-            "judul": "KETENTUAN UMUM",
-            "kategori": "Ketentuan Umum",
+            "judul": "BAB I KETENTUAN UMUM",
             "sections": [],
             "pasal": [
                 {
@@ -271,12 +268,12 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Ketentuan Umum"
         },
         {
             "bab": "BAB II",
-            "judul": "KRITERIA PEMBERIAN TPP",
-            "kategori": "Materi Pokok",
+            "judul": "BAB II KRITERIA PEMBERIAN TPP",
             "sections": [],
             "pasal": [
                 {
@@ -607,12 +604,12 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Materi Pokok"
         },
         {
             "bab": "BAB III",
-            "judul": "PENGHITUNGAN KOMPONEN TPP",
-            "kategori": "Materi Pokok",
+            "judul": "BAB III PENGHITUNGAN KOMPONEN TPP",
             "sections": [],
             "pasal": [
                 {
@@ -907,16 +904,16 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Materi Pokok"
         },
         {
             "bab": "BAB IV",
-            "judul": "PEMOTONGAN TPP",
-            "kategori": "Materi Pokok",
+            "judul": "BAB IV PEMOTONGAN TPP",
             "sections": [
                 {
                     "bagian": "BAGIAN KESATU",
-                    "judul": "Pemotongan TPP Berdasarkan Produktivitas Kerja",
+                    "judul": "Bagian Kesatu Pemotongan TPP Berdasarkan Produktivitas Kerja",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -1095,7 +1092,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEDUA",
-                    "judul": "Pemotongan TPP Berdasarkan Disiplin Kerja",
+                    "judul": "Bagian Kedua Pemotongan TPP Berdasarkan Disiplin Kerja",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -1489,12 +1486,12 @@
                     ]
                 }
             ],
-            "pasal": []
+            "pasal": [],
+            "kategori": "Materi Pokok"
         },
         {
             "bab": "BAB V",
-            "judul": "PENUNDAAN PEMBAYARAN TPP",
-            "kategori": "Materi Pokok",
+            "judul": "BAB V PENUNDAAN PEMBAYARAN TPP",
             "sections": [],
             "pasal": [
                 {
@@ -1637,12 +1634,12 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Materi Pokok"
         },
         {
             "bab": "BAB VI",
-            "judul": "TATA CARA PEMBAYARAN",
-            "kategori": "Materi Pokok",
+            "judul": "BAB VI TATA CARA PEMBAYARAN",
             "sections": [],
             "pasal": [
                 {
@@ -1841,12 +1838,12 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Materi Pokok"
         },
         {
             "bab": "BAB VII",
-            "judul": "PENDANAAN",
-            "kategori": "Materi Pokok",
+            "judul": "BAB VII PENDANAAN",
             "sections": [],
             "pasal": [
                 {
@@ -1893,12 +1890,12 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Materi Pokok"
         },
         {
             "bab": "BAB VIII",
-            "judul": "PEMBINAAN DAN PENGAWASAN",
-            "kategori": "Materi Pokok",
+            "judul": "BAB VIII PEMBINAAN DAN PENGAWASAN",
             "sections": [],
             "pasal": [
                 {
@@ -2013,12 +2010,12 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Materi Pokok"
         },
         {
             "bab": "BAB IX",
-            "judul": "KETENTUAN LAIN-LAIN",
-            "kategori": "Materi Pokok",
+            "judul": "BAB IX KETENTUAN LAIN-LAIN",
             "sections": [],
             "pasal": [
                 {
@@ -2113,12 +2110,12 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Materi Pokok"
         },
         {
             "bab": "BAB X",
-            "judul": "KETENTUAN PERALIHAN",
-            "kategori": "Materi Pokok",
+            "judul": "BAB X KETENTUAN PERALIHAN",
             "sections": [],
             "pasal": [
                 {
@@ -2165,12 +2162,12 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Materi Pokok"
         },
         {
             "bab": "BAB XI",
-            "judul": "KETENTUAN PENUTUP",
-            "kategori": "Ketentuan Penutup",
+            "judul": "BAB XI KETENTUAN PENUTUP",
             "sections": [],
             "pasal": [
                 {
@@ -2197,7 +2194,8 @@
                         ]
                     }
                 }
-            ]
+            ],
+            "kategori": "Materi Pokok"
         }
     ],
     "D_PENUTUP": {

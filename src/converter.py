@@ -3,194 +3,108 @@ import os
 
 class JSONToHTML:
     def __init__(self, json_data):
-        """Inisialisasi dengan data JSON hasil agregasi."""
         self.data = json_data
 
     def _render_rincian(self, rincian_list):
-        """Me-render daftar rincian (poin a, b, c). Menghilangkan tanda titik jika nomor kosong."""
-        if not rincian_list:
-            return ""
-            
+        """Render poin rincian dengan indentasi berlapis."""
+        if not rincian_list: return ""
         html = '<div class="rincian-container">'
         for item in rincian_list:
             isi = item.get("teks") or item.get("definisi")
             nomor = item.get("nomor", "")
-            
-            # Jika nomor kosong (paragraf tunggal), tampilkan tanpa indentasi angka
-            if nomor == "":
-                html += f'<p class="isi-paragraf">{isi}</p>'
-            else:
-                html += f'<div class="poin"><span class="nomor-poin">{nomor}.</span> <span class="teks-poin">{isi}</span></div>'
+            cls = "poin sub-poin" if nomor.isdigit() else "poin"
+            if nomor == "": html += f'<p class="isi-paragraf">{isi}</p>'
+            else: html += f'<div class="{cls}"><span class="nomor-poin">{nomor}.</span> <span class="teks-poin">{isi}</span></div>'
         html += '</div>'
         return html
 
     def _render_ayat_atau_rincian(self, content):
-        """Me-render konten pasal. Diperbaiki untuk menampilkan teks_pembuka pada tiap ayat."""
-        if isinstance(content, str):
-            return f'<p class="isi-pasal">{content}</p>'
-            
+        """Render teks pembuka dan hirarki ayat."""
+        if isinstance(content, str): return f'<p class="isi-pasal">{content}</p>'
         html = ""
-        # 1. Menangani Struktur Ayat (1, 2, dst)
         if "ayat" in content and content["ayat"]:
-            # Teks pembuka di tingkat Pasal (jika ada)
-            if content.get("teks_pembuka"):
-                html += f'<p class="isi-pasal">{content["teks_pembuka"]}</p>'
-            
+            if content.get("teks_pembuka"): html += f'<p class="isi-pasal">{content["teks_pembuka"]}</p>'
             for ay in content["ayat"]:
-                verse_data = ay["teks"] # Ini adalah dict {"teks_pembuka": ..., "rincian": ...}
-                
-                # Render isi ayat: Teks Pembuka Ayat + Daftar Rincian
-                isi_ayat_html = ""
-                if verse_data.get("teks_pembuka"):
-                    isi_ayat_html += f'<span class="teks-pembuka-ayat">{verse_data["teks_pembuka"]}</span> '
-                
-                isi_ayat_html += self._render_rincian(verse_data["rincian"])
-                
-                html += f'<div class="ayat-row"><span class="nomor-ayat">({ay["ayat"]})</span> <div class="isi-ayat">{isi_ayat_html}</div></div>'
-        
-        # 2. Menangani Struktur Rincian Langsung (Tanpa Ayat)
+                vd = ay["teks"]
+                isi_html = f'<span class="teks-pembuka-ayat">{vd.get("teks_pembuka", "")}</span> ' + self._render_rincian(vd["rincian"])
+                html += f'<div class="ayat-row"><span class="nomor-ayat">({ay["ayat"]})</span> <div class="isi-ayat">{isi_html}</div></div>'
         elif "rincian" in content:
-            if content.get("teks_pembuka"):
-                html += f'<p class="isi-pasal">{content["teks_pembuka"]}</p>'
+            if content.get("teks_pembuka"): html += f'<p class="isi-pasal">{content["teks_pembuka"]}</p>'
             html += self._render_rincian(content["rincian"])
-            
+        return html
+
+    def _render_pasal_list(self, pasal_list):
+        """Helper untuk render daftar pasal."""
+        html = ""
+        for p in pasal_list:
+            html += f'<div class="pasal-container"><span class="pasal-header">Pasal {p["nomor"]}</span>'
+            html += self._render_ayat_atau_rincian(p["teks"])
+            html += '</div>'
         return html
 
     def convert(self):
-        """Fungsi utama untuk menghasilkan HTML dengan layout Penutup sesuai gambar."""
+        """Render HTML lengkap dengan layout dua kolom dan blok penutup berjenjang."""
         html = """
-        <!DOCTYPE html>
-        <html lang="id">
-        <head>
-            <meta charset="UTF-8">
-            <style>
-                body { font-family: 'Bookman Old Style', serif; line-height: 1.5; padding: 50px 80px; color: #000; font-size: 11pt; background-color: #f4f4f4; }
-                .page { background: white; padding: 80px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 900px; margin: auto; min-height: 1200px; }
-                
-                .judul { text-align: center; font-weight: bold; margin-bottom: 40px; text-transform: uppercase; line-height: 1.3; }
-                
-                /* Layout Kolom Menimbang/Mengingat */
-                .legal-row { display: flex; margin-bottom: 10px; align-items: flex-start; }
-                .legal-label { min-width: 110px; font-weight: normal; }
-                .legal-sep { padding-right: 10px; }
-                .legal-content { flex: 1; text-align: justify; }
-                
-                .centered-bold { text-align: center; font-weight: bold; margin: 10px 0; text-transform: uppercase; }
-                .isi-paragraf { margin: 0; padding: 0; text-align: justify; }
-                
-                /* List & Poin */
-                .poin { display: flex; margin-bottom: 5px; text-align: justify; }
-                .nomor-poin { font-weight: bold; min-width: 25px; display: inline-block; }
-                .teks-poin { flex: 1; }
-                
-                /* Batang Tubuh */
-                .bab { text-align: center; margin-top: 40px; font-weight: bold; text-transform: uppercase; }
-                .pasal-container { margin-top: 25px; }
-                .pasal-header { font-weight: bold; display: block; text-align: center; margin-bottom: 10px; }
-                .ayat-row { display: flex; margin-top: 8px; text-align: justify; }
-                .nomor-ayat { min-width: 35px; font-weight: normal; }
-                .isi-ayat { flex: 1; }
-
-                /* SEKSI PENUTUP (Sesuai Gambar) */
-                .penutup-container { margin-top: 50px; position: relative; width: 100%; }
-                
-                /* Blok Pengesahan (Kanan Atas) */
-                .pengesahan-block { margin-left: auto; width: 45%; text-align: left; margin-bottom: 40px; }
-                
-                /* Blok Pengundangan (Kiri Bawah) */
-                .pengundangan-block { width: 45%; text-align: left; margin-top: 20px; }
-                
-                .signature-name { font-weight: bold; text-decoration: none; margin-top: 50px; display: block; text-transform: uppercase; }
-                .publikasi { margin-top: 30px; font-size: 10pt; text-align: left; }
-            </style>
-        </head>
-        <body>
-            <div class="page">
+        <!DOCTYPE html><html><head><meta charset="UTF-8"><style>
+            body { font-family: 'Bookman Old Style', serif; line-height: 1.5; padding: 50px 80px; font-size: 11pt; }
+            .page { background: white; padding: 80px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 900px; margin: auto; }
+            .judul-container { text-align: center; font-weight: bold; margin-bottom: 40px; text-transform: uppercase; }
+            .legal-row { display: flex; margin-bottom: 10px; align-items: flex-start; }
+            .legal-label { min-width: 110px; }
+            .legal-content { flex: 1; text-align: justify; }
+            .centered-bold { text-align: center; font-weight: bold; margin: 10px 0; text-transform: uppercase; }
+            .poin { display: flex; margin-bottom: 5px; text-align: justify; }
+            .sub-poin { margin-left: 25px; }
+            .nomor-poin { font-weight: bold; min-width: 25px; }
+            .bab { text-align: center; margin-top: 45px; font-weight: bold; text-transform: uppercase; }
+            .bagian-header, .paragraf-header { text-align: center; font-weight: bold; margin-top: 25px; }
+            .pasal-header { font-weight: bold; display: block; text-align: center; margin-bottom: 10px; }
+            .ayat-row { display: flex; margin-top: 8px; text-align: justify; }
+            .nomor-ayat { min-width: 35px; }
+            .penutup-container { margin-top: 50px; position: relative; width: 100%; }
+            .pengesahan-block { margin-left: auto; width: 45%; }
+            .pengundangan-block { width: 45%; margin-top: 20px; }
+            .signature-name { font-weight: bold; margin-top: 50px; display: block; text-transform: uppercase; }
+            .publikasi { margin-top: 40px; font-size: 10pt; }
+        </style></head><body><div class="page">
         """
-
-        # 1. SEKSI JUDUL (Render Centered per Baris)
+        # A. JUDUL
         jd = self.data.get("A_JUDUL", {})
-        lines = jd.get("teks", [])
-        
-        html += '<div class="judul-container" style="text-align: center; font-weight: bold; margin-bottom: 50px;">'
-        for i, line in enumerate(lines):
-            # Styling khusus untuk baris TENTANG
-            margin = "25px" if line.upper() == "TENTANG" else "5px"
-            html += f'<div style="margin-bottom: {margin}; text-transform: uppercase;">{line}</div>'
+        html += '<div class="judul-container">'
+        for i, line in enumerate(jd.get("teks", [])):
+            html += f'<div style="margin-bottom:{"15px" if i==3 else "5px"}">{line}</div>'
         html += '</div>'
 
-        # 2. SEKSI PEMBUKAAN
+        # B. PEMBUKAAN
         pb = self.data.get("B_PEMBUKAAN", {})
-        html += f'<p class="centered-bold">{pb.get("frasa_religius", "")}</p>'
-        html += f'<p class="centered-bold">{pb.get("jabatan_pembentuk", "")}</p>'
+        html += f'<p class="centered-bold">{pb.get("frasa_religius", "")}</p><p class="centered-bold">{pb.get("jabatan_pembentuk", "")}</p>'
+        for l, k in [("Menimbang", "konsiderans"), ("Mengingat", "dasar_hukum")]:
+            html += f'<div class="legal-row"><div class="legal-label">{l}</div><div>:</div><div class="legal-content">{self._render_rincian(pb.get(k, []))}</div></div>'
+        for p in pb.get("diktum", []): html += f'<p class="centered-bold">{p}</p>'
 
-        html += f'<div class="legal-row"><div class="legal-label">Menimbang</div><div class="legal-sep">:</div>'
-        html += f'<div class="legal-content">{self._render_rincian(pb.get("konsiderans", []))}</div></div>'
+        # C. BATANG TUBUH (Hirarki)
+        for b in self.data.get("C_BATANG_TUBUH", []):
+            html += f'<div class="bab">{b["bab"]}<br>{b["judul"]}</div>'
+            html += self._render_pasal_list(b.get("pasal", []))
+            for s in b.get("sections", []):
+                html += f'<div class="bagian-header">{s["bagian"]}<br>{s["judul"]}</div>'
+                html += self._render_pasal_list(s.get("pasal", []))
+                for pg in s.get("paragraphs", []):
+                    html += f'<div class="paragraf-header">{pg["paragraf"]}<br>{pg["judul"]}</div>'
+                    html += self._render_pasal_list(pg.get("pasal", []))
 
-        html += f'<div class="legal-row"><div class="legal-label">Mengingat</div><div class="legal-sep">:</div>'
-        html += f'<div class="legal-content">{self._render_rincian(pb.get("dasar_hukum", []))}</div></div>'
-
-        html += '<div style="margin: 30px 0;">'
-        for part in pb.get("diktum", []):
-            html += f'<p class="centered-bold">{part}</p>'
-        html += '</div>'
-
-        # 3. SEKSI BATANG TUBUH
-        for bab in self.data.get("C_BATANG_TUBUH", []):
-            html += f'<div class="bab">{bab["bab"]}<br>{bab["judul"]}</div>'
-            for pasal in bab.get("pasal", []):
-                html += f'<div class="pasal-container"><span class="pasal-header">Pasal {pasal["nomor"]}</span>'
-                html += self._render_ayat_atau_rincian(pasal["teks"])
-                html += '</div>'
-
-        # 4. SEKSI PENUTUP (Revisi Render Publikasi)
+        # D. PENUTUP
         pn = self.data.get("D_PENUTUP", {})
-        pub_data = pn.get("publikasi", [])
-        sah = pn.get("pengesahan", {})
-        und = pn.get("pengundangan", {})
-
-        # Tambahkan Perintah Pengundangan di atas blok TTD
         perintah = pn.get("perintah_pengundangan", "")
-        if perintah and perintah != "NONE":
-            html += f'<div class="perintah-pengundangan" style="margin-top: 40px; text-align: justify;">{perintah}</div>'
-
-        html += '<div class="penutup-container">'
+        if perintah != "NONE": html += f'<div style="margin-top: 40px; text-align: justify;">{perintah}</div>'
         
-        # Pengesahan (Blok Kanan)
-        html += f"""
-        <div class="pengesahan-block">
-            <p>Ditetapkan di {sah.get("tempat", "...")}<br>pada tanggal {sah.get("tanggal", "...")}</p>
-            <p><b>{sah.get("nama_jabatan", "")},</b></p>
-            <p style="margin-top:15px">ttd.</p>
-            <span class="signature-name">{sah.get("nama_pejabat", "")}</span>
-        </div>
-        """
+        sah, und = pn.get("pengesahan", {}), pn.get("pengundangan", {})
+        html += f"""<div class="penutup-container">
+            <div class="pengesahan-block"><p>Ditetapkan di {sah.get("tempat")}<br>pada tanggal {sah.get("tanggal")}</p><p><b>{sah.get("nama_jabatan")},</b></p><p style="margin-top:15px">ttd.</p><span class="signature-name">{sah.get("nama_pejabat")}</span></div>
+            <div class="pengundangan-block"><p>Diundangkan di {und.get("tempat")}<br>pada tanggal {und.get("tanggal")}</p><p><b>{und.get("nama_jabatan")},</b></p><p style="margin-top:15px">ttd.</p><span class="signature-name">{und.get("nama_pejabat")}</span></div>
+            <div class="publikasi">{"<br>".join(pn.get("publikasi", []))}</div>
+        </div>"""
+        return html + "</div></body></html>"
 
-        # Pengundangan (Blok Kiri)
-        html += f"""
-        <div class="pengundangan-block">
-            <p>Diundangkan di {und.get("tempat", "...")}<br>pada tanggal {und.get("tanggal", "...")}</p>
-            <p><b>{und.get("nama_jabatan", "")},</b></p>
-            <p style="margin-top:15px">ttd.</p>
-            <span class="signature-name">{und.get("nama_pejabat", "")}</span>
-        </div>
-        """
-
-        # Render Publikasi per baris (List of Strings)
-        html += '<div class="publikasi" style="margin-top: 40px; line-height: 1.2;">'
-        if isinstance(pub_data, list):
-            for line in pub_data:
-                html += f'<p style="margin: 0; padding: 0;">{line}</p>'
-        else:
-            html += f'<p>{pub_data}</p>'
-        html += '</div>'
-
-        html += "</div></body></html>"
-        return html
-
-    def save(self, output_path):
-        """Menyimpan hasil konversi ke file HTML."""
-        html_content = self.convert()
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(html_content)
-        return output_path
+    def save(self, path):
+        with open(path, 'w', encoding='utf-8') as f: f.write(self.convert())
