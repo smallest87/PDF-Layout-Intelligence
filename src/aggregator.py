@@ -176,10 +176,17 @@ class MasterAggregator:
         df_pen = self.df[self.df['sistematika'] == "PENUTUP"]
         full_text = self._clean_text(df_pen['text'])
 
-        # Perbaikan: Menggunakan (?:Ditetapkan|Disahkan) untuk fleksibilitas istilah
+        # 1. Regex Pengesahan (Tetap)
         m_sah = re.search(r"(?:Ditetapkan|Disahkan) di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)(?=\s+Diundangkan|$)", full_text, re.IGNORECASE)
-        m_und = re.search(r"Diundangkan di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)(?=\s+Lembaran|$)", full_text, re.IGNORECASE)
+        
+        # 2. Perbaikan Regex Pengundangan: Lookahead fleksibel untuk Berita/Lembaran/Tambahan
+        m_und = re.search(r"Diundangkan di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)(?=\s+(?:Berita|Lembaran|TAMBAHAN|$))", full_text, re.IGNORECASE)
+
+        # 3. Regex Nomor Register (Tetap)
         m_reg = re.search(r"NOMOR REGISTER.*?\s+NOMOR\s+([\d\w/.\-]+)", full_text, re.IGNORECASE)
+        
+        # 4. Tambahan: Ekstraksi Informasi Publikasi (Berita/Lembaran Daerah)
+        m_pub = re.search(r"(Berita|Lembaran) Daerah.*?(Tahun\s+\d{4}\s+Nomor\s+[\d\w\s]+)", full_text, re.IGNORECASE)
 
         return {
             "teks": full_text,
@@ -197,5 +204,6 @@ class MasterAggregator:
                 "tanda_tangan": m_und.group(4).strip() if m_und else "NONE",
                 "nama_pejabat": m_und.group(5).strip() if m_und else "NONE"
             },
-            "nomor_register": m_reg.group(1).strip() if m_reg else "NONE"
+            "nomor_register": m_reg.group(1).strip() if m_reg else "NONE",
+            "publikasi": m_pub.group(0).strip() if m_pub else "NONE" # Menangkap "Berita Daerah... Nomor 16 Seri D"
         }
