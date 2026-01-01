@@ -1,0 +1,2303 @@
+{
+    "A_JUDUL": {
+        "teks": "UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 12 TAHUN 2011 TENTANG PEMBENTUKAN PERATURAN PERUNDANG-UNDANGAN",
+        "metadata": {
+            "kategori": "PERATURAN PERUNDANG-UNDANGAN PUSAT",
+            "jenis": "UNDANG-UNDANG",
+            "nomor": "12",
+            "tahun": "2011",
+            "tentang": "PEMBENTUKAN PERATURAN PERUNDANG-UNDANGAN"
+        }
+    },
+    "B_PEMBUKAAN": {
+        "frasa_religius": "DENGAN RAHMAT TUHAN YANG MAHA ESA",
+        "jabatan_pembentuk": "PRESIDEN REPUBLIK INDONESIA,",
+        "konsiderans": [
+            {
+                "nomor": "a",
+                "teks": "bahwa untuk mewujudkan Indonesia sebagai negara hukum, negara berkewajiban melaksanakan pembangunan hukum nasional yang dilakukan secara terencana, terpadu, dan berkelanjutan dalam sistem hukum nasional yang menjamin pelindungan hak dan kewajiban segenap rakyat Indonesia berdasarkan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+            },
+            {
+                "nomor": "b",
+                "teks": "bahwa untuk memenuhi kebutuhan masyarakat atas peraturan perundang-undangan yang baik, perlu dibuat peraturan mengenai pembentukan peraturan perundang-undangan yang dilaksanakan dengan cara dan metode yang pasti, baku, dan standar yang mengikat semua lembaga yang berwenang membentuk peraturan perundang-undangan;"
+            },
+            {
+                "nomor": "c",
+                "teks": "bahwa dalam Undang-Undang Nomor 10 Tahun 2004 tentang Pembentukan Peraturan Perundang-undangan masih terdapat kekurangan dan belum dapat menampung perkembangan kebutuhan masyarakat mengenai aturan pembentukan peraturan perundang- undangan yang baik sehingga perlu diganti;"
+            },
+            {
+                "nomor": "d",
+                "teks": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Pembentukan Peraturan Perundang-undangan;"
+            }
+        ],
+        "dasar_hukum": [],
+        "diktum": "Dengan Persetujuan Bersama DEWAN PERWAKILAN RAKYAT REPUBLIK INDONESIA dan PRESIDEN REPUBLIK INDONESIA MEMUTUSKAN: Menetapkan : UNDANG-UNDANG TENTANG PEMBENTUKAN PERATURAN PERUNDANG-UNDANGAN."
+    },
+    "C_BATANG_TUBUH": [
+        {
+            "bab": "BAB I",
+            "judul": "KETENTUAN UMUM",
+            "kategori": "Ketentuan Umum",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "1",
+                    "teks": {
+                        "teks_pembuka": "Dalam Undang-Undang ini yang dimaksud dengan:",
+                        "rincian": [
+                            {
+                                "nomor": "1",
+                                "definisi": "Pembentukan Peraturan Perundang-undangan adalah pembuatan Peraturan Perundang-undangan yang mencakup tahapan perencanaan, penyusunan, pembahasan, pengesahan atau penetapan, dan pengundangan."
+                            },
+                            {
+                                "nomor": "2",
+                                "definisi": "Peraturan Perundang-undangan adalah peraturan tertulis yang memuat norma hukum yang mengikat secara umum dan dibentuk atau ditetapkan oleh lembaga negara atau pejabat yang berwenang melalui prosedur yang ditetapkan dalam Peraturan Perundang-undangan."
+                            },
+                            {
+                                "nomor": "3",
+                                "definisi": "Undang-Undang adalah Peraturan Perundang- undangan yang dibentuk oleh Dewan Perwakilan Rakyat dengan persetujuan bersama Presiden."
+                            },
+                            {
+                                "nomor": "4",
+                                "definisi": "Peraturan Pemerintah Pengganti Undang-Undang adalah Peraturan Perundang-undangan yang ditetapkan oleh Presiden dalam hal ihwal kegentingan yang memaksa."
+                            },
+                            {
+                                "nomor": "5",
+                                "definisi": "Peraturan Pemerintah adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menjalankan Undang-Undang sebagaimana mestinya."
+                            },
+                            {
+                                "nomor": "6",
+                                "definisi": "Peraturan Presiden adalah Peraturan Perundang- undangan yang ditetapkan oleh Presiden untuk menjalankan perintah Peraturan Perundang- undangan yang lebih tinggi atau dalam menyelenggarakan kekuasaan pemerintahan."
+                            },
+                            {
+                                "nomor": "7",
+                                "definisi": "Peraturan Daerah Provinsi adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Provinsi dengan persetujuan bersama Gubernur."
+                            },
+                            {
+                                "nomor": "8",
+                                "definisi": "Peraturan Daerah Kabupaten/Kota adalah Peraturan Perundang-undangan yang dibentuk oleh Dewan Perwakilan Rakyat Daerah Kabupaten/Kota dengan persetujuan bersama Bupati/Walikota."
+                            },
+                            {
+                                "nomor": "9",
+                                "definisi": "Program Legislasi Nasional yang selanjutnya disebut Prolegnas adalah instrumen perencanaan program pembentukan Undang-Undang yang disusun secara terencana, terpadu, dan sistematis."
+                            },
+                            {
+                                "nomor": "10",
+                                "definisi": "Program Legislasi Daerah yang selanjutnya disebut Prolegda adalah instrumen perencanaan program pembentukan Peraturan Daerah Provinsi atau Peraturan Daerah Kabupaten/Kota yang disusun secara terencana, terpadu, dan sistematis."
+                            },
+                            {
+                                "nomor": "11",
+                                "definisi": "Naskah Akademik adalah naskah hasil penelitian atau pengkajian hukum dan hasil penelitian lainnya terhadap suatu masalah tertentu yang dapat dipertanggungjawabkan secara ilmiah mengenai pengaturan masalah tersebut dalam suatu Rancangan Undang-Undang, Rancangan Peraturan Daerah Provinsi, atau Rancangan Peraturan Daerah Kabupaten/Kota sebagai solusi terhadap permasalahan dan kebutuhan hukum masyarakat."
+                            },
+                            {
+                                "nomor": "12",
+                                "definisi": "Pengundangan adalah penempatan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia, Tambahan Lembaran Negara Republik Indonesia, Berita Negara Republik Indonesia, Tambahan Berita Negara Republik Indonesia, Lembaran Daerah, Tambahan Lembaran Daerah, atau Berita Daerah."
+                            },
+                            {
+                                "nomor": "13",
+                                "definisi": "Materi Muatan Peraturan Perundang-undangan adalah materi yang dimuat dalam Peraturan Perundang-undangan sesuai dengan jenis, fungsi, dan hierarki Peraturan Perundang-undangan."
+                            },
+                            {
+                                "nomor": "14",
+                                "definisi": "Dewan Perwakilan Rakyat yang selanjutnya disingkat DPR adalah Dewan Perwakilan Rakyat sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun 1945"
+                            },
+                            {
+                                "nomor": "15",
+                                "definisi": "Dewan Perwakilan Daerah yang selanjutnya disingkat DPD adalah Dewan Perwakilan Daerah sebagaimana dimaksud dalam Undang-Undang Dasar Negara Republik Indonesia Tahun"
+                            },
+                            {
+                                "nomor": "1945",
+                                "definisi": "16. Dewan Perwakilan Rakyat Daerah yang selanjutnya disingkat DPRD adalah Dewan Perwakilan Rakyat Daerah sebagaimana dimaksud dalam Undang- Undang Dasar Negara Republik Indonesia Tahun 1945."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "2",
+                    "teks": "Pancasila merupakan sumber segala sumber hukum negara."
+                },
+                {
+                    "nomor": "3",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 merupakan hukum dasar dalam Peraturan Perundang-undangan."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 ditempatkan dalam Lembaran Negara Republik Indonesia."
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": "Penempatan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 dalam Lembaran Negara Republik Indonesia tidak merupakan dasar pemberlakuannya."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "4",
+                    "teks": "Peraturan Perundang-undangan yang diatur dalam Undang-Undang ini meliputi Undang-Undang dan Peraturan Perundang-undangan di bawahnya."
+                }
+            ]
+        },
+        {
+            "bab": "BAB II",
+            "judul": "ASAS PEMBENTUKAN PERATURAN PERUNDANG-UNDANGAN",
+            "kategori": "Materi Pokok",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "5",
+                    "teks": {
+                        "teks_pembuka": "Dalam membentuk Peraturan Perundang-undangan harus dilakukan berdasarkan pada asas Pembentukan Peraturan Perundang-undangan yang baik, yang meliputi:",
+                        "rincian": [
+                            {
+                                "nomor": "a",
+                                "teks": "kejelasan tujuan;"
+                            },
+                            {
+                                "nomor": "b",
+                                "teks": "kelembagaan atau pejabat pembentuk yang tepat;"
+                            },
+                            {
+                                "nomor": "c",
+                                "teks": "kesesuaian antara jenis, hierarki, dan materi muatan;"
+                            },
+                            {
+                                "nomor": "d",
+                                "teks": "dapat dilaksanakan;"
+                            },
+                            {
+                                "nomor": "e",
+                                "teks": "kedayagunaan dan kehasilgunaan;"
+                            },
+                            {
+                                "nomor": "f",
+                                "teks": "kejelasan rumusan; dan"
+                            },
+                            {
+                                "nomor": "g",
+                                "teks": "keterbukaan."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "6",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "Materi muatan Peraturan Perundang-undangan harus mencerminkan asas:",
+                                    "rincian": [
+                                        {
+                                            "nomor": "a",
+                                            "teks": "pengayoman;"
+                                        },
+                                        {
+                                            "nomor": "b",
+                                            "teks": "kemanusiaan;"
+                                        },
+                                        {
+                                            "nomor": "c",
+                                            "teks": "kebangsaan;"
+                                        },
+                                        {
+                                            "nomor": "d",
+                                            "teks": "kekeluargaan;"
+                                        },
+                                        {
+                                            "nomor": "e",
+                                            "teks": "kenusantaraan;"
+                                        },
+                                        {
+                                            "nomor": "f",
+                                            "teks": "bhinneka tunggal ika;"
+                                        },
+                                        {
+                                            "nomor": "g",
+                                            "teks": "keadilan;"
+                                        },
+                                        {
+                                            "nomor": "h",
+                                            "teks": "kesamaan kedudukan dalam hukum dan pemerintahan;"
+                                        },
+                                        {
+                                            "nomor": "i",
+                                            "teks": "ketertiban dan kepastian hukum; dan/atau"
+                                        },
+                                        {
+                                            "nomor": "j",
+                                            "teks": "keseimbangan, keserasian, dan keselarasan."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Selain mencerminkan asas sebagaimana dimaksud pada ayat (1), Peraturan Perundang-undangan tertentu dapat berisi asas lain sesuai dengan bidang hukum Peraturan Perundang-undangan yang bersangkutan."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB III",
+            "judul": "JENIS, HIERARKI, DAN MATERI MUATAN PERATURAN PERUNDANG-UNDANGAN",
+            "kategori": "Materi Pokok",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "7",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "Jenis dan hierarki Peraturan Perundang-undangan terdiri atas:",
+                                    "rincian": [
+                                        {
+                                            "nomor": "a",
+                                            "teks": "Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                                        },
+                                        {
+                                            "nomor": "b",
+                                            "teks": "Ketetapan Majelis Permusyawaratan Rakyat;"
+                                        },
+                                        {
+                                            "nomor": "c",
+                                            "teks": "Undang-Undang/Peraturan Pemerintah Pengganti Undang-Undang;"
+                                        },
+                                        {
+                                            "nomor": "d",
+                                            "teks": "Peraturan Pemerintah;"
+                                        },
+                                        {
+                                            "nomor": "e",
+                                            "teks": "Peraturan Presiden;"
+                                        },
+                                        {
+                                            "nomor": "f",
+                                            "teks": "Peraturan Daerah Provinsi; dan"
+                                        },
+                                        {
+                                            "nomor": "g",
+                                            "teks": "Peraturan Daerah Kabupaten/Kota."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Kekuatan hukum Peraturan Perundang-undangan sesuai dengan hierarki sebagaimana dimaksud pada ayat (1)."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "8",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "Jenis Peraturan Perundang-undangan selain sebagaimana dimaksud dalam Pasal 7 ayat (1) mencakup peraturan yang ditetapkan oleh Majelis Permusyawaratan Rakyat, Dewan Perwakilan Rakyat, Dewan Perwakilan Daerah, Mahkamah Agung, Mahkamah Konstitusi, Badan Pemeriksa Keuangan, Komisi Yudisial, Bank Indonesia, Menteri, badan, lembaga, atau komisi yang setingkat yang dibentuk dengan Undang-Undang atau Pemerintah atas perintah Undang-Undang, Dewan Perwakilan Rakyat Daerah Provinsi, Gubernur, Dewan Perwakilan Rakyat Daerah Kabupaten/Kota, Bupati/Walikota, Kepala Desa atau yang setingkat."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (1) diakui keberadaannya dan mempunyai kekuatan hukum mengikat sepanjang diperintahkan oleh Peraturan Perundang-undangan yang lebih tinggi atau dibentuk berdasarkan kewenangan."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "9",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "Dalam hal suatu Undang-Undang diduga bertentangan dengan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, pengujiannya dilakukan oleh Mahkamah Konstitusi."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Dalam hal suatu Peraturan Perundang-undangan di bawah Undang-Undang diduga bertentangan dengan Undang-Undang, pengujiannya dilakukan oleh Mahkamah Agung."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "10",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "Materi muatan yang harus diatur dengan Undang- Undang berisi:",
+                                    "rincian": [
+                                        {
+                                            "nomor": "a",
+                                            "teks": "pengaturan lebih lanjut mengenai ketentuan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                                        },
+                                        {
+                                            "nomor": "b",
+                                            "teks": "perintah suatu Undang-Undang untuk diatur dengan Undang-Undang;"
+                                        },
+                                        {
+                                            "nomor": "c",
+                                            "teks": "pengesahan perjanjian internasional tertentu;"
+                                        },
+                                        {
+                                            "nomor": "d",
+                                            "teks": "tindak lanjut atas putusan Mahkamah Konstitusi; dan/atau"
+                                        },
+                                        {
+                                            "nomor": "e",
+                                            "teks": "pemenuhan kebutuhan hukum dalam masyarakat."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Tindak lanjut atas putusan Mahkamah Konstitusi sebagaimana dimaksud pada ayat (1) huruf d dilakukan oleh DPR atau Presiden."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "11",
+                    "teks": "Materi muatan Peraturan Pemerintah Pengganti Undang- Undang sama dengan materi muatan Undang-Undang."
+                },
+                {
+                    "nomor": "12",
+                    "teks": "Materi muatan Peraturan Pemerintah berisi materi untuk menjalankan Undang-Undang sebagaimana mestinya."
+                },
+                {
+                    "nomor": "13",
+                    "teks": "Materi muatan Peraturan Presiden berisi materi yang diperintahkan oleh Undang-Undang, materi untuk melaksanakan Peraturan Pemerintah, atau materi untuk melaksanakan penyelenggaraan kekuasaan pemerintahan."
+                },
+                {
+                    "nomor": "14",
+                    "teks": "Materi muatan Peraturan Daerah Provinsi dan Peraturan Daerah Kabupaten/Kota berisi materi muatan dalam rangka penyelenggaraan otonomi daerah dan tugas pembantuan serta menampung kondisi khusus daerah dan/atau penjabaran lebih lanjut Peraturan Perundang- undangan yang lebih tinggi."
+                },
+                {
+                    "nomor": "15",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "Materi muatan mengenai ketentuan pidana hanya dapat dimuat dalam:",
+                                    "rincian": [
+                                        {
+                                            "nomor": "a",
+                                            "teks": "Undang-Undang;"
+                                        },
+                                        {
+                                            "nomor": "b",
+                                            "teks": "Peraturan Daerah Provinsi; atau"
+                                        },
+                                        {
+                                            "nomor": "c",
+                                            "teks": "Peraturan Daerah Kabupaten/Kota."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Ketentuan pidana sebagaimana dimaksud pada ayat (1) huruf b dan huruf c berupa ancaman pidana kurungan paling lama 6 (enam) bulan atau pidana denda paling banyak Rp50.000.000,00 (lima puluh juta rupiah)."
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": "Peraturan Daerah Provinsi dan Peraturan Daerah Kabupaten/Kota dapat memuat ancaman pidana kurungan atau pidana denda selain sebagaimana dimaksud pada ayat (2) sesuai dengan yang diatur dalam Peraturan Perundang-undangan lainnya."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB IV",
+            "judul": "PERENCANAAN PERATURAN PERUNDANG-UNDANGAN",
+            "kategori": "Materi Pokok",
+            "sections": [
+                {
+                    "bagian": "BAGIAN KESATU",
+                    "judul": "Perencanaan Undang-Undang",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "16",
+                            "teks": "Perencanaan penyusunan Undang-Undang dilakukan dalam Prolegnas."
+                        },
+                        {
+                            "nomor": "17",
+                            "teks": "Prolegnas sebagaimana dimaksud dalam Pasal 16 merupakan skala prioritas program pembentukan Undang-Undang dalam rangka mewujudkan sistem hukum nasional."
+                        },
+                        {
+                            "nomor": "18",
+                            "teks": {
+                                "teks_pembuka": "Dalam penyusunan Prolegnas sebagaimana dimaksud dalam Pasal 16, penyusunan daftar Rancangan Undang- Undang didasarkan atas:",
+                                "rincian": [
+                                    {
+                                        "nomor": "a",
+                                        "teks": "perintah Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+                                    },
+                                    {
+                                        "nomor": "b",
+                                        "teks": "perintah Ketetapan Majelis Permusyawaratan Rakyat;"
+                                    },
+                                    {
+                                        "nomor": "c",
+                                        "teks": "perintah Undang-Undang lainnya;"
+                                    },
+                                    {
+                                        "nomor": "d",
+                                        "teks": "sistem perencanaan pembangunan nasional;"
+                                    },
+                                    {
+                                        "nomor": "e",
+                                        "teks": "rencana pembangunan jangka panjang nasional;"
+                                    },
+                                    {
+                                        "nomor": "f",
+                                        "teks": "rencana pembangunan jangka menengah;"
+                                    },
+                                    {
+                                        "nomor": "g",
+                                        "teks": "rencana kerja pemerintah dan rencana strategis DPR; dan"
+                                    },
+                                    {
+                                        "nomor": "h",
+                                        "teks": "aspirasi dan kebutuhan hukum masyarakat."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "19",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Prolegnas sebagaimana dimaksud dalam Pasal 16 memuat program pembentukan Undang-Undang dengan judul Rancangan Undang-Undang, materi yang diatur, dan keterkaitannya dengan Peraturan Perundang-undangan lainnya."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "Materi yang diatur dan keterkaitannya dengan Peraturan Perundang-undangan lainnya sebagaimana dimaksud pada ayat (1) merupakan keterangan mengenai konsepsi Rancangan Undang-Undang yang meliputi:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "latar belakang dan tujuan penyusunan;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "sasaran yang ingin diwujudkan; dan"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "jangkauan dan arah pengaturan."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Materi yang diatur sebagaimana dimaksud pada ayat (2) yang telah melalui pengkajian dan penyelarasan dituangkan dalam Naskah Akademik."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "20",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyusunan Prolegnas dilaksanakan oleh DPR dan Pemerintah."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Prolegnas ditetapkan untuk jangka menengah dan tahunan berdasarkan skala prioritas pembentukan Rancangan Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Penyusunan dan penetapan Prolegnas jangka menengah dilakukan pada awal masa keanggotaan DPR sebagai Prolegnas untuk jangka waktu 5 (lima) tahun."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Prolegnas jangka menengah dapat dievaluasi setiap akhir tahun bersamaan dengan penyusunan dan penetapan Prolegnas prioritas tahunan."
+                                    },
+                                    {
+                                        "ayat": "5",
+                                        "teks": "Penyusunan dan penetapan Prolegnas prioritas tahunan sebagai pelaksanaan Prolegnas jangka menengah dilakukan setiap tahun sebelum penetapan Rancangan Undang-Undang tentang Anggaran Pendapatan dan Belanja Negara."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "21",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyusunan Prolegnas antara DPR dan Pemerintah dikoordinasikan oleh DPR melalui alat kelengkapan DPR yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penyusunan Prolegnas di lingkungan DPR dikoordinasikan oleh alat kelengkapan DPR yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Penyusunan Prolegnas di lingkungan DPR sebagaimana dimaksud pada ayat (2) dilakukan dengan mempertimbangkan usulan dari fraksi, komisi, anggota DPR, DPD, dan/atau masyarakat."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Penyusunan Prolegnas di lingkungan Pemerintah dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                    },
+                                    {
+                                        "ayat": "5",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegnas sebagaimana dimaksud pada ayat (1), ayat (2), dan ayat (3) diatur dengan Peraturan DPR."
+                                    },
+                                    {
+                                        "ayat": "6",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegnas di lingkungan Pemerintah sebagaimana dimaksud pada ayat (4) diatur dengan Peraturan Presiden."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "22",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Hasil penyusunan Prolegnas antara DPR dan Pemerintah sebagaimana dimaksud dalam Pasal 21 ayat (1) disepakati menjadi Prolegnas dan ditetapkan dalam Rapat Paripurna DPR."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Prolegnas sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan DPR."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "23",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "Dalam Prolegnas dimuat daftar kumulatif terbuka yang terdiri atas:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "pengesahan perjanjian internasional tertentu;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "akibat putusan Mahkamah Konstitusi;"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "Anggaran Pendapatan dan Belanja Negara;"
+                                                },
+                                                {
+                                                    "nomor": "d",
+                                                    "teks": "pembentukan, pemekaran, dan penggabungan daerah Provinsi dan/atau Kabupaten/Kota; dan"
+                                                },
+                                                {
+                                                    "nomor": "e",
+                                                    "teks": "penetapan/pencabutan Peraturan Pemerintah Pengganti Undang-Undang."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "Dalam keadaan tertentu, DPR atau Presiden dapat mengajukan Rancangan Undang-Undang di luar Prolegnas mencakup:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "untuk mengatasi keadaan luar biasa, keadaan konflik, atau bencana alam; dan"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "keadaan tertentu lainnya yang memastikan adanya urgensi nasional atas suatu Rancangan Undang-Undang yang dapat disetujui bersama oleh alat kelengkapan DPR yang khusus menangani bidang legislasi dan menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEDUA",
+                    "judul": "Perencanaan Peraturan Pemerintah",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "24",
+                            "teks": "Perencanaan penyusunan Peraturan Pemerintah dilakukan dalam suatu program penyusunan Peraturan Pemerintah."
+                        },
+                        {
+                            "nomor": "25",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 24 memuat daftar judul dan pokok materi muatan Rancangan Peraturan Pemerintah untuk menjalankan Undang- Undang sebagaimana mestinya."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Perencanaan sebagaimana dimaksud pada ayat (1) ditetapkan untuk jangka waktu 1 (satu) tahun."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "26",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 25 dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan Presiden."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "27",
+                            "teks": "Rancangan Peraturan Pemerintah berasal dari kementerian dan/atau lembaga pemerintah nonkementerian sesuai dengan bidang tugasnya."
+                        },
+                        {
+                            "nomor": "28",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Dalam keadaan tertentu, kementerian atau lembaga pemerintah nonkementerian dapat mengajukan Rancangan Peraturan Pemerintah di luar perencanaan penyusunan Peraturan Pemerintah."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Rancangan Peraturan Pemerintah dalam keadaan tertentu sebagaimana dimaksud pada ayat (1) dibuat berdasarkan kebutuhan Undang-Undang atau putusan Mahkamah Agung."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "29",
+                            "teks": "Ketentuan lebih lanjut mengenai tata cara perencanaan penyusunan Peraturan Pemerintah diatur dengan Peraturan Presiden."
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KETIGA",
+                    "judul": "Perencanaan Peraturan Presiden",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "30",
+                            "teks": "Perencanaan penyusunan Peraturan Presiden dilakukan dalam suatu program penyusunan Peraturan Presiden."
+                        },
+                        {
+                            "nomor": "31",
+                            "teks": "Ketentuan mengenai perencanaan penyusunan Peraturan Pemerintah sebagaimana dimaksud dalam Pasal 24 sampai dengan Pasal 29 berlaku secara mutatis mutandis terhadap perencanaan penyusunan Peraturan Presiden."
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEEMPAT",
+                    "judul": "Perencanaan Peraturan Daerah Provinsi",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "32",
+                            "teks": "Perencanaan penyusunan Peraturan Daerah Provinsi dilakukan dalam Prolegda Provinsi."
+                        },
+                        {
+                            "nomor": "33",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Prolegda sebagaimana dimaksud dalam Pasal 32 memuat program pembentukan Peraturan Daerah Provinsi dengan judul Rancangan Peraturan Daerah Provinsi, materi yang diatur, dan keterkaitannya dengan Peraturan Perundang-undangan lainnya."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "Materi yang diatur serta keterkaitannya dengan Peraturan Perundang-undangan lainnya sebagaimana dimaksud pada ayat (1) merupakan keterangan mengenai konsepsi Rancangan Peraturan Daerah Provinsi yang meliputi:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "latar belakang dan tujuan penyusunan;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "sasaran yang ingin diwujudkan;"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "pokok pikiran, lingkup, atau objek yang akan diatur; dan"
+                                                },
+                                                {
+                                                    "nomor": "d",
+                                                    "teks": "jangkauan dan arah pengaturan."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Materi yang diatur sebagaimana dimaksud pada ayat (2) yang telah melalui pengkajian dan penyelarasan dituangkan dalam Naskah Akademik."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "34",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyusunan Prolegda Provinsi dilaksanakan oleh DPRD Provinsi dan Pemerintah Daerah Provinsi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Prolegda Provinsi ditetapkan untuk jangka waktu 1 (satu) tahun berdasarkan skala prioritas pembentukan Rancangan Peraturan Daerah Provinsi."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Penyusunan dan penetapan Prolegda Provinsi dilakukan setiap tahun sebelum penetapan Rancangan Peraturan Daerah Provinsi tentang Anggaran Pendapatan dan Belanja Daerah Provinsi."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "35",
+                            "teks": {
+                                "teks_pembuka": "Dalam penyusunan Prolegda Provinsi sebagaimana dimaksud dalam Pasal 34 ayat",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": ", penyusunan daftar rancangan peraturan daerah provinsi didasarkan atas:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "perintah Peraturan Perundang-undangan lebih tinggi;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "rencana pembangunan daerah;"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "penyelenggaraan otonomi daerah dan tugas pembantuan; dan"
+                                                },
+                                                {
+                                                    "nomor": "d",
+                                                    "teks": "aspirasi masyarakat daerah."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "36",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyusunan Prolegda Provinsi antara DPRD Provinsi dan Pemerintah Daerah Provinsi dikoordinasikan oleh DPRD Provinsi melalui alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penyusunan Prolegda Provinsi di lingkungan DPRD Provinsi dikoordinasikan oleh alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Penyusunan Prolegda Provinsi di lingkungan Pemerintah Daerah Provinsi dikoordinasikan oleh biro hukum dan dapat mengikutsertakan instansi vertikal terkait."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegda Provinsi di lingkungan DPRD Provinsi sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan DPRD Provinsi."
+                                    },
+                                    {
+                                        "ayat": "5",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara penyusunan Prolegda Provinsi di lingkungan Pemerintah Daerah Provinsi sebagaimana dimaksud pada ayat (3) diatur dengan Peraturan Gubernur."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "37",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Hasil penyusunan Prolegda Provinsi antara DPRD Provinsi dan Pemerintah Daerah Provinsi sebagaimana dimaksud dalam Pasal 36 ayat (1) disepakati menjadi Prolegda Provinsi dan ditetapkan dalam Rapat Paripurna DPRD Provinsi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Prolegda Provinsi sebagaimana dimaksud pada ayat (1) ditetapkan dengan Keputusan DPRD Provinsi."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "38",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "Dalam Prolegda Provinsi dapat dimuat daftar kumulatif terbuka yang terdiri atas:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "akibat putusan Mahkamah Agung; dan"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "Anggaran Pendapatan dan Belanja Daerah Provinsi."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "Dalam keadaan tertentu, DPRD Provinsi atau Gubernur dapat mengajukan Rancangan Peraturan Daerah Provinsi di luar Prolegda Provinsi:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "untuk mengatasi keadaan luar biasa, keadaan konflik, atau bencana alam;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "akibat kerja sama dengan pihak lain; dan"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "keadaan tertentu lainnya yang memastikan adanya urgensi atas suatu Rancangan Peraturan Daerah Provinsi yang dapat disetujui bersama oleh alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi dan biro hukum."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KELIMA",
+                    "judul": "Perencanaan Peraturan Daerah Kabupaten/Kota",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "39",
+                            "teks": "Perencanaan penyusunan Peraturan Daerah Kabupaten/Kota dilakukan dalam Prolegda Kabupaten/Kota."
+                        },
+                        {
+                            "nomor": "40",
+                            "teks": "Ketentuan mengenai perencanaan penyusunan Peraturan Daerah Provinsi sebagaimana dimaksud dalam Pasal 32 sampai dengan Pasal 38 berlaku secara mutatis mutandis terhadap perencanaan penyusunan Peraturan Daerah Kabupaten/Kota."
+                        },
+                        {
+                            "nomor": "41",
+                            "teks": "Dalam Prolegda Kabupaten/Kota dapat dimuat daftar kumulatif terbuka mengenai pembentukan, pemekaran, dan penggabungan Kecamatan atau nama lainnya dan/atau pembentukan, pemekaran, dan penggabungan Desa atau nama lainnya."
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEENAM",
+                    "judul": "Perencanaan Peraturan Perundang-undangan Lainnya",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "42",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Perencanaan penyusunan Peraturan Perundang- undangan lainnya sebagaimana dimaksud dalam"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "8",
+                            "teks": {
+                                "teks_pembuka": "ayat",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "merupakan kewenangan dan disesuaikan dengan kebutuhan lembaga, komisi, atau instansi masing-masing."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Perencanaan sebagaimana dimaksud pada ayat (1) ditetapkan oleh lembaga, komisi, atau instansi masing-masing untuk jangka waktu 1 (satu) tahun."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "pasal": []
+        },
+        {
+            "bab": "BAB V",
+            "judul": "PENYUSUNAN PERATURAN PERUNDANG-UNDANGAN",
+            "kategori": "Materi Pokok",
+            "sections": [
+                {
+                    "bagian": "BAGIAN KESATU",
+                    "judul": "Penyusunan Undang-Undang",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "43",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang dapat berasal dari DPR atau Presiden."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Rancangan Undang-Undang yang berasal dari DPR sebagaimana dimaksud pada ayat (1) dapat berasal dari DPD."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Rancangan Undang-Undang yang berasal dari DPR, Presiden, atau DPD harus disertai Naskah Akademik."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": {
+                                            "teks_pembuka": "Ketentuan sebagaimana dimaksud pada ayat (3) tidak berlaku bagi Rancangan Undang-Undang mengenai:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "Anggaran Pendapatan dan Belanja Negara;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "penetapan Peraturan Pemerintah Pengganti Undang-Undang menjadi Undang-Undang; atau"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "pencabutan Undang-Undang atau pencabutan Peraturan Pemerintah Pengganti Undang-Undang."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "5",
+                                        "teks": "Rancangan Undang-Undang sebagaimana dimaksud pada ayat (4) disertai dengan keterangan yang memuat pokok pikiran dan materi muatan yang diatur."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "44",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyusunan Naskah Akademik Rancangan Undang- Undang dilakukan sesuai dengan teknik penyusunan Naskah Akademik."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Ketentuan mengenai teknik penyusunan Naskah Akademik sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran I yang merupakan bagian tidak terpisahkan dari Undang-Undang ini."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "45",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang, baik yang berasal dari DPR maupun Presiden serta Rancangan Undang- Undang yang diajukan DPD kepada DPR disusun berdasarkan Prolegnas."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "Rancangan Undang-Undang yang diajukan oleh DPD sebagaimana dimaksud pada ayat (1) adalah Rancangan Undang-Undang yang berkaitan dengan:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "otonomi daerah;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "hubungan pusat dan daerah;"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "pembentukan dan pemekaran serta penggabungan daerah;"
+                                                },
+                                                {
+                                                    "nomor": "d",
+                                                    "teks": "pengelolaan sumber daya alam dan sumber daya ekonomi lainnya; dan"
+                                                },
+                                                {
+                                                    "nomor": "e",
+                                                    "teks": "perimbangan keuangan pusat dan daerah."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "46",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang dari DPR diajukan oleh anggota DPR, komisi, gabungan komisi, atau alat kelengkapan DPR yang khusus menangani bidang legislasi atau DPD."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Undang-Undang yang berasal dari DPR dikoordinasikan oleh alat kelengkapan DPR yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara mempersiapkan Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan DPR."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "47",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang yang diajukan oleh Presiden disiapkan oleh menteri atau pimpinan lembaga pemerintah nonkementerian sesuai dengan lingkup tugas dan tanggung jawabnya."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Dalam penyusunan Rancangan Undang-Undang, menteri atau pimpinan lembaga pemerintah nonkementerian terkait membentuk panitia antarkementerian dan/atau antarnonkementerian."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Undang-Undang yang berasal dari Presiden dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara mempersiapkan Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Presiden."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "48",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang dari DPD disampaikan secara tertulis oleh pimpinan DPD kepada pimpinan DPR dan harus disertai Naskah Akademik."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Usul Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) disampaikan oleh pimpinan DPR kepada alat kelengkapan DPR yang khusus menangani bidang legislasi untuk dilakukan pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Alat kelengkapan sebagaimana dimaksud pada ayat (2) dalam melakukan pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Undang-Undang dapat mengundang pimpinan alat kelengkapan DPD yang mempunyai tugas di bidang perancangan Undang-Undang untuk membahas usul Rancangan Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Alat kelengkapan sebagaimana dimaksud pada ayat (2) menyampaikan laporan tertulis mengenai hasil pengharmonisasian sebagaimana dimaksud pada ayat (3) kepada pimpinan DPR untuk selanjutnya diumumkan dalam rapat paripurna."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "49",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang dari DPR disampaikan dengan surat pimpinan DPR kepada Presiden."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Presiden menugasi menteri yang mewakili untuk membahas Rancangan Undang-Undang bersama DPR dalam jangka waktu paling lama 60 (enam puluh) hari terhitung sejak surat pimpinan DPR diterima."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Menteri sebagaimana dimaksud pada ayat (2) mengoordinasikan persiapan pembahasan dengan menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "50",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang dari Presiden diajukan dengan surat Presiden kepada pimpinan DPR."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Surat Presiden sebagaimana dimaksud pada ayat (1) memuat penunjukan menteri yang ditugasi mewakili Presiden dalam melakukan pembahasan Rancangan Undang-Undang bersama DPR."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "DPR mulai membahas Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) dalam jangka waktu paling lama 60 (enam puluh) hari terhitung sejak surat Presiden diterima."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Untuk keperluan pembahasan Rancangan Undang- Undang di DPR, menteri atau pimpinan lembaga pemrakarsa memperbanyak naskah Rancangan Undang-Undang tersebut dalam jumlah yang diperlukan."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "51",
+                            "teks": "Apabila dalam satu masa sidang DPR dan Presiden menyampaikan Rancangan Undang-Undang mengenai materi yang sama, yang dibahas adalah Rancangan Undang-Undang yang disampaikan oleh DPR dan Rancangan Undang-Undang yang disampaikan Presiden digunakan sebagai bahan untuk dipersandingkan."
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEDUA",
+                    "judul": "Penyusunan Peraturan Pemerintah Pengganti Undang-Undang",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "52",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Peraturan Pemerintah Pengganti Undang-Undang harus diajukan ke DPR dalam persidangan yang berikut."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Pengajuan Peraturan Pemerintah Pengganti Undang- Undang sebagaimana dimaksud pada ayat (1) dilakukan dalam bentuk pengajuan Rancangan Undang-Undang tentang penetapan Peraturan Pemerintah Pengganti Undang-Undang menjadi Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "DPR hanya memberikan persetujuan atau tidak memberikan persetujuan terhadap Peraturan Pemerintah Pengganti Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Dalam hal Peraturan Pemerintah Pengganti Undang- Undang mendapat persetujuan DPR dalam rapat paripurna, Peraturan Pemerintah Pengganti Undang- Undang tersebut ditetapkan menjadi Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "5",
+                                        "teks": "Dalam hal Peraturan Pemerintah Pengganti Undang- Undang tidak mendapat persetujuan DPR dalam rapat paripurna, Peraturan Pemerintah Pengganti Undang-Undang tersebut harus dicabut dan harus dinyatakan tidak berlaku."
+                                    },
+                                    {
+                                        "ayat": "6",
+                                        "teks": "Dalam hal Peraturan Pemerintah Pengganti Undang- Undang harus dicabut dan harus dinyatakan tidak berlaku sebagaimana dimaksud pada ayat (5), DPR atau Presiden mengajukan Rancangan Undang- Undang tentang Pencabutan Peraturan Pemerintah Pengganti Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "7",
+                                        "teks": "Rancangan Undang-Undang tentang Pencabutan Peraturan Pemerintah Pengganti Undang-Undang sebagaimana dimaksud pada ayat (6) mengatur segala akibat hukum dari pencabutan Peraturan Pemerintah Pengganti Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "8",
+                                        "teks": "Rancangan Undang-Undang tentang Pencabutan Peraturan Pemerintah Pengganti Undang-Undang sebagaimana dimaksud pada ayat (7) ditetapkan menjadi Undang-Undang tentang Pencabutan Peraturan Pemerintah Pengganti Undang-Undang dalam rapat paripurna yang sama sebagaimana dimaksud pada ayat (5)."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "53",
+                            "teks": "Ketentuan mengenai tata cara penyusunan Rancangan Peraturan Pemerintah Pengganti Undang-Undang diatur dengan Peraturan Presiden."
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KETIGA",
+                    "judul": "Penyusunan Peraturan Pemerintah",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "54",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Dalam penyusunan Rancangan Peraturan Pemerintah, pemrakarsa membentuk panitia antarkementerian dan/atau lembaga pemerintah nonkementerian."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Pemerintah dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara pembentukan panitia antarkementerian dan/atau antarnonkementerian, pengharmonisasian, penyusunan, dan penyampaian Rancangan Peraturan Pemerintah diatur dengan Peraturan Presiden."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEEMPAT",
+                    "judul": "Penyusunan Peraturan Presiden",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "55",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Dalam penyusunan Rancangan Peraturan Presiden, pemrakarsa membentuk panitia antarkementerian dan/atau antarnonkementerian."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Presiden dikoordinasikan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara pembentukan panitia antarkementerian dan/atau antarnonkementerian, pengharmonisasian, penyusunan, dan penyampaian Rancangan Peraturan Presiden diatur dalam Peraturan Presiden."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KELIMA",
+                    "judul": "Penyusunan Peraturan Daerah Provinsi",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "56",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Peraturan Daerah Provinsi dapat berasal dari DPRD Provinsi atau Gubernur."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Rancangan Peraturan Daerah Provinsi sebagaimana dimaksud pada ayat (1) disertai dengan penjelasan atau keterangan dan/atau Naskah Akademik."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": {
+                                            "teks_pembuka": "Dalam hal Rancangan Peraturan Daerah Provinsi mengenai:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "Anggaran Pendapatan dan Belanja Daerah Provinsi;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "pencabutan Peraturan Daerah Provinsi; atau"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "perubahan Peraturan Daerah Provinsi yang hanya terbatas mengubah beberapa materi, disertai dengan keterangan yang memuat pokok pikiran dan materi muatan yang diatur."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "57",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyusunan Naskah Akademik Rancangan Peraturan Daerah Provinsi dilakukan sesuai dengan teknik penyusunan Naskah Akademik."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Ketentuan mengenai teknik penyusunan Naskah Akademik sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran I yang merupakan bagian tidak terpisahkan dari Undang-Undang ini."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "58",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari DPRD Provinsi dikoordinasikan oleh alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Pengharmonisasian, pembulatan, dan pemantapan konsepsi Rancangan Peraturan Daerah Provinsi yang berasal dari Gubernur dikoordinasikan oleh biro hukum dan dapat mengikutsertakan instansi vertikal dari kementerian yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "59",
+                            "teks": "Ketentuan lebih lanjut mengenai tata cara penyusunan Rancangan Peraturan Daerah Provinsi yang berasal dari Gubernur diatur dengan Peraturan Presiden."
+                        },
+                        {
+                            "nomor": "60",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Peraturan Daerah Provinsi dapat diajukan oleh anggota, komisi, gabungan komisi, atau alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara mempersiapkan Rancangan Peraturan Daerah Provinsi sebagaimana dimaksud pada ayat (1) diatur dalam Peraturan DPRD Provinsi."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "61",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Peraturan Daerah Provinsi yang telah disiapkan oleh DPRD Provinsi disampaikan dengan surat pimpinan DPRD Provinsi kepada Gubernur."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Rancangan Peraturan Daerah yang telah disiapkan oleh Gubernur disampaikan dengan surat pengantar Gubernur kepada pimpinan DPRD Provinsi."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "62",
+                            "teks": "Apabila dalam satu masa sidang DPRD Provinsi dan Gubernur menyampaikan Rancangan Peraturan Daerah Provinsi mengenai materi yang sama, yang dibahas adalah Rancangan Peraturan Daerah Provinsi yang disampaikan oleh DPRD Provinsi dan Rancangan Peraturan Daerah Provinsi yang disampaikan oleh Gubernur digunakan sebagai bahan untuk dipersandingkan."
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEENAM",
+                    "judul": "Penyusunan Peraturan Daerah Kabupaten/Kota",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "63",
+                            "teks": "Ketentuan mengenai penyusunan Peraturan Daerah Provinsi sebagaimana dimaksud dalam Pasal 56 sampai dengan Pasal 62 berlaku secara mutatis mutandis terhadap penyusunan Peraturan Daerah Kabupaten/Kota."
+                        }
+                    ]
+                }
+            ],
+            "pasal": []
+        },
+        {
+            "bab": "BAB VI",
+            "judul": "TEKNIK PENYUSUNAN PERATURAN PERUNDANG-UNDANGAN",
+            "kategori": "Materi Pokok",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "64",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "Penyusunan Rancangan Peraturan Perundang- undangan dilakukan sesuai dengan teknik penyusunan Peraturan Perundang-undangan."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Ketentuan mengenai teknik penyusunan Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran II yang merupakan bagian tidak terpisahkan dari Undang-Undang ini."
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": "Ketentuan mengenai perubahan terhadap teknik penyusunan Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan Presiden."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB VII",
+            "judul": "PEMBAHASAN DAN PENGESAHAN RANCANGAN UNDANG-UNDANG",
+            "kategori": "Materi Pokok",
+            "sections": [
+                {
+                    "bagian": "BAGIAN KESATU",
+                    "judul": "Pembahasan Rancangan Undang-Undang",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "65",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Pembahasan Rancangan Undang-Undang dilakukan oleh DPR bersama Presiden atau menteri yang ditugasi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "Pembahasan Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) yang berkaitan dengan:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "otonomi daerah;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "hubungan pusat dan daerah;"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "pembentukan, pemekaran, dan penggabungan daerah;"
+                                                },
+                                                {
+                                                    "nomor": "d",
+                                                    "teks": "pengelolaan sumber daya alam dan sumber daya ekonomi lainnya; dan"
+                                                },
+                                                {
+                                                    "nomor": "e",
+                                                    "teks": "perimbangan keuangan pusat dan daerah, dilakukan dengan mengikutsertakan DPD."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Keikutsertaan DPD dalam pembahasan Rancangan Undang-Undang sebagaimana dimaksud pada ayat (2) dilakukan hanya pada pembicaraan tingkat I."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Keikutsertaan . . . (4) Keikutsertaan DPD dalam pembahasan Rancangan Undang-Undang sebagaimana dimaksud pada ayat (2) dan ayat (3) diwakili oleh alat kelengkapan yang membidangi materi muatan Rancangan Undang- Undang yang dibahas."
+                                    },
+                                    {
+                                        "ayat": "5",
+                                        "teks": "DPD memberikan pertimbangan kepada DPR atas Rancangan Undang-Undang tentang Anggaran Pendapatan dan Belanja Negara dan Rancangan Undang-Undang yang berkaitan dengan pajak, pendidikan, dan agama."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "66",
+                            "teks": "Pembahasan Rancangan Undang-Undang dilakukan melalui 2 (dua) tingkat pembicaraan."
+                        },
+                        {
+                            "nomor": "67",
+                            "teks": "Dua tingkat pembicaraan sebagaimana dimaksud dalam"
+                        },
+                        {
+                            "nomor": "66",
+                            "teks": {
+                                "teks_pembuka": "terdiri atas:",
+                                "rincian": [
+                                    {
+                                        "nomor": "a",
+                                        "teks": "pembicaraan tingkat I dalam rapat komisi, rapat gabungan komisi, rapat Badan Legislasi, rapat Badan Anggaran, atau rapat Panitia Khusus; dan"
+                                    },
+                                    {
+                                        "nomor": "b",
+                                        "teks": "pembicaraan tingkat II dalam rapat paripurna."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "68",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "Pembicaraan tingkat I dilakukan dengan kegiatan sebagai berikut:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "pengantar musyawarah;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "pembahasan daftar inventarisasi masalah; dan"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "penyampaian pendapat mini."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "Dalam pengantar musyawarah sebagaimana dimaksud pada ayat (1) huruf a:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "DPR memberikan penjelasan dan Presiden menyampaikan pandangan jika Rancangan Undang-Undang berasal dari DPR;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "DPR memberikan penjelasan serta Presiden dan DPD menyampaikan pandangan jika Rancangan Undang-Undang yang berkaitan dengan kewenangan DPD sebagaimana dimaksud dalam"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "65",
+                            "teks": {
+                                "teks_pembuka": "ayat (2) berasal dari DPR; c. Presiden memberikan penjelasan dan fraksi memberikan pandangan jika Rancangan Undang- Undang berasal dari Presiden; atau d. Presiden memberikan penjelasan serta fraksi dan DPD menyampaikan pandangan jika Rancangan Undang-Undang yang berkaitan dengan kewenangan DPD sebagaimana dimaksud dalam Pasal 65 ayat (2) berasal dari Presiden. (3) Daftar inventarisasi masalah sebagaimana dimaksud pada ayat",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "huruf b diajukan oleh:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "Presiden jika Rancangan Undang-Undang berasal dari DPR; atau"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "DPR jika Rancangan Undang-Undang berasal dari Presiden dengan mempertimbangkan usul dari DPD sepanjang terkait dengan kewenangan DPD sebagaimana dimaksud dalam Pasal 65 ayat"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": ". (4) Penyampaian pendapat mini sebagaimana dimaksud pada ayat (1) huruf c disampaikan pada akhir pembicaraan tingkat I oleh:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "fraksi;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "DPD, jika Rancangan Undang-Undang berkaitan dengan kewenangan DPD sebagaimana dimaksud dalam Pasal 65 ayat (2); dan"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "Presiden. (5) Dalam hal DPD tidak menyampaikan pandangan sebagaimana dimaksud pada ayat (2) huruf b dan huruf d dan/atau tidak menyampaikan pendapat mini sebagaimana dimaksud pada ayat (4) huruf b, pembicaraan tingkat I tetap dilaksanakan. (6) Dalam pembicaraan tingkat I dapat diundang pimpinan lembaga negara atau lembaga lain jika materi Rancangan Undang-Undang berkaitan dengan lembaga negara atau lembaga lain."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "69",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "Pembicaraan tingkat II merupakan pengambilan keputusan dalam rapat paripurna dengan kegiatan:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "penyampaian laporan yang berisi proses, pendapat mini fraksi, pendapat mini DPD, dan hasil pembicaraan tingkat I;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "pernyataan persetujuan atau penolakan dari tiap- tiap fraksi dan anggota secara lisan yang diminta oleh pimpinan rapat paripurna; dan"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "penyampaian pendapat akhir Presiden yang dilakukan oleh menteri yang ditugasi."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Dalam hal persetujuan sebagaimana dimaksud pada ayat (1) huruf b tidak dapat dicapai secara musyawarah untuk mufakat, pengambilan keputusan dilakukan berdasarkan suara terbanyak."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Dalam hal Rancangan Undang-Undang tidak mendapat persetujuan bersama antara DPR dan Presiden, Rancangan Undang-Undang tersebut tidak boleh diajukan lagi dalam persidangan DPR masa itu."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "70",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang dapat ditarik kembali sebelum dibahas bersama oleh DPR dan Presiden."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Rancangan Undang-Undang yang sedang dibahas hanya dapat ditarik kembali berdasarkan persetujuan bersama DPR dan Presiden."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara penarikan kembali Rancangan Undang-Undang sebagaimana dimaksud pada ayat (2) diatur dengan Peraturan DPR."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "71",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Pembahasan Rancangan Undang-Undang tentang Penetapan Peraturan Pemerintah Pengganti Undang- Undang dilaksanakan melalui mekanisme yang sama dengan pembahasan Rancangan Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Pembahasan Rancangan Undang-Undang tentang Pencabutan Peraturan Pemerintah Pengganti Undang- Undang dilaksanakan melalui mekanisme khusus yang dikecualikan dari mekanisme pembahasan Rancangan Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": {
+                                            "teks_pembuka": "Ketentuan mengenai mekanisme khusus sebagaimana dimaksud pada ayat (2) dilaksanakan dengan tata cara sebagai berikut:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "Rancangan Undang-Undang tentang Pencabutan Peraturan Pemerintah Pengganti Undang-Undang diajukan oleh DPR atau Presiden;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "Rancangan Undang-Undang tentang Pencabutan sebagaimana dimaksud dalam huruf a diajukan pada saat Rapat Paripurna DPR tidak memberikan persetujuan atas Peraturan Pemerintah Pengganti Undang-Undang yang diajukan oleh Presiden; dan"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "Pengambilan keputusan persetujuan terhadap Rancangan Undang-Undang tentang Pencabutan sebagaimana dimaksud dalam huruf b dilaksanakan dalam Rapat Paripurna DPR yang sama dengan rapat paripurna penetapan tidak memberikan persetujuan atas Peraturan Pemerintah Pengganti Undang-Undang tersebut."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEDUA",
+                    "judul": "Pengesahan Rancangan Undang-Undang",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "72",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang yang telah disetujui bersama oleh DPR dan Presiden disampaikan oleh Pimpinan DPR kepada Presiden untuk disahkan menjadi Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penyampaian Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu paling lama 7 (tujuh) hari terhitung sejak tanggal persetujuan bersama."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "73",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Undang-Undang sebagaimana dimaksud dalam Pasal 72 disahkan oleh Presiden dengan membubuhkan tanda tangan dalam jangka waktu paling lama 30 (tiga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama oleh DPR dan Presiden."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Dalam hal Rancangan Undang-Undang sebagaimana dimaksud pada ayat (1) tidak ditandatangani oleh Presiden dalam waktu paling lama 30 (tiga puluh) hari terhitung sejak Rancangan Undang-Undang tersebut disetujui bersama, Rancangan Undang-Undang tersebut sah menjadi Undang-Undang dan wajib diundangkan."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Dalam hal sahnya Rancangan Undang-Undang sebagaimana dimaksud pada ayat (2), kalimat pengesahannya berbunyi: Undang-Undang ini dinyatakan sah berdasarkan ketentuan Pasal 20 ayat (5) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Kalimat pengesahan yang berbunyi sebagaimana dimaksud pada ayat (3) harus dibubuhkan pada halaman terakhir Undang-Undang sebelum pengundangan naskah Undang-Undang ke dalam Lembaran Negara Republik Indonesia."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "74",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Dalam setiap Undang-Undang harus dicantumkan batas waktu penetapan Peraturan Pemerintah dan peraturan lainnya sebagai pelaksanaan Undang- Undang tersebut."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penetapan Peraturan Pemerintah dan peraturan lainnya yang diperlukan dalam penyelenggaraan pemerintahan tidak atas perintah suatu Undang- Undang dikecualikan dari ketentuan sebagaimana dimaksud pada ayat (1)."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "pasal": []
+        },
+        {
+            "bab": "BAB VIII",
+            "judul": "PEMBAHASAN DAN PENETAPAN RANCANGAN PERATURAN DAERAH PROVINSI DAN PERATURAN DAERAH KABUPATEN/KOTA",
+            "kategori": "Materi Pokok",
+            "sections": [
+                {
+                    "bagian": "BAGIAN KESATU",
+                    "judul": "Pembahasan Rancangan Peraturan Daerah Provinsi",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "75",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Pembahasan Rancangan Peraturan Daerah Provinsi dilakukan oleh DPRD Provinsi bersama Gubernur."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Pembahasan bersama sebagaimana dimaksud pada ayat (1) dilakukan melalui tingkat-tingkat pembicaraan."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Tingkat-tingkat pembicaraan sebagaimana dimaksud pada ayat (2) dilakukan dalam rapat komisi/panitia/badan/alat kelengkapan DPRD Provinsi yang khusus menangani bidang legislasi dan rapat paripurna."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara pembahasan Rancangan Peraturan Daerah Provinsi diatur dengan Peraturan DPRD Provinsi."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "76",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Peraturan Daerah Provinsi dapat ditarik kembali sebelum dibahas bersama oleh DPRD Provinsi dan Gubernur."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Rancangan Peraturan Daerah Provinsi yang sedang dibahas hanya dapat ditarik kembali berdasarkan persetujuan bersama DPRD Provinsi dan Gubernur."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Ketentuan lebih lanjut mengenai tata cara penarikan kembali Rancangan Peraturan Daerah Provinsi diatur dengan Peraturan DPRD Provinsi."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEDUA",
+                    "judul": "Pembahasan Rancangan Peraturan Daerah Kabupaten/Kota",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "77",
+                            "teks": "Ketentuan mengenai pembahasan Rancangan Peraturan Daerah Provinsi sebagaimana dimaksud dalam Pasal 75 dan Pasal 76 berlaku secara mutatis mutandis terhadap pembahasan Peraturan Daerah Kabupaten/Kota."
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KETIGA",
+                    "judul": "Penetapan Rancangan Peraturan Daerah Provinsi",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "78",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Peraturan Daerah Provinsi yang telah disetujui bersama oleh DPRD Provinsi dan Gubernur disampaikan oleh pimpinan DPRD Provinsi kepada Gubernur untuk ditetapkan menjadi Peraturan Daerah Provinsi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penyampaian Rancangan Peraturan Daerah Provinsi sebagaimana dimaksud pada ayat (1) dilakukan dalam jangka waktu paling lama 7 (tujuh) hari terhitung sejak tanggal persetujuan bersama."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "79",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Rancangan Peraturan Daerah Provinsi sebagaimana dimaksud dalam Pasal 78 ditetapkan oleh Gubernur dengan membubuhkan tanda tangan dalam jangka waktu paling lama 30 (tiga puluh) hari sejak Rancangan Peraturan Daerah Provinsi tersebut disetujui bersama oleh DPRD Provinsi dan Gubernur."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Dalam hal Rancangan Peraturan Daerah Provinsi sebagaimana dimaksud pada ayat (1) tidak ditandatangani oleh Gubernur dalam waktu paling lama 30 (tiga puluh) hari sejak Rancangan Peraturan Daerah Provinsi tersebut disetujui bersama, Rancangan Peraturan Daerah Provinsi tersebut sah menjadi Peraturan Daerah Provinsi dan wajib diundangkan."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Dalam hal sahnya Rancangan Peraturan Daerah Provinsi sebagaimana dimaksud pada ayat (2), kalimat pengesahannya berbunyi: Peraturan Daerah ini dinyatakan sah."
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": "Kalimat pengesahan yang berbunyi sebagaimana dimaksud pada ayat (3) harus dibubuhkan pada halaman terakhir Peraturan Daerah Provinsi sebelum pengundangan naskah Peraturan Daerah Provinsi dalam Lembaran Daerah."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEEMPAT",
+                    "judul": "Penetapan Rancangan Peraturan Daerah Kabupaten/Kota",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "80",
+                            "teks": "Ketentuan mengenai penetapan Rancangan Peraturan Daerah Provinsi sebagaimana dimaksud dalam Pasal 78 dan Pasal 79 berlaku secara mutatis mutandis terhadap penetapan Peraturan Daerah Kabupaten/Kota."
+                        }
+                    ]
+                }
+            ],
+            "pasal": []
+        },
+        {
+            "bab": "BAB IX",
+            "judul": "PENGUNDANGAN",
+            "kategori": "Materi Pokok",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "81",
+                    "teks": ""
+                },
+                {
+                    "nomor": "82",
+                    "teks": {
+                        "teks_pembuka": "Peraturan Perundang-undangan yang diundangkan dalam Lembaran Negara Republik Indonesia, meliputi:",
+                        "rincian": [
+                            {
+                                "nomor": "a",
+                                "teks": "Undang-Undang/Peraturan Pemerintah Pengganti Undang-Undang;"
+                            },
+                            {
+                                "nomor": "b",
+                                "teks": "Peraturan Pemerintah;"
+                            },
+                            {
+                                "nomor": "c",
+                                "teks": "Peraturan Presiden; dan"
+                            },
+                            {
+                                "nomor": "d",
+                                "teks": "Peraturan Perundang-undangan lain yang menurut Peraturan Perundang-undangan yang berlaku harus diundangkan dalam Lembaran Negara Republik Indonesia."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "83",
+                    "teks": "Peraturan Perundang-undangan yang diundangkan dalam Berita Negara Republik Indonesia meliputi Peraturan Perundang-undangan yang menurut Peraturan Perundang-undangan yang berlaku harus diundangkan dalam Berita Negara Republik Indonesia."
+                },
+                {
+                    "nomor": "84",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "Tambahan Lembaran Negara Republik Indonesia memuat penjelasan Peraturan Perundang-undangan yang dimuat dalam Lembaran Negara Republik Indonesia."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Tambahan Berita Negara Republik Indonesia memuat penjelasan Peraturan Perundang-undangan yang dimuat dalam Berita Negara Republik Indonesia."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "85",
+                    "teks": "Pengundangan Peraturan Perundang-undangan dalam Lembaran Negara Republik Indonesia atau Berita Negara Republik Indonesia sebagaimana dimaksud dalam Pasal 82 dan Pasal 83 dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                },
+                {
+                    "nomor": "86",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "Peraturan Perundang-undangan yang diundangkan dalam Lembaran Daerah adalah Peraturan Daerah Provinsi dan Peraturan Daerah Kabupaten/Kota."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Peraturan Gubernur dan Peraturan Bupati/Walikota diundangkan dalam Berita Daerah."
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": "Pengundangan Peraturan Perundang-undangan dalam Lembaran Daerah dan Berita Daerah sebagaimana dimaksud pada ayat (1) dan ayat (2) dilaksanakan oleh Sekretaris Daerah."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "87",
+                    "teks": "Peraturan Perundang-undangan mulai berlaku dan mempunyai kekuatan mengikat pada tanggal diundangkan, kecuali ditentukan lain di dalam Peraturan Perundang-undangan yang bersangkutan."
+                }
+            ]
+        },
+        {
+            "bab": "BAB X",
+            "judul": "PENYEBARLUASAN",
+            "kategori": "Materi Pokok",
+            "sections": [
+                {
+                    "bagian": "BAGIAN KESATU",
+                    "judul": "Penyebarluasan Prolegnas, Rancangan Undang-Undang, dan Undang-Undang",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "88",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyebarluasan dilakukan oleh DPR dan Pemerintah sejak penyusunan Prolegnas, penyusunan Rancangan Undang-Undang, pembahasan Rancangan Undang- Undang, hingga Pengundangan Undang-Undang."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penyebarluasan sebagaimana dimaksud pada ayat (1) dilakukan untuk memberikan informasi dan/atau memperoleh masukan masyarakat serta para pemangku kepentingan."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "89",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyebarluasan Prolegnas dilakukan bersama oleh DPR dan Pemerintah yang dikoordinasikan oleh alat kelengkapan DPR yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penyebarluasan Rancangan Undang-Undang yang berasal dari DPR dilaksanakan oleh komisi/panitia/badan/alat kelengkapan DPR yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Penyebarluasan Rancangan Undang-Undang yang berasal dari Presiden dilaksanakan oleh instansi pemrakarsa."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "90",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyebarluasan Undang-Undang yang telah diundangkan dalam Lembaran Negara Republik Indonesia dilakukan secara bersama-sama oleh DPR dan Pemerintah."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penyebarluasan Undang-Undang sebagaimana dimaksud pada ayat (1) dapat dilakukan oleh DPD sepanjang berkaitan dengan otonomi daerah, hubungan pusat dan daerah, pembentukan dan pemekaran serta penggabungan daerah, pengelolaan sumber daya alam dan sumber daya ekonomi lainnya, serta yang berkaitan dengan perimbangan keuangan pusat dan daerah."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "91",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Dalam hal Peraturan Perundang-undangan perlu diterjemahkan ke dalam bahasa asing, penerjemahannya dilaksanakan oleh menteri yang menyelenggarakan urusan pemerintahan di bidang hukum."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Terjemahan sebagaimana dimaksud pada ayat (1) merupakan terjemahan resmi."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEDUA",
+                    "judul": "Penyebarluasan Prolegda, Rancangan Peraturan Daerah Provinsi atau Peraturan Daerah Kabupaten/Kota, dan Peraturan Daerah Provinsi atau Peraturan Daerah Kabupaten/Kota",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "92",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyebarluasan Prolegda dilakukan oleh DPRD dan Pemerintah Daerah sejak penyusunan Prolegda, penyusunan Rancangan Peraturan Daerah, pembahasan Rancangan Peraturan Daerah, hingga Pengundangan Peraturan Daerah."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penyebarluasan sebagaimana dimaksud pada ayat (1) dilakukan untuk dapat memberikan informasi dan/atau memperoleh masukan masyarakat dan para pemangku kepentingan."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "93",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": "Penyebarluasan Prolegda dilakukan bersama oleh DPRD dan Pemerintah Daerah Provinsi atau Kabupaten/Kota yang dikoordinasikan oleh alat kelengkapan DPRD yang khusus menangani bidang legislasi."
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": "Penyebarluasan Rancangan Peraturan Daerah yang berasal dari DPRD dilaksanakan oleh alat kelengkapan DPRD."
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": "Penyebarluasan Rancangan Peraturan Daerah yang berasal dari Gubernur atau Bupati/Walikota dilaksanakan oleh Sekretaris Daerah."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "94",
+                            "teks": "Penyebarluasan Peraturan Daerah Provinsi atau Peraturan Daerah Kabupaten/Kota yang telah diundangkan dalam Lembaran Daerah dilakukan bersama oleh DPRD dan Pemerintah Daerah Provinsi atau Kabupaten/Kota."
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KETIGA",
+                    "judul": "Naskah yang Disebarluaskan",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "95",
+                            "teks": "Naskah Peraturan Perundang-undangan yang disebarluaskan harus merupakan salinan naskah yang telah diundangkan dalam Lembaran Negara Republik Indonesia, Tambahan Lembaran Negara Republik Indonesia, Berita Negara Republik Indonesia, Tambahan Berita Negara Republik Indonesia, Lembaran Daerah, Tambahan Lembaran Daerah, dan Berita Daerah."
+                        }
+                    ]
+                }
+            ],
+            "pasal": []
+        },
+        {
+            "bab": "BAB XI",
+            "judul": "PARTISIPASI MASYARAKAT",
+            "kategori": "Materi Pokok",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "96",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "Masyarakat berhak memberikan masukan secara lisan dan/atau tertulis dalam Pembentukan Peraturan Perundang-undangan."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "Masukan secara lisan dan/atau tertulis sebagaimana dimaksud pada ayat (1) dapat dilakukan melalui:",
+                                    "rincian": [
+                                        {
+                                            "nomor": "a",
+                                            "teks": "rapat dengar pendapat umum;"
+                                        },
+                                        {
+                                            "nomor": "b",
+                                            "teks": "kunjungan kerja;"
+                                        },
+                                        {
+                                            "nomor": "c",
+                                            "teks": "sosialisasi; dan/atau"
+                                        },
+                                        {
+                                            "nomor": "d",
+                                            "teks": "seminar, lokakarya, dan/atau diskusi."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": "Masyarakat sebagaimana dimaksud pada ayat (1) adalah orang perseorangan atau kelompok orang yang mempunyai kepentingan atas substansi Rancangan Peraturan Perundang-undangan."
+                            },
+                            {
+                                "ayat": "4",
+                                "teks": "Untuk memudahkan masyarakat dalam memberikan masukan secara lisan dan/atau tertulis sebagaimana dimaksud pada ayat (1), setiap Rancangan Peraturan Perundang-undangan harus dapat diakses dengan mudah oleh masyarakat."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB XII",
+            "judul": "KETENTUAN LAIN-LAIN",
+            "kategori": "Materi Pokok",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "97",
+                    "teks": "Teknik penyusunan dan/atau bentuk yang diatur dalam Undang-Undang ini berlaku secara mutatis mutandis bagi teknik penyusunan dan/atau bentuk Keputusan Presiden, Keputusan Pimpinan Majelis Permusyawaratan Rakyat, Keputusan Pimpinan DPR, Keputusan Pimpinan DPD, Keputusan Ketua Mahkamah Agung, Keputusan Ketua Mahkamah Konstitusi, Keputusan Ketua Komisi Yudisial, Keputusan Kepala Badan Pemeriksa Keuangan, Keputusan Gubernur Bank Indonesia, Keputusan Menteri, Keputusan Kepala Badan, Keputusan Kepala Lembaga, atau Keputusan Ketua Komisi yang setingkat, Keputusan Pimpinan DPRD Provinsi, Keputusan Gubernur, Keputusan Pimpinan DPRD Kabupaten/Kota, Keputusan Bupati/Walikota, Keputusan Kepala Desa atau yang setingkat."
+                },
+                {
+                    "nomor": "98",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "Setiap tahapan Pembentukan Peraturan Perundang- undangan mengikutsertakan Perancang Peraturan Perundang-undangan."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "Ketentuan mengenai keikutsertaan dan pembinaan Perancang Peraturan Perundang-undangan sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "99",
+                    "teks": {
+                        "teks_pembuka": "Selain Perancang Peraturan Perundang-undangan sebagaimana dimaksud dalam Pasal 98 ayat",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": ", tahapan pembentukan Undang-Undang, Peraturan Daerah Provinsi, dan Peraturan Daerah Kabupaten/Kota mengikutsertakan peneliti dan tenaga ahli."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB XIII",
+            "judul": "KETENTUAN PENUTUP",
+            "kategori": "Ketentuan Penutup",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "100",
+                    "teks": "Semua Keputusan Presiden, Keputusan Menteri, Keputusan Gubernur, Keputusan Bupati/Walikota, atau keputusan pejabat lainnya sebagaimana dimaksud dalam"
+                },
+                {
+                    "nomor": "97",
+                    "teks": "yang sifatnya mengatur, yang sudah ada sebelum Undang-Undang ini berlaku, harus dimaknai sebagai peraturan, sepanjang tidak bertentangan dengan Undang- Undang ini."
+                },
+                {
+                    "nomor": "101",
+                    "teks": "Pada saat Undang-Undang ini mulai berlaku, semua Peraturan Perundang-undangan yang merupakan peraturan pelaksanaan dari Undang-Undang Nomor 10 Tahun 2004 tentang Pembentukan Peraturan Perundang- undangan (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 53, Tambahan Lembaran Negara Nomor 4389), dinyatakan masih tetap berlaku sepanjang tidak bertentangan dengan ketentuan dalam Undang-Undang ini."
+                },
+                {
+                    "nomor": "102",
+                    "teks": "Pada saat Undang-Undang ini mulai berlaku, Undang- Undang Nomor 10 Tahun 2004 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2004 Nomor 53, Tambahan Lembaran Negara Republik Indonesia Nomor 4389), dicabut dan dinyatakan tidak berlaku."
+                },
+                {
+                    "nomor": "103",
+                    "teks": "Peraturan pelaksanaan dari Undang-Undang ini harus ditetapkan paling lama 1 (satu) tahun terhitung sejak Undang-Undang ini diundangkan."
+                },
+                {
+                    "nomor": "104",
+                    "teks": "Undang-Undang ini mulai berlaku pada tanggal diundangkan."
+                }
+            ]
+        }
+    ],
+    "D_PENUTUP": {
+        "teks": "Agar setiap orang mengetahuinya, Peraturan Perundang- undangan harus diundangkan dengan menempatkannya dalam: a. Lembaran Negara Republik Indonesia; b. Tambahan Lembaran Negara Republik Indonesia; c. Berita Negara Republik Indonesia; d. Tambahan Berita Negara Republik Indonesia; e. Lembaran Daerah; f. Tambahan Lembaran Daerah; atau g. Berita Daerah. Agar setiap orang mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 12 Agustus 2011 PRESIDEN REPUBLIK INDONESIA, ttd. DR. H. SUSILO BAMBANG YUDHOYONO Diundangkan di Jakarta pada tanggal 12 Agustus 2011 MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA, ttd. PATRIALIS AKBAR LEMBARAN NEGARA REPUBLIK INDONESIA TAHUN 2011 NOMOR 82",
+        "pengesahan": {
+            "tempat": "Jakarta",
+            "tanggal": "12 Agustus 2011",
+            "nama_jabatan": "PRESIDEN REPUBLIK INDONESIA,",
+            "tanda_tangan": "ttd.",
+            "nama_pejabat": "DR. H. SUSILO BAMBANG YUDHOYONO"
+        },
+        "pengundangan": {
+            "tempat": "Jakarta",
+            "tanggal": "12 Agustus 2011",
+            "nama_jabatan": "MENTERI HUKUM DAN HAK ASASI MANUSIA REPUBLIK INDONESIA,",
+            "tanda_tangan": "ttd.",
+            "nama_pejabat": "PATRIALIS AKBAR"
+        },
+        "nomor_register": "NONE"
+    }
+}

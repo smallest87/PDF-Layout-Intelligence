@@ -1,0 +1,245 @@
+{
+    "A_JUDUL": {
+        "teks": "BUPATI MALANG PROVINSI JAWA TIMUR PERATURAN BUPATI MALANG NOMOR 19 TAHUN 2025 TENTANG JADWAL RETENSI ARSIP PEMERINTAH DAERAH",
+        "metadata": {
+            "kategori": "PERATURAN PERUNDANG-UNDANGAN DAERAH",
+            "jenis": "PERATURAN BUPATI",
+            "nomor": "19",
+            "tahun": "2025",
+            "tentang": "JADWAL RETENSI ARSIP PEMERINTAH DAERAH"
+        }
+    },
+    "B_PEMBUKAAN": {
+        "frasa_religius": "DENGAN RAHMAT TUHAN YANG MAHA ESA",
+        "jabatan_pembentuk": "BUPATI MALANG,",
+        "konsiderans": [
+            {
+                "nomor": "a",
+                "teks": "bahwa untuk melaksanakan ketentuan dalam Pasal 53 ayat (2) Peraturan Pemerintah Nomor 28 Tahun 2012 tentang Pelaksanaan Undang-Undang Nomor 43 Tahun 2009 tentang Kearsipan, perlu menetapkan Jadwal Retensi Arsip Pemerintah Daerah;"
+            },
+            {
+                "nomor": "b",
+                "teks": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, maka perlu menetapkan Peraturan Bupati Malang tentang Jadwal Retensi Arsip Pemerintah Daerah;"
+            }
+        ],
+        "dasar_hukum": [
+            {
+                "nomor": "1",
+                "teks": "Undang-Undang Nomor 12 Tahun 1950 tentang Pembentukan Daerah-daerah Kabupaten di Lingkungan Propinsi Jawa Timur (Berita Negara Republik Indonesia Tahun 1950 Nomor 41), sebagaimana telah diubah dengan Undang-Undang Nomor 2 Tahun 1965 tentang Perubahan Batas Wilayah Kotapraja Surabaya dan Daerah Tingkat II Surabaya dengan mengubah Undang-Undang Nomor 12 Tahun 1950 tentang Pembentukan Daerah-daerah Kota Besar dalam Lingkungan Propinsi Jawa Timur, Jawa Tengah, Jawa Barat dan Daerah Istimewa Yogyakarta (Lembaran Negara Republik Indonesia Tahun 1965 Nomor 19, Tambahan Lembaran Negara Republik Indonesia Nomor 2730); 2"
+            },
+            {
+                "nomor": "2",
+                "teks": "Undang-Undang Nomor 43 Tahun 2009 tentang Kearsipan (Lembaran Negara Republik Indonesia Tahun 2009 Nomor 152, Tambahan Lembaran Negara Republik Indonesia Nomor 5071);"
+            },
+            {
+                "nomor": "3",
+                "teks": "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 82, Tambahan Lembaran Negara Republik Indonesia Nomor 5234), sebagaimana telah diubah beberapa kali, terakhir dengan Undang-Undang Nomor 13 Tahun 2022 tentang Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2022 Nomor 143, Tambahan Lembaran Negara Republik Indonesia Nomor 6801);"
+            },
+            {
+                "nomor": "4",
+                "teks": "Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 244, Tambahan Lembaran Negara Republik Indonesia Nomor 5587), sebagaimana telah diubah beberapa kali, terakhir dengan Undang-Undang Nomor 9 Tahun 2015 tentang Perubahan Kedua atas Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2015 Nomor 58, Tambahan Lembaran Negara Republik Indonesia Nomor 5679);"
+            },
+            {
+                "nomor": "5",
+                "teks": "Peraturan Pemerintah Nomor 28 Tahun 2012 tentang Pelaksanaan Undang-Undang Nomor 43 Tahun 2009 tentang Kearsipan (Lembaran Negara Republik Indonesia Tahun 2012 Nomor 53, Tambahan Lembaran Negara Republik Indonesia Nomor 5286);"
+            },
+            {
+                "nomor": "6",
+                "teks": "Peraturan Presiden Nomor 87 Tahun 2014 tentang Peraturan Pelaksanaan Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 199), sebagaimana telah diubah dengan Peraturan Presiden Nomor 76 Tahun 2021 tentang Perubahan atas Peraturan Presiden Nomor 87 Tahun 2014 tentang Peraturan Pelaksanaan Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 186); 3"
+            },
+            {
+                "nomor": "7",
+                "teks": "Peraturan Menteri Dalam Negeri Nomor 78 Tahun 2012 tentang Tata Kersipan di Lingkungan Kementerian Dalam Negeri dan Pemerintah Daerah (Berita Negara Republik Indonesia Tahun 2012 Nomor 1282), sebagaimana telah diubah dengan Peraturan Menteri Dalam Negeri Nomor 135 Tahun 2017 tentang Perubahan atas Peraturan Menteri Dalam Negeri Nomor 78 Tahun 2012 tentang Tata Kersipan di Lingkungan Kementerian Dalam Negeri dan Pemerintah Daerah (Berita Negara Republik Indonesia Tahun 2017 Nomor 1953);"
+            },
+            {
+                "nomor": "8",
+                "teks": "Peraturan Menteri Dalam Negeri Nomor 80 Tahun 2015 tentang Pembentukan Produk Hukum Daerah (Berita Negara Republik Indonesia Tahun 2015 Nomor 2036), sebagaimana telah diubah dengan Peraturan Menteri Dalam Negeri Nomor 120 Tahun 2018 tentang Perubahan atas Peraturan Menteri Dalam Negeri Nomor 80 Tahun 2015 tentang Pembentukan Produk Hukum Daerah (Berita Negara Republik Indonesia Tahun 2019 Nomor 157);"
+            },
+            {
+                "nomor": "9",
+                "teks": "Peraturan Kepala Arsip Nasional Republik Indonesia Nomor 22 Tahun 2015 tentang Tata Cara Penetapan Jadwal Retensi Arsip (Berita Negara Republik Indonesia Tahun 2015 Nomor 665);"
+            },
+            {
+                "nomor": "10",
+                "teks": "Peraturan Gubernur Provinsi Jawa Timur Nomor 26 Tahun 2009 tentang Tata Kearsipan di Lingkungan Pemerintah Provinsi Jawa Timur (Berita Daerah Provinsi Jawa Timur Tahun 2009 Nomor 26 Seri E1);"
+            },
+            {
+                "nomor": "11",
+                "teks": "Peraturan Daerah Kabupaten Malang Nomor 11 Tahun 2015 tentang Penyelenggaraan Kearsipan di Lingkungan Pemerintah Kabupaten Malang (Lembaran Daerah Kabupaten Malang Tahun 2015 Nomor 9 Seri D);"
+            },
+            {
+                "nomor": "12",
+                "teks": "Peraturan Daerah Kabupaten Malang Nomor 9 Tahun 2016 tentang Pembentukan dan Susunan Perangkat Daerah (Lembaran Daerah Kabupaten Malang Tahun 2016 Nomor 1 Seri C), sebagaimana telah diubah beberapa kali, terakhir dengan Peraturan Daerah Kabupaten Malang Nomor 3 Tahun 2023 tentang Perubahan Keempat atas Peraturan Daerah Nomor 9 Tahun 2016 tentang Pembentukan dan Susunan Perangkat Daerah (Lembaran Daerah Kabupaten Malang Tahun 2023 Nomor 3 Seri C); 4"
+            },
+            {
+                "nomor": "13",
+                "teks": "Peraturan Bupati Malang Nomor 122 Tahun 2018 tentang Tata Kearsipan (Berita Daerah Kabupaten Malang Tahun 2018 Nomor 104 Seri D), sebagaimana telah diubah dengan Peraturan Bupati Malang Nomor 42 Tahun 2023 tentang Perubahan atas Peraturan Bupati Malang Nomor 122 Tahun 2018 tentang Tata Kearsipan (Berita Daerah Kabupaten Malang Tahun 2023 Nomor 42 Seri D);"
+            },
+            {
+                "nomor": "14",
+                "teks": "Peraturan Bupati Malang Nomor 39 Tahun 2022 tentang Kedudukan, Susunan Organisasi, Tugas dan Fungsi, serta Tata Kerja Dinas Perpustakaan dan Kearsipan (Berita Daerah Kabupaten Malang Tahun 2022 Nomor 39 Seri C);"
+            },
+            {
+                "nomor": "15",
+                "teks": "Peraturan Bupati Malang Nomor 2 Tahun 2025 tentang Tata Naskah Dinas di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2025 Nomor 2 Seri D); MEMUTUSKAN: Menetapkan : PERATURAN BUPATI TENTANG JADWAL RETENSI ARSIP PEMERINTAH DAERAH."
+            }
+        ],
+        "diktum": ""
+    },
+    "C_BATANG_TUBUH": [
+        {
+            "bab": "BAB I",
+            "judul": "KETENTUAN UMUM",
+            "kategori": "Ketentuan Umum",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "1",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "1",
+                                "definisi": "Daerah adalah Kabupaten Malang."
+                            },
+                            {
+                                "nomor": "2",
+                                "definisi": "Pemerintah Daerah adalah Pemerintah Kabupaten Malang."
+                            },
+                            {
+                                "nomor": "3",
+                                "definisi": "Bupati adalah Bupati Malang."
+                            },
+                            {
+                                "nomor": "4",
+                                "definisi": "Lembaga Kearsipan Daerah adalah Lembaga yang memiliki fungsi, tugas dan tanggung jawab dibidang pengelolaan arsip statis dan pembinaan kearsipan. 5"
+                            },
+                            {
+                                "nomor": "5",
+                                "definisi": "Arsip adalah rekaman kegiatan atau peristiwa dalam berbagai bentuk dan media sesuai dengan perkembangan teknologi informasi dan komunikasi yang dibuat dan diterima oleh lembaga negara, pemerintahan daerah, lembaga pendidikan, perusahaan, organisasi politik, organisasi kemasyarakatan, perseorangan dalam pelaksanaan kehidupan bermasyarakat, berbangsa dan bernegara."
+                            },
+                            {
+                                "nomor": "6",
+                                "definisi": "Arsip Inaktif adalah arsip yang frekuensi penggunaannya telah menurun."
+                            },
+                            {
+                                "nomor": "7",
+                                "definisi": "Arsip Statis adalah arsip yang dihasilkan oleh pencipta arsip karena memiliki nilai guna kesejarahan, telah habis masa retensinya, dan berketerangan dipermanenkan yang telah diverifikasi baik secara langsung maupun tidak langsung oleh Arsip Nasional Republik Indonesia dan/atau lembaga kearsipan."
+                            },
+                            {
+                                "nomor": "8",
+                                "definisi": "Retensi Arsip adalah jangka waktu penyimpanan yang wajib dilakukan terhadap suatu jenis arsip."
+                            },
+                            {
+                                "nomor": "9",
+                                "definisi": "Jadwal Retensi Arsip yang selanjutnya disingkat JRA adalah daftar yang berisi sekurang-kurangnya jangka waktu penyimpanan atau retensi, jenis arsip, dan keterangan yang berisi rekomendasi tentang penetapan suatu jenis arsip dimusnahkan, dinilai kembali atau dipermanenkan yang dipergunakan sebagai pedoman penyusutan dan penyelamatan arsip."
+                            },
+                            {
+                                "nomor": "10",
+                                "definisi": "Jenis Arsip adalah kelompok dokumen yang diatur dalam suatu sistem pemberkasan tertentu atau dipertahankan sebagai satu unit karena merekatercipta dari kesamaan proses akumulasi dan pemberkasan kesamaan aktifitas, memiliki bentuk khusus, atau karena beberapa keterkaitan lain yang muncul dari penerimaan, penciptaan atau penggunaanya."
+                            },
+                            {
+                                "nomor": "11",
+                                "definisi": "Retensi Aktif adalah masa simpan minimal suatu jenis arsip pada Unit Pengolah."
+                            },
+                            {
+                                "nomor": "12",
+                                "definisi": "Retensi Inaktif adalah masa simpan minimal suatu jenis arsip pada Unit Kearsipan/Pusat Arsip. 6"
+                            },
+                            {
+                                "nomor": "13",
+                                "definisi": "Keterangan Musnah adalah keterangan yang menyatakan bahwa suatu jenis arsip dapat dimusnahkan karena jangka waktu penyimpanan telah habis dan tidak memiliki nilai guna lagi."
+                            },
+                            {
+                                "nomor": "14",
+                                "definisi": "Keterangan Permanen adalah keterangan yang menyatakan bahwa suatu jenis arsip yang memiliki nilai guna sekunder atau nilai guna permanen, wajib diserahkan kepada Lembaga Kearsipan Daerah sebagai bukti pertanggungjawaban sesuai dengan lingkup tugas dan fungsi masing-masing."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB II",
+            "judul": "ASAS, MAKSUD DAN TUJUAN",
+            "kategori": "Materi Pokok",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "2",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "JRA Pemerintah Daerah disusun sebagai pedoman dalam mengelola arsip agar terjamin keabsahan, keutuhan, dan kemudahan aksesnya. Asas ini penting untuk memastikan arsip dapat digunakan dengan efektif dan efisien untuk kepentingan hukum, administrasi, dan sejarah."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "JRA Pemerintah Daerah disusun dengan maksud untuk melindungi fisik dan informasi arsip dari kerusakan dan kehilangan sehingga kebutuhan akan ketersediaan, keterbacaan, keutuhan, integritas, otentisitas dan reliabilitas arsip tetap dapat terpenuhi."
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": "JRA sebagaimana dimaksud pada ayat (1) bertujuan untuk mengatur penyusutan arsip."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB III",
+            "judul": "RUANG LINGKUP",
+            "kategori": "Materi Pokok",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "3",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": "Ruang lingkup Peraturan Bupati ini adalah JRA Pemerintah Daerah."
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": "JRA sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran yang merupakan bagian tidak terpisahkan dari Peraturan Bupati ini. 7"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB IV",
+            "judul": "KETENTUAN PENUTUP",
+            "kategori": "Ketentuan Penutup",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "4",
+                    "teks": "Peraturan Bupati ini mulai berlaku pada tanggal diundangkan."
+                }
+            ]
+        }
+    ],
+    "D_PENUTUP": {
+        "teks": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Bupati ini dengan penempatannya dalam Berita Daerah Kabupaten Malang. Ditetapkan di Kepanjen pada tanggal 23 Juli 2025 BUPATI MALANG, ttd. SANUSI Diundangkan di Kepanjen pada tanggal 23 Juli 2025 Pj. SEKRETARIS DAERAH KABUPATEN MALANG, ttd. NURCAHYO Berita Daerah Kabupaten Malang Tahun 2025 Nomor 19 Seri D",
+        "pengesahan": {
+            "tempat": "Kepanjen",
+            "tanggal": "23 Juli 2025",
+            "nama_jabatan": "BUPATI MALANG,",
+            "tanda_tangan": "ttd.",
+            "nama_pejabat": "SANUSI"
+        },
+        "pengundangan": {
+            "tempat": "NONE",
+            "tanggal": "NONE",
+            "nama_jabatan": "NONE",
+            "tanda_tangan": "NONE",
+            "nama_pejabat": "NONE"
+        },
+        "nomor_register": "NONE"
+    }
+}

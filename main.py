@@ -56,11 +56,15 @@ def display_hierarchy(target_folder):
     print(f"{'='*60}\n")
 
 def run_pipeline():
-    # Load konfigurasi dari config.yaml
+    # Load konfigurasi
     cfg = load_config()
     s = cfg['settings']
     t = s['thresholds']
-    auto_json = s.get('auto_generate_json', True) # Default True jika tidak ada
+    auto_json = s.get('auto_generate_json', True)
+    
+    # Ambil delimiter dan decimal dari config
+    csv_sep = s.get('csv_delimiter', ',')
+    csv_dec = s.get('csv_decimal', '.')
 
     print("\n" + "="*45)
     print("      LEGAL DOCUMENT MANAGEMENT SYSTEM      ")
@@ -69,14 +73,14 @@ def run_pipeline():
     print(" 2. Re-proses Master CSV (Master -> JSON)")
     print(" 3. Lihat Hirarki JSON (Terminal Viewer)")
     print("="*45)
-    print(f" *Auto-generate JSON: {'AKTIF' if auto_json else 'NON-AKTIF'}")
+    print(f" *Auto-generate JSON : {'AKTIF' if auto_json else 'NON-AKTIF'}")
+    print(f" *CSV Format         : Delim '{csv_sep}' | Dec '{csv_dec}'")
     print("="*45)
     
     mode = input("Pilih mode (1/2/3): ").strip()
 
     if mode == "1":
-        # JALUR 1: PDF -> MASTER
-        raw_files = [f for f in os.listdir("data/raw") if f.endswith('.pdf')]
+        raw_files = [f for f in os.path.exists("data/raw") and os.listdir("data/raw") if f.endswith('.pdf')] or []
         selected_file = select_from_list(raw_files, "File Raw (PDF)")
         if not selected_file: return
 
@@ -90,36 +94,34 @@ def run_pipeline():
         df_master = LayoutClassifier(processed_features, t).apply_sistematika()
         
         master_path = os.path.join(target_dir, "0. MASTER.csv")
-        df_master.to_csv(master_path, index=False, quoting=csv.QUOTE_ALL)
+        # Menggunakan delimiter dan desimal fleksibel
+        df_master.to_csv(master_path, index=False, quoting=csv.QUOTE_ALL, sep=csv_sep, decimal=csv_dec)
         print(f"[OK] Master CSV dibuat: {master_path}")
 
-        # Cek apakah lanjut ke JSON secara otomatis
         if not auto_json:
-            print("[*] Selesai. Silakan lakukan finetuning pada CSV sebelum menjalankan Mode 2.")
+            print("[*] Selesai. Silakan lakukan finetuning pada CSV.")
             return
         
     elif mode == "2":
-        # JALUR 2: MASTER CSV -> JSON
         selected_folder = select_from_list(list_folders_with_file("data/processed", "0. MASTER.csv"), "Folder Master CSV")
         if not selected_folder: return
         target_dir = os.path.join("data/processed", selected_folder)
-        df_master = pd.read_csv(os.path.join(target_dir, "0. MASTER.csv"))
+        
+        # Membaca CSV dengan delimiter dan desimal yang konsisten
+        df_master = pd.read_csv(os.path.join(target_dir, "0. MASTER.csv"), sep=csv_sep, decimal=csv_dec)
 
     elif mode == "3":
-        # JALUR 3: LIHAT HIRARKI
         selected_folder = select_from_list(list_folders_with_file("data/processed", "FINAL_STRUCTURED.json"), "Folder JSON")
         if selected_folder: display_hierarchy(selected_folder)
         return
     else:
         print("[!] Pilihan tidak valid."); return
 
-    # TAHAP VALIDASI & AGREGASI (Mode 1 Auto atau Mode 2)
-    print("[*] Validasi data MASTER...")
+    # TAHAP VALIDASI & AGREGASI
     validator = MasterValidator(df_master)
     if not validator.run_validation():
-        if input("[?] Tetap proses ke JSON meskipun ada error? (y/n): ").lower() != 'y': return
+        if input("[?] Tetap proses ke JSON? (y/n): ").lower() != 'y': return
 
-    print("[*] Agregasi ke struktur JSON terorganisir...")
     aggregator = MasterAggregator(df_master, config_meta="config/meta_mapping.yaml")
     final_data = aggregator.run_all()
     
