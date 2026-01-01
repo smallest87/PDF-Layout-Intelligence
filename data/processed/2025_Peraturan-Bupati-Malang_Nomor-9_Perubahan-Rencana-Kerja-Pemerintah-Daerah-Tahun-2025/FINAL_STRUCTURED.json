@@ -129,10 +129,14 @@
             },
             {
                 "nomor": "28",
-                "teks": "Peraturan Bupati Malang Nomor 16 Tahun 2024 tentang Rencana Kerja Pemerintah Daerah Tahun 2025 (Berita Daerah Kabupaten Malang Tahun 2021 Nomor 16 Seri D). MEMUTUSKAN: Menetapkan : PERATURAN BUPATI TENTANG PERUBAHAN RENCANA KERJA PEMERINTAH DAERAH TAHUN 2025."
+                "teks": "Peraturan Bupati Malang Nomor 16 Tahun 2024 tentang Rencana Kerja Pemerintah Daerah Tahun 2025 (Berita Daerah Kabupaten Malang Tahun 2021 Nomor 16 Seri D)."
             }
         ],
-        "diktum": ""
+        "diktum": [
+            "MEMUTUSKAN:",
+            "Menetapkan :",
+            "PERATURAN BUPATI TENTANG PERUBAHAN RENCANA KERJA PEMERINTAH DAERAH TAHUN 2025."
+        ]
     },
     "C_BATANG_TUBUH": [
         {

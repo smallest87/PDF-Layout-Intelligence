@@ -101,23 +101,39 @@ class MasterAggregator:
         return {"teks": full_text, "metadata": self._extract_metadata(full_text)}
 
     def process_pembukaan(self):
-        """B. PEMBUKAAN: Membersihkan anchor 'Menimbang' dan 'Mengingat'."""
+        """B. PEMBUKAAN: Memecah Diktum menjadi list terstruktur."""
         df_p = self.df[self.df['sistematika'] == "PEMBUKAAN"]
         
-        # Ekstraksi dan Pembersihan Konsiderans
         kon_raw = self._clean_text(df_p[df_p['unsur'] == "KONSIDERANS"]['text'])
         kon_clean = re.sub(r'^Menimbang\s*:\s*', '', kon_raw, flags=re.IGNORECASE).strip()
         
-        # Ekstraksi dan Pembersihan Dasar Hukum
         dh_raw = self._clean_text(df_p[df_p['unsur'] == "DASAR HUKUM"]['text'])
         dh_clean = re.sub(r'^Mengingat\s*:\s*', '', dh_raw, flags=re.IGNORECASE).strip()
+
+        # Ekstraksi Diktum
+        diktum_raw = self._clean_text(df_p[df_p['unsur'] == "DIKTUM"]['text'])
+        
+        # Logika Pemisahan Diktum menjadi List
+        # Mencari pola "MEMUTUSKAN:", "Menetapkan:", dan sisa teksnya
+        diktum_parts = []
+        m_diktum = re.search(r"^(MEMUTUSKAN\s*:)\s*(Menetapkan\s*:)\s*(.*)", diktum_raw, re.IGNORECASE)
+        
+        if m_diktum:
+            diktum_parts = [
+                m_diktum.group(1).strip(), # Bagian 1: MEMUTUSKAN:
+                m_diktum.group(2).strip(), # Bagian 2: Menetapkan :
+                m_diktum.group(3).strip()  # Bagian 3: PERATURAN BUPATI...
+            ]
+        else:
+            # Fallback jika pola tidak ditemukan secara sempurna
+            diktum_parts = [diktum_raw]
 
         return {
             "frasa_religius": self._clean_text(df_p[df_p['unsur'] == "FRASA RELIGIUS"]['text']),
             "jabatan_pembentuk": self._clean_text(df_p[df_p['unsur'] == "PEMBENTUK PPU"]['text']),
             "konsiderans": self._parse_rincian(kon_clean)["rincian"],
             "dasar_hukum": self._parse_rincian(dh_clean)["rincian"],
-            "diktum": self._clean_text(df_p[df_p['unsur'] == "DIKTUM"]['text'])
+            "diktum": diktum_parts # Hasil berupa List of Strings
         }
 
     def process_batang_tubuh(self):
