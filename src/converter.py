@@ -6,12 +6,18 @@ class JSONToHTML:
         self.data = json_data
 
     def _render_rincian(self, rincian_list):
-        """Me-render daftar rincian atau definisi."""
+        """Me-render daftar rincian. Menghapus tanda titik jika nomor kosong."""
         html = '<ul class="rincian-list">'
         for item in rincian_list:
-            # Menggunakan key 'definisi' jika ada (fitur auto-labeling)
             isi = item.get("teks") or item.get("definisi")
-            html += f'<li><span class="nomor">{item["nomor"]}.</span> {isi}</li>'
+            nomor = item.get("nomor", "")
+            
+            # REVISI: Jika nomor kosong, langsung tampilkan isi tanpa titik pemisah
+            if nomor == "":
+                html += f'<li>{isi}</li>'
+            else:
+                html += f'<li><span class="nomor">{nomor}.</span> {isi}</li>'
+                
         html += '</ul>'
         return html
 

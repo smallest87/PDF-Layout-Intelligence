@@ -12,7 +12,12 @@
     "B_PEMBUKAAN": {
         "frasa_religius": "DENGAN RAHMAT TUHAN YANG MAHA ESA",
         "jabatan_pembentuk": "BUPATI MALANG,",
-        "konsiderans": [],
+        "konsiderans": [
+            {
+                "nomor": "",
+                "teks": "bahwa berkenaan dengan perkembangan yang tidak sesuai dengan Asumsi Rencana Kerja Pemerintah Daerah Tahun 2025, dan untuk melaksanakan ketentuan dalam Pasal 355 ayat (1) Peraturan Menteri Dalam Negeri Nomor 86 Tahun 2017 tentang Tata Cara Perencanaan, Pengendalian dan Evaluasi Pembangunan Daerah, Tata Cara Evaluasi Rancangan Peraturan Daerah tentang Rencana Pembangunan Jangka Panjang Daerah dan Rencana Pembangunan Jangka Menengah Daerah, serta Tata Cara Perubahan Rencana Pembangunan Jangka Panjang Daerah, Rencana Pembangunan Jangka Menengah Daerah, dan Rencana Kerja Pemerintah Daerah, maka perlu membentuk Peraturan Bupati tentang Perubahan Rencana Kerja Pemerintah Daerah Tahun 2025;"
+            }
+        ],
         "dasar_hukum": [
             {
                 "nomor": "1",
@@ -182,7 +187,15 @@
             "pasal": [
                 {
                     "nomor": "2",
-                    "teks": "Perubahan RKPD Tahun 2025 menjadi landasan dalam penyusunan Kebijakan Umum Perubahan Anggaran Pendapatan dan Belanja Daerah serta Prioritas dan Plafon Anggaran Sementara untuk menyusun Perubahan Anggaran Pendapatan dan Belanja Daerah Tahun 2025."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Perubahan RKPD Tahun 2025 menjadi landasan dalam penyusunan Kebijakan Umum Perubahan Anggaran Pendapatan dan Belanja Daerah serta Prioritas dan Plafon Anggaran Sementara untuk menyusun Perubahan Anggaran Pendapatan dan Belanja Daerah Tahun 2025."
+                            }
+                        ]
+                    }
                 },
                 {
                     "nomor": "3",
@@ -191,11 +204,27 @@
                         "ayat": [
                             {
                                 "ayat": "1",
-                                "teks": "Perubahan RKPD Tahun 2025 sebagaimana dimaksud pada Pasal 2 memuat hasil evaluasi pelaksanaan RKPD Tahun 2025 sampai dengan triwulan satu tahun berjalan dan perubahan program dan kegiatan yang akan dilaksanakan pada Tahun 2025."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Perubahan RKPD Tahun 2025 sebagaimana dimaksud pada Pasal 2 memuat hasil evaluasi pelaksanaan RKPD Tahun 2025 sampai dengan triwulan satu tahun berjalan dan perubahan program dan kegiatan yang akan dilaksanakan pada Tahun 2025."
+                                        }
+                                    ]
+                                }
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Hal-hal yang tidak mengalami perubahan sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan dalam Peraturan Bupati Malang Nomor 16 Tahun 2024 tentang Rencana Kerja Pemerintah Daerah Tahun 2025."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Hal-hal yang tidak mengalami perubahan sebagaimana dimaksud pada ayat (1) dilaksanakan sesuai dengan ketentuan dalam Peraturan Bupati Malang Nomor 16 Tahun 2024 tentang Rencana Kerja Pemerintah Daerah Tahun 2025."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
@@ -243,14 +272,30 @@
                             },
                             {
                                 "ayat": "2",
-                                "teks": "Rincian Perubahan RKPD Tahun 2025 sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran yang merupakan bagian tidak terpisahkan dari Peraturan Bupati ini."
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Rincian Perubahan RKPD Tahun 2025 sebagaimana dimaksud pada ayat (1) tercantum dalam Lampiran yang merupakan bagian tidak terpisahkan dari Peraturan Bupati ini."
+                                        }
+                                    ]
+                                }
                             }
                         ]
                     }
                 },
                 {
                     "nomor": "5",
-                    "teks": "Perangkat Daerah melaksanakan program dan kegiatan dalam Perubahan RKPD Tahun 2025 dengan melakukan Perubahan Rencana Kerja Perangkat Daerah."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Perangkat Daerah melaksanakan program dan kegiatan dalam Perubahan RKPD Tahun 2025 dengan melakukan Perubahan Rencana Kerja Perangkat Daerah."
+                            }
+                        ]
+                    }
                 }
             ]
         },
@@ -262,7 +307,15 @@
             "pasal": [
                 {
                     "nomor": "6",
-                    "teks": "Peraturan Bupati ini mulai berlaku pada tanggal diundangkan."
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Peraturan Bupati ini mulai berlaku pada tanggal diundangkan."
+                            }
+                        ]
+                    }
                 }
             ]
         }
@@ -273,17 +326,14 @@
             "tempat": "Kepanjen",
             "tanggal": "4 Juni 2025",
             "nama_jabatan": "BUPATI MALANG,",
-            "tanda_tangan": "ttd.",
             "nama_pejabat": "SANUSI"
         },
         "pengundangan": {
             "tempat": "Kepanjen",
             "tanggal": "4 Juni 2025",
             "nama_jabatan": "Pj. SEKRETARIS DAERAH KABUPATEN MALANG",
-            "tanda_tangan": "ttd.",
             "nama_pejabat": "NURCAHYO"
         },
-        "nomor_register": "NONE",
         "publikasi": "Berita Daerah Kabupaten Malang. Ditetapkan di Kepanjen pada tanggal 4 Juni 2025 BUPATI MALANG, ttd. SANUSI Diundangkan di Kepanjen pada tanggal 4 Juni 2025 Pj. SEKRETARIS DAERAH KABUPATEN MALANG ttd. NURCAHYO Berita Daerah Kabupaten Malang Tahun 2025 Nomor 9 Seri D"
     }
 }
