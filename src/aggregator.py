@@ -5,7 +5,6 @@ import os
 
 class MasterAggregator:
     def __init__(self, master_df, config_meta="config/meta_mapping.yaml"):
-        """Inisialisasi aggregator dengan data master."""
         self.df = master_df
         if os.path.exists(config_meta):
             with open(config_meta, 'r', encoding='utf-8') as f:
@@ -18,12 +17,10 @@ class MasterAggregator:
             self.ALL_SAMPLES.extend(v)
 
     def _clean_text(self, text_list):
-        """Gabungkan teks dan bersihkan spasi ganda."""
         text = " ".join([str(t).strip() for t in text_list if str(t).strip()])
         return re.sub(r'\s+', ' ', text).strip()
 
     def _extract_metadata(self, text):
-        """Ekstraksi metadata dasar (fallback)."""
         detected_jenis = "TIDAK_TERDETEKSI"
         sorted_samples = sorted(self.ALL_SAMPLES, key=len, reverse=True)
         for s in sorted_samples:
@@ -35,22 +32,18 @@ class MasterAggregator:
         tentang_match = re.search(r"TENTANG\s+(.*)", text, re.IGNORECASE)
 
         return {
-            "jenis": detected_jenis,
-            "nomor": no_match.group(1) if no_match else "NONE",
+            "jenis": detected_jenis, "nomor": no_match.group(1) if no_match else "NONE",
             "tahun": thn_match.group(1) if thn_match else "NONE",
             "tentang": tentang_match.group(1).strip() if tentang_match else "NONE"
         }
 
     def _parse_rincian(self, text, is_definisi=False):
-        """Parsing poin a, b, c. Mendukung nomor kosong untuk paragraf tunggal."""
+        """Memecah poin rincian. Mendukung nomor kosong untuk paragraf tunggal."""
         pattern = r"(?:^|\s)(\d+\.|[a-z]\.)\s+"
         key_name = "definisi" if is_definisi else "teks"
 
         if not re.search(pattern, text):
-            return {
-                "teks_pembuka": "",
-                "rincian": [{"nomor": "", key_name: text.strip()}] if text.strip() else []
-            }
+            return {"teks_pembuka": "", "rincian": [{"nomor": "", key_name: text.strip()}] if text.strip() else []}
 
         parts = re.split(pattern, text)
         res = {"teks_pembuka": parts[0].strip(), "rincian": []}
@@ -58,11 +51,11 @@ class MasterAggregator:
             no_rincian = parts[i].strip().replace(".", "")
             isi_rincian = parts[i+1].strip() if i+1 < len(parts) else ""
             if isi_rincian:
-                res["rincian"].append({"nomor": no_rincian, key_name: isi_rincian.strip()})
+                res["rincian"].append({"nomor": no_rincian, key_name: re.sub(r'\s+', ' ', isi_rincian).strip()})
         return res
 
     def _parse_ayat(self, text, is_definisi=False):
-        """Parsing ayat dengan proteksi rujukan palsu menggunakan negative lookbehind."""
+        """Parsing ayat dengan proteksi rujukan palsu."""
         pattern_str = r"(?<!ayat\s)(?<!pasal\s)(?<!nomor\s)(?<!huruf\s)\((\d+)\)"
         matches = list(re.finditer(pattern_str, text, re.IGNORECASE))
         
@@ -84,7 +77,7 @@ class MasterAggregator:
         return {"teks_pembuka": header_text, "ayat": ayat_results}
 
     def process_judul(self):
-        """A. JUDUL: Pemisahan granular sesuai UU 12/2011."""
+        """A. JUDUL: Ekstraksi granular sesuai UU 12/2011."""
         df_j = self.df[self.df['sistematika'] == "JUDUL"]
         full_text = self._clean_text(df_j['text'])
         pola = r"^(.*?)\s+(PROVINSI\s+[A-Z\s]+)\s+(PERATURAN\s+[A-Z\s]+)\s+NOMOR\s+([\d/.\-]+)\s+TAHUN\s+(\d{4})\s+(TENTANG)\s+(.*)$"
@@ -93,14 +86,15 @@ class MasterAggregator:
         if m:
             judul_list = [m.group(1).strip(), m.group(2).strip(), m.group(3).strip(), 
                           f"NOMOR {m.group(4)} TAHUN {m.group(5)}", m.group(6).strip(), m.group(7).strip()]
-            metadata = {"pejabat_pembentuk": m.group(1).strip(), "wilayah_provinsi": m.group(2).strip(),
-                        "jenis": m.group(3).strip(), "nomor": m.group(4).strip(), "tahun": m.group(5).strip(), "tentang": m.group(7).strip()}
+            metadata = {"pejabat_pembentuk": m.group(1).strip(), "wilayah": m.group(2).strip(),
+                        "jenis": m.group(3).strip(), "nomor": m.group(4).strip(), 
+                        "tahun": m.group(5).strip(), "judul": m.group(7).strip()}
         else:
             judul_list = [full_text]; metadata = self._extract_metadata(full_text)
         return {"teks": judul_list, "metadata": metadata}
 
     def process_pembukaan(self):
-        """B. PEMBUKAAN: Pembersihan Menimbang dan pemisahan Diktum."""
+        """B. PEMBUKAAN: Pembersihan anchor dan pemisahan Diktum."""
         df_p = self.df[self.df['sistematika'] == "PEMBUKAAN"]
         kon_raw = self._clean_text(df_p[df_p['unsur'] == "KONSIDERANS"]['text'])
         kon_clean = re.sub(r'^Menimbang\s*:\s*', '', kon_raw, flags=re.IGNORECASE).strip()
@@ -117,7 +111,7 @@ class MasterAggregator:
                 "dasar_hukum": self._parse_rincian(dh_clean)["rincian"], "diktum": diktum_parts}
 
     def process_batang_tubuh(self):
-        """C. BATANG TUBUH: Solusi De-Duplikasi Header (image_1ea1c5.png)."""
+        """C. BATANG TUBUH: Menghentikan duplikasi header (image_1ea1c5.png)."""
         df_bt = self.df[self.df['sistematika'] == "BATANG TUBUH"]
         chapters = []
         curr_bab = curr_bagian = curr_paragraf = curr_pasal = None
@@ -159,16 +153,20 @@ class MasterAggregator:
                 if 'nomor_raw' in p: del p['nomor_raw']
 
         for c in chapters:
-            if "KETENTUAN UMUM" in c['judul'].upper(): c['kategori'] = "Ketentuan Umum"
-            else: c['kategori'] = "Materi Pokok"
+            # Perbaikan Redundansi Header (image_1eb8c5.png)
+            c['judul'] = re.sub(rf"^{c['bab']}\s*", "", self._clean_text([c['judul']]), flags=re.IGNORECASE).strip()
+            c['kategori'] = "Ketentuan Umum" if "KETENTUAN UMUM" in c['judul'].upper() else "Materi Pokok"
             finalize(c['pasal'], c['kategori'])
             for s in c['sections']:
+                s['judul'] = re.sub(rf"^{s['bagian']}\s*", "", self._clean_text([s['judul']]), flags=re.IGNORECASE).strip()
                 finalize(s['pasal'], c['kategori'])
-                for pg in s['paragraphs']: finalize(pg['pasal'], c['kategori'])
+                for pg in s['paragraphs']:
+                    pg['judul'] = re.sub(rf"^{pg['paragraf']}\s*", "", self._clean_text([pg['judul']]), flags=re.IGNORECASE).strip()
+                    finalize(pg['pasal'], c['kategori'])
         return chapters
 
     def process_penutup(self):
-        """D. PENUTUP: Perintah Pengundangan & Publikasi."""
+        """D. PENUTUP: Ekstraksi Publikasi sebagai List untuk menghindari Wall of Text."""
         df_pen = self.df[self.df['sistematika'] == "PENUTUP"]
         full_text = self._clean_text(df_pen['text'])
         m_perintah = re.search(r"(Agar setiap orang mengetahuinya,.*?dalam Berita Daerah.*?\.)", full_text, re.IGNORECASE)

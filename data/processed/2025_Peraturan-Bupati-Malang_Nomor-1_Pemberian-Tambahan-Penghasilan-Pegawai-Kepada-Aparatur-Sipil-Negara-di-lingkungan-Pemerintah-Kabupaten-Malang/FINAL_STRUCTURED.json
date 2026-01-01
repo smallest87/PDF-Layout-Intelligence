@@ -10,11 +10,11 @@
         ],
         "metadata": {
             "pejabat_pembentuk": "BUPATI MALANG",
-            "wilayah_provinsi": "PROVINSI JAWA TIMUR",
+            "wilayah": "PROVINSI JAWA TIMUR",
             "jenis": "PERATURAN BUPATI MALANG",
             "nomor": "1",
             "tahun": "2025",
-            "tentang": "PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG"
+            "judul": "PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG"
         }
     },
     "B_PEMBUKAAN": {
@@ -161,7 +161,7 @@
     "C_BATANG_TUBUH": [
         {
             "bab": "BAB I",
-            "judul": "BAB I KETENTUAN UMUM",
+            "judul": "KETENTUAN UMUM",
             "sections": [],
             "pasal": [
                 {
@@ -273,7 +273,7 @@
         },
         {
             "bab": "BAB II",
-            "judul": "BAB II KRITERIA PEMBERIAN TPP",
+            "judul": "KRITERIA PEMBERIAN TPP",
             "sections": [],
             "pasal": [
                 {
@@ -609,7 +609,7 @@
         },
         {
             "bab": "BAB III",
-            "judul": "BAB III PENGHITUNGAN KOMPONEN TPP",
+            "judul": "PENGHITUNGAN KOMPONEN TPP",
             "sections": [],
             "pasal": [
                 {
@@ -909,11 +909,11 @@
         },
         {
             "bab": "BAB IV",
-            "judul": "BAB IV PEMOTONGAN TPP",
+            "judul": "PEMOTONGAN TPP",
             "sections": [
                 {
                     "bagian": "BAGIAN KESATU",
-                    "judul": "Bagian Kesatu Pemotongan TPP Berdasarkan Produktivitas Kerja",
+                    "judul": "Pemotongan TPP Berdasarkan Produktivitas Kerja",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -1092,7 +1092,7 @@
                 },
                 {
                     "bagian": "BAGIAN KEDUA",
-                    "judul": "Bagian Kedua Pemotongan TPP Berdasarkan Disiplin Kerja",
+                    "judul": "Pemotongan TPP Berdasarkan Disiplin Kerja",
                     "paragraphs": [],
                     "pasal": [
                         {
@@ -1491,7 +1491,7 @@
         },
         {
             "bab": "BAB V",
-            "judul": "BAB V PENUNDAAN PEMBAYARAN TPP",
+            "judul": "PENUNDAAN PEMBAYARAN TPP",
             "sections": [],
             "pasal": [
                 {
@@ -1639,7 +1639,7 @@
         },
         {
             "bab": "BAB VI",
-            "judul": "BAB VI TATA CARA PEMBAYARAN",
+            "judul": "TATA CARA PEMBAYARAN",
             "sections": [],
             "pasal": [
                 {
@@ -1843,7 +1843,7 @@
         },
         {
             "bab": "BAB VII",
-            "judul": "BAB VII PENDANAAN",
+            "judul": "PENDANAAN",
             "sections": [],
             "pasal": [
                 {
@@ -1895,7 +1895,7 @@
         },
         {
             "bab": "BAB VIII",
-            "judul": "BAB VIII PEMBINAAN DAN PENGAWASAN",
+            "judul": "PEMBINAAN DAN PENGAWASAN",
             "sections": [],
             "pasal": [
                 {
@@ -2015,7 +2015,7 @@
         },
         {
             "bab": "BAB IX",
-            "judul": "BAB IX KETENTUAN LAIN-LAIN",
+            "judul": "KETENTUAN LAIN-LAIN",
             "sections": [],
             "pasal": [
                 {
@@ -2115,7 +2115,7 @@
         },
         {
             "bab": "BAB X",
-            "judul": "BAB X KETENTUAN PERALIHAN",
+            "judul": "KETENTUAN PERALIHAN",
             "sections": [],
             "pasal": [
                 {
@@ -2167,7 +2167,7 @@
         },
         {
             "bab": "BAB XI",
-            "judul": "BAB XI KETENTUAN PENUTUP",
+            "judul": "KETENTUAN PENUTUP",
             "sections": [],
             "pasal": [
                 {

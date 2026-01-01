@@ -6,7 +6,6 @@ class JSONToHTML:
         self.data = json_data
 
     def _render_rincian(self, rincian_list):
-        """Render poin rincian dengan indentasi berlapis."""
         if not rincian_list: return ""
         html = '<div class="rincian-container">'
         for item in rincian_list:
@@ -19,7 +18,7 @@ class JSONToHTML:
         return html
 
     def _render_ayat_atau_rincian(self, content):
-        """Render teks pembuka dan hirarki ayat."""
+        """Render ayat dengan alignment baseline untuk meluruskan angka (image_1eacc9.png)."""
         if isinstance(content, str): return f'<p class="isi-pasal">{content}</p>'
         html = ""
         if "ayat" in content and content["ayat"]:
@@ -34,16 +33,13 @@ class JSONToHTML:
         return html
 
     def _render_pasal_list(self, pasal_list):
-        """Helper untuk render daftar pasal."""
         html = ""
         for p in pasal_list:
-            html += f'<div class="pasal-container"><span class="pasal-header">Pasal {p["nomor"]}</span>'
-            html += self._render_ayat_atau_rincian(p["teks"])
-            html += '</div>'
+            html += f'<div class="pasal-container"><span class="pasal-header">Pasal {p["nomor"]}</span>{self._render_ayat_atau_rincian(p["teks"])}</div>'
         return html
 
     def convert(self):
-        """Render HTML lengkap dengan layout dua kolom dan blok penutup berjenjang."""
+        """Render HTML standar naskah dinas tanpa redundansi header."""
         html = """
         <!DOCTYPE html><html><head><meta charset="UTF-8"><style>
             body { font-family: 'Bookman Old Style', serif; line-height: 1.5; padding: 50px 80px; font-size: 11pt; }
@@ -59,13 +55,17 @@ class JSONToHTML:
             .bab { text-align: center; margin-top: 45px; font-weight: bold; text-transform: uppercase; }
             .bagian-header, .paragraf-header { text-align: center; font-weight: bold; margin-top: 25px; }
             .pasal-header { font-weight: bold; display: block; text-align: center; margin-bottom: 10px; }
-            .ayat-row { display: flex; margin-top: 8px; text-align: justify; }
-            .nomor-ayat { min-width: 35px; }
+            
+            /* FIX ALIGNMENT AYAT (image_1eacc9.png) */
+            .ayat-row { display: flex; margin-top: 12px; align-items: baseline; text-align: justify; }
+            .nomor-ayat { min-width: 45px; flex-shrink: 0; }
+            .isi-ayat { flex: 1; }
+
             .penutup-container { margin-top: 50px; position: relative; width: 100%; }
             .pengesahan-block { margin-left: auto; width: 45%; }
             .pengundangan-block { width: 45%; margin-top: 20px; }
             .signature-name { font-weight: bold; margin-top: 50px; display: block; text-transform: uppercase; }
-            .publikasi { margin-top: 40px; font-size: 10pt; }
+            .publikasi { margin-top: 40px; font-size: 10pt; line-height: 1.4; }
         </style></head><body><div class="page">
         """
         # A. JUDUL
@@ -82,7 +82,7 @@ class JSONToHTML:
             html += f'<div class="legal-row"><div class="legal-label">{l}</div><div>:</div><div class="legal-content">{self._render_rincian(pb.get(k, []))}</div></div>'
         for p in pb.get("diktum", []): html += f'<p class="centered-bold">{p}</p>'
 
-        # C. BATANG TUBUH (Hirarki)
+        # C. BATANG TUBUH (Hirarki Tanpa Redundansi)
         for b in self.data.get("C_BATANG_TUBUH", []):
             html += f'<div class="bab">{b["bab"]}<br>{b["judul"]}</div>'
             html += self._render_pasal_list(b.get("pasal", []))
