@@ -96,9 +96,56 @@ class MasterAggregator:
         return {"teks_pembuka": header_text, "ayat": ayat_results}
 
     def process_judul(self):
+        """A. JUDUL: Ekstraksi baris dan metadata mendalam sesuai UU 12/2011."""
         df_j = self.df[self.df['sistematika'] == "JUDUL"]
-        full_text = self._clean_text(df_j['text'])
-        return {"teks": full_text, "metadata": self._extract_metadata(full_text)}
+        
+        # Ambil daftar teks per baris asli dari MASTER
+        lines = [str(t).strip() for t in df_j['text'] if str(t).strip()]
+        
+        meta = {
+            "jabatan": "NONE",
+            "wilayah": "NONE",
+            "jenis": "NONE",
+            "nomor": "NONE",
+            "tahun": "NONE",
+            "materi": "NONE"
+        }
+        
+        materi_lines = []
+        is_materi_active = False
+        
+        for text in lines:
+            text_upper = text.upper()
+            
+            # 1. Jabatan & Wilayah (Biasanya baris awal)
+            if "BUPATI" in text_upper or "GUBERNUR" in text_upper or "PRESIDEN" in text_upper:
+                if meta["jabatan"] == "NONE": meta["jabatan"] = text
+            if "PROVINSI" in text_upper or "KABUPATEN" in text_upper or "KOTA" in text_upper:
+                if meta["wilayah"] == "NONE" and "PERATURAN" not in text_upper: 
+                    meta["wilayah"] = text
+
+            # 2. Jenis PPU
+            if any(p in text_upper for p in ["PERATURAN", "UNDANG-UNDANG", "KEPUTUSAN"]):
+                if meta["jenis"] == "NONE": meta["jenis"] = text
+
+            # 3. Nomor & Tahun (Pemisahan Key)
+            m_no = re.search(r"NOMOR\s+([\d/.\-]+)", text_upper)
+            m_th = re.search(r"TAHUN\s+(\d{4})", text_upper)
+            if m_no: meta["nomor"] = m_no.group(1)
+            if m_th: meta["tahun"] = m_th.group(1)
+
+            # 4. Materi Judul (Setelah kata TENTANG)
+            if is_materi_active:
+                materi_lines.append(text)
+            if "TENTANG" == text_upper:
+                is_materi_active = True
+
+        meta["materi"] = " ".join(materi_lines).strip()
+
+        return {
+            "teks": lines, # Untuk render HTML per baris
+            "metadata": meta # Untuk kebutuhan database/informasi
+        }
 
     def process_pembukaan(self):
         """B. PEMBUKAAN: Memecah Diktum menjadi list terstruktur."""

@@ -1,12 +1,21 @@
 {
     "A_JUDUL": {
-        "teks": "BUPATI MALANG PROVINSI JAWA TIMUR PERATURAN BUPATI MALANG NOMOR 9 TAHUN 2025 TENTANG PERUBAHAN RENCANA KERJA PEMERINTAH DAERAH TAHUN 2025",
+        "teks": [
+            "BUPATI MALANG",
+            "PROVINSI JAWA TIMUR",
+            "PERATURAN BUPATI MALANG",
+            "NOMOR 9 TAHUN 2025",
+            "TENTANG",
+            "PERUBAHAN RENCANA KERJA PEMERINTAH DAERAH",
+            "TAHUN 2025"
+        ],
         "metadata": {
-            "kategori": "PERATURAN PERUNDANG-UNDANGAN DAERAH",
-            "jenis": "PERATURAN BUPATI",
+            "jabatan": "BUPATI MALANG",
+            "wilayah": "PROVINSI JAWA TIMUR",
+            "jenis": "PERATURAN BUPATI MALANG",
             "nomor": "9",
             "tahun": "2025",
-            "tentang": "PERUBAHAN RENCANA KERJA PEMERINTAH DAERAH TAHUN 2025"
+            "materi": "PERUBAHAN RENCANA KERJA PEMERINTAH DAERAH TAHUN 2025"
         }
     },
     "B_PEMBUKAAN": {

@@ -94,9 +94,16 @@ class JSONToHTML:
             <div class="page">
         """
 
-        # 1. SEKSI JUDUL
+        # 1. SEKSI JUDUL (Render Centered per Baris)
         jd = self.data.get("A_JUDUL", {})
-        html += f'<div class="judul">{jd.get("teks", "")}</div>'
+        lines = jd.get("teks", [])
+        
+        html += '<div class="judul-container" style="text-align: center; font-weight: bold; margin-bottom: 50px;">'
+        for i, line in enumerate(lines):
+            # Styling khusus untuk baris TENTANG
+            margin = "25px" if line.upper() == "TENTANG" else "5px"
+            html += f'<div style="margin-bottom: {margin}; text-transform: uppercase;">{line}</div>'
+        html += '</div>'
 
         # 2. SEKSI PEMBUKAAN
         pb = self.data.get("B_PEMBUKAAN", {})
