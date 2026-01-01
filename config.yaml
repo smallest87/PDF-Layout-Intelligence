@@ -19,6 +19,11 @@ settings:
     left_ratio_min: 0.45
     left_ratio_max: 0.55
 
+  # Tambahkan fitur Logging
+  logging:
+    log_file: "logs/process.log"
+    log_level: "INFO" # Opsi: DEBUG, INFO, WARNING, ERROR
+
 # Tambahkan bagian ini
 refinement_rules:
   - label: "KONSIDERAN"

@@ -1,0 +1,7 @@
+2026-01-01 12:16:00,468 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 12:16:00,469 - INFO - --- Memulai Sesi Baru ---
+2026-01-01 12:16:14,268 - INFO - Ekstraksi PDF dimulai: 2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang.pdf
+2026-01-01 12:16:55,664 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 12:16:55,664 - INFO - --- Memulai Sesi Baru ---
+2026-01-01 12:17:03,642 - INFO - Ekstraksi PDF dimulai: 2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang.pdf
+2026-01-01 12:17:10,845 - INFO - Master CSV berhasil disimpan: data/processed\2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang\0. MASTER.csv
