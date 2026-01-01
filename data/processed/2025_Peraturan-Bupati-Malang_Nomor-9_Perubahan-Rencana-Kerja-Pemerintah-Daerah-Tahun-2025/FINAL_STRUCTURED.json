@@ -325,7 +325,6 @@
         }
     ],
     "D_PENUTUP": {
-        "teks": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Bupati ini dengan penempatannya dalam Berita Daerah Kabupaten Malang. Ditetapkan di Kepanjen pada tanggal 4 Juni 2025 BUPATI MALANG, ttd. SANUSI Diundangkan di Kepanjen pada tanggal 4 Juni 2025 Pj. SEKRETARIS DAERAH KABUPATEN MALANG ttd. NURCAHYO Berita Daerah Kabupaten Malang Tahun 2025 Nomor 9 Seri D",
         "pengesahan": {
             "tempat": "Kepanjen",
             "tanggal": "4 Juni 2025",
@@ -338,6 +337,9 @@
             "nama_jabatan": "Pj. SEKRETARIS DAERAH KABUPATEN MALANG",
             "nama_pejabat": "NURCAHYO"
         },
-        "publikasi": "Berita Daerah Kabupaten Malang. Ditetapkan di Kepanjen pada tanggal 4 Juni 2025 BUPATI MALANG, ttd. SANUSI Diundangkan di Kepanjen pada tanggal 4 Juni 2025 Pj. SEKRETARIS DAERAH KABUPATEN MALANG ttd. NURCAHYO Berita Daerah Kabupaten Malang Tahun 2025 Nomor 9 Seri D"
+        "publikasi": [
+            "Berita Daerah Kabupaten Malang",
+            "Tahun 2025 Nomor 9 Seri D"
+        ]
     }
 }

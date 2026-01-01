@@ -122,8 +122,9 @@ class JSONToHTML:
                 html += self._render_ayat_atau_rincian(pasal["teks"])
                 html += '</div>'
 
-        # 4. SEKSI PENUTUP (Layout Berjenjang)
+        # 4. SEKSI PENUTUP (Revisi Render Publikasi)
         pn = self.data.get("D_PENUTUP", {})
+        pub_data = pn.get("publikasi", [])
         sah = pn.get("pengesahan", {})
         und = pn.get("pengundangan", {})
 
@@ -149,8 +150,13 @@ class JSONToHTML:
         </div>
         """
 
-        # Publikasi (Bawah Kiri)
-        html += f'<div class="publikasi">{pn.get("publikasi", "")}</div>'
+        # Render Publikasi per baris (List of Strings)
+        html += '<div class="publikasi" style="margin-top: 40px; line-height: 1.2;">'
+        if isinstance(pub_data, list):
+            for line in pub_data:
+                html += f'<p style="margin: 0; padding: 0;">{line}</p>'
+        else:
+            html += f'<p>{pub_data}</p>'
         html += '</div>'
 
         html += "</div></body></html>"

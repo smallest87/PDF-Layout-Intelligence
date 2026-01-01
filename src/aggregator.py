@@ -197,15 +197,27 @@ class MasterAggregator:
         return chapters
 
     def process_penutup(self):
+        """D. PENUTUP: Memperbaiki ekstraksi Publikasi agar tidak tercampur teks lain."""
         df_pen = self.df[self.df['sistematika'] == "PENUTUP"]
         full_text = self._clean_text(df_pen['text'])
 
+        # Regex Pengesahan & Pengundangan (Tetap)
         m_sah = re.search(r"(?:Ditetapkan|Disahkan) di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)(?=\s+Diundangkan|$)", full_text, re.IGNORECASE)
         m_und = re.search(r"Diundangkan di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)(?=\s+(?:Berita|Lembaran|TAMBAHAN|$))", full_text, re.IGNORECASE)
-        m_pub = re.search(r"((?:Berita|Lembaran)\s+Daerah.*?(?:Tahun\s+\d{4}\s+Nomor\s+[\d\w\s]+|$))", full_text, re.IGNORECASE)
+        
+        # REVISI REGEX PUBLIKASI: Mencari pola Berita Daerah yang diikuti Tahun secara spesifik
+        # Menggunakan regex yang memisahkan Nama Publikasi dan Detail Tahun/Nomor
+        m_pub = re.search(r"((?:Berita|Lembaran)\s+Daerah\s+[A-Za-z\s]+)\s+(Tahun\s+\d{4}\s+Nomor\s+[\d\w\s]+)", full_text, re.IGNORECASE)
+        
+        pub_list = []
+        if m_pub:
+            # Mengambil Group 1 (Nama) dan Group 2 (Detail)
+            pub_list = [m_pub.group(1).strip(), m_pub.group(2).strip()]
+        else:
+            # Fallback jika tidak ditemukan pola standar
+            pub_list = [full_text[-100:].strip()]
 
         return {
-            "teks": full_text,
             "pengesahan": {
                 "tempat": m_sah.group(1).strip() if m_sah else "NONE",
                 "tanggal": m_sah.group(2).strip() if m_sah else "NONE",
@@ -218,7 +230,7 @@ class MasterAggregator:
                 "nama_jabatan": m_und.group(3).strip() if m_und else "NONE",
                 "nama_pejabat": m_und.group(5).strip() if m_und else "NONE"
             },
-            "publikasi": m_pub.group(0).strip() if m_pub else "NONE"
+            "publikasi": pub_list # Hasil: ["Berita Daerah...", "Tahun..."]
         }
 
     def run_all(self):
