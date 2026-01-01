@@ -152,11 +152,13 @@
                 "teks": "Peraturan Bupati Malang Nomor 99 Tahun 2023 tentang Laporan Harta Kekayaan Aparatur Negara di Lingkungan Pemerintah Kabupaten Malang (Berita Daerah Kabupaten Malang Tahun 2023 Nomor 99 Seri D);"
             }
         ],
-        "diktum": [
-            "MEMUTUSKAN:",
-            "Menetapkan :",
-            "PERATURAN BUPATI TENTANG PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG."
-        ]
+        "diktum": {
+            "memutuskan": "MEMUTUSKAN:",
+            "menetapkan": {
+                "label": "Menetapkan",
+                "teks": "PERATURAN BUPATI TENTANG PEMBERIAN TAMBAHAN PENGHASILAN PEGAWAI KEPADA APARATUR SIPIL NEGARA DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG."
+            }
+        }
     },
     "C_BATANG_TUBUH": [
         {
@@ -171,105 +173,104 @@
                         "rincian": [
                             {
                                 "nomor": "1",
-                                "definisi": "Daerah adalah Kabupaten Malang."
+                                "teks": "Daerah adalah Kabupaten Malang."
                             },
                             {
                                 "nomor": "2",
-                                "definisi": "Pemerintah Daerah adalah Pemerintah Kabupaten Malang."
+                                "teks": "Pemerintah Daerah adalah Pemerintah Kabupaten Malang."
                             },
                             {
                                 "nomor": "3",
-                                "definisi": "Bupati adalah Bupati Malang."
+                                "teks": "Bupati adalah Bupati Malang."
                             },
                             {
                                 "nomor": "4",
-                                "definisi": "Perangkat Daerah yang selanjutnya disingkat PD adalah unsur pembantu Bupati dan Dewan Perwakilan Rakyat Daerah dalam penyelenggaraan urusan pemerintahan yang menjadi kewenangan Daerah."
+                                "teks": "Perangkat Daerah yang selanjutnya disingkat PD adalah unsur pembantu Bupati dan Dewan Perwakilan Rakyat Daerah dalam penyelenggaraan urusan pemerintahan yang menjadi kewenangan Daerah."
                             },
                             {
                                 "nomor": "5",
-                                "definisi": "Unit PD adalah bagian PD yang melaksanakan 1 (satu) atau beberapa program."
+                                "teks": "Unit PD adalah bagian PD yang melaksanakan 1 (satu) atau beberapa program."
                             },
                             {
                                 "nomor": "6",
-                                "definisi": "Aparatur Sipil Negara yang selanjutnya disingkat ASN adalah Aparatur Sipil Negara Pemerintah Kabupaten Malang."
+                                "teks": "Aparatur Sipil Negara yang selanjutnya disingkat ASN adalah Aparatur Sipil Negara Pemerintah Kabupaten Malang."
                             },
                             {
                                 "nomor": "7",
-                                "definisi": "Pegawai Negeri Sipil yang selanjutnya disingkat PNS adalah Pegawai Negeri Sipil Pemerintah Kabupaten Malang."
+                                "teks": "Pegawai Negeri Sipil yang selanjutnya disingkat PNS adalah Pegawai Negeri Sipil Pemerintah Kabupaten Malang."
                             },
                             {
                                 "nomor": "8",
-                                "definisi": "Calon Pegawai Negeri Sipil yang selanjutnya disingkat CPNS adalah Calon Pegawai Negeri Sipil Pemerintah Kabupaten Malang."
+                                "teks": "Calon Pegawai Negeri Sipil yang selanjutnya disingkat CPNS adalah Calon Pegawai Negeri Sipil Pemerintah Kabupaten Malang."
                             },
                             {
                                 "nomor": "9",
-                                "definisi": "Pegawai Pemerintah dengan Perjanjian Kerja selanjutnya disingkat PPPK adalah Pegawai Pemerintah dengan Perjanjian Kerja Pemerintah Kabupaten Malang."
+                                "teks": "Pegawai Pemerintah dengan Perjanjian Kerja selanjutnya disingkat PPPK adalah Pegawai Pemerintah dengan Perjanjian Kerja Pemerintah Kabupaten Malang."
                             },
                             {
                                 "nomor": "10",
-                                "definisi": "Tambahan Penghasilan Pegawai yang selanjutnya disingkat TPP adalah penghasilan yang diberikan kepada ASN yang merupakan keberhasilan dari pelaksanaan reformasi birokrasi dan didasarkan pada kehadiran dan capaian kinerja ASN tersebut yang sejalan dengan capaian kinerja organisasi dimana ASN tersebut bekerja."
+                                "teks": "Tambahan Penghasilan Pegawai yang selanjutnya disingkat TPP adalah penghasilan yang diberikan kepada ASN yang merupakan keberhasilan dari pelaksanaan reformasi birokrasi dan didasarkan pada kehadiran dan capaian kinerja ASN tersebut yang sejalan dengan capaian kinerja organisasi dimana ASN tersebut bekerja."
                             },
                             {
                                 "nomor": "11",
-                                "definisi": "Basic TPP adalah nilai rupiah yang diberikan untuk setiap kelas jabatan yang dihitung berdasarkan ketentuan peraturan perundang-undangan."
+                                "teks": "Basic TPP adalah nilai rupiah yang diberikan untuk setiap kelas jabatan yang dihitung berdasarkan ketentuan peraturan perundang-undangan."
                             },
                             {
                                 "nomor": "12",
-                                "definisi": "Badan Layanan Umum Daerah yang selanjutnya disingkat BLUD adalah sistem yang diterapkan oleh PD atau Unit PD di lingkungan Pemerintah Daerah dalam memberikan pelayanan kepada masyarakat yang mempunyai fleksibilitas dalam pola pengelolaan keuangan sebagai pengecualian dari ketentuan pengelolaan daerah pada umumnya."
+                                "teks": "Badan Layanan Umum Daerah yang selanjutnya disingkat BLUD adalah sistem yang diterapkan oleh PD atau Unit PD di lingkungan Pemerintah Daerah dalam memberikan pelayanan kepada masyarakat yang mempunyai fleksibilitas dalam pola pengelolaan keuangan sebagai pengecualian dari ketentuan pengelolaan daerah pada umumnya."
                             },
                             {
                                 "nomor": "13",
-                                "definisi": "Anggaran Pendapatan dan Belanja Daerah yang selanjutnya disingkat APBD adalah rencana keuangan tahunan Daerah yang ditetapkan dengan Peraturan Daerah."
+                                "teks": "Anggaran Pendapatan dan Belanja Daerah yang selanjutnya disingkat APBD adalah rencana keuangan tahunan Daerah yang ditetapkan dengan Peraturan Daerah."
                             },
                             {
                                 "nomor": "14",
-                                "definisi": "Kelas Jabatan adalah tingkatan jabatan manajerial maupun jabatan nonmanajerial dalam satuan organisasi yang digunakan sebagai dasar pemberian besaran TPP."
+                                "teks": "Kelas Jabatan adalah tingkatan jabatan manajerial maupun jabatan nonmanajerial dalam satuan organisasi yang digunakan sebagai dasar pemberian besaran TPP."
                             },
                             {
                                 "nomor": "15",
-                                "definisi": "Jabatan adalah kedudukan yang menunjukkan fungsi, tugas, tanggung jawab, wewenang, dan hak seorang ASN dalam suatu satuan organisasi."
+                                "teks": "Jabatan adalah kedudukan yang menunjukkan fungsi, tugas, tanggung jawab, wewenang, dan hak seorang ASN dalam suatu satuan organisasi."
                             },
                             {
                                 "nomor": "16",
-                                "definisi": "Jabatan Fungsional yang selanjutnya disingkat JF adalah sekelompok jabatan yang berisi fungsi dan tugas berkaitan dengan pelayanan fungsional yang berdasarkan pada keahlian dan keterampilan tertentu."
+                                "teks": "Jabatan Fungsional yang selanjutnya disingkat JF adalah sekelompok jabatan yang berisi fungsi dan tugas berkaitan dengan pelayanan fungsional yang berdasarkan pada keahlian dan keterampilan tertentu."
                             },
                             {
                                 "nomor": "17",
-                                "definisi": "Laporan Penyelenggaraan Pemerintahan Daerah yang selanjutnya disingkat LPPD adalah laporan yang disampaikan oleh Pemerintah Daerah kepada Pemerintah Pusat yang memuat capaian kinerja penyelenggaraan pemerintahan daerah dan pelaksanaan tugas pembantuan selama 1 (satu) tahun anggaran."
+                                "teks": "Laporan Penyelenggaraan Pemerintahan Daerah yang selanjutnya disingkat LPPD adalah laporan yang disampaikan oleh Pemerintah Daerah kepada Pemerintah Pusat yang memuat capaian kinerja penyelenggaraan pemerintahan daerah dan pelaksanaan tugas pembantuan selama 1 (satu) tahun anggaran."
                             },
                             {
                                 "nomor": "18",
-                                "definisi": "Laporan Harta Kekayaan Penyelenggara Negara yang selanjutnya disingkat LHKPN adalah laporan dalam dokumen, termasuk namun ridak terbatas pada dokumen elektronik tentang urian dan rincian informasi mengenai harta kekayaan, data probadi, penerima, pengeluaran, dan data lainnya atas Harta Kekayaan Penyelenggara."
+                                "teks": "Laporan Harta Kekayaan Penyelenggara Negara yang selanjutnya disingkat LHKPN adalah laporan dalam dokumen, termasuk namun ridak terbatas pada dokumen elektronik tentang urian dan rincian informasi mengenai harta kekayaan, data probadi, penerima, pengeluaran, dan data lainnya atas Harta Kekayaan Penyelenggara."
                             },
                             {
                                 "nomor": "19",
-                                "definisi": "Pengelola Keuangan Daerah adalah pejabat yang diberi tugas dan kewenangan dalam pengelolaan keuangan Daerah untuk melakukan keseluruhan kegiatan yang meliputi perencanaan, penganggaran, pelaksanaan, penatausahaan, pelaporan, pertanggungjawaban, dan pengawasan keuangan Daerah."
+                                "teks": "Pengelola Keuangan Daerah adalah pejabat yang diberi tugas dan kewenangan dalam pengelolaan keuangan Daerah untuk melakukan keseluruhan kegiatan yang meliputi perencanaan, penganggaran, pelaksanaan, penatausahaan, pelaporan, pertanggungjawaban, dan pengawasan keuangan Daerah."
                             },
                             {
                                 "nomor": "20",
-                                "definisi": "Pengelola Barang Milik Daerah adalah pejabat yang berwenang dan bertanggung jawab melakukan koordinasi pengelolaan barang milik Daerah."
+                                "teks": "Pengelola Barang Milik Daerah adalah pejabat yang berwenang dan bertanggung jawab melakukan koordinasi pengelolaan barang milik Daerah."
                             },
                             {
                                 "nomor": "21",
-                                "definisi": "Pengguna Anggaran adalah pejabat pemegang kewenangan penggunaan anggaran untuk melaksanakan tugas dan fungsi PD yang dipimpinnya."
+                                "teks": "Pengguna Anggaran adalah pejabat pemegang kewenangan penggunaan anggaran untuk melaksanakan tugas dan fungsi PD yang dipimpinnya."
                             },
                             {
                                 "nomor": "22",
-                                "definisi": "Kuasa Pengguna Anggaran adalah pejabat yang diberi kuasa untuk melaksanakan sebagian kewenangan pengguna anggaran dalam melaksanakan sebagian tugas dan fungsi PD."
+                                "teks": "Kuasa Pengguna Anggaran adalah pejabat yang diberi kuasa untuk melaksanakan sebagian kewenangan pengguna anggaran dalam melaksanakan sebagian tugas dan fungsi PD."
                             },
                             {
                                 "nomor": "23",
-                                "definisi": "Sistem Aplikasi Penilaian Kinerja yang selanjutnya disebut SiapKerja adalah suatu aplikasi berbasis web yang digunakan untuk mengukur capaian kinerja ASN berdasarkan Sasaran Kinerja Pegawai dan menghitung pembayaran TPP."
+                                "teks": "Sistem Aplikasi Penilaian Kinerja yang selanjutnya disebut SiapKerja adalah suatu aplikasi berbasis web yang digunakan untuk mengukur capaian kinerja ASN berdasarkan Sasaran Kinerja Pegawai dan menghitung pembayaran TPP."
                             },
                             {
                                 "nomor": "24",
-                                "definisi": "Hari adalah hari kerja."
+                                "teks": "Hari adalah hari kerja."
                             }
                         ]
                     }
                 }
-            ],
-            "kategori": "Ketentuan Umum"
+            ]
         },
         {
             "bab": "BAB II",
@@ -604,8 +605,7 @@
                         ]
                     }
                 }
-            ],
-            "kategori": "Materi Pokok"
+            ]
         },
         {
             "bab": "BAB III",
@@ -904,8 +904,7 @@
                         ]
                     }
                 }
-            ],
-            "kategori": "Materi Pokok"
+            ]
         },
         {
             "bab": "BAB IV",
@@ -1486,8 +1485,7 @@
                     ]
                 }
             ],
-            "pasal": [],
-            "kategori": "Materi Pokok"
+            "pasal": []
         },
         {
             "bab": "BAB V",
@@ -1634,8 +1632,7 @@
                         ]
                     }
                 }
-            ],
-            "kategori": "Materi Pokok"
+            ]
         },
         {
             "bab": "BAB VI",
@@ -1838,8 +1835,7 @@
                         ]
                     }
                 }
-            ],
-            "kategori": "Materi Pokok"
+            ]
         },
         {
             "bab": "BAB VII",
@@ -1890,8 +1886,7 @@
                         ]
                     }
                 }
-            ],
-            "kategori": "Materi Pokok"
+            ]
         },
         {
             "bab": "BAB VIII",
@@ -2010,8 +2005,7 @@
                         ]
                     }
                 }
-            ],
-            "kategori": "Materi Pokok"
+            ]
         },
         {
             "bab": "BAB IX",
@@ -2110,8 +2104,7 @@
                         ]
                     }
                 }
-            ],
-            "kategori": "Materi Pokok"
+            ]
         },
         {
             "bab": "BAB X",
@@ -2162,8 +2155,7 @@
                         ]
                     }
                 }
-            ],
-            "kategori": "Materi Pokok"
+            ]
         },
         {
             "bab": "BAB XI",
@@ -2194,8 +2186,7 @@
                         ]
                     }
                 }
-            ],
-            "kategori": "Materi Pokok"
+            ]
         }
     ],
     "D_PENUTUP": {
