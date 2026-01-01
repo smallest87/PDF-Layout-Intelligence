@@ -160,8 +160,8 @@ class MasterAggregator:
         df_pen = self.df[self.df['sistematika'] == "PENUTUP"]
         full_text = self._clean_text(df_pen['text'])
         m_perintah = re.search(r"(Agar setiap orang mengetahuinya,.*?dalam Berita Daerah.*?\.)", full_text, re.IGNORECASE)
-        m_sah = re.search(r"(?:Ditetapkan|Disahkan) di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)(?=\s+Diundangkan|$)", full_text, re.IGNORECASE)
-        m_und = re.search(r"Diundangkan di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)(?=\s+(?:Berita|Lembaran|TAMBAHAN|$))", full_text, re.IGNORECASE)
+        m_sah = re.search(r"(?:Ditetapkan|Disahkan) di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s*,?\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)\s*,?\s*(?=\s+Diundangkan|$)", full_text, re.IGNORECASE)
+        m_und = re.search(r"Diundangkan di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s*,?\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)\s*,?\s*(?=\s+(?:Berita|Lembaran|TAMBAHAN|$))", full_text, re.IGNORECASE)
         m_pub = re.search(r"((?:Berita|Lembaran)\s+Daerah\s+[A-Za-z\s]+)\s+(Tahun\s+\d{4}\s+Nomor\s+[\d\w\s]+)", full_text, re.IGNORECASE)
         return {"perintah_pengundangan": m_perintah.group(1).strip() if m_perintah else "NONE", "pengesahan": {"tempat": m_sah.group(1).strip() if m_sah else "NONE", "tanggal": m_sah.group(2).strip() if m_sah else "NONE", "nama_jabatan": m_sah.group(3).strip() if m_sah else "NONE", "nama_pejabat": m_sah.group(5).strip() if m_sah else "NONE"}, "pengundangan": {"tempat": m_und.group(1).strip() if m_und else "NONE", "tanggal": m_und.group(2).strip() if m_und else "NONE", "nama_jabatan": m_und.group(3).strip() if m_und else "NONE", "nama_pejabat": m_und.group(5).strip() if m_und else "NONE"}, "publikasi": [m_pub.group(1).strip(), m_pub.group(2).strip()] if m_pub else []}
 

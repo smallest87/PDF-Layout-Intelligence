@@ -321,3 +321,41 @@
 2026-01-01 19:44:15,704 - INFO - Sistem Logging Berhasil Diaktifkan.
 2026-01-01 19:44:15,704 - INFO - === Sesi Aplikasi Dimulai ===
 2026-01-01 19:44:17,151 - INFO - HTML Berhasil dibuat: data/processed\2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang\READABLE_VIEW.html
+2026-01-01 19:56:02,704 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 19:56:02,704 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 19:56:06,523 - INFO - JSON diperbarui untuk: 2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang
+2026-01-01 19:56:09,061 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 19:56:09,061 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 19:56:12,332 - INFO - HTML Berhasil dibuat: data/processed\2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang\READABLE_VIEW.html
+2026-01-01 19:58:31,236 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 19:58:31,236 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 19:58:34,213 - INFO - JSON diperbarui untuk: 2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang
+2026-01-01 19:58:36,750 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 19:58:36,750 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 19:58:39,503 - INFO - HTML Berhasil dibuat: data/processed\2025_Peraturan-Bupati-Malang_Nomor-1_Pemberian-Tambahan-Penghasilan-Pegawai-Kepada-Aparatur-Sipil-Negara-di-lingkungan-Pemerintah-Kabupaten-Malang\READABLE_VIEW.html
+2026-01-01 20:00:26,371 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 20:00:26,371 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 20:00:32,344 - INFO - Proses interaktif dimulai: 2025_Peraturan-Bupati-Malang_Nomor-2_Tata-Naskah-Dinas-di-Lingkungan-Pemerintah-Kabupaten-Malang.pdf
+2026-01-01 20:00:44,740 - INFO - Selesai: SUCCESS (Hanya CSV)
+2026-01-01 20:00:50,271 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 20:00:50,272 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 20:01:12,239 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 20:01:12,239 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 20:01:18,161 - INFO - Proses interaktif dimulai: 2025_Peraturan-Bupati-Malang_Nomor-4_Perubahan-atas-Peraturan-Bupati-Malang-Nomor-189-Tahun-2024-tentang-Penjabaran-APBD-TA-2025.pdf
+2026-01-01 20:01:21,484 - INFO - Selesai: SUCCESS (Hanya CSV)
+2026-01-01 20:01:24,322 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 20:01:24,323 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 20:01:29,896 - INFO - JSON diperbarui untuk: 2025_Peraturan-Bupati-Malang_Nomor-4_Perubahan-atas-Peraturan-Bupati-Malang-Nomor-189-Tahun-2024-tentang-Penjabaran-APBD-TA-2025
+2026-01-01 20:01:33,749 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 20:01:33,749 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 20:01:38,051 - INFO - HTML Berhasil dibuat: data/processed\2025_Peraturan-Bupati-Malang_Nomor-4_Perubahan-atas-Peraturan-Bupati-Malang-Nomor-189-Tahun-2024-tentang-Penjabaran-APBD-TA-2025\READABLE_VIEW.html
+2026-01-01 20:03:34,360 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 20:03:34,361 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 20:03:39,538 - INFO - Proses interaktif dimulai: 2025_Peraturan-Bupati-Malang_Nomor-5_Pencabutan-Peraturan-Bupati-Malang-Tentang-Pembentukan-Unit-Pelaksana-Teknis-Taman-Wisata-Air-Wendit-Pada-Dinas-Pariwisata-dan-Kebudayaan.pdf
+2026-01-01 20:03:40,943 - INFO - Selesai: SUCCESS (Hanya CSV)
+2026-01-01 20:03:43,509 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 20:03:43,510 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 20:03:48,812 - INFO - JSON diperbarui untuk: 2025_Peraturan-Bupati-Malang_Nomor-5_Pencabutan-Peraturan-Bupati-Malang-Tentang-Pembentukan-Unit-Pelaksana-Teknis-Taman-Wisata-Air-Wendit-Pada-Dinas-Pariwisata-dan-Kebudayaan
+2026-01-01 20:03:51,583 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-01 20:03:51,583 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-01 20:03:56,736 - INFO - HTML Berhasil dibuat: data/processed\2025_Peraturan-Bupati-Malang_Nomor-5_Pencabutan-Peraturan-Bupati-Malang-Tentang-Pembentukan-Unit-Pelaksana-Teknis-Taman-Wisata-Air-Wendit-Pada-Dinas-Pariwisata-dan-Kebudayaan\READABLE_VIEW.html
