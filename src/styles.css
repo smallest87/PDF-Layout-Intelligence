@@ -1,0 +1,124 @@
+/* src/styles.css */
+body { 
+    font-family: 'Bookman Old Style', serif; 
+    line-height: 1.5; 
+    padding: 50px 80px; 
+    font-size: 11pt; 
+}
+
+.page { 
+    background: white; 
+    padding: 80px; 
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+    max-width: 900px; 
+    margin: auto; 
+}
+
+.judul-container { 
+    text-align: center; 
+    font-weight: bold; 
+    margin-bottom: 40px; 
+    text-transform: uppercase; 
+}
+
+.legal-row { 
+    display: flex; 
+    margin-bottom: 10px; 
+    align-items: flex-start; 
+}
+
+.legal-label { 
+    min-width: 110px; 
+}
+
+.legal-content { 
+    flex: 1; 
+    text-align: justify; 
+}
+
+.centered-bold { 
+    text-align: center; 
+    font-weight: bold; 
+    margin: 10px 0; 
+    text-transform: uppercase; 
+}
+
+.poin { 
+    display: flex; 
+    margin-bottom: 5px; 
+    text-align: justify; 
+}
+
+.sub-poin { 
+    margin-left: 25px; 
+}
+
+.nomor-poin {
+    min-width: 25px; 
+}
+
+.bab { 
+    text-align: center; 
+    margin-top: 45px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+}
+
+.bagian-header, .paragraf-header { 
+    text-align: center; 
+    font-weight: bold; 
+    margin-top: 25px; 
+}
+
+.pasal-header { 
+    display: block; 
+    text-align: center; 
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+
+/* Penyelarasan Ayat */
+.ayat-row { 
+    display: flex; 
+    margin-top: 12px; 
+    align-items: baseline; 
+    text-align: justify; 
+}
+
+.nomor-ayat { 
+    min-width: 45px; 
+    flex-shrink: 0; 
+}
+
+.isi-ayat { 
+    flex: 1; 
+}
+
+.penutup-container { 
+    margin-top: 50px; 
+    position: relative; 
+    width: 100%; 
+}
+
+.pengesahan-block { 
+    margin-left: auto; 
+    width: 45%; 
+}
+
+.pengundangan-block { 
+    width: 45%; 
+    margin-top: 20px; 
+}
+
+.signature-name { 
+    font-weight: bold; 
+    margin-top: 50px; 
+    display: block; 
+    text-transform: uppercase; 
+}
+
+.publikasi { 
+    margin-top: 40px; 
+    font-size: 10pt; 
+    line-height: 1.4; 
+}

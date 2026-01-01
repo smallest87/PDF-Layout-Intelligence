@@ -1,0 +1,742 @@
+{
+    "A_JUDUL": {
+        "teks": [
+            "BUPATI MALANG",
+            "PROVINSI JAWA TIMUR",
+            "PERATURAN BUPATI MALANG",
+            "NOMOR 32 TAHUN 2025",
+            "TENTANG",
+            "PENGGUNAAN TANDA TANGAN ELEKTRONIK DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG"
+        ],
+        "metadata": {
+            "pejabat_pembentuk": "BUPATI MALANG",
+            "wilayah": "PROVINSI JAWA TIMUR",
+            "jenis": "PERATURAN BUPATI MALANG",
+            "nomor": "32",
+            "tahun": "2025",
+            "judul": "PENGGUNAAN TANDA TANGAN ELEKTRONIK DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG"
+        }
+    },
+    "B_PEMBUKAAN": {
+        "frasa_religius": "DENGAN RAHMAT TUHAN YANG MAHA ESA",
+        "jabatan_pembentuk": "BUPATI MALANG,",
+        "konsiderans": [
+            {
+                "nomor": "",
+                "teks": "bahwa untuk melaksanakan ketentuan dalam Pasal 2 ayat (3) huruf a Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik,"
+            }
+        ],
+        "dasar_hukum": [
+            {
+                "nomor": "1",
+                "teks": "Undang-Undang Nomor 12 Tahun 1950 tentang Pembentukan Daerah-daerah Kabupaten di Lingkungan Propinsi Jawa Timur (Berita Negara Republik Indonesia Tahun 1950 Nomor 41), sebagaimana telah diubah dengan Undang-Undang Nomor 2 Tahun 1965 tentang Perubahan Batas Wilayah Kotapraja Surabaya dan Daerah Tingkat II Surabaya dengan mengubah Undang-Undang Nomor 12 Tahun 1950 tentang Pembentukan Daerah-daerah Kota Besar dalam Lingkungan Propinsi Jawa Timur, Jawa Tengah, Jawa Barat dan Daerah Istimewa Yogyakarta (Lembaran Negara Republik Indonesia Tahun 1965 Nomor 19, Tambahan Lembaran Negara Republik Indonesia Nomor 2730);"
+            },
+            {
+                "nomor": "2",
+                "teks": "Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2008 Nomor 58, Tambahan Lembaran Negara Republik Indonesia Nomor 4843), sebagaimana telah diubah dengan Undang-Undang Nomor 19 Tahun 2016 tentang Perubahan atas Undang-Undang Nomor 11 Tahun 2008 tentang Informasi dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2016 Nomor 251, Tambahan Lembaran Negara Republik Indonesia Nomor 5952);"
+            },
+            {
+                "nomor": "3",
+                "teks": "Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2011 Nomor 82, Tambahan Lembaran Negara Republik Indonesia Nomor 5234), sebagaimana telah diubah beberapa kali, terakhir dengan Undang-Undang Nomor 13 Tahun 2022 tentang Perubahan Kedua atas Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2022 Nomor 143, Tambahan Lembaran Negara Republik Indonesia Nomor 6801);"
+            },
+            {
+                "nomor": "4",
+                "teks": "Undang-Undang Nomor 23 Tahun 2014 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 244, Tambahan Lembaran Negara Republik Indonesia Nomor 5587), sebagaimana telah diubah beberapa kali, terakhir dengan Undang-Undang Nomor 6 Tahun 2023 tentang Penetapan Peraturan Pemerintah Pengganti Undang-Undang Nomor 2 Tahun 2022 tentang Cipta Kerja menjadi Undang-Undang (Lembaran Negara Republik Indonesia Tahun 2023 Nomor 41, Tambahan Lembaran Negara Republik Indonesia Nomor 6856);"
+            },
+            {
+                "nomor": "5",
+                "teks": "Peraturan Pemerintah Nomor 18 Tahun 2016 tentang Perangkat Daerah (Lembaran Negara Republik Indonesia Tahun 2016 Nomor 114, Tambahan Lembaran Negara Republik Indonesia Nomor 5888), sebagaimana telah diubah dengan Peraturan Pemerintah Nomor 72 Tahun 2019 tentang Perubahan atas Peraturan Pemerintah Nomor 18 Tahun 2016 tentang Perangkat Daerah (Lembaran Negara Republik Indonesia Tahun 2019 Nomor 187, Tambahan Lembaran Negaa Republik Indonesia Nomor 6402);"
+            },
+            {
+                "nomor": "6",
+                "teks": "Peraturan Pemerintah Nomor 71 Tahun 2019 tentang Penyelenggaraan Sistem dan Transaksi Elektronik (Lembaran Negara Republik Indonesia Tahun 2019 Nomor 185, Tambahan Lembaran Negara Republik Indonesia Nomor 6400);"
+            },
+            {
+                "nomor": "7",
+                "teks": "Peraturan Presiden Nomor 87 Tahun 2014 tentang Peraturan Pelaksanaan Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2014 Nomor 199), sebagaimana telah diubah dengan Peraturan Presiden Nomor 76 Tahun 2021 tentang Perubahan atas Peraturan Presiden Nomor 87 Tahun 2014 tentang Peraturan Pelaksanaan Undang-Undang Nomor 12 Tahun 2011 tentang Pembentukan Peraturan Perundang-undangan (Lembaran Negara Republik Indonesia Tahun 2021 Nomor 186);"
+            },
+            {
+                "nomor": "8",
+                "teks": "Peraturan Presiden Nomor 95 Tahun 2018 tentang Sistem Pemerintahan Berbasis Elektronik (Lembaran Negara Republik Indonesia Tahun 2018 Nomor 182);"
+            },
+            {
+                "nomor": "9",
+                "teks": "Peraturan Menteri Dalam Negeri Nomor 80 Tahun 2015 tentang Pembentukan Produk Hukum Daerah (Berita Negara Republik Indonesia Tahun 2015 Nomor 2036), sebagaimana telah diubah dengan Peraturan Menteri Dalam Negeri Nomor 120 Tahun 2018 tentang Perubahan atas Peraturan Menteri Dalam Negeri Nomor 80 Tahun 2015 tentang Pembentukan Produk Hukum Daerah (Berita Negara Republik Indonesia Tahun 2019 Nomor 157);"
+            },
+            {
+                "nomor": "10",
+                "teks": "Peraturan Daerah Kabupaten Malang Nomor 9 Tahun 2016 tentang Pembentukan dan Susunan Perangkat Daerah (Lembaran Daerah Kabupaten Malang Tahun 2016 Nomor 1 Seri C), sebagaimana telah diubah beberapa kali, terakhir dengan Peraturan Daerah Kabupaten Malang Nomor 3 Tahun 2023 tentang Perubahan Keempat atas Peraturan Daerah Nomor 9 Tahun 2016 tentang Pembentukan dan Susunan Perangkat Daerah (Lembaran Daerah Kabupaten Malang Tahun 2023 Nomor 3 Seri C);"
+            }
+        ],
+        "diktum": {
+            "raw": "maka perlu menetapkan Peraturan Bupati tentang Penggunaan Tanda Tangan Elektronik di Lingkungan Pemerintah Kabupaten Malang; MEMUTUSKAN: Menetapkan : PERATURAN BUPATI TENTANG PENGGUNAAN TANDA TANGAN ELEKTRONIK DI LINGKUNGAN PEMERINTAH KABUPATEN MALANG."
+        }
+    },
+    "C_BATANG_TUBUH": [
+        {
+            "bab": "BAB I",
+            "judul": "KETENTUAN UMUM",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "1",
+                    "teks": {
+                        "teks_pembuka": "Dalam Peraturan Bupati ini yang dimaksud dengan:",
+                        "rincian": [
+                            {
+                                "nomor": "1",
+                                "teks": "Daerah adalah Kabupaten Malang."
+                            },
+                            {
+                                "nomor": "2",
+                                "teks": "Pemerintah Daerah adalah Pemerintah Kabupaten Malang."
+                            },
+                            {
+                                "nomor": "3",
+                                "teks": "Bupati adalah Bupati Malang."
+                            },
+                            {
+                                "nomor": "4",
+                                "teks": "Wakil Bupati Malang adalah Wakil Bupati Malang."
+                            },
+                            {
+                                "nomor": "5",
+                                "teks": "Pimpinan Dewan Perwakilan Rakyat Daerah selanjutnya disingkat DPRD adalah ketua dan wakil ketua DPRD Kabupaten Malang."
+                            },
+                            {
+                                "nomor": "6",
+                                "teks": "Perangkat Daerah adalah unsur pembantu Bupati dan Dewan Perwakilan Rakyat Daerah dalam penyelenggaraan urusan pemerintahan yang menjadi kewenangan Daerah."
+                            },
+                            {
+                                "nomor": "7",
+                                "teks": "Dinas Komunikasi dan Informatika yang selanjutnya disebut Dinas adalah Perangkat Daerah yang melaksanakan urusan pemerintahan di Bidang Persandian dan Keamanan Informasi."
+                            },
+                            {
+                                "nomor": "8",
+                                "teks": "Badan Siber dan Sandi Negara yang selanjutnya disingkat BSSN adalah lembaga pemerintah yang menyelenggarakan tugas pemerintahan di bidang keamanan siber dan persandian."
+                            },
+                            {
+                                "nomor": "9",
+                                "teks": "Balai Sertifikasi Elektronik yang selanjutnya disebut BSrE adalah unit pelaksana teknis penyelenggara Otoritas Sertifikat Digital yang berada di bawah dan bertanggung jawab kepada Badan Siber dan Sandi Negara."
+                            },
+                            {
+                                "nomor": "10",
+                                "teks": "Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik yang berfungsi mempersiapkan, mengumpulkan, mengolah, menganalisis, menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau menyebarkan Informasi Elektronik."
+                            },
+                            {
+                                "nomor": "11",
+                                "teks": "Penyelenggara Sistem Elektronik adalah setiap Orang, penyelenggara negara, Badan Usaha, dan masyarakat yang menyediakan, mengelola, dan/atau mengoperasikan Sistem Elektronik secara sendiri-sendiri maupun bersama-sama kepada Pengguna Sistem Elektronik untuk keperluan dirinya dan/atau keperluan pihak lain."
+                            },
+                            {
+                                "nomor": "12",
+                                "teks": "Penyelenggara Sistem Elektronik Lingkup Publik adalah penyelenggaraan Sistem Elektronik oleh Instansi Penyelenggara Negara atau institusi yang ditunjuk oleh Instansi Penyelenggara Negara."
+                            },
+                            {
+                                "nomor": "13",
+                                "teks": "Informasi Elektronik adalah satu atau sekumpulan Data Elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, kode Akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya."
+                            },
+                            {
+                                "nomor": "14",
+                                "teks": "Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subyek hukum para pihak dalam transaksi elektronik yang dikeluarkan oleh penyelenggara sertifikasi elektronik."
+                            },
+                            {
+                                "nomor": "15",
+                                "teks": "Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi."
+                            },
+                            {
+                                "nomor": "16",
+                                "teks": "Penanda Tangan adalah subjek hukum yang terasosiasikan atau terkait dengan Tanda Tangan Elektronik."
+                            },
+                            {
+                                "nomor": "17",
+                                "teks": "Perangkat Pembuat Tanda Tangan Elektronik adalah Perangkat Lunak atau Perangkat Keras yang dikonfigurasi dan digunakan untuk membuat Tanda Tangan Elektronik."
+                            },
+                            {
+                                "nomor": "18",
+                                "teks": "Data Pembuatan Tanda Tangan Elektronik adalah kode pribadi, kode biometrik, kode kriptografi, dan/atau kode yang dihasilkan dari pengubahan tanda tangan manual menjadi Tanda Tangan Elektronik, termasuk kode lain yang dihasilkan dari perkembangan Teknologi Informasi."
+                            },
+                            {
+                                "nomor": "19",
+                                "teks": "Naskah Dinas Elektronik adalah informasi yang terekam dalam media elektronik sebagai alat komunikasi kedinasan, yang dibuat dan/atau diterima oleh pejabat/pimpinan yang berwenang di lingkungan Pemerintah Daerah."
+                            },
+                            {
+                                "nomor": "20",
+                                "teks": "Kenirsangkalan adalah aspek keamanan informasi yang menjamin informasi tidak dapat disangkal oleh pihak pengirim maupun penerima."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB II",
+            "judul": "MAKSUD DAN TUJUAN",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "2",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Peraturan Bupati ini dimaksudkan sebagai landasan hukum dalam pembubuhan Tanda Tangan Elektronik."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "3",
+                    "teks": {
+                        "teks_pembuka": "Peraturan Bupati ini bertujuan untuk:",
+                        "rincian": [
+                            {
+                                "nomor": "a",
+                                "teks": "menjamin keutuhan, autentikasi dan kenirsangkalan Naskah Dinas Elektronik;"
+                            },
+                            {
+                                "nomor": "b",
+                                "teks": "meningkatkan kapabilitas dan tata kelola keamanan informasi dalam penyelenggaraan sistem elektronik;"
+                            },
+                            {
+                                "nomor": "c",
+                                "teks": "meningkatkan efektivitas penyelenggaraan pemerintahan dan layanan publik; dan"
+                            },
+                            {
+                                "nomor": "d",
+                                "teks": "mendukung sistem pemerintahan berbasis elektronik."
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB III",
+            "judul": "PENGGUNAAN TANDA TANGAN ELEKTRONIK",
+            "sections": [
+                {
+                    "bagian": "BAGIAN KESATU",
+                    "judul": "Umum",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "4",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Penggunaan Tanda Tangan Elektronik diterapkan pada Naskah Dinas Elektronik."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Naskah Dinas Elektronik sebagaimana dimaksud pada ayat (1) dibuat dengan menggunakan Perangkat Pembuat Tanda Tangan Elektronik Tersertifikasi."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": {
+                                            "teks_pembuka": "Jenis Naskah Dinas Elektronik sebagaimana dimaksud pada ayat (2) meliputi:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "Naskah Dinas Korespondensi; dan"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "Naskah Dinas Khusus."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEDUA",
+                    "judul": "Naskah Dinas Korespondensi",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "5",
+                            "teks": {
+                                "teks_pembuka": "Naskah Dinas Korespondensi sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf a, terdiri atas:",
+                                "rincian": [
+                                    {
+                                        "nomor": "a",
+                                        "teks": "Korespondensi Internal; dan"
+                                    },
+                                    {
+                                        "nomor": "b",
+                                        "teks": "Korespondensi Eksternal."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "6",
+                            "teks": {
+                                "teks_pembuka": "Naskah Dinas Korespondensi Internal sebagaimana dimaksud dalam Pasal 5 huruf a, terdiri atas:",
+                                "rincian": [
+                                    {
+                                        "nomor": "a",
+                                        "teks": "nota dinas;"
+                                    },
+                                    {
+                                        "nomor": "b",
+                                        "teks": "memo; dan"
+                                    },
+                                    {
+                                        "nomor": "c",
+                                        "teks": "disposisi."
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "7",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "rincian": [
+                                    {
+                                        "nomor": "",
+                                        "teks": "Naskah Dinas Korespondensi Eksternal sebagaimana dimaksud dalam Pasal 5 huruf b disusun dalam bentuk surat dinas."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KETIGA",
+                    "judul": "Naskah Dinas Khusus",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "8",
+                            "teks": {
+                                "teks_pembuka": "Naskah Dinas Khusus sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf b, terdiri atas:",
+                                "rincian": [
+                                    {
+                                        "nomor": "a",
+                                        "teks": "instruksi;"
+                                    },
+                                    {
+                                        "nomor": "b",
+                                        "teks": "surat edaran;"
+                                    },
+                                    {
+                                        "nomor": "c",
+                                        "teks": "surat kuasa;"
+                                    },
+                                    {
+                                        "nomor": "d",
+                                        "teks": "berita acara;"
+                                    },
+                                    {
+                                        "nomor": "e",
+                                        "teks": "surat keterangan;"
+                                    },
+                                    {
+                                        "nomor": "f",
+                                        "teks": "surat pengantar;"
+                                    },
+                                    {
+                                        "nomor": "g",
+                                        "teks": "pengumuman;"
+                                    },
+                                    {
+                                        "nomor": "h",
+                                        "teks": "laporan;"
+                                    },
+                                    {
+                                        "nomor": "i",
+                                        "teks": "telaahan staf;"
+                                    },
+                                    {
+                                        "nomor": "j",
+                                        "teks": "notula;"
+                                    },
+                                    {
+                                        "nomor": "k",
+                                        "teks": "surat undangan;"
+                                    },
+                                    {
+                                        "nomor": "l",
+                                        "teks": "surat pernyataan melaksanakan tugas;"
+                                    },
+                                    {
+                                        "nomor": "m",
+                                        "teks": "surat panggilan;"
+                                    },
+                                    {
+                                        "nomor": "n",
+                                        "teks": "surat izin;"
+                                    },
+                                    {
+                                        "nomor": "o",
+                                        "teks": "lembaran daerah;"
+                                    },
+                                    {
+                                        "nomor": "p",
+                                        "teks": "berita daerah;"
+                                    },
+                                    {
+                                        "nomor": "q",
+                                        "teks": "rekomendasi;"
+                                    },
+                                    {
+                                        "nomor": "r",
+                                        "teks": "radiogram;"
+                                    },
+                                    {
+                                        "nomor": "s",
+                                        "teks": "surat tanda tamat pendidikan dan pelatihan;"
+                                    },
+                                    {
+                                        "nomor": "t",
+                                        "teks": "sertifikat;"
+                                    },
+                                    {
+                                        "nomor": "u",
+                                        "teks": "piagam; dan"
+                                    },
+                                    {
+                                        "nomor": "v",
+                                        "teks": "surat perjanjian."
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEEMPAT",
+                    "judul": "Tanda Tangan Elektronik Tersertifikasi",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "9",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada pasal 4 ayat (2) yang digunakan sesuai dengan ketentuan peraturan perundang-undangan."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "Tanda Tangan Elektronik tersertifikasi sebagaimana dimaksud pada ayat (1) berfungsi sebagai alat autentikasi dan verifikasi atas:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "identitas penanda tangan; dan"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "keutuhan dan keautentikan Informasi Elektronik."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KELIMA",
+                    "judul": "Penanda Tangan Naskah Dinas Elektrionik",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "10",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "Penanda Tangan Naskah Dinas Elektronik terdiri atas:",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "a",
+                                                    "teks": "Bupati;"
+                                                },
+                                                {
+                                                    "nomor": "b",
+                                                    "teks": "Wakil Bupati;"
+                                                },
+                                                {
+                                                    "nomor": "c",
+                                                    "teks": "kepala Perangkat Daerah;"
+                                                },
+                                                {
+                                                    "nomor": "d",
+                                                    "teks": "Pegawai Aparatur Sipil Negara sesuai dengan kewenangannya; dan"
+                                                },
+                                                {
+                                                    "nomor": "e",
+                                                    "teks": "Kepala Desa."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Penanda Tangan Naskah Dinas Elektronik sebagaimana dimaksud pada ayat (1) harus mendapatkan Sertifikat Elektronik."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Sertifikat Elektronik yang digunakan oleh Penanda Tangan Naskah Dinas Elektronik sebagaimana dimaksud pada ayat (2) atas layanan pendaftaran, pembaruan, dan pencabutan difasilitasi oleh Dinas."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "11",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Penanda Tangan Naskah Dinas Elektronik bertangungjawab atas pembubuhan Tanda Tangan Elektronik dan isi Naskah Dinas Elektronik tersertifikasi."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Pembubuhan Tanda Tangan Elektronik sebagaimana dimaksud pada ayat (1) menjadi tanggung jawab Penanda Tangan Naskah Dinas Elektronik dan tidak dapat didelegasikan."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "12",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Bentuk/visualisasi Tanda Tangan Naskah Dinas Elektronik harus ditandai dalam susunan dengan menggunakan kode quick response."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Tanda Tangan Naskah Dinas Elektronik sebagaimana dimaksud pada ayat (1) harus mencantumkan lembaga jasa penyelenggara Sertifikat Elektronik yang ditunjuk pada catatan kaki."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Naskah Dinas Tanda Tangan Elektronik didistribusikan kepada pihak yang berhak tanpa harus dicetak;"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Contoh letak format bentuk/visualisasi Tanda Tangan Naskah Dinas Elektronik sebagaimana dimaksud pada ayat (1) dan ayat (2) tercantum dalam Lampiran yang merupakan bagian tidak terpisahkan dari Peraturan Bupati ini."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "pasal": []
+        },
+        {
+            "bab": "BAB IV",
+            "judul": "PELAKSANAAN PEMBINAAN TANDA TANGAN ELEKTRONIK",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "13",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dinas menyusun petunjuk teknis dan standar operasional prosedur penggunaan Tanda Tangan Elektronik."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "Petunjuk teknis dan standar operasional prosedur sebagaimana dimaksud pada ayat (1), memuat:",
+                                    "rincian": [
+                                        {
+                                            "nomor": "a",
+                                            "teks": "verifikasi identitas Penanda Tangan Naskah Dinas Elektronik berdasarkan Nomor Induk Kependudukan;"
+                                        },
+                                        {
+                                            "nomor": "b",
+                                            "teks": "menindaklanjuti permintaan Sertifikat Elektronik kepada BSSN; dan"
+                                        },
+                                        {
+                                            "nomor": "c",
+                                            "teks": "menyampaikan Sertifikat Elektronik kepada Penanda Tangan Naskah Dinas Elektronik."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dinas dalam menyusun petunjuk teknis dan standar operasional prosedur sebagaimana dimaksud pada ayat (2) berkoordinasi dengan BSSN."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "4",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Dinas sebagaimana dimaksud pada ayat (3) memberikan bimbingan teknis dan sosialisasi terkait penggunaan Tanda Tangan Elektronik."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "bab": "BAB V",
+            "judul": "KETENTUAN PENUTUP",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "14",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Peraturan Bupati ini mulai berlaku pada tanggal diundangkan."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "D_PENUTUP": {
+        "perintah_pengundangan": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Bupati ini dengan penempatannya dalam Berita Daerah Kabupaten Malang.",
+        "pengesahan": {
+            "tempat": "Kepanjen",
+            "tanggal": "20 Oktober 2025",
+            "nama_jabatan": "BUPATI MALANG",
+            "nama_pejabat": "SANUSI"
+        },
+        "pengundangan": {
+            "tempat": "Kepanjen",
+            "tanggal": "20 Oktober 2025",
+            "nama_jabatan": "SEKRETARIS DAERAH KABUPATEN MALANG",
+            "nama_pejabat": "BUDIAR"
+        },
+        "publikasi": [
+            "Berita Daerah Kabupaten Malang",
+            "Tahun 2025 Nomor 32 Seri D"
+        ]
+    }
+}

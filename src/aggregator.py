@@ -5,7 +5,6 @@ import os
 
 class MasterAggregator:
     def __init__(self, master_df, config_meta="config/meta_mapping.yaml"):
-        """Inisialisasi aggregator dengan data master dan metadata."""
         self.df = master_df
         if os.path.exists(config_meta):
             with open(config_meta, 'r', encoding='utf-8') as f:
@@ -22,18 +21,15 @@ class MasterAggregator:
         return re.sub(r'\s+', ' ', text).strip()
 
     def _extract_metadata(self, text):
-        detected_jenis = detected_kategori = "TIDAK_TERDETEKSI"
+        detected_jenis = "TIDAK_TERDETEKSI"
         sorted_samples = sorted(self.ALL_SAMPLES, key=len, reverse=True)
         for s in sorted_samples:
             if s.lower() in text.lower():
-                detected_jenis = s
-                for k, v in self.META_MAPPING.items():
-                    if s in v: detected_kategori = k; break
-                break
+                detected_jenis = s; break
         no_match = re.search(r"NOMOR\s+([\d/.\-]+)", text, re.IGNORECASE)
         thn_match = re.search(r"TAHUN\s+(\d{4})", text, re.IGNORECASE)
         tentang_match = re.search(r"TENTANG\s+(.*)", text, re.IGNORECASE)
-        return {"kategori": detected_kategori, "jenis": detected_jenis, "nomor": no_match.group(1) if no_match else "NONE", "tahun": thn_match.group(1) if thn_match else "NONE", "tentang": tentang_match.group(1).strip() if tentang_match else "NONE"}
+        return {"jenis": detected_jenis, "nomor": no_match.group(1) if no_match else "NONE", "tahun": thn_match.group(1) if thn_match else "NONE", "tentang": tentang_match.group(1).strip() if tentang_match else "NONE"}
 
     def _parse_rincian(self, text, is_definisi=False):
         pattern = r"(?:^|\s)(\d+\.|[a-z]\.)\s+"
@@ -45,8 +41,7 @@ class MasterAggregator:
         for i in range(1, len(parts), 2):
             no_rincian = parts[i].strip().replace(".", "")
             isi_rincian = parts[i+1].strip() if i+1 < len(parts) else ""
-            if isi_rincian:
-                res["rincian"].append({"nomor": no_rincian, key_name: re.sub(r'\s+', ' ', isi_rincian).strip()})
+            if isi_rincian: res["rincian"].append({"nomor": no_rincian, key_name: isi_rincian.strip()})
         return res
 
     def _parse_ayat(self, text, is_definisi=False):
@@ -67,7 +62,6 @@ class MasterAggregator:
         return {"teks_pembuka": header_text, "ayat": ayat_results}
 
     def process_judul(self):
-        """A. JUDUL: Ekstraksi granular untuk mendukung layout baris demi baris."""
         df_j = self.df[self.df['sistematika'] == "JUDUL"]
         full_text = self._clean_text(df_j['text'])
         pola = r"^(.*?)\s+(PROVINSI\s+[A-Z\s]+)\s+(PERATURAN\s+[A-Z\s]+)\s+NOMOR\s+([\d/.\-]+)\s+TAHUN\s+(\d{4})\s+(TENTANG)\s+(.*)$"
@@ -75,41 +69,25 @@ class MasterAggregator:
         if m:
             judul_list = [m.group(1).strip(), m.group(2).strip(), m.group(3).strip(), f"NOMOR {m.group(4)} TAHUN {m.group(5)}", m.group(6).strip(), m.group(7).strip()]
             metadata = {"pejabat_pembentuk": m.group(1).strip(), "wilayah": m.group(2).strip(), "jenis": m.group(3).strip(), "nomor": m.group(4).strip(), "tahun": m.group(5).strip(), "judul": m.group(7).strip()}
-        else:
-            judul_list = [full_text]; metadata = self._extract_metadata(full_text)
+        else: judul_list = [full_text]; metadata = self._extract_metadata(full_text)
         return {"teks": judul_list, "metadata": metadata}
 
     def process_pembukaan(self):
-        """B. PEMBUKAAN: Format Diktum horizontal dan Title Case."""
+        """B. PEMBUKAAN: Diktum Menetapkan (Title Case)."""
         df_p = self.df[self.df['sistematika'] == "PEMBUKAAN"]
         kon_raw = self._clean_text(df_p[df_p['unsur'] == "KONSIDERANS"]['text'])
         kon_clean = re.sub(r'^Menimbang\s*:\s*', '', kon_raw, flags=re.IGNORECASE).strip()
         dh_raw = self._clean_text(df_p[df_p['unsur'] == "DASAR HUKUM"]['text'])
         dh_clean = re.sub(r'^Mengingat\s*:\s*', '', dh_raw, flags=re.IGNORECASE).strip()
-
-        # Ekstraksi Diktum: Memisahkan 'Memutuskan' dan 'Menetapkan'
         diktum_raw = self._clean_text(df_p[df_p['unsur'] == "DIKTUM"]['text'])
         m_diktum = re.search(r"^(MEMUTUSKAN\s*:)\s*(MENETAPKAN\s*:)\s*(.*)", diktum_raw, re.IGNORECASE)
-        
-        diktum_data = {}
         if m_diktum:
-            diktum_data = {
-                "memutuskan": m_diktum.group(1).strip().upper(),
-                "menetapkan": {
-                    "label": "Menetapkan", # Menjadi Title Case
-                    "teks": m_diktum.group(3).strip()
-                }
-            }
-        else:
-            diktum_data = {"raw": diktum_raw}
-
-        return {"frasa_religius": self._clean_text(df_p[df_p['unsur'] == "FRASA RELIGIUS"]['text']),
-                "jabatan_pembentuk": self._clean_text(df_p[df_p['unsur'] == "PEMBENTUK PPU"]['text']),
-                "konsiderans": self._parse_rincian(kon_clean)["rincian"],
-                "dasar_hukum": self._parse_rincian(dh_clean)["rincian"], 
-                "diktum": diktum_data} # Objek terstruktur
+            diktum_data = {"memutuskan": m_diktum.group(1).upper().strip(), "menetapkan": {"label": "Menetapkan", "teks": m_diktum.group(3).strip()}}
+        else: diktum_data = {"raw": diktum_raw}
+        return {"frasa_religius": self._clean_text(df_p[df_p['unsur'] == "FRASA RELIGIUS"]['text']), "jabatan_pembentuk": self._clean_text(df_p[df_p['unsur'] == "PEMBENTUK PPU"]['text']), "konsiderans": self._parse_rincian(kon_clean)["rincian"], "dasar_hukum": self._parse_rincian(dh_clean)["rincian"], "diktum": diktum_data}
 
     def process_batang_tubuh(self):
+        """C. BATANG TUBUH: Penanganan Pasal Yatim (ROOT Bab)."""
         df_bt = self.df[self.df['sistematika'] == "BATANG TUBUH"]
         chapters = []
         curr_bab = curr_bagian = curr_paragraf = curr_pasal = None
@@ -139,30 +117,58 @@ class MasterAggregator:
                     if curr_paragraf: curr_paragraf['pasal'].append(curr_pasal)
                     elif curr_bagian: curr_bagian['pasal'].append(curr_pasal)
                     elif curr_bab: curr_bab['pasal'].append(curr_pasal)
+                    else:
+                        curr_bab = {"bab": "ROOT", "judul": "", "sections": [], "pasal": []}
+                        chapters.append(curr_bab); curr_bab['pasal'].append(curr_pasal)
                 else: curr_pasal['teks'] += " " + t
-        def finalize_pasal(p_list):
-            for p in p_list:
-                cleaned = re.sub(rf"^\s*Pasal\s+{p['nomor']}\s*", "", p['teks'], flags=re.IGNORECASE).strip()
-                p['teks'] = self._parse_ayat(cleaned); 
-                if 'nomor_raw' in p: del p['nomor_raw']
         for c in chapters:
             c['judul'] = re.sub(rf"^{c['bab']}\s*", "", self._clean_text([c['judul']]), flags=re.IGNORECASE).strip()
-            finalize_pasal(c['pasal'])
+            def proc(p_list):
+                for p in p_list:
+                    cl = re.sub(rf"^\s*Pasal\s+{p['nomor']}\s*", "", p['teks'], flags=re.IGNORECASE).strip()
+                    p['teks'] = self._parse_ayat(cl); 
+                    if 'nomor_raw' in p: del p['nomor_raw']
+            proc(c['pasal'])
             for s in c['sections']:
                 s['judul'] = re.sub(rf"^{s['bagian']}\s*", "", self._clean_text([s['judul']]), flags=re.IGNORECASE).strip()
-                finalize_pasal(s['pasal'])
+                proc(s['pasal'])
                 for pg in s['paragraphs']:
                     pg['judul'] = re.sub(rf"^{pg['paragraf']}\s*", "", self._clean_text([pg['judul']]), flags=re.IGNORECASE).strip()
-                    finalize_pasal(pg['pasal'])
+                    proc(pg['pasal'])
         return chapters
 
     def process_penutup(self):
+        """D. PENUTUP: Perbaikan regex untuk membersihkan tanda koma pada jabatan dan nama."""
         df_pen = self.df[self.df['sistematika'] == "PENUTUP"]
         full_text = self._clean_text(df_pen['text'])
+
+        # 1. Menangkap Perintah Pengundangan
         m_perintah = re.search(r"(Agar setiap orang mengetahuinya,.*?dalam Berita Daerah.*?\.)", full_text, re.IGNORECASE)
+        
+        # 2. Regex Pengesahan (Membersihkan koma di akhir jabatan/nama dengan meletakkan ,? di luar grup)
         m_sah = re.search(r"(?:Ditetapkan|Disahkan) di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s*,?\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)\s*,?\s*(?=\s+Diundangkan|$)", full_text, re.IGNORECASE)
+        
+        # 3. Regex Pengundangan (Membersihkan koma di akhir jabatan/nama)
         m_und = re.search(r"Diundangkan di\s+(.*?)\s+pada tanggal\s+(.*?)\s+([A-Z\s\.,]+?)\s*,?\s+(ttd\.|tanda tangan)\s+([A-Z\s\.,]+?)\s*,?\s*(?=\s+(?:Berita|Lembaran|TAMBAHAN|$))", full_text, re.IGNORECASE)
+        
+        # 4. Regex Publikasi
         m_pub = re.search(r"((?:Berita|Lembaran)\s+Daerah\s+[A-Za-z\s]+)\s+(Tahun\s+\d{4}\s+Nomor\s+[\d\w\s]+)", full_text, re.IGNORECASE)
-        return {"perintah_pengundangan": m_perintah.group(1).strip() if m_perintah else "NONE", "pengesahan": {"tempat": m_sah.group(1).strip() if m_sah else "NONE", "tanggal": m_sah.group(2).strip() if m_sah else "NONE", "nama_jabatan": m_sah.group(3).strip() if m_sah else "NONE", "nama_pejabat": m_sah.group(5).strip() if m_sah else "NONE"}, "pengundangan": {"tempat": m_und.group(1).strip() if m_und else "NONE", "tanggal": m_und.group(2).strip() if m_und else "NONE", "nama_jabatan": m_und.group(3).strip() if m_und else "NONE", "nama_pejabat": m_und.group(5).strip() if m_und else "NONE"}, "publikasi": [m_pub.group(1).strip(), m_pub.group(2).strip()] if m_pub else []}
+
+        return {
+            "perintah_pengundangan": m_perintah.group(1).strip() if m_perintah else "NONE",
+            "pengesahan": {
+                "tempat": m_sah.group(1).strip() if m_sah else "NONE",
+                "tanggal": m_sah.group(2).strip() if m_sah else "NONE",
+                "nama_jabatan": m_sah.group(3).strip() if m_sah else "NONE",
+                "nama_pejabat": m_sah.group(5).strip() if m_sah else "NONE"
+            },
+            "pengundangan": {
+                "tempat": m_und.group(1).strip() if m_und else "NONE",
+                "tanggal": m_und.group(2).strip() if m_und else "NONE",
+                "nama_jabatan": m_und.group(3).strip() if m_und else "NONE",
+                "nama_pejabat": m_und.group(5).strip() if m_und else "NONE"
+            },
+            "publikasi": [m_pub.group(1).strip(), m_pub.group(2).strip()] if m_pub else []
+        }
 
     def run_all(self): return {"A_JUDUL": self.process_judul(), "B_PEMBUKAAN": self.process_pembukaan(), "C_BATANG_TUBUH": self.process_batang_tubuh(), "D_PENUTUP": self.process_penutup()}

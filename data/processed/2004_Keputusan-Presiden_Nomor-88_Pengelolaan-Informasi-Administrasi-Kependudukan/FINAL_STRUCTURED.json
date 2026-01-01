@@ -1,0 +1,670 @@
+{
+    "A_JUDUL": {
+        "teks": [
+            "PRESIDEN", 
+            "REPUBLIK INDONESIA",
+            "KEPUTUSAN PRESIDEN REPUBLIK INDONESIA",
+            "NOMOR 88 TAHUN 2004", 
+            "TENTANG", 
+            "PENGELOLAAN INFORMASI ADMINISTRASI KEPEPENDUDUKAN",
+            "PRESIDEN REPUBLIK INDONESIA,"
+        ],
+        "metadata": {
+            "jenis": "KEPUTUSAN PRESIDEN",
+            "nomor": "88",
+            "tahun": "2004",
+            "tentang": "PENGELOLAAN INFORMASI ADMINISTRASI KEPEPENDUDUKAN PRESIDEN REPUBLIK INDONESIA,"
+        }
+    },
+    "B_PEMBUKAAN": {
+        "frasa_religius": "",
+        "jabatan_pembentuk": "",
+        "konsiderans": [
+            {
+                "nomor": "a",
+                "teks": "bahwa informasi administrasi kependudukan memiliki nilai strategis bagi penyelenggaraan pemerintahan, pembangunan dan pelayanan kepada masyarakat, sehingga perlu pengelolaan informasi administrasi kependudukan secara terkoordinasi dan berkesinambungan;"
+            },
+            {
+                "nomor": "b",
+                "teks": "bahwa untuk menjamin akuntabilitas pelayanan kepada masyarakat di bidang kependudukan, perlu menetapkan kebijakan dan sistem informasi administrasi kependudukan secara nasional;"
+            },
+            {
+                "nomor": "c",
+                "teks": "bahwa berdasarkan pertimbangan tersebut pada huruf a dan b di atas perlu menetapkan Keputusan Presiden tentang pengelolaan informasi administrasi kependudukan;"
+            }
+        ],
+        "dasar_hukum": [
+            {
+                "nomor": "1",
+                "teks": "Pasal 4 ayat(1) Undang-Undang Dasar 1945;"
+            },
+            {
+                "nomor": "2",
+                "teks": "Undang-undang Nomor 22 Tahun 1999 tentang Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 1999 Nomor 60, Tambahan Lembaran Negara Nomor3839);"
+            },
+            {
+                "nomor": "3",
+                "teks": "Undang-undang Nomor 25 Tahun 2000 tentang Program Pembangunan Nasional (Propenas) Tahun 2000-2004 (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 206);"
+            },
+            {
+                "nomor": "4",
+                "teks": "Peraturan Pemerintah Nomor 25 Tahun 2000 tentang Kewenangan Pemerintah dan Kewenangan Provinsi Sebagai Daerah Otonom (Lembaran Negara Republik Indonesia Tahun 2000 Nomor 54,Tambahan Lembaran Negara Nomor 3952);"
+            },
+            {
+                "nomor": "5",
+                "teks": "Peraturan Pemerintah Nomor 20 Tahun 2001 tentang Pembinaan dan Pengawasan Atas Penyelenggaraan Pemerintahan Daerah (Lembaran Negara Republik Indonesia Tahun 2001 Nomor 4, Tambahan Lembaran Negara Nomor 4090);"
+            }
+        ],
+        "diktum": {
+            "memutuskan": "MEMUTUSKAN:",
+            "menetapkan": {
+                "label": "Menetapkan",
+                "teks": "KEPUTUSAN PRESIDEN REPUBLIK INDONESIA TENTANG PENGELOLAAN INFORMASI ADMINISTRASI KEPENDUDUKAN."
+            }
+        }
+    },
+    "C_BATANG_TUBUH": [
+        {
+            "bab": "ROOT",
+            "judul": "",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "1",
+                    "teks": {
+                        "teks_pembuka": "Dalam Keputusan ini yang dimaksud dengan:",
+                        "rincian": [
+                            {
+                                "nomor": "1",
+                                "teks": "Administrasi Kependudukan adalah rangkaian kegiatan penataan dan penertiban dalam penerbitan dokumen dan data kependudukan melalui pendaftaran penduduk, pencatatan sipil dan pengelolaan informasi serta pendayagunaan hasilnya untuk pelayanan publik dan pembangunan."
+                            },
+                            {
+                                "nomor": "2",
+                                "teks": "Pengelolaan informasi administrasi kependudukan adalah pengumpulan, perekaman, pengolahan dan pemutakhiran data hasil pendaftaran penduduk dan pencatatan sipil untuk penerbitan dokumen penduduk, pertukaran data penduduk dalam rangka menunjang pelayanan publik, serta penyajian informasi kependudukan guna perumusan kebijakan dan pembangunan."
+                            },
+                            {
+                                "nomor": "3",
+                                "teks": "Sistem Informasi Administrasi Kependudukan yang selanjutnya disingkat SIAK adalah sistem informasi nasional yang memanfaatkan teknologi informasi dan komunikasi untuk memfasilitasi pengelolaan informasi administrasi kependudukan di setiap tingkatan wilayah administrasi pemerintahan."
+                            },
+                            {
+                                "nomor": "4",
+                                "teks": "Tempat perekaman data kependudukan yang selanjutnya disingkat TPDK adalah fasilitas yang dibangun di kabupaten/kota, kecamatan atau kelurahan untuk melakukan perekaman, pengolahan dan pemutakhiran data hasil pendaftaran penduduk dan pencatatan sipil untuk penerbitan dokumen penduduk, serta penyajian informasi kependudukan."
+                            },
+                            {
+                                "nomor": "5",
+                                "teks": "Dokumen Penduduk adalah keterangan tertulis yang diterbitkan oleh Pemerintah Daerah yang mempunyai kekuatan hukum yang dihasilkan dari pelayanan pendaftaran penduduk dan pencatatansipil."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "2",
+                    "teks": {
+                        "teks_pembuka": "Kebijakan pengelolaan informasi administrasi kependudukan diarahkan untuk terwujudnya:",
+                        "rincian": [
+                            {
+                                "nomor": "a",
+                                "teks": "peningkatan kualitas pelayanan pendaftaran penduduk dan pencatatan sipil;"
+                            },
+                            {
+                                "nomor": "b",
+                                "teks": "penyediaan data untuk perencanaan pembangunan dan pemerintahan; dan"
+                            },
+                            {
+                                "nomor": "c",
+                                "teks": "penyelenggaraan pertukaran data secara tersistem dalam rangka verifikasi data individu dalam pelayanan publik."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "3",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Pengelolaan informasi administrasi kependudukan dilakukan dengan menggunakan SIAK."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "4",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "SIAK sebagaimana dimaksud dalam Pasal 3, dilaksanakan secara tersambung dan tak tersambung."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "SIAK tersambung sebagaimana dimaksud pada ayat (1), dilaksanakan di daerah yang telah tersedia fasilitas listrik, sarana komputer dan jaringan komunikasi data."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": {
+                                    "teks_pembuka": "SIAK tak tersambung sebagaimana dimaksud pada ayat (1), dilaksanakan pada daerah-daerah:",
+                                    "rincian": [
+                                        {
+                                            "nomor": "a",
+                                            "teks": "Kabupaten yang sebagian atau seluruh kecamatannya tidak tersedia jaringan komunikasi data; dan"
+                                        },
+                                        {
+                                            "nomor": "b",
+                                            "teks": "Kabupaten yang tidak tersedia jaringan komunikasi data."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "5",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Perekaman dan pengiriman data serta pencetakan dokumen penduduk di daerah sebagaimana dimaksud dalam Pasal 4 ayat (2), dilakukan secara langsung di tempat perekaman data kependudukan di Kabupaten/Kota dan Kecamatan atau Kelurahansetempat."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Di daerah sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf a, perekaman data dilakukan di TPDK Kecamatan, pengiriman data dilakukan dengan media penyimpan data elektronik dan pencetakan dokumen penduduk dilakukan di TPDKKabupaten."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Di daerah sebagaimana dimaksud dalam Pasal 4 ayat (3) huruf b, perekaman data dilakukan di TPDK Kabupaten, pengiriman data dilakukan dengan media penyimpan data elektronik dan pencetakan dokumen penduduk dilakukan di unit kerja Pemerintah provinsi yang bersangkutan."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "6",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Penyelenggaraan SIAK menggunakan kodifikasi wilayah administrasi pemerintahan, perangkat lunak, perangkat keras, formulir dan blangko dokumen penduduk yang dibakukan secara nasional yang pelaksanaannya diatur dengan Keputusan Menteri DalamNegeri."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "7",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Pengelolaan informasi administrasi kependudukan diselenggarakan oleh Menteri Dalam Negeri, Gubernur, Bupati dan Walikota, bekerja sama dengan Menteri/Kepala Lembaga Pemerintah Non Departemen terkait."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "8",
+                    "teks": {
+                        "teks_pembuka": "Menteri Dalam Negeri bertanggungjawab untuk melakukan:",
+                        "rincian": [
+                            {
+                                "nomor": "a",
+                                "teks": "pembangunan dan pengembangan jaringan komunikasi data;"
+                            },
+                            {
+                                "nomor": "b",
+                                "teks": "pembangunan dan pengembangan perangkat lunak;"
+                            },
+                            {
+                                "nomor": "c",
+                                "teks": "pembangunan Bank Data Kependudukan Nasional;"
+                            },
+                            {
+                                "nomor": "d",
+                                "teks": "penyajian dan pendayagunaan informasi penduduk tingkat nasional; dan"
+                            },
+                            {
+                                "nomor": "e",
+                                "teks": "penetapan standar penyelenggaraan SIAK."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "9",
+                    "teks": {
+                        "teks_pembuka": "Gubernur bertanggung jawab untuk melakukan:",
+                        "rincian": [
+                            {
+                                "nomor": "a",
+                                "teks": "penyediaan perangkat dan sarana jaringan komunikasi data di provinsi;"
+                            },
+                            {
+                                "nomor": "b",
+                                "teks": "penyediaan biaya komunikasi data;"
+                            },
+                            {
+                                "nomor": "c",
+                                "teks": "penyediaan sumber daya manusia pengelola SIAK;"
+                            },
+                            {
+                                "nomor": "d",
+                                "teks": "penyajian dan pendayagunaan informasi penduduk tingkat provinsi;dan"
+                            },
+                            {
+                                "nomor": "e",
+                                "teks": "pembinaan SIAK di wilayah provinsi."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "10",
+                    "teks": {
+                        "teks_pembuka": "Bupati dan Walikota bertanggungjawab untuk melakukan:",
+                        "rincian": [
+                            {
+                                "nomor": "a",
+                                "teks": "penyediaan perangkat keras dan perlengkapan lainnya sampai dengan tingkat kecamatanataukelurahansebagaitempatpelayanandokumenpenduduk;"
+                            },
+                            {
+                                "nomor": "b",
+                                "teks": "pembangunan tempat perekaman data di kabupaten/kota, kecamatan atau kelurahan;"
+                            },
+                            {
+                                "nomor": "c",
+                                "teks": "perekaman data hasil pelayanan pendaftaran penduduk dan pencatatan sipil;"
+                            },
+                            {
+                                "nomor": "d",
+                                "teks": "penerbitan dokumen hasil pendaftaran penduduk dan pencatatan sipil sesuai dengan kewenangannya;"
+                            },
+                            {
+                                "nomor": "e",
+                                "teks": "penyediaan biaya komunikasidata;"
+                            },
+                            {
+                                "nomor": "f",
+                                "teks": "penyediaan sumber daya manusiapengelolainformasi;"
+                            },
+                            {
+                                "nomor": "g",
+                                "teks": "penyajian dan pendayagunaan informasi penduduk tingkat kabupaten dan kota;"
+                            },
+                            {
+                                "nomor": "h",
+                                "teks": "pengaturan penugasan lebih lanjut kepada Camat, Lurah dan Kepala Desa dalam pengelolaan informasi administrasi kependudukan;"
+                            },
+                            {
+                                "nomor": "i",
+                                "teks": "pembinaan kelembagaan dan sumber daya manusia dalam penyelenggaraan SIAK di wilayah Kabupaten/Kota;dan"
+                            },
+                            {
+                                "nomor": "j",
+                                "teks": "penyebarluasan informasi dan edukasi kepada masyarakat di wilayah kabupaten/kota guna menjamin ketersediaan data yang akan dikelola."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "11",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Ketentuan pengelolaan informasi administrasi kependudukan sebagaimana dimaksud dalam Pasal 10 bagi Provinsi Daerah Khusus Ibukota Jakarta dilaksanakan oleh Gubernur."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "12",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "Informasi Administrasi Kependudukan dituangkan dalam bentuk:",
+                                    "rincian": [
+                                        {
+                                            "nomor": "a",
+                                            "teks": "laporan-laporan;"
+                                        },
+                                        {
+                                            "nomor": "b",
+                                            "teks": "angka, tabel, gambar dan grafik peristiwa kependudukan;dan"
+                                        },
+                                        {
+                                            "nomor": "c",
+                                            "teks": "angka,tabel,gambar dan grafik peristiwa penting."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Penuangan Informasi Administrasi Kependudukan ke dalam bentuk-bentuk sebagaimana dimaksud pada ayat (1) huruf a, b, dan c diatur lebih lanjut dengan Keputusan Menteri Dalam Negeri."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "13",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Lurah dan Kepala Desa menyusun laporan sebagaimana dimaksud dalam Pasal 12 ayat (1) huruf a dan menyampaikan hasilnya kepada Camat secara reguler."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Camat menghimpun laporan sebagaimana dimaksud dalam Pasal 12 ayat (1) huruf a yang disampaikan oleh Lurah dan Kepala Desa dan membuat rekapitulasi laporan yang selanjutnya disampaikan kepada Bupati/Walikota secarareguler."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Bupati dan Walikota menghimpun laporan sebagaimana dimaksud dalam Pasal 12 ayat (1) huruf a yang disampaikan oleh para Camat di daerahnya dan membuat rekapitulasi laporan yang selanjutnya disampaikan kepada Gubernur secara reguler."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "4",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Gubernur menghimpun laporan sebagaimana dimaksud dalam Pasal 12 ayat (1) huruf a yang disampaikan oleh para Bupati dan Walikota di daerahnya dan membuat rekapitulasi laporan yang selanjutnya disampaikan kepada Menteri Dalam Negeri secarareguler."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "5",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Menteri Dalam Negeri menghimpun laporan sebagaimana dimaksud dalam Pasal 12 ayat (1) huruf a yang disampaikan oleh para Gubernur dari seluruh Provinsi di Indonesia dan membuat rekapitulasi laporan disertai analisis kuantitatif dan kualitatif yang selanjutnya disampaikan kepada Presiden secara reguler."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "14",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Gubernur, Bupati, Walikota dan Instansi Pemerintah lain terkait dapat mendayagunakan informasi administrasi kependudukan sebagaimana dimaksud dalam Pasal 12 untuk perencanaan pembangunan, pengkajian perkembangan kependudukan, penyusunan proyeksi penduduk, serta penyerasian kebijakan pembangunan dan pemerintahan."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Masyarakat dapat mendayagunakan informasi administrasi kependudukan sebagaimana dimaksud dalam Pasal 12 untuk kepentingan umum."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pedoman pengaturan pendayagunaan informasi administrasi kependudukan oleh masyarakat sebagaimana dimaksud pada ayat (2) diatur dengan Keputusan Menteri Dalam Negeri."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "15",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Masyarakat dapat berperanserta dalam kegiatan penyebarluasan informasi dan edukasi serta penyediaan sarana guna mendukung pemerintah dalam pengelolaan informasi administrasi kependudukan."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pedoman pengaturan peranserta masyarakat sebagaimana dimaksud pada ayat (1) diatur dengan Keputusan Menteri Dalam Negeri."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "16",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Menteri Dalam Negeri melakukan pembinaan, pengawasan dan pengendalian terhadap pengelolaan informasi administrasi kependudukan secara nasional."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "17",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pembiayaan pengelolaan informasi administrasi kependudukan secara nasional dibebankan pada Anggaran Pendapatandan Belanja Negara."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pembiayaan pengelolaan infomasi administrasi kependudukan di provinsi dibebankan pada Anggaran Pendapatan dan Belanja Daerah."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "3",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pembiayaan pengelolaan informasi administrasi kependudukan di kabupaten dan kota dibebankan pada Anggaran Pendapatan dan Belanja Daerah."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "18",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "ayat": [
+                            {
+                                "ayat": "1",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Pelaksanaan pengelolaan informasi administrasi kependudukan dengan menggunakan SIAK dilaksanakan secara bertahap sesuai dengan kondisi dan kemampuan daerah."
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "ayat": "2",
+                                "teks": {
+                                    "teks_pembuka": "",
+                                    "rincian": [
+                                        {
+                                            "nomor": "",
+                                            "teks": "Kabupaten dan kota yang telah menggunakan sistem informasi pendaftaran penduduk dan pencatatan sipil yang berbeda dengan SIAK agar menyesuaikan paling lambat dua tahun sejak ditetapkan Keputusan ini."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "19",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Keputusan Presiden ini mulai berlaku pada tanggal diundangkan."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "D_PENUTUP": {
+        "perintah_pengundangan": "NONE",
+        "pengesahan": {
+            "tempat": "Jakarta",
+            "tanggal": "6 Oktober 2004",
+            "nama_jabatan": "PRESIDEN REPUBLIK INDONESIA",
+            "nama_pejabat": "MEGAWATI SOEKARNO PUTRI"
+        },
+        "pengundangan": {
+            "tempat": "Jakarta",
+            "tanggal": "6 Oktober 2004",
+            "nama_jabatan": "SEKRETARIS NEGARA REPUBLIK INDONESIA",
+            "nama_pejabat": "BAMBANG KESOWO"
+        },
+        "publikasi": [
+            "LEMBARAN NEGARA REPUBLIK INDONESIA",
+            "TAHUN 2004 NOMOR 119"
+        ]
+    }
+}

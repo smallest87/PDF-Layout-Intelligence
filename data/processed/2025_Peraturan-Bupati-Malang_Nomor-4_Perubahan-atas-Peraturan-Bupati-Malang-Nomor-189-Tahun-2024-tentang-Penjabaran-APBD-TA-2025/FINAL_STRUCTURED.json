@@ -196,7 +196,107 @@
             }
         }
     },
-    "C_BATANG_TUBUH": [],
+    "C_BATANG_TUBUH": [
+        {
+            "bab": "ROOT",
+            "judul": "",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "1",
+                    "teks": {
+                        "teks_pembuka": "Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2025 semula sebesar Rp5.021.475.137.837,00 (lima triliun dua puluh satu miliar empat ratus tujuh puluh lima juta seratus tiga puluh tujuh ribu delapan ratus tiga puluh tujuh rupiah) berkurang sebesar Rp33.078.951.000,00 (tiga puluh tiga miliar tujuh puluh delapan juta sembilan ratus lima puluh satu ribu rupiah), sehingga menjadi Rp4.988.396.186.837,00 (empat triliun sembilan ratus delapan puluh delapan miliar tiga ratus sembilan puluh enam juta seratus delapan puluh enam ribu delapan ratus tiga puluh tujuh rupiah), dengan rincian sebagai berikut:",
+                        "rincian": [
+                            {
+                                "nomor": "a",
+                                "teks": "Pendapatan Daerah:"
+                            },
+                            {
+                                "nomor": "1",
+                                "teks": "Semula Rp 4.861.511.340.737,00"
+                            },
+                            {
+                                "nomor": "2",
+                                "teks": "Berkurang Rp (33.078.951.000,00) Jumlah Pendapatan Daerah setelah Perubahan Rp 4.828.432.389.737,00"
+                            },
+                            {
+                                "nomor": "b",
+                                "teks": "Belanja Daerah:"
+                            },
+                            {
+                                "nomor": "1",
+                                "teks": "Semula Rp 5.021.475.137.837,00"
+                            },
+                            {
+                                "nomor": "2",
+                                "teks": "Berkurang Rp (33.078.951.000,00) Jumlah Belanja Daerah setelah Perubahan Rp 4.988.396.186.837,00 Defisit setelah Perubahan Rp 159.963.797.100,00"
+                            },
+                            {
+                                "nomor": "c",
+                                "teks": "Pembiayaan Daerah:"
+                            },
+                            {
+                                "nomor": "1",
+                                "teks": "Penerimaan Pembiayaan Daerah: a) Semula Rp 169.963.797.100,00 b) Bertambah/(Berkurang) Rp 0,00 Jumlah Penerimaan Pembiayaan Daerah setelah Perubahan Rp 169.963.797.100,00"
+                            },
+                            {
+                                "nomor": "2",
+                                "teks": "Pengeluaran Pembiayaan Daerah: a) Semula Rp 10.000.000.000,00 b) Bertambah/(Berkurang) Rp 0,00 Jumlah Pengeluaran Pembiayaan Daerah setelah Perubahan Rp 10.000.000.000,00 Jumlah Pembiayaan Neto setelah Perubahan Rp 159.963.797.100,00 Sisa Lebih Pembiayaan Anggaran setelah Perubahan Rp 0,00"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "2",
+                    "teks": {
+                        "teks_pembuka": "Uraian lebih lanjut Perubahan Penjabaran Anggaran Pendapatan dan Belanja Daerah Tahun Anggaran 2025 sebagaimana dimaksud dalam Pasal 1, tercantum dalam Lampiran yang merupakan bagian tidak terpisahkan dari Peraturan Bupati ini, terdiri dari:",
+                        "rincian": [
+                            {
+                                "nomor": "a",
+                                "teks": "Lampiran I Ringkasan Perubahan Penjabaran Anggaran Pendapatan dan Belanja Daerah yang Diklasifikasi Menurut Kelompok, Jenis, Objek, dan Rincian Objek, dan Sub Rincian Objek Pendapatan, Belanja, dan Pembiayaan;"
+                            },
+                            {
+                                "nomor": "b",
+                                "teks": "Lampiran II Perubahan Penjabaran Anggaran Pendapatan dan Belanja Daerah Menurut Urusan Pemerintahan Daerah, Organisasi, Program, Kegiatan, Sub Kegiatan, Kelompok, Jenis, Objek, dan Rincian Objek, dan Sub Rincian Objek Pendapatan, Belanja, dan Pembiayaan;"
+                            },
+                            {
+                                "nomor": "c",
+                                "teks": "Lampiran III Daftar Nama Penerima, Alamat Penerima dan Besaran Hibah; dan"
+                            },
+                            {
+                                "nomor": "d",
+                                "teks": "Lampiran IV Daftar Nama Penerima, Alamat Penerima dan Besaran Bantuan Sosial."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "3",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Pelaksanaan Perubahan Penjabaran Anggaran Pendapatan dan Belanja Daerah yang ditetapkan dalam Peraturan Bupati ini dituangkan lebih lanjut dalam Perubahan Dokumen Pelaksanaan Anggaran Satuan Kerja Perangkat Daerah sesuai dengan ketentuan peraturan perundang-undangan."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "4",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Peraturan Bupati ini mulai berlaku pada tanggal diundangkan."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
     "D_PENUTUP": {
         "perintah_pengundangan": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Bupati ini dengan penempatannya dalam Berita Daerah Kabupaten Malang.",
         "pengesahan": {

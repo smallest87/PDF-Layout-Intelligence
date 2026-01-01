@@ -88,7 +88,51 @@
             }
         }
     },
-    "C_BATANG_TUBUH": [],
+    "C_BATANG_TUBUH": [
+        {
+            "bab": "ROOT",
+            "judul": "",
+            "sections": [],
+            "pasal": [
+                {
+                    "nomor": "1",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Peraturan Bupati Malang Nomor 8 Tahun 2017 tentang Pembentukan Unit Pelaksana Teknis Taman Wisata Air Wendit pada Dinas Pariwisata dan Kebudayaan (Berita Daerah Kabupaten Malang Tahun 2017 Nomor 8 Seri C), sebagaimana telah diubah dengan Peraturan Bupati Malang Nomor 196 Tahun 2019 tentang Perubahan atas Peraturan Bupati Malang Nomor 8 Tahun 2017 tentang Pembentukan Unit Pelaksana Teknis Taman Wisata Air Wendit pada Dinas Pariwisata dan Kebudayaan (Berita Daerah Kabupaten Malang Tahun 2019 Nomor 8 Seri C), dicabut dan dinyatakan tidak berlaku."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "2",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Segala hal yang menyangkut kepegawaian dilakukan penataan kembali sesuai ketentuan peraturan perundang-undangan."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "nomor": "3",
+                    "teks": {
+                        "teks_pembuka": "",
+                        "rincian": [
+                            {
+                                "nomor": "",
+                                "teks": "Peraturan Bupati ini mulai berlaku pada tanggal diundangkan."
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
     "D_PENUTUP": {
         "perintah_pengundangan": "Agar setiap orang mengetahuinya, memerintahkan pengundangan Peraturan Bupati ini dengan penempatannya dalam Berita Daerah Kabupaten Malang.",
         "pengesahan": {
