@@ -573,3 +573,9 @@
 2026-01-01 22:12:11,414 - INFO - === Sesi Aplikasi Dimulai ===
 2026-01-01 22:12:17,831 - INFO - Proses interaktif dimulai: 2023_Undang-Undang_Nomor-1_Kitab-Undang-Undang-Hukum-Pidana.pdf
 2026-01-01 22:13:24,150 - INFO - Selesai: SUCCESS (Hanya CSV)
+2026-01-02 15:30:59,947 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-02 15:30:59,947 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-02 15:31:09,311 - INFO - JSON diperbarui untuk: 2023_Undang-Undang_Nomor-1_Kitab-Undang-Undang-Hukum-Pidana
+2026-01-02 15:31:10,964 - INFO - Sistem Logging Berhasil Diaktifkan.
+2026-01-02 15:31:10,964 - INFO - === Sesi Aplikasi Dimulai ===
+2026-01-02 15:31:16,990 - INFO - HTML Berhasil dibuat: data/processed\2023_Undang-Undang_Nomor-1_Kitab-Undang-Undang-Hukum-Pidana\READABLE_VIEW.html
