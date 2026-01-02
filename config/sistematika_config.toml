@@ -1,0 +1,39 @@
+[rules]
+pemicu_pembentuk_ppu = ["BUPATI", "WALIKOTA", "GUBERNUR", "PRESIDEN", "MENTERI", "KEPALA"]
+
+[sistematika]
+opening_trigger_PEMBUKAAN = "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+closing_trigger_PEMBUKAAN = "MENETAPKAN:"
+closing_trigger_BATANG_TUBUH = "^(UNDANG-UNDANG|PERATURAN|KEPUTUSAN) INI MULAI BERLAKU"
+opening_trigger_PENUTUP = "AGAR SETIAP ORANG MENGETAHUINYA"
+
+[unsur_judul]
+sifat_berkas = "^SALINAN"
+jabatan_pembentuk = ["PRESIDEN", "BUPATI", "GUBERNUR", "WALIKOTA", "MENTERI"]
+yurisdiksi = "^(REPUBLIK INDONESIA|PROVINSI|KABUPATEN|KOTA)"
+jenis_peraturan = "^(UNDANG-UNDANG|PERATURAN|KEPUTUSAN|INSTRUKSI)"
+nomor_tahun = "^NOMOR\\s+.*\\s+TAHUN\\s+\\d+"
+kata_penghubung = "^TENTANG$"
+
+[unsur_pembukaan]
+pola_konsiderans = ["MENIMBANG :", "MENIMBANG:"]
+pola_dasar_hukum = ["MENGINGAT :", "MENGINGAT:"]
+pola_pra_diktum = "Dengan Persetujuan Bersama"
+pola_diktum_memutuskan = "MEMUTUSKAN:"
+pola_diktum_menetapkan = "MENETAPKAN:"
+
+[unsur_batang_tubuh]
+# Hirarki Header (Pemicu Transisi & Identitas Baris)
+buku = "^BUKU\\s+(KESATU|KEDUA|KETIGA|KEEMPAT|KELIMA|KEENAM|KETUJUH|KEDELAPAN|KESEMBILAN|KESEPULUH)$"
+bab = "^BAB\\s+[IVXLCDM]+$"
+bagian = "^BAGIAN\\s+KE[A-Z]+$"
+paragraf = "^PARAGRAF\\s+\\d+$"
+pasal = "^PASAL\\s+\\d+$"
+
+# Hirarki Isi (Sub-Pasal) - Standar UU 12/2011
+ayat = "^\\(\\d+\\)"
+rincian_huruf = "^[a-z]\\."
+rincian_angka = "^\\d+\\."
+
+# Urutan prioritas untuk memulai BATANG TUBUH
+bt_priority = ["buku", "bab", "bagian", "pasal"]

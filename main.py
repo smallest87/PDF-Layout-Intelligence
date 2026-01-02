@@ -26,7 +26,7 @@ def list_folders_with_file(base_dir, filename):
             and os.path.isfile(os.path.join(base_dir, d, filename))]
 
 def select_from_list(items, title):
-    """Helper interaktif untuk memilih item dari daftar pilihan di terminal."""
+    """Helper interaktif untuk memilih item dari daftar di terminal."""
     if not items:
         logging.warning(f"Gagal: Tidak ada data tersedia untuk {title}.")
         return None
@@ -46,7 +46,7 @@ def select_from_list(items, title):
         print(f"[!] Masukkan angka valid 1-{len(items)}.")
 
 def display_hierarchy(target_folder):
-    """Menampilkan hirarki dokumen (BAB s/d PASAL) langsung di Terminal."""
+    """Menampilkan hirarki dokumen (BAB s/d PASAL) di Terminal."""
     json_path = os.path.join("data/processed", target_folder, "FINAL_STRUCTURED.json")
     if not os.path.exists(json_path):
         logging.error(f"File JSON tidak ditemukan di: {json_path}")
@@ -64,14 +64,10 @@ def display_hierarchy(target_folder):
             print(f"  ├── {sec['bagian']}: {sec['judul']}")
             for p in sec.get("pasal", []): 
                 print(f"  │   └── PASAL {p['nomor']}")
-            for para in sec.get("paragraphs", []):
-                print(f"  │   ├── {para['paragraf']}: {para['judul']}")
-                for p in para.get("pasal", []): 
-                    print(f"  │   │   └── PASAL {p['nomor']}")
     print(f"{'='*60}\n")
 
 def export_to_html(target_folder):
-    """Mengonversi file JSON menjadi tampilan HTML yang mudah dibaca."""
+    """Mengonversi file JSON menjadi tampilan HTML (READABLE_VIEW.html)."""
     json_path = os.path.join("data/processed", target_folder, "FINAL_STRUCTURED.json")
     if not os.path.exists(json_path):
         logging.error(f"Gagal ekspor: File JSON tidak ditemukan di {target_folder}.")
@@ -80,6 +76,7 @@ def export_to_html(target_folder):
     with open(json_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
+    # CSS URL diarahkan ke folder terpisah jika diperlukan
     converter = JSONToHTML(data)
     html_content = converter.convert()
     
@@ -92,36 +89,35 @@ def export_to_html(target_folder):
 # --- LOGIKA INTI PEMROSESAN ---
 
 def process_single_pdf(file_name, settings, csv_cfg):
-    """Alur eksekusi dari PDF hingga JSON (jika auto_json aktif)."""
+    """Alur eksekusi dari PDF hingga Master CSV."""
     target_dir = os.path.join("data/processed", file_name.replace('.pdf', ''))
     os.makedirs(target_dir, exist_ok=True)
 
-    # 1. Ekstraksi & Klasifikasi Layout
+    # 1. Ekstraksi & Feature Engineering
     extractor = PDFExtractor(os.path.join("data/raw", file_name), settings['page_range'])
     raw_data = extractor.extract_raw_data()
     processed_features = FeatureProcessor(raw_data).process_features()
+    
+    # 2. Klasifikasi Otomatis (Default)
     df_master = LayoutClassifier(processed_features, settings['thresholds']).apply_sistematika()
     
-    # 2. Simpan Master CSV dengan Delimiter/Desimal Kustom
+    # 3. Simpan Master CSV
     master_path = os.path.join(target_dir, "0. MASTER.csv")
     df_master.to_csv(master_path, index=False, quoting=csv.QUOTE_ALL, 
                      sep=csv_cfg['sep'], decimal=csv_cfg['dec'])
     
-    # 3. Agregasi Otomatis (Jika dikonfigurasi aktif)
+    # 4. Agregasi Otomatis (Jika aktif di config)
     if settings.get('auto_generate_json', True):
-        validator = MasterValidator(df_master)
-        if validator.run_validation():
-            aggregator = MasterAggregator(df_master)
-            save_final_json(aggregator.run_all(), os.path.join(target_dir, "FINAL_STRUCTURED.json"))
-            return True, "SUCCESS (CSV & JSON)"
-        return True, "WARNING (JSON dibuat dengan anomali validasi)"
+        aggregator = MasterAggregator(df_master)
+        save_final_json(aggregator.run_all(), os.path.join(target_dir, "FINAL_STRUCTURED.json"))
+        return True, "SUCCESS (CSV & JSON)"
     
     return True, "SUCCESS (Hanya CSV)"
 
 # --- MAIN PIPELINE ---
 
 def run_pipeline():
-    # Inisialisasi Konfigurasi & Logging
+    """Menu Utama Aplikasi dengan fitur pengisian kolom terpisah."""
     cfg = load_config()
     setup_logging(cfg)
     
@@ -130,78 +126,69 @@ def run_pipeline():
         'sep': s.get('csv_delimiter', ','), 
         'dec': s.get('csv_decimal', '.')
     }
-    auto_json = s.get('auto_generate_json', True)
 
     logging.info("=== Sesi Aplikasi Dimulai ===")
     print("\n" + "="*45)
     print("      LEGAL DOCUMENT MANAGEMENT SYSTEM      ")
     print("="*45)
-    print(" 1. Proses Satu PDF (Interaktif)")
-    print(" 2. Re-proses Master CSV -> JSON (Finetuning)")
+    print(" 1. Proses Satu PDF (Full Pipeline)")
+    print(" 2. Re-proses Master CSV -> JSON (Agregasi)")
     print(" 3. Lihat Hirarki JSON (Terminal Viewer)")
     print(" 4. BATCH PROCESS: Semua PDF di Folder Raw")
     print(" 5. Export JSON ke HTML (Readable View)")
-    print("="*45)
-    print(f" *Format CSV: Delim '{csv_cfg['sep']}' | Dec '{csv_cfg['dec']}'")
-    print(f" *Auto-JSON : {'AKTIF' if auto_json else 'NON-AKTIF'}")
+    print(" 6. UPDATE KOLOM SISTEMATIKA (Tahap 1 PEMBUKAAN)")
+    print(" 7. UPDATE KOLOM UNSUR (Mapping Unsur)")
     print("="*45)
     
-    mode = input("Pilih mode (1/2/3/4/5): ").strip()
+    mode = input("Pilih mode (1-7): ").strip()
 
     if mode == "1":
         raw_files = [f for f in os.listdir("data/raw") if f.endswith('.pdf')]
         selected_file = select_from_list(raw_files, "File Raw (PDF)")
         if selected_file:
-            logging.info(f"Proses interaktif dimulai: {selected_file}")
-            _, msg = process_single_pdf(selected_file, s, csv_cfg)
-            logging.info(f"Selesai: {msg}")
+            process_single_pdf(selected_file, s, csv_cfg)
 
     elif mode == "2":
         selected_folder = select_from_list(list_folders_with_file("data/processed", "0. MASTER.csv"), "Folder Master CSV")
         if selected_folder:
             target_dir = os.path.join("data/processed", selected_folder)
-            df_master = pd.read_csv(os.path.join(target_dir, "0. MASTER.csv"), 
-                                    sep=csv_cfg['sep'], decimal=csv_cfg['dec'])
-            
-            validator = MasterValidator(df_master)
-            if validator.run_validation() or input("[?] Lanjut proses JSON? (y/n): ").lower() == 'y':
-                aggregator = MasterAggregator(df_master)
-                save_final_json(aggregator.run_all(), os.path.join(target_dir, "FINAL_STRUCTURED.json"))
-                logging.info(f"JSON diperbarui untuk: {selected_folder}")
+            df_master = pd.read_csv(os.path.join(target_dir, "0. MASTER.csv"), sep=csv_cfg['sep'], decimal=csv_cfg['dec'])
+            aggregator = MasterAggregator(df_master)
+            save_final_json(aggregator.run_all(), os.path.join(target_dir, "FINAL_STRUCTURED.json"))
+            logging.info(f"JSON diperbarui untuk: {selected_folder}")
 
     elif mode == "3":
         selected_folder = select_from_list(list_folders_with_file("data/processed", "FINAL_STRUCTURED.json"), "Folder JSON")
-        if selected_folder:
-            display_hierarchy(selected_folder)
+        if selected_folder: display_hierarchy(selected_folder)
 
     elif mode == "4":
         raw_files = [f for f in os.listdir("data/raw") if f.endswith('.pdf')]
-        if not raw_files:
-            logging.warning("Folder 'data/raw' kosong.")
-            return
-
-        logging.info(f"Batch Processing dimulai untuk {len(raw_files)} file.")
-        stats = {"success": 0, "failed": 0}
-
         for f in raw_files:
-            try:
-                logging.info(f"Memproses: {f}...")
-                success, msg = process_single_pdf(f, s, csv_cfg)
-                if success: stats["success"] += 1
-                logging.info(f"Status {f}: {msg}")
-            except Exception as e:
-                stats["failed"] += 1
-                logging.error(f"Gagal memproses {f}: {str(e)}")
-
-        logging.info(f"Batch Selesai. Sukses: {stats['success']}, Gagal: {stats['failed']}")
+            process_single_pdf(f, s, csv_cfg)
 
     elif mode == "5":
         selected_folder = select_from_list(list_folders_with_file("data/processed", "FINAL_STRUCTURED.json"), "Folder JSON")
-        if selected_folder:
-            export_to_html(selected_folder)
+        if selected_folder: export_to_html(selected_folder)
 
-    else:
-        logging.warning("Mode tidak valid.")
+    elif mode == "6":
+        # Fitur Baru: Hanya update Sistematika
+        selected_folder = select_from_list(list_folders_with_file("data/processed", "0. MASTER.csv"), "Folder Master CSV")
+        if selected_folder:
+            target_dir = os.path.join("data/processed", selected_folder)
+            df = pd.read_csv(os.path.join(target_dir, "0. MASTER.csv"), sep=csv_cfg['sep'], decimal=csv_cfg['dec'])
+            df = LayoutClassifier(df, s['thresholds']).classify_sistematika()
+            df.to_csv(os.path.join(target_dir, "0. MASTER.csv"), index=False, quoting=csv.QUOTE_ALL, sep=csv_cfg['sep'], decimal=csv_cfg['dec'])
+            logging.info(f"Kolom Sistematika diperbarui (Tahap 1) di: {selected_folder}")
+
+    elif mode == "7":
+        # Fitur Baru: Hanya update Unsur
+        selected_folder = select_from_list(list_folders_with_file("data/processed", "0. MASTER.csv"), "Folder Master CSV")
+        if selected_folder:
+            target_dir = os.path.join("data/processed", selected_folder)
+            df = pd.read_csv(os.path.join(target_dir, "0. MASTER.csv"), sep=csv_cfg['sep'], decimal=csv_cfg['dec'])
+            df = LayoutClassifier(df, s['thresholds']).classify_unsur()
+            df.to_csv(os.path.join(target_dir, "0. MASTER.csv"), index=False, quoting=csv.QUOTE_ALL, sep=csv_cfg['sep'], decimal=csv_cfg['dec'])
+            logging.info(f"Kolom Unsur diperbarui di: {selected_folder}")
 
 if __name__ == "__main__":
     run_pipeline()

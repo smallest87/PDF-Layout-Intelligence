@@ -2,12 +2,7 @@ import json
 import os
 
 class JSONToHTML:
-    def __init__(self, json_data, css_url="../../../assets/styles.css"):
-        """
-        Inisialisasi dengan data JSON dan URL/path rujukan CSS.
-        css_url: Alamat file CSS (misal: "assets/styles.css" atau "../css/styles.css").
-       
-        """
+    def __init__(self, json_data, css_url="styles.css"):
         self.data = json_data
         self.css_url = css_url
 

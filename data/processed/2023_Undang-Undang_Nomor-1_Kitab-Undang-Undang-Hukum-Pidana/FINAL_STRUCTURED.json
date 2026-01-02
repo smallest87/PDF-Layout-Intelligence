@@ -1,37 +1,260 @@
 {
     "A_JUDUL": {
         "teks": [
-            ""
+            "SALINAN PRESIDEN REPUBLIK INDONESIA UNDANG-UNDANG REPUBLIK INDONESIA NOMOR 1 TAHUN 2023 TENTANG KITAB UNDANG-UNDANG HUKUM PIDANA"
         ],
         "metadata": {
-            "jenis": "TIDAK_TERDETEKSI",
-            "nomor": "NONE",
-            "tahun": "NONE",
-            "tentang": "NONE"
+            "jenis": "UNDANG-UNDANG",
+            "nomor": "1",
+            "tahun": "2023",
+            "tentang": "KITAB UNDANG-UNDANG HUKUM PIDANA"
         }
     },
     "B_PEMBUKAAN": {
         "frasa_religius": "DENGAN RAHMAT TUHAN YANG MAHA ESA",
-        "jabatan_pembentuk": "PRESIDEN REPUBLIK INDONESIA, PRESIDEN PRESIDEN REPUBLIK INDONESIA",
-        "konsiderans": [],
-        "dasar_hukum": [],
+        "jabatan_pembentuk": "",
+        "konsiderans": [
+            {
+                "nomor": "a",
+                "teks": "bahwa untuk mewujudkan hukum pidana nasional Negara Kesatuan Republik Indonesia yang berdasarkan Pancasila dan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 serta asas hukum umum yang diakui masyarakat bangsa- bangsa, perlu disusun hukum pidana nasional untuk mengganti Kitab Undang-Undang Hukum Pidana warisan pemerintah kolonial Hindia Belanda;"
+            },
+            {
+                "nomor": "b",
+                "teks": "bahwa hukum pidana nasional tersebut harus disesuaikan dengan politik hukum, keadaan, dan perkembangan kehidupan bermasyarakat, berbangsa, dan bernegara yang bertujuan menghormati dan menjunjung tinggi hak asasi manusia, berdasarkan Ketuhanan Yang Maha Esa, kemanusiaan yang adil dan beradab, persatuan Indonesia, kerakyatan yang dipimpin oleh hikmat kebijaksanaan dalam permusyawaratan/perwakilan, dan keadilan sosial bagi seluruh rakyat Indonesia;"
+            },
+            {
+                "nomor": "c",
+                "teks": "bahwa materi hukum pidana nasional juga harus mengatur keseimbangan antara kepentingan umum atau negara dan kepentingan individu, antara pelindungan terhadap pelaku tindak pidana dan korban tindak pidana, antara unsur perbuatan dan sikap batin, antara kepastian hukum dan keadilan, antara hukum tertulis dan hukum yang hidup dalam masyarakat, antara nilai nasional dan nilai universal, serta antara hak asasi manusia dan kewajiban asasi manusia; SK No 16100l A PRESIDEN REI'UELIK TNDONESIA"
+            },
+            {
+                "nomor": "d",
+                "teks": "bahwa berdasarkan pertimbangan sebagaimana dimaksud dalam huruf a, huruf b, dan huruf c, perlu membentuk Undang-Undang tentang Kitab Undang- Undang Hukum Pidana;"
+            }
+        ],
+        "dasar_hukum": [
+            {
+                "nomor": "",
+                "teks": "Pasal 5 ayat (1) dan Pasal 20 Undang-Undang Dasar Negara Republik Indonesia Tahun 1945;"
+            }
+        ],
         "diktum": {
             "memutuskan": "MEMUTUSKAN:",
             "menetapkan": {
                 "label": "Menetapkan",
-                "teks": "UNDANG-UNDANG TENTANG KITAB UNDANG-UNDANG HUKUM PIDANA. BUKU KESATU ATURAN UMUM"
+                "teks": "UNDANG-UNDANG TENTANG KITAB UNDANG-UNDANG HUKUM PIDANA."
             }
         }
     },
     "C_BATANG_TUBUH": [
         {
             "bab": "BAB I",
-            "judul": "RUANG LINGKUP BERLAKUNYA KETENTUAN PERATURAN PERUNDANG-UNDANGAN PIDANA Bagian Kesatu Menurut Waktu Pasal 1 (1) Tidak ada satu perbuatan pun yang dapat dikenai sanksi pidana dan/atau tindakan, kecuali atas kekuatan peraturan pidana dalam peraturan perundang-undangan yang telah ada sebelum perbuatan dilakukan. (2) Dalam menetapkan adanya Tindak Pidana dilarang digunakan analogi. SK No 161002A",
+            "judul": "RUANG LINGKUP BERLAKUNYA KETENTUAN PERATURAN PERUNDANG-UNDANGAN PIDANA",
             "sections": [
                 {
+                    "bagian": "BAGIAN KESATU",
+                    "judul": "Menurut Waktu",
+                    "paragraphs": [],
+                    "pasal": [
+                        {
+                            "nomor": "1",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Tidak ada satu perbuatan pun yang dapat dikenai sanksi pidana dan/atau tindakan, kecuali atas kekuatan peraturan pidana dalam peraturan perundang-undangan yang telah ada sebelum perbuatan dilakukan."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Dalam menetapkan adanya Tindak Pidana dilarang digunakan analogi. SK No 161002A"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "2",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Ketentuan sebagaimana dimaksud dalam Pasal 1 ayat (l) tidak mengurangi berlakunya hukum yang hidup dalam masyarakat yang menentukan bahwa seseorang patut dipidana walaupun perbuatan tersebut tidak diatur dalam Undang-Undang ini."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Hukum yang hidup dalam masyarakat sebagaimana dimaksud pada ayat (1) berlaku dalam tempat hukum itu hidup dan sepanjang tidak diatur dalam Undang- Undang ini dan sesuai dengan nilai-nilai yang terkandung dalam Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, hak asasi manusia, dan asas hukum umum yang diakui masyarakat bangsa-bangsa."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Ketentuan mengenai tata cara dan kriteria penetapan hukum yang hidup dalam masyarakat diatur dengan Peraturan Pemerintah."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "nomor": "3",
+                            "teks": {
+                                "teks_pembuka": "",
+                                "ayat": [
+                                    {
+                                        "ayat": "1",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Dalam hal terdapat perubahan peraturan perundang- undangan sesudah perbuatan terjadi, diberlakukan peraturan perundang-undangan yang baru, kecuali ketentuan peraturan perundang-undangan yang lama menguntungkan bagi pelaku dan pembantu Tindak Pidana."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "2",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Dalam hal perbuatan yang terjadi tidak lagi merupakan Tindak Pidana menurut peraturan perundang- undangan yang baru, proses hukum terhadap tersangka atau terdakwa harus dihentikan demi hukum."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "3",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Dalam hal ketentuan sebagaimana dimaksud pada ayat (2) diterapkan bagi tersangka atau terdakwa yang berada dalam tahanan, tersangka atau terdakwa dibebaskan oleh Pejabat yang berwenang sesuai dengan tingkat pemeriksaan."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "4",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Dalam hal setelah putusan pemidanaan berkekuatan hukum tetap dan perbuatan yang terjadi tidak lagi merupakan Tindak Pidana menurut peraturan perundang-undangan yang baru, pelaksanaan putusan pemidanaan dihapuskan. SK No 161003 A"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "5",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Dalam hal putusan pemidanaan telah berkekuatan hukum tetap sebagaimana dimaksud pada ayat (4), instansi atau Pejabat yang melaksanakan pembebasan merupakan instansi atau Pejabat yang berwenang."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "6",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Pembebasan sebagaimana dimaksud pada ayat (3) dan ayat (5) tidak menimbulkan hak bagi tersangka, terdakwa, atau terpidana menuntut ganti rugi."
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "ayat": "7",
+                                        "teks": {
+                                            "teks_pembuka": "",
+                                            "rincian": [
+                                                {
+                                                    "nomor": "",
+                                                    "teks": "Dalam hal setelah putusan pemidanaan berkekuatan hukum tetap dan perbuatan yang terjadi diancam dengan pidana yang lebih ringan menurut peraturan perundang-undangan yang baru, pelaksanaan putusan pemidanaan disesuaikan dengan batas pidana menurut peraturan perundang-undangan yang baru."
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
                     "bagian": "BAGIAN KEDUA",
-                    "judul": "Menurut Tempat Paragraf 1 Asas Wilayah atau Teritorial",
+                    "judul": "Menurut Tempat",
                     "paragraphs": [
+                        {
+                            "paragraf": "PARAGRAF 1",
+                            "judul": "Asas Wilayah atau Teritorial",
+                            "pasal": [
+                                {
+                                    "nomor": "4",
+                                    "teks": {
+                                        "teks_pembuka": "Ketentuan pidana dalam Undang-Undang berlaku bagi Setiap Orang yang melakukan:",
+                                        "rincian": [
+                                            {
+                                                "nomor": "a",
+                                                "teks": "Tindak Pidana di wilayah Negara Kesatuan Republik Indonesia;"
+                                            },
+                                            {
+                                                "nomor": "b",
+                                                "teks": "Tindak Pidana di Kapal Indonesia atau di Pesawat Udara Indonesia; atau"
+                                            },
+                                            {
+                                                "nomor": "c",
+                                                "teks": "Tindak Pidana di bidang teknologi informasi atau Tindak Pidana lainnya yang akibatnya dialami atau terjadi di wilayah Negara Kesatuan Republik Indonesia atau di Kapal Indonesia dan di Pesawat Udara Indonesia."
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
                         {
                             "paragraf": "PARAGRAF 2",
                             "judul": "Asas Pelindungan dan Asas Nasional Pasif",
@@ -39,12 +262,8 @@
                                 {
                                     "nomor": "5",
                                     "teks": {
-                                        "teks_pembuka": "Ketentuan pidana dalam Undang-Undang berlaku bagi Setiap Orang di luar wilayah Negara Kesatuan Republik Indonesia yang melakukan Tindak Pidana terhadap kepentingan Negara Kesatuan Republik Indonesia yang berhubungan dengan:",
+                                        "teks_pembuka": "Ketentuan pidana dalam Undang-Undang berlaku bagi Setiap Orang di luar wilayah Negara Kesatuan Republik Indonesia yang melakukan Tindak Pidana terhadap kepentingan Negara Kesatuan Republik Indonesia yang berhubungan dengan: SK No 161004A",
                                         "rincian": [
-                                            {
-                                                "nomor": "a",
-                                                "teks": "keamanan . . . SK No 161004A"
-                                            },
                                             {
                                                 "nomor": "a",
                                                 "teks": "keamanan negara atau proses kehidupan ketatanegaraan;"
@@ -201,7 +420,7 @@
                                         "rincian": [
                                             {
                                                 "nomor": "",
-                                                "teks": "Penerapan ketentuan sebagaimana dimaksud dalam Pasal 4 sampai dengan Pasal 8 dibatasi oleh hal yang dikecualikan menurut pe{anjian internasional yang berlaku."
+                                                "teks": "Penerapan ketentuan sebagaimana dimaksud dalam Pasal 4 sampai dengan Pasal 8 dibatasi oleh hal yang dikecualikan menurut perjanjian internasional yang berlaku."
                                             }
                                         ]
                                     }
@@ -209,28 +428,7 @@
                             ]
                         }
                     ],
-                    "pasal": [
-                        {
-                            "nomor": "4",
-                            "teks": {
-                                "teks_pembuka": "Ketentuan pidana dalam Undang-Undang berlaku bagi Setiap Orang yang melakukan:",
-                                "rincian": [
-                                    {
-                                        "nomor": "a",
-                                        "teks": "Tindak Pidana di wilayah Negara Kesatuan Republik Indonesia;"
-                                    },
-                                    {
-                                        "nomor": "b",
-                                        "teks": "Tindak Pidana di Kapal Indonesia atau di Pesawat Udara Indonesia; atau"
-                                    },
-                                    {
-                                        "nomor": "c",
-                                        "teks": "Tindak Pidana di bidang teknologi informasi atau Tindak Pidana lainnya yang akibatnya dialami atau terjadi di wilayah Negara Kesatuan Republik Indonesia atau di Kapal Indonesia dan di Pesawat Udara Indonesia."
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+                    "pasal": []
                 },
                 {
                     "bagian": "BAGIAN KETIGA",
@@ -244,11 +442,18 @@
                                 "rincian": [
                                     {
                                         "nomor": "",
-                                        "teks": "Waktu Tindak Pidana merupakan saat dilakukannya perbuatan yang dapat dipidana. Bagran Keempat . . . SK No 161006A - 7 - Bagian Keempat Tempat Tindak Pidana"
+                                        "teks": "Waktu Tindak Pidana merupakan saat dilakukannya perbuatan yang dapat dipidana. SK No 161006A"
                                     }
                                 ]
                             }
-                        },
+                        }
+                    ]
+                },
+                {
+                    "bagian": "BAGIAN KEEMPAT",
+                    "judul": "Tempat Tindak Pidana",
+                    "paragraphs": [],
+                    "pasal": [
                         {
                             "nomor": "11",
                             "teks": {
@@ -264,144 +469,7 @@
                     ]
                 }
             ],
-            "pasal": [
-                {
-                    "nomor": "2",
-                    "teks": {
-                        "teks_pembuka": "",
-                        "ayat": [
-                            {
-                                "ayat": "1",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Ketentuan sebagaimana dimaksud dalam Pasal 1 ayat (l) tidak mengurangi berlakunya hukum yang hidup dalam masyarakat yang menentukan bahwa seseorang patut dipidana walaupun perbuatan tersebut tidak diatur dalam Undang-Undang ini."
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "ayat": "2",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Hukum yang hidup dalam masyarakat sebagaimana dimaksud pada ayat (1) berlaku dalam tempat hukum itu hidup dan sepanjang tidak diatur dalam Undang- Undang ini dan sesuai dengan nilai-nilai yang terkandung dalam Pancasila, Undang-Undang Dasar Negara Republik Indonesia Tahun 1945, hak asasi manusia, dan asas hukum umum yang diakui masyarakat bangsa-bangsa."
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "ayat": "3",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Ketentuan mengenai tata cara dan kriteria penetapan hukum yang hidup dalam masyarakat diatur dengan Peraturan Pemerintah."
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    }
-                },
-                {
-                    "nomor": "3",
-                    "teks": {
-                        "teks_pembuka": "",
-                        "ayat": [
-                            {
-                                "ayat": "1",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Dalam hal terdapat perubahan peraturan perundang- undangan sesudah perbuatan terjadi, diberlakukan peraturan perundang-undangan yang baru, kecuali ketentuan peraturan perundang-undangan yang lama menguntungkan bagi pelaku dan pembantu Tindak Pidana."
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "ayat": "2",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Dalam hal perbuatan yang terjadi tidak lagi merupakan Tindak Pidana menurut peraturan perundang- undangan yang baru, proses hukum terhadap tersangka atau terdakwa harus dihentikan demi hukum."
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "ayat": "3",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Dalam hal ketentuan sebagaimana dimaksud pada ayat (2) diterapkan bagi tersangka atau terdakwa yang berada dalam tahanan, tersangka atau terdakwa dibebaskan oleh Pejabat yang berwenang sesuai dengan tingkat pemeriksaan."
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "ayat": "4",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Dalam hal setelah putusan pemidanaan berkekuatan hukum tetap dan perbuatan yang terjadi tidak lagi merupakan Tindak Pidana menurut peraturan perundang-undangan yang baru, pelaksanaan putusan pemidanaan dihapuskan."
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "ayat": "5",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Dalam . . . SK No 161003 A (5) Dalam hal putusan pemidanaan telah berkekuatan hukum tetap sebagaimana dimaksud pada ayat (4), instansi atau Pejabat yang melaksanakan pembebasan merupakan instansi atau Pejabat yang berwenang."
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "ayat": "6",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Pembebasan sebagaimana dimaksud pada ayat (3) dan ayat (5) tidak menimbulkan hak bagi tersangka, terdakwa, atau terpidana menuntut ganti rugi."
-                                        }
-                                    ]
-                                }
-                            },
-                            {
-                                "ayat": "7",
-                                "teks": {
-                                    "teks_pembuka": "",
-                                    "rincian": [
-                                        {
-                                            "nomor": "",
-                                            "teks": "Dalam hal setelah putusan pemidanaan berkekuatan hukum tetap dan perbuatan yang terjadi diancam dengan pidana yang lebih ringan menurut peraturan perundang-undangan yang baru, pelaksanaan putusan pemidanaan disesuaikan dengan batas pidana menurut peraturan perundang-undangan yang baru."
-                                        }
-                                    ]
-                                }
-                            }
-                        ]
-                    }
-                }
-            ]
+            "pasal": []
         },
         {
             "bab": "BAB II",
@@ -409,8 +477,58 @@
             "sections": [
                 {
                     "bagian": "BAGIAN KESATU",
-                    "judul": "Tindak Pidana Paragraf 1 Umum",
+                    "judul": "Tindak Pidana",
                     "paragraphs": [
+                        {
+                            "paragraf": "PARAGRAF 1",
+                            "judul": "Umum",
+                            "pasal": [
+                                {
+                                    "nomor": "12",
+                                    "teks": {
+                                        "teks_pembuka": "",
+                                        "ayat": [
+                                            {
+                                                "ayat": "1",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Tindak Pidana merupakan perbuatan yang oleh peraturan perundang-undangan diancam dengan sanksi pidana dan/ atau tindakan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Untuk dinyatakan sebagai Tindak Pidana, suatu perbuatan yang diancam dengan sanksi pidana dan/atau tindakan oleh peraturan perundang- undangan harus bersifat melawan hukum atau bertentangan dengan hukum yang hidup dalam masyarakat."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "3",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Setiap Tindak Pidana selalu bersifat melawan hukum, kecuali ada alasan pembenar."
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
                         {
                             "paragraf": "PARAGRAF 2",
                             "judul": "Permufakatan Jahat",
@@ -439,7 +557,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Permufakatan jahat melakukan Tindak Pidana dipidana jika ditentukan secara tegas dalam Undang-Undang."
+                                                            "teks": "Permufakatan jahat melakukan Tindak Pidana dipidana jika ditentukan secara tegas dalam Undang-Undang. SK No 161007A"
                                                         }
                                                     ]
                                                 }
@@ -451,7 +569,31 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Pidana . . . SK No 161007A (3) Pidana untuk permufakatan jahat melakukan Tindak Pidana paling banyak I /3 (satu per tiga) dari maksimum ancaman pidana pokok untuk Tindak Pidana yang bersangkutan. l4l Permufakatan jahat melakukan Tindak Pidana yang diancam dengan pidana mati atau pidana penjara seumur hidup dipidana dengan pidana penjara paling lama 7 (tujuh) tahun. (5) Pidana tambahan untuk permufakatan jahat melakukan Tindak Pidana sama dengan pidana tambahan untuk Tindak Pidana yang bersangkutan."
+                                                            "teks": "Pidana untuk permufakatan jahat melakukan Tindak Pidana paling banyak I /3 (satu per tiga) dari maksimum ancaman pidana pokok untuk Tindak Pidana yang bersangkutan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "4",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Permufakatan jahat melakukan Tindak Pidana yang diancam dengan pidana mati atau pidana penjara seumur hidup dipidana dengan pidana penjara paling lama 7 (tujuh) tahun."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "5",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana tambahan untuk permufakatan jahat melakukan Tindak Pidana sama dengan pidana tambahan untuk Tindak Pidana yang bersangkutan."
                                                         }
                                                     ]
                                                 }
@@ -529,7 +671,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Persiapan melakukan Tindak Pidana yang diancam dengan pidana mati atau pidana penjara seumur hidup dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun."
+                                                            "teks": "Persiapan melakukan Tindak Pidana yang diancam dengan pidana mati atau pidana penjara seumur hidup dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun. SK No 161008A"
                                                         }
                                                     ]
                                                 }
@@ -541,7 +683,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Pidana . . . SK No 161008A - 9 - (5) Pidana tambahan untuk persiapan melakukan Tindak Pidana sama dengan pidana tambahan untuk Tindak Pidana yang bersangkutan."
+                                                            "teks": "Pidana tambahan untuk persiapan melakukan Tindak Pidana sama dengan pidana tambahan untuk Tindak Pidana yang bersangkutan."
                                                         }
                                                     ]
                                                 }
@@ -627,11 +769,11 @@
                                             {
                                                 "ayat": "5",
                                                 "teks": {
-                                                    "teks_pembuka": "Pidana tambahan untuk percobaan melakukan Tindak Pidana sama dengan pidana tambahan untuk Tindak Pidana yang bersangkutan. Pasal",
+                                                    "teks_pembuka": "",
                                                     "rincian": [
                                                         {
-                                                            "nomor": "18",
-                                                            "teks": ". . SK No l61009A"
+                                                            "nomor": "",
+                                                            "teks": "Pidana tambahan untuk percobaan melakukan Tindak Pidana sama dengan pidana tambahan untuk Tindak Pidana yang bersangkutan. SK No l61009A"
                                                         }
                                                     ]
                                                 }
@@ -696,7 +838,31 @@
                                 {
                                     "nomor": "20",
                                     "teks": {
-                                        "teks_pembuka": "Setiap Orang dipidana sebagai pelaku Tindak Pidana jika: a. melakukan sendiri Tindak Pidana; b. melakukan Tindak Pidana dengan perantaraan alat atau menyuruh orang lain yang tidak dapat dipertanggungjawabkan ; c. turut serta melakukan Tindak Pidana; atau d. menggerakkan orang lain supaya melakukan Tindak Pidana dengan cara memberi atau menjanjikan sesuatu, menyalahgunakan kekuasaan atau martabat, melakukan Kekerasan, menggunakan Ancaman Kekerasan, melakukan penyesatan, atau dengan memberi kesempatan, sarana, atau keterangan. Pasal 21 . . . SK No l610l0A Pasal 21",
+                                        "teks_pembuka": "Setiap Orang dipidana sebagai pelaku Tindak Pidana jika:",
+                                        "rincian": [
+                                            {
+                                                "nomor": "a",
+                                                "teks": "melakukan sendiri Tindak Pidana;"
+                                            },
+                                            {
+                                                "nomor": "b",
+                                                "teks": "melakukan Tindak Pidana dengan perantaraan alat atau menyuruh orang lain yang tidak dapat dipertanggungjawabkan;"
+                                            },
+                                            {
+                                                "nomor": "c",
+                                                "teks": "turut serta melakukan Tindak Pidana; atau"
+                                            },
+                                            {
+                                                "nomor": "d",
+                                                "teks": "menggerakkan orang lain supaya melakukan Tindak Pidana dengan cara memberi atau menjanjikan sesuatu, menyalahgunakan kekuasaan atau martabat, melakukan Kekerasan, menggunakan Ancaman Kekerasan, melakukan penyesatan, atau dengan memberi kesempatan, sarana, atau keterangan. SK No l610l0A"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "nomor": "21",
+                                    "teks": {
+                                        "teks_pembuka": "",
                                         "ayat": [
                                             {
                                                 "ayat": "1",
@@ -705,7 +871,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "a",
-                                                            "teks": "memberi kesempatan, sar€rna, atau keterangan untuk melakukan Tindak Pidana; atau"
+                                                            "teks": "memberi kesempatan, sarana, atau keterangan untuk melakukan Tindak Pidana; atau"
                                                         },
                                                         {
                                                             "nomor": "b",
@@ -757,10 +923,22 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Pidana tambahan untuk pembantuan melakukan Tindak Pidana sama dengan pidana tambahan untuk Tindak Pidana yang bersangkutan. Pasal 22 Keadaan pribadi pelaku sebagaimana dimaksud dalam Pasal 2O atau pembantu sebagaimana dimaksud dalam Pasal 21 dapat menghapus, mengurangi, atau memperberat pidananya."
+                                                            "teks": "Pidana tambahan untuk pembantuan melakukan Tindak Pidana sama dengan pidana tambahan untuk Tindak Pidana yang bersangkutan."
                                                         }
                                                     ]
                                                 }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "nomor": "22",
+                                    "teks": {
+                                        "teks_pembuka": "",
+                                        "rincian": [
+                                            {
+                                                "nomor": "",
+                                                "teks": "Keadaan pribadi pelaku sebagaimana dimaksud dalam Pasal 2O atau pembantu sebagaimana dimaksud dalam Pasal 21 dapat menghapus, mengurangi, atau memperberat pidananya."
                                             }
                                         ]
                                     }
@@ -778,11 +956,7 @@
                                         "rincian": [
                                             {
                                                 "nomor": "a",
-                                                "teks": "melakukan Tindak Pidana kembali dalam waktu 5 (lima) tahun setelah menjalani seluruh atau sebagian pidana pokok yang dijatuhkan atau pidana pokok yang dijatuhkan telah dihapuskan; atau"
-                                            },
-                                            {
-                                                "nomor": "b",
-                                                "teks": "pada. . . SK No 1610ll A"
+                                                "teks": "melakukan Tindak Pidana kembali dalam waktu 5 (lima) tahun setelah menjalani seluruh atau sebagian pidana pokok yang dijatuhkan atau pidana pokok yang dijatuhkan telah dihapuskan; atau SK No 1610ll A"
                                             },
                                             {
                                                 "nomor": "b",
@@ -853,7 +1027,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Dalam hal Orang Tua atau wali sebagaimana dimaksud pada ayat (l) tidak ada atau Orang T\\ra atau wali itu sendiri yang harus diadukan, pengaduan dilakukan oleh keluarga sedarah dalam garis lurus."
+                                                            "teks": "Dalam hal Orang Tua atau wali sebagaimana dimaksud pada ayat (l) tidak ada atau Orang Tua atau wali itu sendiri yang harus diadukan, pengaduan dilakukan oleh keluarga sedarah dalam garis lurus."
                                                         }
                                                     ]
                                                 }
@@ -877,7 +1051,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Dalam hal Korban Tindak Pidana sebagaimana dimaksud pada ayat (1) tidak memiliki Orang Tua, wali, atau keluarga sedarah dalam garis lurus ke atas ataupun menyamping sampai derajat ketiga, pengaduan dilakukan oleh diri sendiri dan/atau pendamping. Pasal 26 . . . SK No l610l2A"
+                                                            "teks": "Dalam hal Korban Tindak Pidana sebagaimana dimaksud pada ayat (1) tidak memiliki Orang Tua, wali, atau keluarga sedarah dalam garis lurus ke atas ataupun menyamping sampai derajat ketiga, pengaduan dilakukan oleh diri sendiri dan/atau pendamping. SK No l610l2A"
                                                         }
                                                     ]
                                                 }
@@ -1090,7 +1264,7 @@
                                         "rincian": [
                                             {
                                                 "nomor": "",
-                                                "teks": "Setiap Orang yang terpaksa melakukan perbuatan yang dilarang tidak dipidana, jika perbuatan tersebut dilakukan karena pembelaan terhadap serangan atau ancarnan serangan seketika yang melawan hukum terhadap diri sendiri atau orang lain, kehormatan dalam arti kesusilaan, atau harta benda sendiri atau orang lain. Pasal 35 . . . SK No l6l014A"
+                                                "teks": "Setiap Orang yang terpaksa melakukan perbuatan yang dilarang tidak dipidana, jika perbuatan tersebut dilakukan karena pembelaan terhadap serangan atau ancarnan serangan seketika yang melawan hukum terhadap diri sendiri atau orang lain, kehormatan dalam arti kesusilaan, atau harta benda sendiri atau orang lain. SK No l6l014A"
                                             }
                                         ]
                                     }
@@ -1110,57 +1284,90 @@
                             ]
                         }
                     ],
-                    "pasal": [
-                        {
-                            "nomor": "12",
-                            "teks": {
-                                "teks_pembuka": "",
-                                "ayat": [
-                                    {
-                                        "ayat": "1",
-                                        "teks": {
-                                            "teks_pembuka": "",
-                                            "rincian": [
-                                                {
-                                                    "nomor": "",
-                                                    "teks": "Tindak Pidana merupakan perbuatan yang oleh peraturan perundang-undangan diancam dengan sanksi pidana dan/ atau tindakan."
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "ayat": "2",
-                                        "teks": {
-                                            "teks_pembuka": "",
-                                            "rincian": [
-                                                {
-                                                    "nomor": "",
-                                                    "teks": "Untuk dinyatakan sebagai Tindak Pidana, suatu perbuatan yang diancam dengan sanksi pidana dan/atau tindakan oleh peraturan perundang- undangan harus bersifat melawan hukum atau bertentangan dengan hukum yang hidup dalam masyarakat."
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "ayat": "3",
-                                        "teks": {
-                                            "teks_pembuka": "",
-                                            "rincian": [
-                                                {
-                                                    "nomor": "",
-                                                    "teks": "Setiap Tindak Pidana selalu bersifat melawan hukum, kecuali ada alasan pembenar."
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+                    "pasal": []
                 },
                 {
                     "bagian": "BAGIAN KEDUA",
-                    "judul": "Pertanggungjawaban Pidana Paragraf 1 Umum",
+                    "judul": "Pertanggungjawaban Pidana",
                     "paragraphs": [
+                        {
+                            "paragraf": "PARAGRAF 1",
+                            "judul": "Umum",
+                            "pasal": [
+                                {
+                                    "nomor": "36",
+                                    "teks": {
+                                        "teks_pembuka": "",
+                                        "ayat": [
+                                            {
+                                                "ayat": "1",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Setiap Orang hanya dapat dimintai pertanggungjawaban atas Tindak Pidana yang dilakukan dengan sengaja atau karena kealpaan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Perbuatan yang dapat dipidana merupakan Tindak Pidana yang dilakukan dengan sengaja, sedangkan Tindak Pidana yang dilakukan karena kealpaan dapat dipidana jika secara tegas ditentukan dalam peraturan perundang-undangan."
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "nomor": "37",
+                                    "teks": {
+                                        "teks_pembuka": "Dalam hal ditentukan oleh Undang-Undang, Setiap Orang dapat:",
+                                        "rincian": [
+                                            {
+                                                "nomor": "a",
+                                                "teks": "dipidana semata-mata karena telah dipenuhinya unsur- unsur Tindak Pidana tanpa memperhatikan adanya kesalahan; atau"
+                                            },
+                                            {
+                                                "nomor": "b",
+                                                "teks": "dimintai pertanggungiawaban atas Tindak Pidana yang dilakukan oleh orang lain."
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "nomor": "38",
+                                    "teks": {
+                                        "teks_pembuka": "",
+                                        "rincian": [
+                                            {
+                                                "nomor": "",
+                                                "teks": "Setiap Orang yang pada waktu melakukan Tindak Pidana menyandang disabilitas mental dan/atau disabilitas intelektual dapat dikurangi pidananya dan/atau dikenai tindakan."
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "nomor": "39",
+                                    "teks": {
+                                        "teks_pembuka": "",
+                                        "rincian": [
+                                            {
+                                                "nomor": "",
+                                                "teks": "Setiap Orang yang pada waktu melakukan Tindak Pidana menyandang disabilitas mental yang dalam keadaan kekambuhan akut dan disertai gambaran psikotik dan/ atau disabilitas intelektual derajat sedang atau berat tidak dapat dijatuhi pidana, tetapi dapat dikenai tindakan. SK No l610l5 A"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
                         {
                             "paragraf": "PARAGRAF 2",
                             "judul": "Alasan Pemaaf",
@@ -1184,7 +1391,7 @@
                                         "rincian": [
                                             {
                                                 "nomor": "a",
-                                                "teks": "menyerahkan kembali kepada Orang T\\ra/wali; atau"
+                                                "teks": "menyerahkan kembali kepada Orang Tua/wali; atau"
                                             },
                                             {
                                                 "nomor": "b",
@@ -1228,7 +1435,7 @@
                                         "rincian": [
                                             {
                                                 "nomor": "",
-                                                "teks": "Perintah jabatan yang diberikan tanpa wewenang tidak mengakibatkan hapusnya pidana, kecuali jika orang yang diperintahkan dengan iktikad baik mengira bahwa perintah tersebut diberikan dengan wewenang dan pelaksanaannya, termasuk dalam lingkup pekerjaannya. SK No l6l0l6A :lrlTl :E]1ITllir.TII*Tnt -t7-"
+                                                "teks": "Perintah jabatan yang diberikan tanpa wewenang tidak mengakibatkan hapusnya pidana, kecuali jika orang yang diperintahkan dengan iktikad baik mengira bahwa perintah tersebut diberikan dengan wewenang dan pelaksanaannya, termasuk dalam lingkup pekerjaannya. SK No l6l0l6A - 17 -"
                                             }
                                         ]
                                     }
@@ -1237,7 +1444,7 @@
                         },
                         {
                             "paragraf": "PARAGRAF 3",
-                            "judul": "Pertanggungl awaban Korporasi",
+                            "judul": "Pertanggungjawaban Korporasi",
                             "pasal": [
                                 {
                                     "nomor": "45",
@@ -1251,7 +1458,19 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Korporasi merupakan subjek Tindak Pidana. l2t Korporasi sebagaimana dimaksud pada ayat (1) mencakup badan hukum yang berbentuk perseroan terbatas, yayasan, koperasi, badan usaha milik negara, badan usaha milik daerah, atau yang disamakan dengan itu, serta perkumpulan baik yang berbadan hukum maupun tidak berbadan hukum, badan usaha yang berbentuk lirma, persekutuan komanditer, atau yang disamakan dengan itu sesuai dengan ketentuan peraturan perundang-undangan."
+                                                            "teks": "Korporasi merupakan subjek Tindak Pidana."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Korporasi sebagaimana dimaksud pada ayat (1) mencakup badan hukum yang berbentuk perseroan terbatas, yayasan, koperasi, badan usaha milik negara, badan usaha milik daerah, atau yang disamakan dengan itu, serta perkumpulan baik yang berbadan hukum maupun tidak berbadan hukum, badan usaha yang berbentuk lirma, persekutuan komanditer, atau yang disamakan dengan itu sesuai dengan ketentuan peraturan perundang-undangan."
                                                         }
                                                     ]
                                                 }
@@ -1298,7 +1517,7 @@
                                             },
                                             {
                                                 "nomor": "c",
-                                                "teks": "diterima . . . SK No l61017A rNIitr[FEtA"
+                                                "teks": "diterima . ."
                                             },
                                             {
                                                 "nomor": "c",
@@ -1342,80 +1561,7 @@
                             ]
                         }
                     ],
-                    "pasal": [
-                        {
-                            "nomor": "36",
-                            "teks": {
-                                "teks_pembuka": "",
-                                "ayat": [
-                                    {
-                                        "ayat": "1",
-                                        "teks": {
-                                            "teks_pembuka": "",
-                                            "rincian": [
-                                                {
-                                                    "nomor": "",
-                                                    "teks": "Setiap Orang hanya dapat dimintai pertanggungjawaban atas Tindak Pidana yang dilakukan dengan sengaja atau karena kealpaan."
-                                                }
-                                            ]
-                                        }
-                                    },
-                                    {
-                                        "ayat": "2",
-                                        "teks": {
-                                            "teks_pembuka": "",
-                                            "rincian": [
-                                                {
-                                                    "nomor": "",
-                                                    "teks": "Perbuatan yang dapat dipidana merupakan Tindak Pidana yang dilakukan dengan sengaja, sedangkan Tindak Pidana yang dilakukan karena kealpaan dapat dipidana jika secara tegas ditentukan dalam peraturan perundang-undangan."
-                                                }
-                                            ]
-                                        }
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "nomor": "37",
-                            "teks": {
-                                "teks_pembuka": "Dalam hal ditentukan oleh Undang-Undang, Setiap Orang dapat:",
-                                "rincian": [
-                                    {
-                                        "nomor": "a",
-                                        "teks": "dipidana semata-mata karena telah dipenuhinya unsur- unsur Tindak Pidana tanpa memperhatikan adanya kesalahan; atau"
-                                    },
-                                    {
-                                        "nomor": "b",
-                                        "teks": "dimintai pertanggungiawaban atas Tindak Pidana yang dilakukan oleh orang lain."
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "nomor": "38",
-                            "teks": {
-                                "teks_pembuka": "",
-                                "rincian": [
-                                    {
-                                        "nomor": "",
-                                        "teks": "Setiap Orang yang pada waktu melakukan Tindak Pidana menyandang disabilitas mental dan/atau disabilitas intelektual dapat dikurangi pidananya dan/atau dikenai tindakan."
-                                    }
-                                ]
-                            }
-                        },
-                        {
-                            "nomor": "39",
-                            "teks": {
-                                "teks_pembuka": "",
-                                "rincian": [
-                                    {
-                                        "nomor": "",
-                                        "teks": "Setiap Orang yang pada waktu melakukan Tindak Pidana menyandang disabilitas mental yang dalam keadaan kekambuhan akut dan disertai gambaran psikotik dan/ atau disabilitas intelektual derajat sedang atau berat tidak dapat dijatuhi pidana, tetapi dapat dikenai tindakan. SK No l610l5 A FNESIDEN REPTIEUI( INDONESIA,"
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+                    "pasal": []
                 }
             ],
             "pasal": []
@@ -1426,8 +1572,46 @@
             "sections": [
                 {
                     "bagian": "BAGIAN KESATU",
-                    "judul": "Ttrjuan dan Pedoman Pemidanaan Paragraf T\\:juan Pemidanaan 5l Pasal Pemidanaan bertujuan: a. mencegah dilakukannya Tindak Pidana dengan menegakkan norma hukum demi pelindungan dan pengayoman masyarakat; b. memasyaralatkan terpidana dengan mengadalan pembinaan dan pembimbingan agar menjadi orang yang baik dan berguna; SK No l610l8A PRES!DEN REPUELIK INDONESIA c menyelesaikan konflik yang ditimbulkan akibat Tindak Pidana, memulihkan keseimbangan, serta mendatangkan rasa arnan dan damai dalam masyarakat; dan d menumbuhkan rasa penyesalan dan membebaskan rasa bersalah pada terpidana.",
+                    "judul": "Tujuan dan Pedoman Pemidanaan",
                     "paragraphs": [
+                        {
+                            "paragraf": "PARAGRAF 1",
+                            "judul": "Tujuan Pemidanaan",
+                            "pasal": [
+                                {
+                                    "nomor": "51",
+                                    "teks": {
+                                        "teks_pembuka": "Pemidanaan bertujuan:",
+                                        "rincian": [
+                                            {
+                                                "nomor": "a",
+                                                "teks": "mencegah dilakukannya Tindak Pidana dengan menegakkan norma hukum demi pelindungan dan pengayoman masyarakat;"
+                                            },
+                                            {
+                                                "nomor": "b",
+                                                "teks": "memasyaralatkan terpidana dengan mengadalan pembinaan dan pembimbingan agar menjadi orang yang baik dan berguna; SK No l610l8A"
+                                            },
+                                            {
+                                                "nomor": "c",
+                                                "teks": "menyelesaikan konflik yang ditimbulkan akibat Tindak Pidana, memulihkan keseimbangan, serta mendatangkan rasa arnan dan damai dalam masyarakat; dan d menumbuhkan rasa penyesalan dan membebaskan rasa bersalah pada terpidana."
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "nomor": "52",
+                                    "teks": {
+                                        "teks_pembuka": "",
+                                        "rincian": [
+                                            {
+                                                "nomor": "",
+                                                "teks": "Pemidanaan tidak dimaksudkan untuk merendahkan martabat manusia."
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
                         {
                             "paragraf": "PARAGRAF 2",
                             "judul": "Pedoman Pemidanaan",
@@ -1444,7 +1628,19 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Dalam mengadili suatu perkara pidana, hakim wajib menegakkan hukum dan keadilan. l2l Jika dalam menegakkan hukum dan keadilan sebagaimana dimaksud pada ayat (1) terdapat pertentangan antara kepastian hukum dan keadilan, hakim wajib mengutamakan keadilan."
+                                                            "teks": "Dalam mengadili suatu perkara pidana, hakim wajib menegakkan hukum dan keadilan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Jika dalam menegakkan hukum dan keadilan sebagaimana dimaksud pada ayat (1) terdapat pertentangan antara kepastian hukum dan keadilan, hakim wajib mengutamakan keadilan."
                                                         }
                                                     ]
                                                 }
@@ -1500,7 +1696,7 @@
                                                         },
                                                         {
                                                             "nomor": "j",
-                                                            "teks": "pemaafan . . . SK No l610l9A \\ ( PRESIDEN REPUBUK INDONESIA"
+                                                            "teks": "pemaafan . . . SK No l610l9A"
                                                         },
                                                         {
                                                             "nomor": "j",
@@ -1583,7 +1779,7 @@
                                             },
                                             {
                                                 "nomor": "j",
-                                                "teks": "kerja sama Korporasi dalam penanganan Tindak Pidana. Paragraf 3 . . . SK No 161020A PRESTDEN REI'UBUK INDONESIA -2r-"
+                                                "teks": "kerja sama Korporasi dalam penanganan Tindak Pidana. Paragraf 3 . . . SK No 161020A -21-"
                                             }
                                         ]
                                     }
@@ -1657,7 +1853,7 @@
                                         "rincian": [
                                             {
                                                 "nomor": "",
-                                                "teks": "(l) Pidana penjara dan pidana tutupan bagi terpidana yang sudah berada di dalam tahanan mulai berlaku pada saat putusan pengadilan telah memperoleh kekuatan hukum tetap. (2) Dalam . . . SK No l6102l A (21 Dalam hal terpidana tidak berada di dalam tahanan, pidana sebagaimana dimaksud pada ayat (1) berlaku pada saat putusan pengadilan mulai dilaksanakan."
+                                                "teks": "(l) Pidana penjara dan pidana tutupan bagi terpidana yang sudah berada di dalam tahanan mulai berlaku pada saat putusan pengadilan telah memperoleh kekuatan hukum tetap. (2) Dalam . . . SK No l6102l A (2) Dalam hal terpidana tidak berada di dalam tahanan, pidana sebagaimana dimaksud pada ayat (1) berlaku pada saat putusan pengadilan mulai dilaksanakan."
                                             }
                                         ]
                                     }
@@ -1706,7 +1902,19 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Permohonan grasi tidak menunda pelaksanaan putusan pemidanaan bagi terpidana, kecuali dalam hal putusan pidana mati. (21 Ketentuan mengenai syarat dan tata cara permohonan grasi sebagaimana dimaksud pada ayat (1) diatur dalam Undang-Undang."
+                                                            "teks": "Permohonan grasi tidak menunda pelaksanaan putusan pemidanaan bagi terpidana, kecuali dalam hal putusan pidana mati."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Ketentuan mengenai syarat dan tata cara permohonan grasi sebagaimana dimaksud pada ayat (1) diatur dalam Undang-Undang."
                                                         }
                                                     ]
                                                 }
@@ -1741,7 +1949,7 @@
                                             },
                                             {
                                                 "nomor": "c",
-                                                "teks": "pidana yang bersifat khusus untuk Tindak Pidana tertentu yang ditentukan dalam Undang-Undang. Pasal SK No 161022A iilT.frIItrf,INEEtrtrEm"
+                                                "teks": "pidana yang bersifat khusus untuk Tindak Pidana tertentu yang ditentukan dalam Undang-Undang. Pasal SK No 161022A"
                                             }
                                         ]
                                     }
@@ -1774,7 +1982,19 @@
                                                         },
                                                         {
                                                             "nomor": "e",
-                                                            "teks": "pidana kerja sosial. (21 Urutan pidana sebagaimana dimaksud pada ayat (1) menentukan berat atau ringannya pidana."
+                                                            "teks": "pidana kerja sosial."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Urutan pidana sebagaimana dimaksud pada ayat (1) menentukan berat atau ringannya pidana."
                                                         }
                                                     ]
                                                 }
@@ -1814,7 +2034,55 @@
                                                         },
                                                         {
                                                             "nomor": "f",
-                                                            "teks": "pemenuhan kewajiban adat setempat. (2t Pidana tambahan sebagaimana dimaksud pada ayat (l) dapat dikenakan dalam hal penjatuhan pidana pokok saja tidak cukup untuk mencapai tujuan (3) Pidana tambahan sebagaimana dimaksud pada ayat (1) dapat dijatuhkan 1 (satu) jenis atau lebih. (41 Pidana tambahan untuk percobaan dan pembantuan sama dengan pidana tambahan untuk Tindak Pidananya. (5) Pidana tambahan bagi anggota Tentara Nasional Indonesia yang melakukan Tindak Pidana da-lam perkara koneksitas dikenakan sesuai dengan ketentuan peraturan perundang-undangan bagi Tentara Nasional Indonesia."
+                                                            "teks": "pemenuhan kewajiban adat setempat."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana tambahan sebagaimana dimaksud pada ayat (l) dapat dikenakan dalam hal penjatuhan pidana pokok saja tidak cukup untuk mencapai tujuan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "3",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana tambahan sebagaimana dimaksud pada ayat (1) dapat dijatuhkan 1 (satu) jenis atau lebih."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "4",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana tambahan untuk percobaan dan pembantuan sama dengan pidana tambahan untuk Tindak Pidananya."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "5",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana tambahan bagi anggota Tentara Nasional Indonesia yang melakukan Tindak Pidana da-lam perkara koneksitas dikenakan sesuai dengan ketentuan peraturan perundang-undangan bagi Tentara Nasional Indonesia."
                                                         }
                                                     ]
                                                 }
@@ -1838,10 +2106,54 @@
                                     "nomor": "68",
                                     "teks": {
                                         "teks_pembuka": "",
-                                        "rincian": [
+                                        "ayat": [
                                             {
-                                                "nomor": "",
-                                                "teks": "(U Pidana penjara dijatuhkan untuk seumur hidup atau untuk waktu tertentu. (21 Pidana penjara untuk waktu tertentu dijatuhkan paling lama 15 (lima belas) tahun berturut turut atau paling singkat 1 (satu) Hari, kecuali ditentukan minimum khusus. (3) Dalam hal terdapat pilihan antara pidana mati dan pidana penjara seumur hidup atau terdapat pemberatan pidana atas Tindak Pidana yang dijatuhi pidana penjara 15 (lima belas) tahun, pidana penjara untuk waktu tertentu dapat dijatuhkan untuk waktu 20 (dua puluh) tahun berturut turut. (41 Pidana penjara untuk waktu tertentu tidak boleh dijatuhkan lebih dari 20 (dua puluh) tahun."
+                                                "ayat": "1",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana penjara dijatuhkan untuk seumur hidup atau untuk waktu tertentu."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana penjara untuk waktu tertentu dijatuhkan paling lama 15 (lima belas) tahun berturut turut atau paling singkat 1 (satu) Hari, kecuali ditentukan minimum khusus."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "3",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Dalam hal terdapat pilihan antara pidana mati dan pidana penjara seumur hidup atau terdapat pemberatan pidana atas Tindak Pidana yang dijatuhi pidana penjara (5) (lima belas) tahun, pidana penjara untuk waktu tertentu dapat dijatuhkan untuk waktu 20 (dua puluh) tahun berturut turut."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "4",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana penjara untuk waktu tertentu tidak boleh dijatuhkan lebih dari 20 (dua puluh) tahun."
+                                                        }
+                                                    ]
+                                                }
                                             }
                                         ]
                                     }
@@ -1854,7 +2166,19 @@
                                             {
                                                 "ayat": "1",
                                                 "teks": {
-                                                    "teks_pembuka": "Jika narapidana yang menjalani pidana penjara seumur hidup telah menjalani pidana penjara paling singkat 15 (lima belas) tahun, pidana penjara seumur hidup dapat diubah menjadi pidana penjara 20 (dua puluh) tahun dengan Keputusan Presiden setelah mendapatkan pertimbangan Mahkamah Agung. l2l Ketentuan mengenai tata cara perubahan pidana penjara seumur hidup menjadi pidana penjara 20 (dua puluh) tahun sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah. Pasal 7O (1) Dengan tetap mempertimbangkan ketentuan sebagaimana dimaksud dalam Pasal 51 sampai dengan Pasal 54, pidana penjara sedapat mungkin tidak dijatuhkan jika ditemukan keadaan:",
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Jika narapidana yang menjalani pidana penjara seumur hidup telah menjalani pidana penjara paling singkat 15 (lima belas) tahun, pidana penjara seumur hidup dapat diubah menjadi pidana penjara 20 (dua puluh) tahun dengan Keputusan Presiden setelah mendapatkan pertimbangan Mahkamah Agung."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "Ketentuan mengenai tata cara perubahan pidana penjara seumur hidup menjadi pidana penjara 20 (dua puluh) tahun sebagaimana dimaksud pada ayat (1) diatur dengan Peraturan Pemerintah. Pasal 7O (1) Dengan tetap mempertimbangkan ketentuan sebagaimana dimaksud dalam Pasal 51 sampai dengan Pasal 54, pidana penjara sedapat mungkin tidak dijatuhkan jika ditemukan keadaan:",
                                                     "rincian": [
                                                         {
                                                             "nomor": "a",
@@ -1874,7 +2198,7 @@
                                                         },
                                                         {
                                                             "nomor": "e",
-                                                            "teks": "terdakwa telah membayar ganti rugi kepada Korban; SK No 161024A REFUBIJK INDONESIA"
+                                                            "teks": "terdakwa telah membayar ganti rugi kepada Korban; SK No 161024A"
                                                         },
                                                         {
                                                             "nomor": "f",
@@ -1898,7 +2222,11 @@
                                                         },
                                                         {
                                                             "nomor": "k",
-                                                            "teks": "pidana penjara akan menimbulkan penderitaan yang besar bagi terdakwa atau keluarganya; L pembinaan di luar lemb\"ga pemasyarakatan diperkirakan akan berhasil untuk diri terdakwa;"
+                                                            "teks": "pidana penjara akan menimbulkan penderitaan yang besar bagi terdakwa atau keluarganya;"
+                                                        },
+                                                        {
+                                                            "nomor": "l",
+                                                            "teks": "pembinaan di luar lembaga pemasyarakatan diperkirakan akan berhasil untuk diri terdakwa;"
                                                         },
                                                         {
                                                             "nomor": "m",
@@ -1910,7 +2238,7 @@
                                                         },
                                                         {
                                                             "nomor": "o",
-                                                            "teks": "Tindak Pidana terjadi karena kealpaan. (21 Ketentuan sebagaimana dimaksud pada ayat (1) tidak berlaku bagi:"
+                                                            "teks": "Tindak Pidana terjadi karena kealpaan. (2) Ketentuan sebagaimana dimaksud pada ayat (1) tidak berlaku bagi:"
                                                         },
                                                         {
                                                             "nomor": "a",
@@ -1946,7 +2274,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Jika seseorang melakukan Tindak Pidana yang hanya diancam dengan pidana penjara di bawah 5 (lima) tahun, sedangkan hakim berpendapat tidak perlu menjatuhkan pidana penjara setelah mempertimbangkan tujuan pemidanaan dan pedoman pemidanaan sebagai62na dimaksud dalam Pasal 51 sampai dengan Pasal 54, orang tersebut dapat dijatuhi pidana denda."
+                                                            "teks": "Jika seseorang melakukan Tindak Pidana yang hanya diancam dengan pidana penjara di bawah 5 (lima) tahun, sedangkan hakim berpendapat tidak perlu menjatuhkan pidana penjara setelah mempertimbangkan tujuan pemidanaan dan pedoman pemidanaan sebagaimana dimaksud dalam Pasal 51 sampai dengan Pasal 54, orang tersebut dapat dijatuhi pidana denda."
                                                         }
                                                     ]
                                                 }
@@ -1954,7 +2282,7 @@
                                             {
                                                 "ayat": "2",
                                                 "teks": {
-                                                    "teks_pembuka": "Pidana . . . SK No 161025 A T{!TTilTTTIT'T']ITSrJ (21 Pidana denda sebagaimana dimaksud pada ayat (1) hanya dapat dijatuhkan jika:",
+                                                    "teks_pembuka": "Pidana . . . SK No 161025 A (2) Pidana denda sebagaimana dimaksud pada ayat (1) hanya dapat dijatuhkan jika:",
                                                     "rincian": [
                                                         {
                                                             "nomor": "a",
@@ -1978,7 +2306,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Pidana denda yang dapat dijatuhkan berdasarkan ketentuan sebagaimana dimaksud pada ayat (1) adalah pidana denda paling banyak kategori V dan pidana denda paling sedikit kategori III. (41 Ketentuan sebagaimana dimaksud pada ayat (21 huruf c tidak berlaku bagi orang yang pernah dijatuhi pidana penjara untuk Tindak Pidana yang dilakukan sebelum berumur 18 (delapan belas) tahun. Pasal T2 (1) Narapidana yang telah menjalani paling singkat 2l 3 ldua per tiga) dari pidana penjara yang dijatuhkan dengan ketentuan 213 ldua per tiga) tersebut tidak kurang dari 9 (sembilan) Bulan dapat diberi pembebasan bersyarat. (21 Narapidana yang menjalani beberapa pidana penjara berturut turut rlianggap jumlah pidananya sebagai 1 (satu) pidana. (3) Dalam memberikan pembebasan bersyarat sebagaimana dimaksud pada ayat (1), ditentukan masa percobaan dan syarat yang harus dipenuhi selama masa percobaan."
+                                                            "teks": "Pidana denda yang dapat dijatuhkan berdasarkan ketentuan sebagaimana dimaksud pada ayat (1) adalah pidana denda paling banyak kategori V dan pidana denda paling sedikit kategori III."
                                                         }
                                                     ]
                                                 }
@@ -1990,7 +2318,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Masa percobaan sebagaimana dimaksud pada ayat (3) sama dengan sisa waktu pidana penjara yang belum dijalani ditambah dengan 1 (satu) tahun."
+                                                            "teks": "Ketentuan sebagaimana dimaksud pada ayat (2) huruf c tidak berlaku bagi orang yang pernah dijatuhi pidana penjara untuk Tindak Pidana yang dilakukan sebelum berumur 18 (delapan belas) tahun. Pasal 72 (1) Narapidana yang telah menjalani paling singkat 2/3 (dua per tiga) dari pidana penjara yang dijatuhkan dengan ketentuan 213 ldua per tiga) tersebut tidak kurang dari 9 (sembilan) Bulan dapat diberi pembebasan bersyarat. (2) Narapidana yang menjalani beberapa pidana penjara berturut turut rlianggap jumlah pidananya sebagai 1 (satu) pidana. (3) Dalam memberikan pembebasan bersyarat sebagaimana dimaksud pada ayat (1), ditentukan masa percobaan dan syarat yang harus dipenuhi selama masa percobaan. (4) Masa percobaan sebagaimana dimaksud pada ayat (3) sama dengan sisa waktu pidana penjara yang belum dijalani ditambah dengan 1 (satu) tahun."
                                                         }
                                                     ]
                                                 }
@@ -2013,16 +2341,72 @@
                                 {
                                     "nomor": "73",
                                     "teks": {
-                                        "teks_pembuka": "(l) Syarat yang harus dipenuhi selama masa percobaan sebagaimana dimalsud dalam Pasal 72 ayal (3) terdiri atas: a. syarat umum berupa narapidana tidak akan melakukan Tindak Pidana; dan b. syarat . . . SK No 161026A NEPUBL|K INDONESIA b. syarat khusus berupa narapidana harus melakukan atau tidak melakukan perbuatan tertentu, tanpa mengurangi kemerdekaan beragama, menganut kepercayaan, dan berpolitik, kecuali ditentukan lain oleh hakim. (21 Syarat khusus sebagaimana dimaksud pada ayat (1) huruf b dapat diubah, dihapus, atau diadakan syarat baru yang semata-mata bertujuan untuk pembimbingan narapidana. (3) Narapidana yang melanggar syarat sebagaimana dimaksud pada ayat (1) dapat dicabut pembebasan bersyaratnya. (4) Pembebasan bersyarat sebagaimana dimaksud pada ayat (3) tidak dapat dicabut setelah melampaui 3 (tiga) Bulan terhitung sejak saat habisnya masa percobaan, kecuali dalam waktu 3 (tiga) Bulan terhitung sejak habisnya masa percobaan, narapidana dituntut karena melakukan Tindak Pidana yang dilakukan dalam masa percobaan. (5) Dalam hal narapidana sebagaimana dimaksud pada ayat (4) dijatuhi pidana penjara untuk waktu tertentu atau pidana denda paling sedikit kategori [I, pembebasan bersyarat yang bersangkutan dicabut. Pasal74",
+                                        "teks_pembuka": "",
                                         "ayat": [
                                             {
                                                 "ayat": "1",
+                                                "teks": {
+                                                    "teks_pembuka": "Syarat yang harus dipenuhi selama masa percobaan sebagaimana dimalsud dalam Pasal 72 ayal (3) terdiri atas:",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "a",
+                                                            "teks": "syarat umum berupa narapidana tidak akan melakukan Tindak Pidana; dan"
+                                                        },
+                                                        {
+                                                            "nomor": "b",
+                                                            "teks": "syarat . . . SK No 161026A"
+                                                        },
+                                                        {
+                                                            "nomor": "b",
+                                                            "teks": "syarat khusus berupa narapidana harus melakukan atau tidak melakukan perbuatan tertentu, tanpa mengurangi kemerdekaan beragama, menganut kepercayaan, dan berpolitik, kecuali ditentukan lain oleh hakim."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
                                                 "teks": {
                                                     "teks_pembuka": "",
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Orang yang melakukan Tindak Pidana yang diancam dengan pidana penjara karena keadaan pribadi, perbuatannya dapat dijatuhi pidana tutupan. (21 Pidana tutupan sebagaimana dimaksud pada ayat (1) dapat dijatuhkan kepada terdakwa yang melakukan Tindak Pidana karena terdorong oleh maksud yang patut dihormati. (3) Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku, jika cara melakukan atau akibat dari Tindak Pidana tersebut sedemikian rupa sehingga terdakwa lebih tepat untuk dljatuhi pidana penjara."
+                                                            "teks": "Syarat khusus sebagaimana dimaksud pada ayat (1) huruf b dapat diubah, dihapus, atau diadakan syarat baru yang semata-mata bertujuan untuk pembimbingan narapidana."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "3",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Narapidana yang melanggar syarat sebagaimana dimaksud pada ayat (1) dapat dicabut pembebasan bersyaratnya."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "4",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pembebasan bersyarat sebagaimana dimaksud pada ayat (3) tidak dapat dicabut setelah melampaui 3 (tiga) Bulan terhitung sejak saat habisnya masa percobaan, kecuali dalam waktu 3 (tiga) Bulan terhitung sejak habisnya masa percobaan, narapidana dituntut karena melakukan Tindak Pidana yang dilakukan dalam masa percobaan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "5",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Dalam hal narapidana sebagaimana dimaksud pada ayat (4) dijatuhi pidana penjara untuk waktu tertentu atau pidana denda paling sedikit kategori [I, pembebasan bersyarat yang bersangkutan dicabut. Pasal 74 (1) Orang yang melakukan Tindak Pidana yang diancam dengan pidana penjara karena keadaan pribadi, perbuatannya dapat dijatuhi pidana tutupan. (2) Pidana tutupan sebagaimana dimaksud pada ayat (1) dapat dijatuhkan kepada terdakwa yang melakukan Tindak Pidana karena terdorong oleh maksud yang patut dihormati. (3) Ketentuan sebagaimana dimaksud pada ayat (2) tidak berlaku, jika cara melakukan atau akibat dari Tindak Pidana tersebut sedemikian rupa sehingga terdakwa lebih tepat untuk dljatuhi pidana penjara."
                                                         }
                                                     ]
                                                 }
@@ -2033,12 +2417,36 @@
                                 {
                                     "nomor": "75",
                                     "teks": {
-                                        "teks_pembuka": "Terdakwa yang melakukan Tindak Pidana yang diancam dengan pidana penjara paling lama 5 (lima) tahun dapat dijatuhi pidana pengawasan dengan tetap memperhatikan ketentuan sebagaimana dimaksud dalam Pasal 51 sampai dengan Pasal 54 dan Pasal 70. Pasal 76. . . SK No l61027A REPUBLIK INDONESIA -2a- Pasal76",
+                                        "teks_pembuka": "Terdakwa yang melakukan Tindak Pidana yang diancam dengan pidana penjara paling lama 5 (lima) tahun dapat dijatuhi pidana pengawasan dengan tetap memperhatikan ketentuan sebagaimana dimaksud dalam Pasal 51 sampai dengan Pasal 54 dan Pasal 70. Pasal 76. . . SK No l61027A REPUBLIK INDONESIA -28- Pasal 76",
                                         "ayat": [
                                             {
                                                 "ayat": "1",
                                                 "teks": {
-                                                    "teks_pembuka": "Pidana pengawasan sebagaimana dimaksud dalam Pasal 75 dijatuhkan paling lama sama dengan pidana penjara yang diancamkan yang tidak lebih dari 3 (tiga) tahun. (21 Dalam putusan pidana pengawasan ditetapkan syarat umum, berupa terpidana tidak akan melakukan Tindak Pidana lagi. (3) Selain syarat umum sebagaimana dimaksud pada ayat (21, dalam putusan juga dapat ditetapkan syarat khusus, berupa:",
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana pengawasan sebagaimana dimaksud dalam Pasal 75 dijatuhkan paling lama sama dengan pidana penjara yang diancamkan yang tidak lebih dari 3 (tiga) tahun."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Dalam putusan pidana pengawasan ditetapkan syarat umum, berupa terpidana tidak akan melakukan Tindak Pidana lagi."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "3",
+                                                "teks": {
+                                                    "teks_pembuka": "Selain syarat umum sebagaimana dimaksud pada ayat (2), dalam putusan juga dapat ditetapkan syarat khusus, berupa:",
                                                     "rincian": [
                                                         {
                                                             "nomor": "a",
@@ -2046,7 +2454,55 @@
                                                         },
                                                         {
                                                             "nomor": "b",
-                                                            "teks": "terpidana harus melakukan atau tidak melakukan sesuatu tanpa mengurangi kemerdekaan beragama, kemerdekaan menganut kepercayaan, dan/atau kemerdekaan berpolitik. (4) Dalam hal terpidana melanggar syarat umum sebagaimana dimaksud pada ayat (2), terpidana wajib menjalani pidana penjara yang lamanya tidak lebih dari ancarnan pidana penjara bagi Tindak Pidana itu. (5) Dalam hal terpidana melanggar syarat khusus tanpa alasan yang sah, jaksa berdasarkan pertimbangan pembimbing kemasyarakatan mengusulkan kepada hakim agar terpidana menjalani pidana penjara atau memperpanjang masa pengawasan yang ditentukan oleh hakim yang lamanya tidak lebih dari pidana pengawasan yang dij atuhkan. (6) Jaksa dapat mengusulkan pengurangan masa pengawasan kepada hakim jika selama dalam pengawasan terpidana menunjukkan kelakuan yang baik, berdasarkan pertimbangan pembimbing l7l Ketentuan lebih lanjut tentang tata cara dan batas pengurangan dan perpanjangan masa pengawasan diatur dengan Peraturan Pemerintah. PasalTT SK No 161028A 7I Pasal TT (1) Jika terpidana selama menjalani pidana pengawasan melakukan Tindak Pidana dan dijatuhi pidana yang bukan pidana mati atau bukan pidana penjara, pidana pengawasan tetap dilaksanakan. (21 Jika terpidana dijatuhi pidana penjara, pidana pengawasan ditunda dan dilaksanakan kembali setelah terpidana selesai menjalani pidana penjara."
+                                                            "teks": "terpidana harus melakukan atau tidak melakukan sesuatu tanpa mengurangi kemerdekaan beragama, kemerdekaan menganut kepercayaan, dan/atau kemerdekaan berpolitik."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "4",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Dalam hal terpidana melanggar syarat umum sebagaimana dimaksud pada ayat (2), terpidana wajib menjalani pidana penjara yang lamanya tidak lebih dari ancarnan pidana penjara bagi Tindak Pidana itu."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "5",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Dalam hal terpidana melanggar syarat khusus tanpa alasan yang sah, jaksa berdasarkan pertimbangan pembimbing kemasyarakatan mengusulkan kepada hakim agar terpidana menjalani pidana penjara atau memperpanjang masa pengawasan yang ditentukan oleh hakim yang lamanya tidak lebih dari pidana pengawasan yang dij atuhkan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "6",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Jaksa dapat mengusulkan pengurangan masa pengawasan kepada hakim jika selama dalam pengawasan terpidana menunjukkan kelakuan yang baik, berdasarkan pertimbangan pembimbing"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "7",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Ketentuan lebih lanjut tentang tata cara dan batas pengurangan dan perpanjangan masa pengawasan diatur dengan Peraturan Pemerintah. Pasal 77 SK No 161028A Pasal 77 (1) Jika terpidana selama menjalani pidana pengawasan melakukan Tindak Pidana dan dijatuhi pidana yang bukan pidana mati atau bukan pidana penjara, pidana pengawasan tetap dilaksanakan. (2) Jika terpidana dijatuhi pidana penjara, pidana pengawasan ditunda dan dilaksanakan kembali setelah terpidana selesai menjalani pidana penjara."
                                                         }
                                                     ]
                                                 }
@@ -2066,7 +2522,19 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Pidana denda merupakan sejumlah uang yang wajib dibayar oleh terpidana berdasarkan putusan pengadilan. (21 Jika tidak ditentukan minimum khusus, pidana denda ditetapkan paling sedikit Rp50.000,00 (lima puluh ribu rupiah)."
+                                                            "teks": "Pidana denda merupakan sejumlah uang yang wajib dibayar oleh terpidana berdasarkan putusan pengadilan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Jika tidak ditentukan minimum khusus, pidana denda ditetapkan paling sedikit Rp50.000,00 (lima puluh ribu rupiah)."
                                                         }
                                                     ]
                                                 }
@@ -2077,39 +2545,59 @@
                                 {
                                     "nomor": "79",
                                     "teks": {
-                                        "teks_pembuka": "(l) Pidana denda paling banyak ditetapkan berdasarkan:",
-                                        "rincian": [
+                                        "teks_pembuka": "",
+                                        "ayat": [
                                             {
-                                                "nomor": "a",
-                                                "teks": "kategori I, Rp1.000.00O,0O (satu juta rupiah);"
+                                                "ayat": "1",
+                                                "teks": {
+                                                    "teks_pembuka": "Pidana denda paling banyak ditetapkan berdasarkan:",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "a",
+                                                            "teks": "kategori I, Rp1.000.00O,00 (satu juta rupiah);"
+                                                        },
+                                                        {
+                                                            "nomor": "b",
+                                                            "teks": "kategori II, Rp10.000.000,00 (sepuluh juta rupiah);"
+                                                        },
+                                                        {
+                                                            "nomor": "c",
+                                                            "teks": "kategori III, Rp50.000.000,00 (lima puluh juta rupiah);"
+                                                        },
+                                                        {
+                                                            "nomor": "d",
+                                                            "teks": "kategori IV, Rp200.000.000,00 (dua ratus juta rupiah);"
+                                                        },
+                                                        {
+                                                            "nomor": "e",
+                                                            "teks": "kategori V, Rp500.000.000,00 (lima ratus juta rupiah);"
+                                                        },
+                                                        {
+                                                            "nomor": "f",
+                                                            "teks": "kategori VI, Rp2.000.000.000,00 (dua miliar rupiah);"
+                                                        },
+                                                        {
+                                                            "nomor": "g",
+                                                            "teks": "kategori VII, Rp5.000.O00.000,00 (lima miliar rupiah); dan"
+                                                        },
+                                                        {
+                                                            "nomor": "h",
+                                                            "teks": "kategori VIII, Rp50.000.000.000,00 (lima puluh miliar rupiah)."
+                                                        }
+                                                    ]
+                                                }
                                             },
                                             {
-                                                "nomor": "b",
-                                                "teks": "kategori II, Rp10.000.000,00 (sepuluh juta rupiah);"
-                                            },
-                                            {
-                                                "nomor": "c",
-                                                "teks": "kategori III, Rp50.0O0.O00,0O (lima puluh juta rupiah);"
-                                            },
-                                            {
-                                                "nomor": "d",
-                                                "teks": "kategori IV, Rp200.000.000,00 (dua ratus juta rupiah);"
-                                            },
-                                            {
-                                                "nomor": "e",
-                                                "teks": "kategori V, Rp500.000.000,O0 (lima ratus juta rupiah);"
-                                            },
-                                            {
-                                                "nomor": "f",
-                                                "teks": "kategori VI, Rp2.000.000.000,00 (dua miliar rupiah);"
-                                            },
-                                            {
-                                                "nomor": "g",
-                                                "teks": "kategori VII, RpS.0O0.O00.0O0,O0 (lima miliar rupiah); dan"
-                                            },
-                                            {
-                                                "nomor": "h",
-                                                "teks": "kategori VIII, Rp5O.0O0.O0O.00O,0O (lima puluh miliar rupiah). (21 Dalam hal terjadi perubahan nilai uang, ketentuan besarnya pidana denda ditetapkan dengan Peraturan Pemerintah. Pasal 8O (l) Dalam menjatuhkan pidana denda, hakim wajib mempertimbangkan kemampuan terdakwa dengan memperhatikan penghasilan dan pengeluaran terdakwa secara nyata, (2) Ketentuan. . . SK No 161029A i rrflrFlflxllf.r]Ilsnl (21 Ketentuan sebagaimana dimaksud pada ayat (1) tidak mengurangi penerapan minimum khusus pidana denda yang ditetapkan."
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Dalam hal terjadi perubahan nilai uang, ketentuan besarnya pidana denda ditetapkan dengan Peraturan Pemerintah. Pasal 8O (l) Dalam menjatuhkan pidana denda, hakim wajib mempertimbangkan kemampuan terdakwa dengan memperhatikan penghasilan dan pengeluaran terdakwa secara nyata, (2) Ketentuan. . . SK No 161029A (2) Ketentuan sebagaimana dimaksud pada ayat (1) tidak mengurangi penerapan minimum khusus pidana denda yang ditetapkan."
+                                                        }
+                                                    ]
+                                                }
                                             }
                                         ]
                                     }
@@ -2121,7 +2609,7 @@
                                         "rincian": [
                                             {
                                                 "nomor": "",
-                                                "teks": "(l) Pidana denda wajib dibayar dalam jangka waktu tertentu yang dimuat dalam putusan pengadilan. (21 Putusan pengadilan sebagaimana dimaksud pada ayat (1) dapat menentukan pembayaran pidana denda dengan cara mengangsur. (3) Jika pidana denda sebagaimana dimaksud pada ayat (1) tidak dibayar dalam jangka waktu yang telah ditentukan, kekayaan atau pendapatan terpidana dapat disita dan dilelang oleh jaksa untuk melunasi pidana denda yang tidak dibayar."
+                                                "teks": "(l) Pidana denda wajib dibayar dalam jangka waktu tertentu yang dimuat dalam putusan pengadilan. (2) Putusan pengadilan sebagaimana dimaksud pada ayat (1) dapat menentukan pembayaran pidana denda dengan cara mengangsur. (3) Jika pidana denda sebagaimana dimaksud pada ayat (1) tidak dibayar dalam jangka waktu yang telah ditentukan, kekayaan atau pendapatan terpidana dapat disita dan dilelang oleh jaksa untuk melunasi pidana denda yang tidak dibayar."
                                             }
                                         ]
                                     }
@@ -2134,20 +2622,52 @@
                                             {
                                                 "ayat": "1",
                                                 "teks": {
-                                                    "teks_pembuka": "Jika penyitaan dan pelelangan kekayaan atau pendapatan sebagaimana dimaksud dalam Pasal 81 ayat (3) tidak cukup atau tidak memungkinkan untuk dilaksanakan, pidana denda yang tidak dibayar tersebut diganti dengan pidana penjara, pidana pengawasan, atau pidana kerja sosial dengan ketentuan pidana denda tersebut tidak melebihi pidana denda kategori II. l2l Lama pidana pengganti sebagaimana dimaksud pada ayat (r) meliputi:",
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Jika penyitaan dan pelelangan kekayaan atau pendapatan sebagaimana dimaksud dalam Pasal 81 ayat (3) tidak cukup atau tidak memungkinkan untuk dilaksanakan, pidana denda yang tidak dibayar tersebut diganti dengan pidana penjara, pidana pengawasan, atau pidana kerja sosial dengan ketentuan pidana denda tersebut tidak melebihi pidana denda kategori II."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "Lama pidana pengganti sebagaimana dimaksud pada ayat (r) meliputi:",
                                                     "rincian": [
                                                         {
                                                             "nomor": "a",
-                                                            "teks": "untuk pidana penjara pengganti, paling singkat I (satu) Bulan dan paling lama 1 (satu) tahun yang dapat diperberat paling lama 1 (satu) tahun 4 (empat) Bulan jika ada perbarengan;"
+                                                            "teks": "untuk pidana penjara pengganti, paling singkat 1 (satu) Bulan dan paling lama 1 (satu) tahun yang dapat diperberat paling lama 1 (satu) tahun 4 (empat) Bulan jika ada perbarengan;"
                                                         },
                                                         {
                                                             "nomor": "b",
-                                                            "teks": "untuk pidana pengawasan pengganti, paling singkat I (satu) Bulan dan paling lama 1 (satu) tahun, berlaku syarat-syarat sebagaimana dimaksud dalam Pasal 76 ayat(21 dan ayat (3); atau"
+                                                            "teks": "untuk pidana pengawasan pengganti, paling singkat 1 (satu) Bulan dan paling lama 1 (satu) tahun, berlaku syarat-syarat sebagaimana dimaksud dalam Pasal 76 ayat(21 dan ayat (3); atau"
                                                         },
                                                         {
                                                             "nomor": "c",
-                                                            "teks": "untuk pidana kerja sosial pengganti paling singkat 8 (delapan) jam dan paling lama 240 (dua ratus empat puluh) jam. (3) Jika pada saat menjalani pidana pengganti sebagian pidana denda dibayar, lama pidana pengganti dikurangi menurut ukuran yang sepadan. SK No 161030A l-firrlT:IIIIiITITttrIItlgA -3r- l4l Perhitungan lama pidana pengganti sebagaimana dimaksud pada ayat (3) didasarkan pada ukuran untuk setiap pidana denda Rp50.O0O,0O (lima puluh ribu rupiah) atau kurang yang disepadankan dengan:"
-                                                        },
+                                                            "teks": "untuk pidana kerja sosial pengganti paling singkat 8 (delapan) jam dan paling lama 240 (dua ratus empat puluh) jam."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "3",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Jika pada saat menjalani pidana pengganti sebagian pidana denda dibayar, lama pidana pengganti dikurangi menurut ukuran yang sepadan. SK No 161030A"
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "4",
+                                                "teks": {
+                                                    "teks_pembuka": "Perhitungan lama pidana pengganti sebagaimana dimaksud pada ayat (3) didasarkan pada ukuran untuk setiap pidana denda Rp50.O0O,0O (lima puluh ribu rupiah) atau kurang yang disepadankan dengan:",
+                                                    "rincian": [
                                                         {
                                                             "nomor": "a",
                                                             "teks": "1 (satu) jam pidana kerja sosial pengganti; atau"
@@ -2166,10 +2686,30 @@
                                     "nomor": "83",
                                     "teks": {
                                         "teks_pembuka": "",
-                                        "rincian": [
+                                        "ayat": [
                                             {
-                                                "nomor": "",
-                                                "teks": "(U Jika penyitaan dan pelelangan kekayaan atau pendapatan sebagaimana dimaksud dalam Pasal 81 ayat (3) tidak dapat dilakukan, pidana denda di atas kategori II yang tidak dibayar diganti dengan pidana penjara paling singkat I (satu) tahun dan paling lama sebagaimana diancamkan untuk Tindak Pidana yang bersangkutan. (21 Ketentuan sebagaimana dimaksud dalam Pasal 82 ayat (3) berlaku juga untuk ketentuan sebagaimana dimaksud pada ayat (1) sepanjang mengenai pidana penjara pengganti."
+                                                "ayat": "1",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Jika penyitaan dan pelelangan kekayaan atau pendapatan sebagaimana dimaksud dalam Pasal 81 ayat (3) tidak dapat dilakukan, pidana denda di atas kategori II yang tidak dibayar diganti dengan pidana penjara paling singkat I (satu) tahun dan paling lama sebagaimana diancamkan untuk Tindak Pidana yang bersangkutan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Ketentuan sebagaimana dimaksud dalam Pasal 82 ayat (3) berlaku juga untuk ketentuan sebagaimana dimaksud pada ayat (1) sepanjang mengenai pidana penjara pengganti."
+                                                        }
+                                                    ]
+                                                }
                                             }
                                         ]
                                     }
@@ -2194,7 +2734,19 @@
                                             {
                                                 "ayat": "1",
                                                 "teks": {
-                                                    "teks_pembuka": "Pidana kerja sosial dapat dijatuhkan kepada terdakwa yang melakukan Tindak Pidana yang diancam dengan pidana penjara kurang dari 5 (lima) tahun dan hakim menjatuhkan pidana penjara paling lama 6 (enam) Bulan atau pidana denda paling banyak kategori II. (21 Dalam menjatuhkan pidana kerja sosial sebagaimana dimaksud pada ayat (l), hakim wajib mempertimbangkan:",
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana kerja sosial dapat dijatuhkan kepada terdakwa yang melakukan Tindak Pidana yang diancam dengan pidana penjara kurang dari 5 (lima) tahun dan hakim menjatuhkan pidana penjara paling lama 6 (enam) Bulan atau pidana denda paling banyak kategori II."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "Dalam menjatuhkan pidana kerja sosial sebagaimana dimaksud pada ayat (l), hakim wajib mempertimbangkan:",
                                                     "rincian": [
                                                         {
                                                             "nomor": "a",
@@ -2206,7 +2758,7 @@
                                                         },
                                                         {
                                                             "nomor": "c",
-                                                            "teks": "persetujuan . . . SK No 16103l A trIiErFIIIilNEEtItrEm"
+                                                            "teks": "persetujuan . . SK No 16103l A"
                                                         },
                                                         {
                                                             "nomor": "c",
@@ -2226,8 +2778,52 @@
                                                         },
                                                         {
                                                             "nomor": "g",
-                                                            "teks": "kemampuan terdakwa membayar pidana denda. (3) Pelaksanaan pidana kerja sosial tidak boleh dikomersialkan. l4l Pidana kerja sosial dijatuhkan paling singkat 8 (delapan) jam dan paling lama 24O (d:ua ratus empat puluh) jam. (5) Pidana kerja sosial dilaksanakan paling lama 8 (delapan) jam dalam 1 (satu) Hari dan dapat diangsur dalam waktu paling lama 6 (enam) Bulan dengan memperhatikan kegiatan terpidana dalam menjalankan mata pencahariannya dan/ atau kegiatan lain yang bermanfaat. (6) Pelaksanaan pidana kerja sosial sebagaimana dimaksud pada ayat (5) dimuat dalam putusan pengadilan. (71 Putusan pengadilan sebagaimana dimaksud pada ayat (6) juga memuat perintah jika terpidana tanpa alasan yang sah tidak melaksanakan seluruh atau sebagian pidana kerja sosial, terpidana wajib:"
-                                                        },
+                                                            "teks": "kemampuan terdakwa membayar pidana denda."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "3",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pelaksanaan pidana kerja sosial tidak boleh dikomersialkan."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "4",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana kerja sosial dijatuhkan paling singkat 8 (delapan) jam dan paling lama 24O (d:ua ratus empat puluh) jam."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "5",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana kerja sosial dilaksanakan paling lama 8 (delapan) jam dalam 1 (satu) Hari dan dapat diangsur dalam waktu paling lama 6 (enam) Bulan dengan memperhatikan kegiatan terpidana dalam menjalankan mata pencahariannya dan/ atau kegiatan lain yang bermanfaat."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "6",
+                                                "teks": {
+                                                    "teks_pembuka": "Pelaksanaan pidana kerja sosial sebagaimana dimaksud pada ayat (5) dimuat dalam putusan pengadilan. (71 Putusan pengadilan sebagaimana dimaksud pada ayat (6) juga memuat perintah jika terpidana tanpa alasan yang sah tidak melaksanakan seluruh atau sebagian pidana kerja sosial, terpidana wajib:",
+                                                    "rincian": [
                                                         {
                                                             "nomor": "a",
                                                             "teks": "mengulangi seluruh atau sebagian pidana kerja sosial tersebut;"
@@ -2895,20 +3491,7 @@
                             ]
                         }
                     ],
-                    "pasal": [
-                        {
-                            "nomor": "52",
-                            "teks": {
-                                "teks_pembuka": "",
-                                "rincian": [
-                                    {
-                                        "nomor": "",
-                                        "teks": "Pemidanaan tidak dimaksudkan untuk merendahkan martabat manusia."
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+                    "pasal": []
                 },
                 {
                     "bagian": "BAGIAN KETIGA",
@@ -4300,7 +4883,7 @@
                         "rincian": [
                             {
                                 "nomor": "",
-                                "teks": "Ketentuan dalam Bab I sampai dengan Bab V Buku Kesatu berlaku juga bagi perbuatan yang dapat dipidana menurut peraturan perundang-undangan lain, kecuali ditentukan lain menurut Undang-Undang. BUKU KEDUA. . . SK No 161058 A REPIIBUK INDONESIA BUKU KEDUA TINDAK PIDANA"
+                                "teks": "Ketentuan dalam Bab I sampai dengan Bab V Buku Kesatu berlaku juga bagi perbuatan yang dapat dipidana menurut peraturan perundang-undangan lain, kecuali ditentukan lain menurut Undang-Undang. BUKU KEDUA. . . SK No 161058 A REPIIBUK INDONESIA"
                             }
                         ]
                     }
@@ -9307,7 +9890,7 @@
                                                     "rincian": [
                                                         {
                                                             "nomor": "",
-                                                            "teks": "Setiap Orang yang membawa pergi Anak di luar kemauan Orang T\\.ra atau walinya, tetapi dengan persetql'uan Anak itu sendiri, dengan maksud untuk memastikan penguasaan terhadap Anak tersebut, baik di dalam maupun di luar perkawinan, dipidana karena melarikan Anak, dengan pidana penjara paling lama 7 (tqiuh) tahun. (21 Setiap Orang yang membawa pergi perempuan dengan tipu muslihat, Kekerasan atau Ancaman Kekerasan, dengan maksud untuk memastikan penguasaan terhadap perempuan tersebut, baik di dalam maupun di luar perkawinan, dipidana karena melarikan perempuan dengan pidana penjara paling lama 9 (sembilan) tahun. (3) SK No 161156A EIIFFIEtrN E[trtrLI]IEEtrtrEIA -t57- (3) Tindak Pidana sebagaimana dimaksud pada ayat (1) hanya dapat dituntut atas pengaduan Anak, Orang T\\ra, atau walinya. (4) Tindak Pidana sebagaimana dimaksud pada ayat l2l hanya dapat dituntut atas pengaduan perempuan atau suaminya. (5) Jika yang membawa lari mengawini perempuan yang dibawa pergi dan perkawinan tersebut dilaksanakan sesuai dengan ketentuan peraturan perundang- undangan mengenai perkawinan, tidak dapat dijatuhi pidana sebelum perkawinan tersebut dinyatakan batal. Bagran Keempat Perdagangan Orang"
+                                                            "teks": "Setiap Orang yang membawa pergi Anak di luar kemauan Orang T\\.ra atau walinya, tetapi dengan persetql'uan Anak itu sendiri, dengan maksud untuk memastikan penguasaan terhadap Anak tersebut, baik di dalam maupun di luar perkawinan, dipidana karena melarikan Anak, dengan pidana penjara paling lama 7 (tqiuh) tahun. (21 Setiap Orang yang membawa pergi perempuan dengan tipu muslihat, Kekerasan atau Ancaman Kekerasan, dengan maksud untuk memastikan penguasaan terhadap perempuan tersebut, baik di dalam maupun di luar perkawinan, dipidana karena melarikan perempuan dengan pidana penjara paling lama 9 (sembilan) tahun. (3) SK No 161156A EIIFFIEtrN E[trtrLI]IEEtrtrEIA -t57- (3) Tindak Pidana sebagaimana dimaksud pada ayat (1) hanya dapat dituntut atas pengaduan Anak, Orang Tua, atau walinya. (4) Tindak Pidana sebagaimana dimaksud pada ayat l2l hanya dapat dituntut atas pengaduan perempuan atau suaminya. (5) Jika yang membawa lari mengawini perempuan yang dibawa pergi dan perkawinan tersebut dilaksanakan sesuai dengan ketentuan peraturan perundang- undangan mengenai perkawinan, tidak dapat dijatuhi pidana sebelum perkawinan tersebut dinyatakan batal. Bagran Keempat Perdagangan Orang"
                                                         }
                                                     ]
                                                 }
@@ -13039,7 +13622,7 @@
                         "rincian": [
                             {
                                 "nomor": "",
-                                "teks": "Undang-Undang ini dapat disebut dengan KUHP. Pasai 624 Undang-Undang ini mulai berlaku setelah 3 (tiga) tahun terhitung sejak tanggal diundangkan. Agar SK No 161229A PEESIDEN REPUBLIK TNOONESIA - 229- Agar setiap orErng mengetahuinya, memerintahkan pengundangan Undang-Undang ini dengan penempatannya dalam Lembaran Negara Republik Indonesia. Disahkan di Jakarta pada tanggal 2 Jar:uafi2023 PRESIDEN REPUBLIK INDONESIA, ttd JOKO WIDODO Diundangkan di Jakarta pada tanggal 2 Januari2O2S MENTERI SEKRETARIS NEGARA REPUBLIK INDONESIA, ttd PRATIKNO LEMBARAN NEGARA REPUBLIKINDONESIATAHUN 2023 NOMOR I Salinan sesuai dengan aslinya KEMENTERIAN SEKRETARIAT NEGARA REPUBLIK INDONESIA Perundang-undangan strasi Hukum, anna Djaman SK No 161470A l,?]=rrII'T:EIilNmt*rIr!"
+                                "teks": "Undang-Undang ini dapat disebut dengan KUHP. Pasai 624 Undang-Undang ini mulai berlaku setelah 3 (tiga) tahun terhitung sejak tanggal diundangkan."
                             }
                         ]
                     }

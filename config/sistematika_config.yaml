@@ -1,20 +1,22 @@
-# Daftar pemicu awal JUDUL
-pemicu_judul:
-  - "PRESIDEN"
-  - "GUBERNUR"
-  - "BUPATI"
-  - "WALIKOTA"
-  - "MENTERI"
-  - "KEPALA"
-  - "UNDANG-UNDANG"
-  - "PERATURAN"
-  - "KEPUTUSAN"
+[rules]
+# Pemicu untuk identifikasi Jabatan di Pembukaan
+pemicu_pembentuk_ppu = ["BUPATI", "WALIKOTA", "GUBERNUR", "PRESIDEN", "MENTERI", "KEPALA"]
 
-# Daftar pemicu Jabatan Pembentuk PPU
-pemicu_pembentuk_ppu:
-  - "BUPATI"
-  - "WALIKOTA"
-  - "GUBERNUR"
-  - "PRESIDEN"
-  - "MENTERI"
-  - "KEPALA"
+[sistematika]
+# Penanda transisi utama
+rahmat_tuhan = "DENGAN RAHMAT TUHAN YANG MAHA ESA"
+menetapkan_marker = "MENETAPKAN:"
+penutup_marker = "AGAR SETIAP ORANG MENGETAHUINYA"
+
+[unsur_pembukaan]
+# Kata kunci untuk sub-bagian di Pembukaan
+konsiderans = ["MENIMBANG :", "MENIMBANG:"]
+dasar_hukum = ["MENGINGAT :", "MENGINGAT:"]
+diktum_pemicu = ["MEMUTUSKAN", "MENETAPKAN"]
+
+[unsur_batang_tubuh]
+# Regex pola untuk Batang Tubuh
+bab = "^BAB\\s+[IVXLCDM]+$"
+bagian = "^BAGIAN\\s+KE[A-Z]+$"
+paragraf = "^PARAGRAF\\s+\\d+$"
+pasal = "^PASAL\\s+\\d+$"

@@ -1,114 +1,151 @@
 import pandas as pd
 import re
-import yaml
+import tomllib
 import os
 
 class LayoutClassifier:
-    def __init__(self, df, thresholds, config_path="config/sistematika_config.yaml"):
+    def __init__(self, df, thresholds, config_path="config/sistematika_config.toml"):
+        """Inisialisasi klasifikasi dengan rujukan TOML yang humanis."""
         self.df = df
         self.thresh = thresholds
         
         if os.path.exists(config_path):
-            with open(config_path, 'r', encoding='utf-8') as f:
-                config_data = yaml.safe_load(f)
-                self.list_pemicu_judul = config_data.get('pemicu_judul', [])
-                self.list_pemicu_pembentuk = config_data.get('pemicu_pembentuk_ppu', [])
+            with open(config_path, 'rb') as f:
+                config = tomllib.load(f)
+                self.list_p_pembentuk = config.get('rules', {}).get('pemicu_pembentuk_ppu', [])
+                self.kw_sist = config.get('sistematika', {})
+                self.kw_judul = config.get('unsur_judul', {})
+                self.kw_pembukaan = config.get('unsur_pembukaan', {})
+                self.kw_bt = config.get('unsur_batang_tubuh', {})
         else:
-            self.list_pemicu_judul = ["PERATURAN", "UNDANG-UNDANG", "BUPATI", "GUBERNUR"]
-            self.list_pemicu_pembentuk = ["BUPATI", "WALIKOTA", "GUBERNUR", "PRESIDEN", "MENTERI"]
+            raise FileNotFoundError(f"File konfigurasi {config_path} tidak ditemukan!")
 
-    def apply_sistematika(self):
-        """Klasifikasi dengan Logika Sticky Diktum yang Diperkuat."""
+    def classify_sistematika(self):
+        """Fitur Opsi 6: Menentukan wilayah sistematika utama."""
         sistematika_list = []
-        unsur_list = []
-        indices_to_keep = [] 
-        
-        current_state = "BODY_TEXT"
-        is_konsiderans_active = is_dasar_hukum_active = is_diktum_active = False
-        active_bt_unsur = "" 
-        pending_unsur_title = None 
-        
+        current_state = "JUDUL"
+        found_closing_pembukaan = False
+        opening_complete = False
+        found_closing_bt = False
+        bt_is_finished = False 
+
         for index, row in self.df.iterrows():
             text = str(row['text']).strip()
             text_upper = text.upper()
             
-            # 0. STOP SIGNALS
-            is_stop_pattern = re.match(r"^PENJELASAN(\s+ATAS)?$", text_upper) or \
-                              re.match(r"^LAMPIRAN(\s+[IVXLCDM]+)?$", text_upper)
-            if is_stop_pattern and row['is_all_caps']:
-                break 
-            
-            indices_to_keep.append(index)
-
-            # 1. PRIORITAS NAVIGASI
             if re.match(r"^-\s*\d+\s*-$", text) or re.match(r"^\d+$", text):
-                sistematika_list.append("HALAMAN"); unsur_list.append(""); continue
+                sistematika_list.append("HALAMAN"); continue
             if re.search(r"\.\s*\.\s*\.$", text):
-                sistematika_list.append("CATCHWORD"); unsur_list.append(""); continue
+                sistematika_list.append("CATCHWORD"); continue
 
-            # 2. TRANSISI SISTEMATIKA
-            if current_state in ["BODY_TEXT", "JUDUL"]:
-                if any(text_upper.startswith(p) for p in self.list_pemicu_judul) and \
-                   row['center_score'] < self.thresh['center_limit'] and row['is_all_caps']:
-                    current_state = "JUDUL"
-            
-            if "DENGAN RAHMAT TUHAN YANG MAHA ESA" in text_upper:
-                current_state = "PEMBUKAAN"
-            
-            # Pemicu Diktum juga dapat memaksa status ke PEMBUKAAN jika terlewat
-            if any(k in text_upper for k in ["MEMUTUSKAN", "MENETAPKAN"]) and current_state == "JUDUL":
+            if current_state == "JUDUL" and self.kw_sist.get('opening_trigger_PEMBUKAAN') in text_upper:
                 current_state = "PEMBUKAAN"
 
-            elif re.search(r"^BAB\s+[IVXLCDM]+$", text_upper) or re.search(r"^PASAL\s+\d+$", text_upper):
-                current_state = "BATANG TUBUH"
-                is_konsiderans_active = is_dasar_hukum_active = is_diktum_active = False
-            
-            elif "AGAR SETIAP ORANG MENGETAHUINYA" in text_upper:
-                current_state = "PENUTUP"
-                is_konsiderans_active = is_dasar_hukum_active = is_diktum_active = False
-
-            # ---------------------------------------------------------
-            # 3. IDENTIFIKASI UNSUR (REVISI STICKY DIKTUM)
-            # ---------------------------------------------------------
-            final_unsur = ""
             if current_state == "PEMBUKAAN":
-                # A. Deteksi Transisi Berbasis Substring & Regex agar lebih fleksibel
-                if "MENIMBANG :" in text_upper or "MENIMBANG:" in text_upper:
-                    is_konsiderans_active, is_dasar_hukum_active, is_diktum_active = True, False, False
-                elif "MENGINGAT :" in text_upper or "MENGINGAT:" in text_upper:
-                    is_konsiderans_active, is_dasar_hukum_active, is_diktum_active = False, True, False
+                if not opening_complete:
+                    if self.kw_sist.get('closing_trigger_PEMBUKAAN') in text_upper:
+                        found_closing_pembukaan = True
+                    if found_closing_pembukaan and text.endswith(".") and row.get('is_all_caps', False):
+                        opening_complete = True
                 
-                # B. DOUBLE TRIGGER DIKTUM: "MEMUTUSKAN" atau "MENETAPKAN"
-                # Menggunakan 'in' agar menangkap baris "Menetapkan : PERATURAN..."
-                elif "MEMUTUSKAN" in text_upper or "MENETAPKAN" in text_upper:
-                    is_konsiderans_active, is_dasar_hukum_active, is_diktum_active = False, False, True
+                for p_key in self.kw_bt.get('bt_priority', []):
+                    if re.search(self.kw_bt.get(p_key, ""), text, re.IGNORECASE):
+                        current_state = "BATANG TUBUH"
+                        opening_complete = True; break
 
-                # C. Penentuan Label (Diktum Mengunci Label)
-                if is_diktum_active:
-                    final_unsur = "DIKTUM"
-                elif is_dasar_hukum_active:
-                    final_unsur = "DASAR HUKUM"
-                elif is_konsiderans_active:
-                    final_unsur = "KONSIDERANS"
-                elif "DENGAN RAHMAT TUHAN YANG MAHA ESA" in text_upper:
-                    final_unsur = "FRASA RELIGIUS"
+            if current_state == "BATANG TUBUH":
+                if bt_is_finished: current_state = "PENUTUP"
                 else:
-                    if any(text_upper.startswith(k) for k in self.list_pemicu_pembentuk) and row['is_all_caps']:
-                        final_unsur = "PEMBENTUK PPU"
+                    trigger = self.kw_sist.get('closing_trigger_BATANG_TUBUH')
+                    if trigger and re.search(trigger, text_upper): found_closing_bt = True
+                    if found_closing_bt and text.endswith("."): bt_is_finished = True 
 
-            elif current_state == "BATANG TUBUH":
-                if re.match(r"^(BAB\s+[IVXLCDM]+)$", text_upper) or \
-                   re.match(r"^BAGIAN\s+KE[A-Z]+$", text_upper) or \
-                   re.match(r"^PARAGRAF\s+\d+$", text_upper):
-                    active_bt_unsur = text_upper; pending_unsur_title = active_bt_unsur; final_unsur = active_bt_unsur
-                elif re.match(r"^PASAL\s+\d+$", text_upper):
-                    active_bt_unsur = text_upper; pending_unsur_title = None; final_unsur = active_bt_unsur
-                else:
-                    final_unsur = pending_unsur_title if pending_unsur_title and row['center_score'] < self.thresh['center_limit'] else active_bt_unsur
+            if current_state == "PENUTUP" or self.kw_sist.get('opening_trigger_PENUTUP') in text_upper:
+                current_state = "PENUTUP"
 
-            sistematika_list.append(current_state); unsur_list.append(final_unsur)
+            sistematika_list.append(current_state)
+        self.df['sistematika'] = sistematika_list
+        return self.df
 
-        final_df = self.df.loc[indices_to_keep].copy()
-        final_df['sistematika'] = sistematika_list
-        final_df['unsur'] = unsur_list
-        return final_df
+    def classify_unsur(self):
+        """Fitur Opsi 7: Implementasi Sticky Pasal pada BATANG TUBUH."""
+        if 'sistematika' not in self.df.columns:
+            return self.df
+            
+        unsur_list = []
+        # Flag kontrol sub-wilayah Pembukaan
+        is_kon = is_dh = is_pd = is_dik = False
+        
+        # Variabel penahan identitas (Sticky Variables)
+        active_pasal_label = ""
+        active_header_label = "" # Untuk BUKU/BAB/BAGIAN
+        
+        kw_j = self.kw_judul
+        kw_p = self.kw_pembukaan
+        kw_bt = self.kw_bt
+
+        for index, row in self.df.iterrows():
+            text = str(row['text']).strip()
+            text_upper = text.upper()
+            sist = row['sistematika']
+            final_unsur = ""
+
+            # --- 1. BLOK JUDUL ---
+            if sist == "JUDUL":
+                if re.match(kw_j.get('sifat_berkas', ""), text_upper): final_unsur = "SIFAT BERKAS"
+                elif any(k == text_upper for k in kw_j.get('jabatan_pembentuk', [])): final_unsur = "JABATAN PEMBENTUK"
+                elif re.match(kw_j.get('yurisdiksi', ""), text_upper): final_unsur = "WILAYAH YURISDIKSI"
+                elif re.match(kw_j.get('jenis_peraturan', ""), text_upper): final_unsur = "JENIS PERATURAN"
+                elif re.match(kw_j.get('nomor_tahun', ""), text_upper): final_unsur = "NOMOR DAN TAHUN"
+                elif re.match(kw_j.get('kata_penghubung', ""), text_upper): final_unsur = "KATA PENGHUBUNG"
+                else: final_unsur = "NAMA PERATURAN"
+
+            # --- 2. BLOK PEMBUKAAN ---
+            elif sist == "PEMBUKAAN":
+                if any(k in text_upper for k in kw_p.get('pola_konsiderans', [])): is_kon, is_dh, is_pd, is_dik = True, False, False, False
+                elif any(k in text_upper for k in kw_p.get('pola_dasar_hukum', [])): is_kon, is_dh, is_pd, is_dik = False, True, False, False
+                elif kw_p.get('pola_pra_diktum', "").upper() in text_upper: is_kon, is_dh, is_pd, is_dik = False, False, True, False
+                elif kw_p.get('pola_diktum_memutuskan', "").upper() in text_upper or \
+                     kw_p.get('pola_diktum_menetapkan', "").upper() in text_upper: is_kon, is_dh, is_pd, is_dik = False, False, False, True
+
+                if is_dik: final_unsur = "DIKTUM"
+                elif is_pd: final_unsur = "PERSETUJUAN BERSAMA"
+                elif is_dh: final_unsur = "DASAR HUKUM"
+                elif is_kon: final_unsur = "KONSIDERANS"
+                elif self.kw_sist.get('opening_trigger_PEMBUKAAN') in text_upper: final_unsur = "FRASA RELIGIUS"
+                else: final_unsur = "JABATAN PEMBENTUK"
+
+            # --- 3. BLOK BATANG TUBUH (LOGIKA STICKY PASAL) ---
+            elif sist == "BATANG TUBUH":
+                # A. Cek apakah baris ini adalah Header Tinggi (BUKU, BAB, BAGIAN, PARAGRAF)
+                is_high_header = False
+                for key in ['buku', 'bab', 'bagian', 'paragraf']:
+                    pattern = kw_bt.get(key)
+                    if pattern and re.match(pattern, text_upper):
+                        active_header_label = text_upper
+                        active_pasal_label = "" # Reset pasal jika masuk Bab/Bagian baru
+                        final_unsur = active_header_label
+                        is_high_header = True
+                        break
+                
+                # B. Cek apakah baris ini adalah PASAL
+                if not is_high_header:
+                    pasal_pattern = kw_bt.get('pasal')
+                    if pasal_pattern and re.match(pasal_pattern, text_upper):
+                        active_pasal_label = text_upper
+                        final_unsur = active_pasal_label
+                    else:
+                        # C. Jika baris isi (Ayat/Rincian/Teks), gunakan identitas yang sedang aktif
+                        # Prioritaskan Pasal, jika belum ada gunakan Header (Bab/Bagian)
+                        final_unsur = active_pasal_label if active_pasal_label else active_header_label
+            
+            unsur_list.append(final_unsur)
+            
+        self.df['unsur'] = unsur_list
+        return self.df
+
+    def apply_sistematika(self):
+        """Menjalankan full klasifikasi."""
+        self.df = self.classify_sistematika()
+        self.df = self.classify_unsur()
+        return self.df
