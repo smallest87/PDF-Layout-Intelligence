@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Data & PDF (Sangat penting karena file biner dan dataset besar sebaiknya tidak di-push)
+*.pdf
+*.csv
+*.json
+# Kecuali jika Anda ingin menyertakan dataset sampel kecil
+# !sample_data.csv
+
+# Output Konversi (HTML dari converter.py)
+*.html
+# Folder output jika Anda memisahkan hasil audit/konversi
+output/
+
+# Konfigurasi Lokal (TOML sering berisi path yang spesifik pada mesin Anda)
+# config/sistematika_config.toml (Opsional: abaikan jika berisi rahasia/path lokal)
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Project specific
+0. MASTER.csv
