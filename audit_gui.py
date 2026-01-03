@@ -1,4 +1,5 @@
 import sys
+import csv  # WAJIB DITAMBAHKAN
 import pandas as pd
 import fitz  # PyMuPDF
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QLabel, QScrollArea, 
@@ -77,34 +78,28 @@ class AuditGUI(QMainWindow):
 
     # --- FUNGSI PENGHAPUSAN ---
     def delete_selected_row(self):
-        """Menghapus baris terpilih dari tabel, DataFrame, dan CSV."""
+        """Menghapus baris dan simpan ulang dengan format seragam."""
         row = self.table.currentRow()
-        
-        if row < 0:
-            QMessageBox.warning(self, "Peringatan", "Pilih baris yang ingin dihapus terlebih dahulu!")
-            return
-            
-        # Konfirmasi penghapusan
-        reply = QMessageBox.question(self, 'Konfirmasi Hapus', 
-                                     f"Apakah Anda yakin ingin menghapus baris {row + 1}?",
+        if row < 0: return
+
+        reply = QMessageBox.question(self, 'Konfirmasi Hapus', f"Hapus baris {row + 1}?",
                                      QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No)
 
         if reply == QMessageBox.StandardButton.Yes:
-            self._is_loading = True # Kunci agar itemChanged tidak trigger
-            
-            # 1. Hapus dari DataFrame internal
+            self._is_loading = True
             self.df = self.df.drop(self.df.index[row]).reset_index(drop=True)
-            
-            # 2. Hapus dari UI Table
             self.table.removeRow(row)
             
-            # 3. Simpan perubahan ke CSV
-            self.df.to_csv(self.csv_path, index=False, sep=';')
+            # PERBAIKAN: Simpan dengan QUOTE_ALL
+            self.df.to_csv(
+                self.csv_path, 
+                index=False, 
+                sep=';', 
+                quoting=csv.QUOTE_ALL, 
+                quotechar='"'
+            )
             
             self._is_loading = False
-            self.status_label.setText(f"Status: Baris {row + 1} berhasil dihapus.")
-            
-            # 4. Refresh Preview
             self.render_overlay()
 
     # --- LOGIKA PENDUKUNG ---
@@ -134,11 +129,28 @@ class AuditGUI(QMainWindow):
         self._is_loading = False
 
     def on_item_changed(self, item):
-        if self._is_loading or self.df is None: return
-        row, col = item.row(), item.column()
+        """Otomatis simpan ke CSV dengan tanda kutip di setiap kolom."""
+        if self._is_loading or self.df is None:
+            return
+            
+        row = item.row()
+        col = item.column()
+        new_value = item.text()
         col_names = ["text", "unsur", "sistematika", "x0", "x1", "top", "bottom"]
-        self.df.at[row, col_names[col]] = item.text()
-        self.df.to_csv(self.csv_path, index=False, sep=';')
+        
+        # 1. Update DataFrame
+        target_col = col_names[col]
+        self.df.at[row, target_col] = new_value
+        
+        # 2. PERBAIKAN: Simpan dengan QUOTE_ALL
+        self.df.to_csv(
+            self.csv_path, 
+            index=False, 
+            sep=';', 
+            quoting=csv.QUOTE_ALL,  # Memaksa tanda kutip di semua kolom
+            quotechar='"'           # Menggunakan double quote sebagai pengapit
+        )
+        self.status_label.setText(f"Saved: Row {row+1} {target_col} updated with uniform quoting.")
         self.render_overlay()
 
     def on_selection_changed(self, current_row, current_col, prev_row, prev_col):

@@ -1696,7 +1696,7 @@
                                                         },
                                                         {
                                                             "nomor": "j",
-                                                            "teks": "pemaafan . . . SK No l610l9A"
+                                                            "teks": "pemaafan . . SK No l610l9A"
                                                         },
                                                         {
                                                             "nomor": "j",
@@ -1779,7 +1779,7 @@
                                             },
                                             {
                                                 "nomor": "j",
-                                                "teks": "kerja sama Korporasi dalam penanganan Tindak Pidana. Paragraf 3 . . . SK No 161020A -21-"
+                                                "teks": "kerja sama Korporasi dalam penanganan Tindak Pidana. Paragraf 3 . . SK No 161020A -21-"
                                             }
                                         ]
                                     }
@@ -1850,10 +1850,30 @@
                                     "nomor": "60",
                                     "teks": {
                                         "teks_pembuka": "",
-                                        "rincian": [
+                                        "ayat": [
                                             {
-                                                "nomor": "",
-                                                "teks": "(l) Pidana penjara dan pidana tutupan bagi terpidana yang sudah berada di dalam tahanan mulai berlaku pada saat putusan pengadilan telah memperoleh kekuatan hukum tetap. (2) Dalam . . . SK No l6102l A (2) Dalam hal terpidana tidak berada di dalam tahanan, pidana sebagaimana dimaksud pada ayat (1) berlaku pada saat putusan pengadilan mulai dilaksanakan."
+                                                "ayat": "1",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Pidana penjara dan pidana tutupan bagi terpidana yang sudah berada di dalam tahanan mulai berlaku pada saat putusan pengadilan telah memperoleh kekuatan hukum tetap."
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "ayat": "2",
+                                                "teks": {
+                                                    "teks_pembuka": "",
+                                                    "rincian": [
+                                                        {
+                                                            "nomor": "",
+                                                            "teks": "Dalam . . . SK No l6102l A (2) Dalam hal terpidana tidak berada di dalam tahanan, pidana sebagaimana dimaksud pada ayat (1) berlaku pada saat putusan pengadilan mulai dilaksanakan."
+                                                        }
+                                                    ]
+                                                }
                                             }
                                         ]
                                     }
@@ -1949,7 +1969,7 @@
                                             },
                                             {
                                                 "nomor": "c",
-                                                "teks": "pidana yang bersifat khusus untuk Tindak Pidana tertentu yang ditentukan dalam Undang-Undang. Pasal SK No 161022A"
+                                                "teks": "pidana yang bersifat khusus untuk Tindak Pidana tertentu yang ditentukan dalam Undang-Undang. SK No 161022A"
                                             }
                                         ]
                                     }

@@ -2,3 +2,6 @@ pdfplumber
 pandas
 numpy
 PyYAML
+PyQt6 
+PyMuPDF 
+pandas
